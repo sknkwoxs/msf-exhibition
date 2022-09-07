@@ -38,7 +38,7 @@ export default function GaelTurine() {
             <div>
               <div className="mb-12">
                 <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center">컨택트시트</p>
+                <p className="text-center H4">컨택트시트</p>
               </div>
               <div className="mb-[6rem]">
                 <img
@@ -84,7 +84,7 @@ export default function GaelTurine() {
           <section className="mb-[4rem]">
             <div className="mb-12">
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">가엘 튜린 Gaël Turine </p>
+              <p className="text-center H4">가엘 튜린 Gaël Turine</p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               가엘 튜린은 포켓사진집 포토 포슈 Photo Poche 시리즈의 ‘장벽과 공포
