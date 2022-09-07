@@ -1,10 +1,11 @@
 export default function Header() {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 bg-Neutrals-Grey9 text-Neutrals-White">
+      {/* <div className="fixed top-0 left-0 right-0 bg-Neutrals-Grey9 text-Neutrals-White"> */}
+      <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White">
         <div>
           <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem]">
-            <a className="py-[1.75rem]" href="#">
+            <a className="py-[1.75rem]" href="/">
               <img src="/images/svgIcons/logo.svg" alt="logo" />
             </a>
             <div className="my-auto">
@@ -36,7 +37,7 @@ export default function Header() {
           </div>
           <div className="px-4 py-3 mx-auto md:hidden">
             <div className="flex justify-between">
-              <a href="#">
+              <a href="/">
                 <img src="/images/svgIcons/Mlogo.svg" alt="Mlogo" />
               </a>
               <button className="flex items-center">
