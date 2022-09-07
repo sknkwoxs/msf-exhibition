@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="fixed bottom-0 flex w-full bg-Neutrals-Grey9 text-Neutrals-White">
+      <div className="flex w-full bg-Neutrals-Grey9 text-Neutrals-White">
         <div className="px-4 pt-[2.5rem] md:pt-[4rem] mx-auto text-center md:w-full md:max-w-[76rem]">
           <div className="md:flex md:justify-between">
             <div>

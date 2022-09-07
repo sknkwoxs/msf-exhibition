@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Header from "./publishing/Header";
-import Footer from "./publishing/Footer";
-import Main from "./publishing/Main";
+import Header from "./pages/Header";
+import Footer from "./pages/Footer";
+import Main from "./pages/Main";
 
 export default function Router() {
   return (
