@@ -19,9 +19,43 @@ export default function IntroductionFooter() {
           <div>
             <button className="flex mx-auto mb-6">내 채널에 공유하기</button>
             <div className="flex justify-between">
-              <div>이전 작가로</div>
-              <div>2</div>
-              <div>다음 작가로</div>
+              <div className="flex items-center gap-2">
+                <img src="/images/svgIcons/arrows_left.svg" alt="arrows_left" />
+                이전 작가로
+              </div>
+              <div className="flex gap-2">
+                <button>
+                  <img src="/images/svgIcons/share_link.svg" alt="share_link" />
+                </button>
+                <button>
+                  <img
+                    src="/images/svgIcons/share_kakao.svg"
+                    alt="share_kakao"
+                  />
+                </button>
+                <button>
+                  <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
+                </button>
+                <button>
+                  <img
+                    src="/images/svgIcons/share_facebook.svg"
+                    alt="share_facebook"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="/images/svgIcons/share_naver.svg"
+                    alt="share_naver"
+                  />
+                </button>
+              </div>
+              <div className="flex items-center gap-2">
+                다음 작가로
+                <img
+                  src="/images/svgIcons/arrows_right.svg"
+                  alt="arrows_right"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -4,17 +4,17 @@ export default function GaelTurine() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem]">
+        <div className="mb-[4rem] flex justify-center">
           <img src="/images/GaelTurine/bg.png" alt="bg" />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p>가엘 튜린 - 앙골라</p>
-              <p className="mb-6">Gaël Turine - Angola</p>
-              <p className="mb-4">쿠이토(Kuito), 1996년 3월 2일</p>
-              <p className="mb-[6.5rem]">Mamiya 6, Tri-X 400</p>
-              <p className="text-left max-w-[63rem] mx-auto">
+              <p className="H3">가엘 튜린 - 앙골라</p>
+              <p className="mb-6 font-bold H3">Gaël Turine - Angola</p>
+              <p className="mb-4 DB1">쿠이토(Kuito), 1996년 3월 2일</p>
+              <p className="mb-[6.5rem] DB3">Mamiya 6, Tri-X 400</p>
+              <p className="text-left max-w-[63rem] mx-auto DB1">
                 앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
                 아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,
                 설사, 말라리라, 홍역 등으로 아동 사망률이 잇따라 증가했다.
@@ -37,7 +37,7 @@ export default function GaelTurine() {
                   alt="GAEL TURINE 02 1"
                 />
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto">
+              <p className="mb-4 max-w-[63rem] mx-auto DB1">
                 “쿠이토에 머물던 중 국경없는의사회와 연락이 닿아 함께 작업할 수
                 있었습니다. 국경없는의사회 직원들의 도움으로 현장 상황을 더욱
                 명확히 파악할 수 있었습니다. 위중한 상태로 병원에 실려온
@@ -45,7 +45,9 @@ export default function GaelTurine() {
                 크게 무겁지 않은 분위기 속에서 환자와 의료진의 모습을 있는
                 그대로 담을 수 있었습니다.”
               </p>
-              <p className="max-w-[63rem] mx-auto">가엘 튜린(2021) </p>
+              <p className="max-w-[63rem] mx-auto DB1 font-bold">
+                가엘 튜린(2021)
+              </p>
               <div className="flex gap-8 my-[6rem]">
                 <div>
                   <img
@@ -63,7 +65,7 @@ export default function GaelTurine() {
             </div>
           </section>
         </div>
-        <div className="mb-[6rem]">
+        <div className="mb-[6rem] flex justify-center">
           <img
             src="/images/GaelTurine/GAEL TURINE 06 1.png"
             alt="GAEL TURINE 06 1"
@@ -73,9 +75,9 @@ export default function GaelTurine() {
           <section className="mb-[4rem]">
             <div className="mb-12">
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center">가엘 튜린 Gaël Turine </p>
+              <p className="text-center H4">가엘 튜린 Gaël Turine </p>
             </div>
-            <p className="max-w-[63rem] mx-auto">
+            <p className="max-w-[63rem] mx-auto DB1">
               가엘 튜린은 포켓사진집 포토 포슈 Photo Poche 시리즈의 ‘장벽과 공포
               Le mur et la peur’, ‘맹목적으로 Aveuglément’ ‘카불에서 스무살 되기
               Avoir 20 ans à Kaboul’ ‘아이티의 시내 En bas la ville’ 등 다수의
