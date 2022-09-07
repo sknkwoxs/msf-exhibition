@@ -31,6 +31,12 @@ module.exports = {
           Warning: "#F0BB3C",
         },
       },
+      fontFamily: {
+        PT: ["Pretendard-Regular"],
+      },
+    },
+    backgroundImage: {
+      "bg-blur": "url('../public/images/bg_bl.png')",
     },
   },
   plugins: [],

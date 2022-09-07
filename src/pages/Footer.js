@@ -8,12 +8,12 @@ export default function Footer() {
               <div className="flex justify-center mb-6 md:mb-8 md:justify-start">
                 <img
                   className="hidden md:block"
-                  src="/images/logo.svg"
+                  src="/images/svgIcons/logo.svg"
                   alt="logo"
                 />
                 <img
                   className="block md:hidden"
-                  src="/images/Mlogo.svg"
+                  src="/images/svgIcons/Mlogo.svg"
                   alt="Mlogo"
                 />
               </div>
@@ -45,7 +45,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/facebook.svg" alt="facebook" />
+                    <img src="/images/svgIcons/facebook.svg" alt="facebook" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -54,7 +54,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/insta.svg" alt="insta" />
+                    <img src="/images/svgIcons/insta.svg" alt="insta" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -62,7 +62,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/youtube.svg" alt="youtube" />
+                    <img src="/images/svgIcons/youtube.svg" alt="youtube" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -70,7 +70,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/naver.svg" alt="naver" />
+                    <img src="/images/svgIcons/naver.svg" alt="naver" />
                   </a>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/facebook.svg" alt="facebook" />
+                <img src="/images/svgIcons/facebook.svg" alt="facebook" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -104,7 +104,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/insta.svg" alt="insta" />
+                <img src="/images/svgIcons/insta.svg" alt="insta" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -113,7 +113,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/youtube.svg" alt="youtube" />
+                <img src="/images/svgIcons/youtube.svg" alt="youtube" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -122,7 +122,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/naver.svg" alt="naver" />
+                <img src="/images/svgIcons/naver.svg" alt="naver" />
               </a>
             </div>
           </div>
