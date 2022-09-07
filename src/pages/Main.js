@@ -39,8 +39,8 @@ export default function Main() {
               </div>
             </div>
           </section>
-          <section className="px-4 bg-bg-blur md:px-0">
-            <div className="py-[6rem] md:max-w-[76rem] mx-auto">
+          <section className="bg-bg-blur">
+            <div className="py-[6rem] md:max-w-[76rem] mx-auto px-4">
               <div className="mb-8">
                 <p className="H4">작가 소개</p>
               </div>
@@ -75,8 +75,12 @@ export default function Main() {
               </div>
               <div className="grid grid-cols-1 grid-rows-1 gap-8 md:hidden ">
                 <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_3.png" alt="ev_th_3" />
+                  <div className="h-0 pb-[75%] overflow-hidden relative z-0 mb-8">
+                    <img
+                      className="absolute object-cover w-full h-full"
+                      src="/images/ev_th_3.png"
+                      alt="ev_th_3"
+                    />
                   </div>
                   <p className="mb-2 H6">이벤트 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 text-[0.875rem] leading-6 font-normal">
@@ -86,7 +90,7 @@ export default function Main() {
               </div>
             </div>
           </section>
-          <section className="px-4 bg-Neutrals-Grey8 md:px-0">
+          <section className="px-4 bg-Neutrals-Grey8">
             <div className="py-[6rem] md:max-w-[76rem] mx-auto">
               <div className="flex justify-between mb-8">
                 <p className="H4">이벤트</p>
@@ -126,8 +130,12 @@ export default function Main() {
               </div>
               <div className="grid grid-cols-1 grid-rows-1 gap-8 md:hidden ">
                 <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_3.png" alt="ev_th_3" />
+                  <div className="h-0 pb-[75%] overflow-hidden relative z-0 mb-8">
+                    <img
+                      className="absolute object-cover w-full h-full"
+                      src="/images/ev_th_3.png"
+                      alt="ev_th_3"
+                    />
                   </div>
                   <p className="mb-2 H6">이벤트 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 text-[0.875rem] leading-6 font-normal">
