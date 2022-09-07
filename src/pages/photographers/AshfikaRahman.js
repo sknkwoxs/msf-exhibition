@@ -38,7 +38,7 @@ export default function AshfikaRahman() {
             <div>
               <div className="mb-12">
                 <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center">컨택트시트</p>
+                <p className="text-center H4">컨택트시트</p>
               </div>
               <div className="mb-[6rem]">
                 <img
