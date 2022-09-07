@@ -158,7 +158,7 @@ export default function Main() {
               </div>
             </div>
           </section>
-          <section></section>
+          <section>지도 api</section>
         </div>
       </div>
     </>
