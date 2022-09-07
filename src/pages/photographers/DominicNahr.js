@@ -5,22 +5,22 @@ export default function DominicNahr() {
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
         <div className="mb-[4rem] flex justify-center">
-          <img src="/images/GaelTurine/bg.png" alt="bg" />
+          <img src="/images/DominicNahr/img.png" alt="img" />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">가엘 튜린 - 앙골라</p>
-              <p className="mb-6 font-bold H3">Gaël Turine - Angola</p>
-              <p className="mb-4 DB1">쿠이토(Kuito), 1996년 3월 2일</p>
-              <p className="mb-[6.5rem] DB3">Mamiya 6, Tri-X 400</p>
+              <p className="H3">도미닉 나흐르 - 남수단</p>
+              <p className="mb-6 font-bold H3">Dominic Nahr - South Sudan</p>
+              <p className="mb-4 DB1">리어(Leer), 2015년 12월 14일</p>
+              <p className="mb-[3.375rem] DB3">TBA</p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
-                앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
-                아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,
-                설사, 말라리라, 홍역 등으로 아동 사망률이 잇따라 증가했다.
-                1996년, 포토저널리스트 튜린은 앙골라에서 6주를 보내며 무장단체간
-                충돌이 끊이지 않는 비에주 쿠이토의 국경없는의사회 병원을 찾아
-                현장을 기록했다.
+                남수단 대부분의 지역에선 부족간 분쟁과 폭력사태가 반복적으로
+                발생해 강제 피난하는 인구가 많다. 의료시설 또한 약탈과 공격의
+                대상이 되기 때문에 안전하지 않다. 도미닉 나흐르는 극심한 인도적
+                위기를 겪고 있던 남수단 리어 지역을 찾아 국경없는의사회 영양실조
+                치료식 센터에서 만난 영양실조 아동과 가족의 모습을 카메라에
+                담았다.
               </p>
             </div>
             <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
@@ -42,62 +42,69 @@ export default function DominicNahr() {
               </div>
               <div className="mb-[6rem]">
                 <img
-                  src="/images/GaelTurine/GAEL TURINE 02 1.png"
-                  alt="GAEL TURINE 02 1"
+                  src="/images/DominicNahr/DOMINIC NAHR 1.png"
+                  alt="DOMINIC NAHR 1"
                 />
               </div>
               <p className="mb-4 max-w-[63rem] mx-auto DB1">
-                “쿠이토에 머물던 중 국경없는의사회와 연락이 닿아 함께 작업할 수
-                있었습니다. 국경없는의사회 직원들의 도움으로 현장 상황을 더욱
-                명확히 파악할 수 있었습니다. 위중한 상태로 병원에 실려온
-                부상자들을 봤고, 견디기 힘든 광경을 마주하기도 했습니다. 다행히
-                크게 무겁지 않은 분위기 속에서 환자와 의료진의 모습을 있는
-                그대로 담을 수 있었습니다.”
+                2015년 5월, 부족간 폭력사태가 격화하며 남수단 리어 지역에서
+                활동하던 모든 구호단체가 철수했다. 수천 명의 민간인이 숲이나
+                늪지대로 피신하고, 벤티우에 위치한 유엔 민간인 보호센터로
+                향했다. 두 달 후인 7월부터 일부 활동을 재개할 수 있었다.
+                국경없는의사회는 리어에서 이동진료소와 영양실조 입원 치료식
+                센터를 운영했으나 2015년 10월 시설이 약탈을 당하면서 활동을
+                중단했다. 분쟁 발발 이후 국경없는의사회 의료시설은 총 세 차례
+                약탈당했다.
               </p>
-              <p className="max-w-[63rem] mx-auto DB1 font-bold">
-                가엘 튜린(2021)
-              </p>
+              <div>
+                <img
+                  src="/images/DominicNahr/NAD20150372641 1.png"
+                  alt="NAD20150372641 1"
+                />
+              </div>
               <div className="flex gap-8 my-[6rem]">
                 <div>
                   <img
-                    src="/images/GaelTurine/GAEL TURINE 04 1.png"
-                    alt="GAEL TURINE 04 1"
+                    src="/images/DominicNahr/NAD20150373280 1.png"
+                    alt="NAD20150373280 1"
                   />
                 </div>
                 <div>
                   <img
-                    src="/images/GaelTurine/GAEL TURINE 05 1.png"
-                    alt="GAEL TURINE 05 1"
+                    src="/images/DominicNahr/NAD20150373007 1.png"
+                    alt="NAD20150373007 1"
                   />
                 </div>
               </div>
             </div>
           </section>
         </div>
-        <div className="mb-[6rem] flex justify-center">
-          <img
-            src="/images/GaelTurine/GAEL TURINE 06 1.png"
-            alt="GAEL TURINE 06 1"
-          />
-        </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="mb-[4rem]">
             <div className="mb-12">
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">가엘 튜린 Gaël Turine </p>
+              <p className="text-center H4">도미닉 나흐르 Dominic Nahr</p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
-              가엘 튜린은 포켓사진집 포토 포슈 Photo Poche 시리즈의 ‘장벽과 공포
-              Le mur et la peur’, ‘맹목적으로 Aveuglément’ ‘카불에서 스무살 되기
-              Avoir 20 ans à Kaboul’ ‘아이티의 시내 En bas la ville’ 등 다수의
-              모노그래프를 발간한 사진작가이다. 튜린은 유럽과 미국에서 유수의
-              상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스, 르몽드, 뉴스위크
-              재팬 등 여러 매체에 게재됐다.
+              도미닉 나흐르는 스위스 아펜첼에서 태어나 홍콩에서 자랐다. 2008년
+              캐나다 토론토의 라이어슨 대학에서 순수예술학사 학위를 받은
+              나흐르는 케냐로 향해 분쟁, 인도적 위기와 사회적 문제를 기록하는 데
+              헌신했다. 나흐르의 주요 클라이언트로는 내셔널 지오그래픽, 독일
+              잡지 슈테른, 스위스 주간지 슈바이처 일루스트리에르테 Schweizer
+              Illustrierte 등이 있다.
               <br />
-              <br /> 현재 벨기에 소재 리브르 드 브뤼셀 대학교에서 포토저널리즘을
-              가르치고 있으며, 다양한 국가에서 기록사진 워크숍을 이끌고 있다.
-              튜린은 사진 에이전시 맵스(MAPS)의 창립멤버로, 2017년 창설 이래
-              지금까지 회장직을 맡고 있다.
+              <br />
+              나흐르는 2011~2015년 타임지의 사진작가로 활동했다. 세계보도사진상,
+              픽쳐오브더이어 인터내셔널 상, 스위스 프레스 포토상, 오스카 바르낙
+              신예작가상 등을 수상했으며, 2015년에는 스위스 포토 아카데미
+              ‘올해의 사진작가’로 선정됐다.
+              <br />
+              <br />
+              나흐르는 스위스 사진작가 재단, 아를 국제 사진전 Les Rencontres
+              d'Arles, 국제 보도사진 페스티벌 '비자 뿌르 리마쥬-페르피냥 Visa
+              pour l'Image-Perpignan, 뒤셀도르프의 ‘노르트라인 문화와 경제 포럼
+              NRW-Forum Kultur and Wirtschaft 등 국제무대에서 개인전을
+              성공적으로 개최했다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto pb-[8rem]">
@@ -110,9 +117,13 @@ export default function DominicNahr() {
                 />
                 <p className="mb-4 H4">국경없는의사회는</p>
                 <p className="DB1">
-                  1983년 앙골라에서 첫 활동을 개시했다. 1996년 국경없는의사회는
-                  벤구엘라, 후암보, 쿠안도 쿠반고주 등 앙골라 전역에서 영양실조
-                  프로그램을 운영하며 영양실조 아동에게 의료지원을 제공했다.
+                  1983년 당시 수단의 일부였던 남수단에서 첫 활동을 시작했다.
+                  이때부터 지속적인 분쟁으로 200만 명 이상의 국내실향민이
+                  발생하고 200만 명이 인접국으로 피난했다. 남수단에는 의료지원을
+                  받을 수 있는 곳이 거의 없기 때문에, 국경없는의사회는 남수단
+                  전역에서 프로젝트를 운영하고 있다. 하지만 의료시설과 의료진을
+                  향한 공격이 발생하며 프로젝트를 중단할 수밖에 없는 경우도 여러
+                  번 있었다.
                 </p>
               </div>
               <div>

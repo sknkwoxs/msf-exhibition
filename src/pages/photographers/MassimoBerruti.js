@@ -13,7 +13,7 @@ export default function MassimoBerruti() {
               <p className="H3">가엘 튜린 - 앙골라</p>
               <p className="mb-6 font-bold H3">Gaël Turine - Angola</p>
               <p className="mb-4 DB1">쿠이토(Kuito), 1996년 3월 2일</p>
-              <p className="mb-[6.5rem] DB3">Mamiya 6, Tri-X 400</p>
+              <p className="mb-[3.375rem] DB3">Mamiya 6, Tri-X 400</p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
                 앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
                 아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,

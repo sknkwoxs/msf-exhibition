@@ -17,7 +17,7 @@ export default function AlessandroPenso() {
               <p className="mb-4 DB1">
                 지중해(Mediterranean Sea), 2015년 11월 1일
               </p>
-              <p className="mb-[6.5rem] DB3">
+              <p className="mb-[3.375rem] DB3">
                 Canon 5D Mark III, 35mm, f9-1/125s ISO 640
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

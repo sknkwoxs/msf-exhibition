@@ -15,7 +15,7 @@ export default function JohnVink() {
               <p className="mb-4 DB1">
                 메사 그란데(Mesa Grande), 1988년 4월 8일
               </p>
-              <p className="mb-[6.5rem] DB3">Leica M4, 35mm, Tri-X 400</p>
+              <p className="mb-[3.375rem] DB3">Leica M4, 35mm, Tri-X 400</p>
               <p className="text-left max-w-[63rem] mx-auto DB1 mb-[6rem]">
                 1980년대 온두라스에는 엘살바도르와 니카라과에서 발생한 내전으로
                 수십만 명의 피난민이 몰렸다. 국경없는의사회는 당시 온두라스의
