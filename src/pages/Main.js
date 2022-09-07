@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     <>
-      <div className="bg-Neutrals-Grey9 text-Neutrals-White">
+      <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
         <div>
           <div className="flex md:hidden">
             <img src="/images/Asset 3@3x 1.png" alt="Asset 3@3x 1" />
