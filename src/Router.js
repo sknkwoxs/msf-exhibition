@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
+// 작가 소개 페이지
 import GaelTurine from "./pages/photographers/GaelTurine";
 import AlessandroPenso from "./pages/photographers/AlessandroPenso";
 import JohnVink from "./pages/photographers/JohnVink";
