@@ -7,9 +7,11 @@ export default function Header() {
         {/* <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White"> */}
         <div>
           <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem]">
-            <a className="py-[1.75rem]" href="/">
-              <img src="/images/svgIcons/logo.svg" alt="logo" />
-            </a>
+            <img
+              className="py-[1.75rem]"
+              src="/images/svgIcons/logo.svg"
+              alt="logo"
+            />
             <div className="my-auto">
               <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold items-center text-center">
                 <li className="ml-[4rem] relative inline-block">
@@ -41,9 +43,7 @@ export default function Header() {
           </div>
           <div className="px-4 py-3 mx-auto md:hidden">
             <div className="flex justify-between">
-              <a href="/">
-                <img src="/images/svgIcons/Mlogo.svg" alt="Mlogo" />
-              </a>
+              <img src="/images/svgIcons/Mlogo.svg" alt="Mlogo" />
               <button className="flex items-center">
                 <img src="/images/svgIcons/main_menu.svg" alt="main_menu" />
               </button>

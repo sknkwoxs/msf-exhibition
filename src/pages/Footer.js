@@ -6,18 +6,16 @@ export default function Footer() {
           <div className="md:flex md:justify-between">
             <div>
               <div className="flex justify-center mb-6 md:mb-8 md:justify-start">
-                <a href="/">
-                  <img
-                    className="hidden md:block"
-                    src="/images/svgIcons/logo.svg"
-                    alt="logo"
-                  />
-                  <img
-                    className="block md:hidden"
-                    src="/images/svgIcons/Mlogo.svg"
-                    alt="Mlogo"
-                  />
-                </a>
+                <img
+                  className="hidden md:block"
+                  src="/images/svgIcons/logo.svg"
+                  alt="logo"
+                />
+                <img
+                  className="block md:hidden"
+                  src="/images/svgIcons/Mlogo.svg"
+                  alt="Mlogo"
+                />
               </div>
               <div className="hidden mb-6 md:block DB3">
                 <div className="flex justify-center md:justify-start">
