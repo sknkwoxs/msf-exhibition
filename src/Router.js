@@ -14,6 +14,9 @@ import CedricGerbehaye from "./pages/photographers/CedricGerbehaye";
 import HannahReyesMorales from "./pages/photographers/HannahReyesMorales";
 import MassimoBerruti from "./pages/photographers/MassimoBerruti";
 import AshfikaRahman from "./pages/photographers/AshfikaRahman";
+// Error
+import Error404 from "./pages/Error404";
+import Error403 from "./pages/Error403";
 
 export default function Router() {
   return (
@@ -46,6 +49,8 @@ export default function Router() {
           path="/photographers/AshfikaRahman"
           element={<AshfikaRahman />}
         />
+        <Route path="*" element={<Error404 />} />
+        <Route path="/Error403" element={<Error403 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -131,8 +131,8 @@
 }
 
 /* Button/Link */
-.ButtonNormal {
-  @apply text-[1.125rem] leading-[1.5rem] font-normal;
+.ButtonLarge {
+  @apply text-[1.25rem] leading-[1.5rem] font-bold;
 }
 
 .ButtonNormal {
