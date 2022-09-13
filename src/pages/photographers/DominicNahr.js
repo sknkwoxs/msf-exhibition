@@ -10,8 +10,8 @@ export default function DominicNahr() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">도미닉 나흐르 - 남수단</p>
-              <p className="mb-6 font-bold H3">Dominic Nahr - South Sudan</p>
+              <h3 className="H3">도미닉 나흐르 - 남수단</h3>
+              <h3 className="mb-6 font-bold H3">Dominic Nahr - South Sudan</h3>
               <p className="mb-4 DB1">리어(Leer), 2015년 12월 14일</p>
               <p className="mb-[3.375rem] DB3">TBA</p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

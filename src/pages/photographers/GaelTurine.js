@@ -10,8 +10,8 @@ export default function GaelTurine() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">가엘 튜린 - 앙골라</p>
-              <p className="mb-6 font-bold H3">Gaël Turine - Angola</p>
+              <h3 className="H3">가엘 튜린 - 앙골라</h3>
+              <h3 className="mb-6 font-bold H3">Gaël Turine - Angola</h3>
               <p className="mb-4 DB1">쿠이토(Kuito), 1996년 3월 2일</p>
               <p className="mb-[3.375rem] DB3">Mamiya 6, Tri-X 400</p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

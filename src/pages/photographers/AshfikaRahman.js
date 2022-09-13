@@ -10,8 +10,8 @@ export default function AshfikaRahman() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">아슈피카 라만 - 방글라데시</p>
-              <p className="mb-6 font-bold H3">Ashfika Rahman - Bangladesh</p>
+              <h3 className="H3">아슈피카 라만 - 방글라데시</h3>
+              <h3 className="mb-6 font-bold H3">Ashfika Rahman - Bangladesh</h3>
               <p className="mb-4 DB1">다카(Dhaka), 2021년 1월 28일 </p>
               <p className="mb-[3.375rem] DB3">
                 Nikon D810 35mm f 2.8 1/60s ISO 640

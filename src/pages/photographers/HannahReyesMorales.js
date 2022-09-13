@@ -10,10 +10,10 @@ export default function HannahReyesMorales() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">해나 레예스 모랄레스 - 필리핀</p>
-              <p className="mb-6 font-bold H3">
+              <h3 className="H3">해나 레예스 모랄레스 - 필리핀</h3>
+              <h3 className="mb-6 font-bold H3">
                 Hannah Reyes Morales - Philippines
-              </p>
+              </h3>
               <p className="mb-4 DB1">톤도(Tondo), 2017년 7월 31일</p>
               <p className="mb-[3.375rem] DB3">
                 Sony ILCE-7M2 28mm f3.5 1/3200sec ISO 400

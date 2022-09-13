@@ -10,8 +10,8 @@ export default function JohnVink() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">존 빈크 - 온두라스</p>
-              <p className="mb-6 font-bold H3">John Vink - Honduras</p>
+              <h3 className="H3">존 빈크 - 온두라스</h3>
+              <h3 className="mb-6 font-bold H3">John Vink - Honduras</h3>
               <p className="mb-4 DB1">
                 메사 그란데(Mesa Grande), 1988년 4월 8일
               </p>

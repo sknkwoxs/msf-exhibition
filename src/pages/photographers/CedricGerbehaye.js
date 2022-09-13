@@ -10,10 +10,10 @@ export default function CedricGerbehaye() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">세드릭 게르베하이 - 콩고민주공화국</p>
-              <p className="mb-6 font-bold H3">
+              <h3 className="H3">세드릭 게르베하이 - 콩고민주공화국</h3>
+              <h3 className="mb-6 font-bold H3">
                 Cédric Gerbehaye - Democratic Republic of the Congo
-              </p>
+              </h3>
               <p className="mb-4 DB1">마시시(Masisi), 2008년 8월 8일</p>
               <p className="mb-[3.375rem] DB3">Mamiya 6, Tri-X 400</p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         Brand: {
           Primary: "#E30613",
+          Secondary: "#BB9503",
         },
         Neutrals: {
           White: "#ffffff",

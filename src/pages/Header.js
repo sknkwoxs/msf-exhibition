@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <>
@@ -31,7 +33,9 @@ export default function Header() {
                   </ul> */}
                 </li>
                 <li className="ml-[4rem]">이벤트</li>
-                <li className="ml-[4rem]">오시는길</li>
+                <Link to="/address">
+                  <li className="ml-[4rem]">오시는길</li>
+                </Link>
               </ul>
             </div>
           </div>

@@ -10,8 +10,8 @@ export default function MassimoBerruti() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">마시모 베루티 - 파키스탄</p>
-              <p className="mb-6 font-bold H3">Massimo Berruti - Pakistan</p>
+              <h3 className="H3">마시모 베루티 - 파키스탄</h3>
+              <h3 className="mb-6 font-bold H3">Massimo Berruti - Pakistan</h3>
               <p className="mb-4 DB1">타타(Thatta), 2010년 8월 28일</p>
               <p className="mb-[3.375rem] DB3">
                 Canon EOS 5D Mark II 24mm f 6.3 1/1000s ISO 400

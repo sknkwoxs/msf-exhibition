@@ -10,10 +10,10 @@ export default function AlessandroPenso() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <p className="H3">알레산드로 펜소 - 지중해</p>
-              <p className="mb-6 font-bold H3">
+              <h3 className="H3">알레산드로 펜소 - 지중해</h3>
+              <h3 className="mb-6 font-bold H3">
                 Alessandro Penso - Mediterranean Sea
-              </p>
+              </h3>
               <p className="mb-4 DB1">
                 지중해(Mediterranean Sea), 2015년 11월 1일
               </p>

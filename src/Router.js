@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
+import Address from "./pages/Address";
 // 작가 소개 페이지
 import GaelTurine from "./pages/photographers/GaelTurine";
 import AlessandroPenso from "./pages/photographers/AlessandroPenso";
@@ -20,6 +21,8 @@ export default function Router() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/Address" element={<Address />} />
+        {/* 작가 소개 페이지 */}
         <Route path="/photographers/GaelTurine" element={<GaelTurine />} />
         <Route
           path="/photographers/AlessandroPenso"
