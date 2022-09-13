@@ -127,10 +127,12 @@ export default function CedricGerbehaye() {
             </div>
           </section>
         </div>
-        <div>
-          <div className="mb-[6rem] flex justify-center">
-            <img src="/images/CedricGerbehaye/31 1.png" alt="31 1" />
-          </div>
+        <div className="mb-[6rem] flex justify-center w-full">
+          <img
+            className="w-full"
+            src="/images/CedricGerbehaye/31 1.png"
+            alt="31 1"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="max-w-[63rem] mx-auto pb-[8rem]">
