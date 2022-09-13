@@ -6,16 +6,18 @@ export default function Footer() {
           <div className="md:flex md:justify-between">
             <div>
               <div className="flex justify-center mb-6 md:mb-8 md:justify-start">
-                <img
-                  className="hidden md:block"
-                  src="/images/svgIcons/logo.svg"
-                  alt="logo"
-                />
-                <img
-                  className="block md:hidden"
-                  src="/images/svgIcons/Mlogo.svg"
-                  alt="Mlogo"
-                />
+                <a href="/">
+                  <img
+                    className="hidden md:block"
+                    src="/images/svgIcons/logo.svg"
+                    alt="logo"
+                  />
+                  <img
+                    className="block md:hidden"
+                    src="/images/svgIcons/Mlogo.svg"
+                    alt="Mlogo"
+                  />
+                </a>
               </div>
               <div className="hidden mb-6 md:block DB3">
                 <div className="flex justify-center md:justify-start">
@@ -29,11 +31,29 @@ export default function Footer() {
             </div>
             <div>
               <div className="flex justify-between mb-6 md:mb-8 H7">
-                <button>국경없는의사회</button>
+                <a
+                  href="https://msf.or.kr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  국경없는의사회
+                </a>
                 <div className="mx-4 border-r border-Neutrals-Grey7"></div>
-                <button>이용약관</button>
+                <a
+                  href="https://msf.or.kr/terms-conditions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  이용약관
+                </a>
                 <div className="mx-4 border-r border-Neutrals-Grey7"></div>
-                <button>개인정보취급방침</button>
+                <a
+                  href="https://msf.or.kr/privacy-policy?_ga=2.42526947.776451771.1662340029-227573643.1660274904"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  개인정보취급방침
+                </a>
               </div>
               <div className="hidden md:block mb-[4rem]">
                 <p className="mb-2 DB3 md:text-right">
