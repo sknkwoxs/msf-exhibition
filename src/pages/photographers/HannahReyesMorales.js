@@ -5,7 +5,7 @@ export default function HannahReyesMorales() {
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
         <div className="mb-[4rem] flex justify-center">
-          <img src="/images/HannahReyesMorales/bg.png" alt="bg" />
+          <img src="/images/HannahReyesMorales/img.png" alt="img" />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
