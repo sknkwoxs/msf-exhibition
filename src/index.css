@@ -145,4 +145,34 @@
   html {
     @apply font-PT;
   }
+
+  .hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #171717;
+    font-size: 12px;
+  }
+
+  .hr-sect::before {
+    /* max-width: 76rem; */
+    content: "";
+    flex-grow: 1;
+    background: #e2e8ee;
+    height: 2px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 24px 0px 208px;
+  }
+
+  .hr-sect::after {
+    /* max-width: 76rem; */
+    content: "";
+    flex-grow: 1;
+    background: #e2e8ee;
+    height: 2px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 208px 0px 24px;
+  }
 }

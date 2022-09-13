@@ -22,7 +22,7 @@ module.exports = {
           Grey5: "#ADB5BD",
           Grey6: "#495057",
           Grey7: "#343A40",
-          Grey8: "#151617",
+          Grey8: "#171717",
           Grey9: "#000000",
         },
         Messaging: {

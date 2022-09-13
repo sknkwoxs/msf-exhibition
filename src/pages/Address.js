@@ -11,10 +11,12 @@ export default function Address() {
             <p className="mb-2 font-bold text-Brand-Secondary DB2">
               PHOTO EXHIBITION LOCATION
             </p>
-            <h3 className="H3">사진전 장소 안내</h3>
+            <h3 className="H3 text-Neutrals-Grey8">사진전 장소 안내</h3>
           </div>
           <div className="mb-12 text-center">
-            <div className="H5">갤러리 라메르Gallery La Mer(제3전시실)</div>
+            <div className="H5 hr-sect">
+              갤러리 라메르Gallery La Mer(제3전시실)
+            </div>
             <a
               href="http://www.gallerylamer.com/"
               className="inline-block mb-4 font-normal underline text-Brand-Primary DB2"
@@ -33,11 +35,9 @@ export default function Address() {
           </div>
           <div className="mx-auto md:max-w-[76rem]">
             <div>
-              <h5 className="pb-6 border-b-2 border-Neutrals-Grey8 H5">
-                대중교통 이용시
-              </h5>
+              <h5 className="pb-6 border-b-2 H5">대중교통 이용시</h5>
             </div>
-            <div className="flex py-12 border-b-2 border-Neutrals-Grey8">
+            <div className="flex py-12 border-b-2">
               <h6 className="H6 mr-[6.875rem] whitespace-nowrap">
                 지하철 이용시
               </h6>
@@ -45,7 +45,9 @@ export default function Address() {
                 <div className="border-b">
                   <div className="flex items-center gap-2 mb-4">
                     <img src="/images/svgIcons/line1.svg" alt="line1" />
-                    <h6 className="H6">1호선 종각역 (도보 3분)</h6>
+                    <h6 className="H6 text-[#343A40]">
+                      1호선 종각역 (도보 3분)
+                    </h6>
                   </div>
                   <p className="pb-12 DB1">
                     <span className="mr-2">&bull;</span>종각역 3-1번 출구에서 약
@@ -55,7 +57,7 @@ export default function Address() {
                 </div>
                 <div className="flex items-center gap-2 pt-12 mb-4">
                   <img src="/images/svgIcons/line3.svg" alt="line3" />
-                  <h6 className="H6">3호선 안국역(도보 5분)</h6>
+                  <h6 className="H6 text-[#343A40]">3호선 안국역(도보 5분)</h6>
                 </div>
                 <p className="DB1">
                   <span className="mr-2">&bull;</span>안국역 6번 출구
@@ -67,14 +69,14 @@ export default function Address() {
             <div className="pt-12 mb-[7.5rem] flex">
               <h6 className="H6 mr-[7.813rem]">버스 이용시</h6>
               <div>
-                <h6 className="pb-4 H6">광역버스</h6>
-                <div className="pb-6">
+                <h6 className="pb-4 H6 text-[#343A40]">광역버스</h6>
+                <div className="pb-6 text-[#343A40]">
                   <span className="mr-2">&bull;</span>
                   <span className="text-[#E30613]">5000A, 5005</span>번 탑승 후
                   조계사 앞에서 하차
                 </div>
-                <h6 className="pb-4 H6">일반버스</h6>
-                <div>
+                <h6 className="pb-4 H6 text-[#343A40]">일반버스</h6>
+                <div className="text-[#343A40]">
                   <p>
                     <span className="text-[#2579CC]">741, 470</span>번 탑승 후
                     종로2가 하차 후 도보 약 77m 직진 후&nbsp;
