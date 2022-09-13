@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
+import { Map } from "react-kakao-maps-sdk";
 
 export default function Main() {
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
         <div>
-          <div className="flex md:hidden">
-            <img src="/images/Asset 3@3x 1.png" alt="Asset 3@3x 1" />
+          <div className="flex w-full md:hidden">
+            <img
+              className="w-full"
+              src="/images/Asset 3@3x 1.png"
+              alt="Asset 3@3x 1"
+            />
           </div>
           <section className="md:py-[4rem] pt-8 px-4 mx-auto md:max-w-[76rem]">
             <div className="md:flex md:justify-between">
@@ -239,12 +244,12 @@ export default function Main() {
             </div>
           </section>
           <section className="bg-Brand-Primary">
-            <div className="px-4 md:max-w-[76rem] flex flex-col md:flex-row gap-6 md:gap-[3.5rem] mx-auto py-8 md:py-0">
-              <div className="flex items-center w-full md:min-w-[38.5rem] MH3 md:text-[1.375rem] text-center justify-center md:justify-start">
+            <div className="w-full flex flex-col md:flex-row gap-6  mx-auto md:max-w-[76rem] py-8 px-4">
+              <p className="w-full flex items-center MH3 md:text-[1.375rem] text-center justify-center md:justify-start break-words text-ellipsis whitespace-nowrap">
                 국경없는의사회 한국에서 진행하는
                 <br className="md:hidden" /> 이벤트 관련 최신 소식을 받아보세요
-              </div>
-              <div className="flex flex-col w-full gap-2 py-0 md:py-10 md:flex-row md:gap-0">
+              </p>
+              <div className="flex flex-col w-full gap-2 py-0 md:py-10 md:flex-row md:gap-0 md:pl-[3.5rem]">
                 <div className="w-full">
                   <input
                     className="w-full px-4 py-3 rounded md:rounded-none md:rounded-l text-Neutrals-Grey9"
@@ -253,13 +258,39 @@ export default function Main() {
                     placeholder="이메일 주소를 입력해주세요."
                   />
                 </div>
-                <button className="px-10 py-3 rounded md:rounded-none md:rounded-r bg-Neutrals-Grey9 H6 whitespace-nowrap">
+                <button className="px-10 py-3 rounded md:rounded-none md:rounded-r bg-Neutrals-Grey9 H6 max-h-[3rem] whitespace-nowrap">
                   구독하기
                 </button>
               </div>
             </div>
           </section>
-          <section>지도 api</section>
+          <section className="hidden md:block">
+            <Map
+              center={{
+                lat: 37.5725546,
+                lng: 126.9848341,
+              }}
+              style={{
+                width: "100%",
+                minHeight: "400px",
+              }}
+              level={3}
+            />
+          </section>
+          <section className="md:hidden">
+            <Map
+              center={{
+                lat: 37.5725546,
+                lng: 126.9848341,
+              }}
+              style={{
+                width: "100%",
+                maxHeight: "400px",
+                minHeight: "240px",
+              }}
+              level={3}
+            />
+          </section>
         </div>
       </div>
     </>

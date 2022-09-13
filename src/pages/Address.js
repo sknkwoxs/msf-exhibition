@@ -1,3 +1,5 @@
+import { Map } from "react-kakao-maps-sdk";
+
 export default function Address() {
   return (
     <>
@@ -29,7 +31,17 @@ export default function Address() {
             <h6 className="font-normal H6 text-Neutrals-Grey7">02-730-5454</h6>
           </div>
           <div className="w-full mx-auto mb-20">
-            <img className="w-full" src="/images/address1.png" alt="address1" />
+            <Map
+              center={{
+                lat: 37.5725546,
+                lng: 126.9848341,
+              }}
+              style={{
+                width: "100%",
+                height: "480px",
+              }}
+              level={3}
+            />
           </div>
           <div className="mx-auto md:max-w-[76rem]">
             <div>
