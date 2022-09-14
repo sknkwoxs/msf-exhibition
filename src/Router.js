@@ -18,12 +18,12 @@ import AshfikaRahman from "./pages/photographers/AshfikaRahman";
 import Error404 from "./pages/Error404";
 import Error403 from "./pages/Error403";
 
-export default function Router() {
+function Router() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" exact element={<Main />} />
         <Route path="/Address" element={<Address />} />
         {/* 작가 소개 페이지 */}
         <Route path="/photographers/GaelTurine" element={<GaelTurine />} />
@@ -56,3 +56,5 @@ export default function Router() {
     </BrowserRouter>
   );
 }
+
+export default Router;

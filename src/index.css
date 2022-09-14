@@ -238,4 +238,8 @@
     width: 18px;
     height: 24px;
   } */
+
+  .bg_black {
+    background-color: black;
+  }
 }

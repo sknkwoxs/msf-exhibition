@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -7,11 +7,18 @@ const Header = () => {
     setOpenMenu(!openMenu);
   };
 
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const updateScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", updateScroll);
+  });
+
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-10 bg-Neutrals-Grey9 text-Neutrals-White">
-        {/* <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White"> */}
-        <div>
+      <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White">
+        <div className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}>
           <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem] relative">
             <a href="/">
               <img
