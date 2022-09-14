@@ -14,11 +14,13 @@ export default function HannahReyesMorales() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">해나 레예스 모랄레스 - 필리핀</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                해나 레예스 모랄레스 - 필리핀
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-nanummyeongjo">
                 Hannah Reyes Morales - Philippines
               </h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 톤도(Tondo), 2017년 7월 31일
               </p>
               <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">

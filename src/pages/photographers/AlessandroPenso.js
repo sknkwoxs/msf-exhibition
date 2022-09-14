@@ -14,14 +14,16 @@ export default function AlessandroPenso() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">알레산드로 펜소 - 지중해</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                알레산드로 펜소 - 지중해
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">
                 Alessandro Penso - Mediterranean Sea
               </h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 지중해(Mediterranean Sea), 2015년 11월 1일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
                 Canon 5D Mark III, 35mm, f9-1/125s ISO 640
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

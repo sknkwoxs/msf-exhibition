@@ -14,12 +14,16 @@ export default function JohnVink() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">존 빈크 - 온두라스</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">Gohn Vink - Honduras</h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                존 빈크 - 온두라스
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">
+                Gohn Vink - Honduras
+              </h3>
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 메사 그란데(Mesa Grande), 1988년 4월 8일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
                 Leica M4, 35mm, Tri-X 400
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]">

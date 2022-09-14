@@ -14,12 +14,12 @@ export default function GaelTurine() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">가엘 튜린 - 앙골라</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">Gaël Turine - Angola</h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">가엘 튜린 - 앙골라</h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">Gaël Turine - Angola</h3>
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 쿠이토(Kuito), 1996년 3월 2일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
                 Mamiya 6, Tri-X 400
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

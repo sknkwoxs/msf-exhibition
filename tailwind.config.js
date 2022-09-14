@@ -34,6 +34,7 @@ module.exports = {
       },
       fontFamily: {
         PT: ["Pretendard-Regular"],
+        nanummyeongjo: ["Nanum Myeongjo"],
       },
     },
     backgroundImage: {

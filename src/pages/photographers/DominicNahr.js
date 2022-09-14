@@ -14,14 +14,16 @@ export default function DominicNahr() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">도미닉 나흐르 - 남수단</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                도미닉 나흐르 - 남수단
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">
                 Dominic Nahr - South Sudan
               </h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 리어(Leer), 2015년 12월 14일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
                 TBA
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">

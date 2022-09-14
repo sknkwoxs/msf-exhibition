@@ -14,14 +14,16 @@ export default function MassimoBerruti() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:H3 MH2">마시모 베루티 - 파키스탄</h3>
-              <h3 className="mb-6 font-bold md:H3 MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                마시모 베루티 - 파키스탄
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">
                 Massimo Berruti - Pakistan
               </h3>
-              <p className="mb-4 md:DB1 text-[1rem]">
+              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 타타(Thatta), 2010년 8월 28일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
                 Canon EOS 5D Mark II 24mm f 6.3 1/1000s ISO 400
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
