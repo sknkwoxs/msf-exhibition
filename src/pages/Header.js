@@ -17,14 +17,14 @@ export default function Header() {
             <div className="my-auto">
               <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold items-center text-center">
                 <li className="ml-[4rem] relative inline-block">
-                  사진전 소개
+                  <Link to="#">사진전 소개</Link>
                   {/* <ul className="absolute whitespace-nowrap left-[50%] -translate-x-[50%] flex flex-col gap-y-4 pt-[5rem] pb-[4rem] text-[1.125rem] leading-6 font-normal">
                     <li>사진전 소개</li>
                     <li>사무총장 인사말</li>
                   </ul> */}
                 </li>
                 <li className="ml-[4rem] relative inline-block">
-                  작가 소개
+                  <Link to="#">작가 소개</Link>
                   {/* <ul className="absolute whitespace-nowrap left-[50%] -translate-x-[50%] flex flex-col gap-y-4 pt-[5rem] pb-[4rem] text-[1.125rem] leading-6 font-normal">
                     <li>가엘 튜린</li>
                     <li>알레산드로펜소</li>
@@ -36,10 +36,12 @@ export default function Header() {
                     <li>아슈피카 라만</li>
                   </ul> */}
                 </li>
-                <li className="ml-[4rem]">이벤트</li>
-                <Link to="/address">
-                  <li className="ml-[4rem]">오시는길</li>
-                </Link>
+                <li className="pl-[4rem]">
+                  <Link to="#">이벤트</Link>
+                </li>
+                <li className="pl-[4rem]">
+                  <Link to="/address">오시는길</Link>
+                </li>
               </ul>
             </div>
           </div>
