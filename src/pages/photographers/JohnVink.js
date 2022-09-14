@@ -4,19 +4,25 @@ export default function JohnVink() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/JohnVink/img.png" alt="img" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/JohnVink/img.png"
+            alt="img"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">존 빈크 - 온두라스</h3>
-              <h3 className="mb-6 font-bold H3">John Vink - Honduras</h3>
-              <p className="mb-4 DB1">
+              <h3 className="md:H3 MH2">존 빈크 - 온두라스</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">Gohn Vink - Honduras</h3>
+              <p className="mb-4 md:DB1 text-[1rem]">
                 메사 그란데(Mesa Grande), 1988년 4월 8일
               </p>
-              <p className="mb-[3.375rem] DB3">Leica M4, 35mm, Tri-X 400</p>
-              <p className="text-left max-w-[63rem] mx-auto DB1 mb-[6rem]">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+                Leica M4, 35mm, Tri-X 400
+              </p>
+              <p className="text-left max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]">
                 1980년대 온두라스에는 엘살바도르와 니카라과에서 발생한 내전으로
                 수십만 명의 피난민이 몰렸다. 국경없는의사회는 당시 온두라스의
                 난민캠프에서 생활하던 피난민을 대상으로 의료지원을 제공했다.
@@ -30,7 +36,7 @@ export default function JohnVink() {
                 alt="VIJ2010000G1398 1"
               />
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -43,11 +49,13 @@ export default function JohnVink() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/JohnVink/JOHN VINK 02-edited 1.png"
                   alt="JOHN VINK 02-edited 1"
@@ -57,11 +65,13 @@ export default function JohnVink() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">마리나와의 이메일</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  마리나와의 이메일
+                </p>
               </div>
-              <div className="mb-[6rem] max-w-[63rem] mx-auto">
+              <div className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto">
                 <p className="mb-[3.5rem] DB1">
                   빈크가 온두라스에서 활동한 지 30년도 더 넘은 어느 날, 자신을
                   에벨리오의 딸 마리나라고 소개한 여성이 연락을 해왔다. 마리나는
@@ -71,6 +81,12 @@ export default function JohnVink() {
                   사진 속 에벨리오는 27살이었다. 아래는 마리나가 빈크에게 보낸
                   이메일 중 일부를 발췌한 내용이다.
                 </p>
+                <div className="md:hidden mb-[3.5rem]">
+                  <img
+                    src="/images/JohnVink/JOHN VINK 07 1.png"
+                    alt="JOHN VINK 07 1"
+                  />
+                </div>
                 <div className="flex gap-8 mb-8">
                   <div className="flex-1">
                     <p className="DB1">
@@ -107,7 +123,7 @@ export default function JohnVink() {
                       들것에 실린 그 남성이 제 아버지라는 사실을 확신했습니다.
                     </p>
                   </div>
-                  <div className="flex-1">
+                  <div className="hidden md:flex md:flex-1">
                     <img
                       src="/images/JohnVink/JOHN VINK 07 1.png"
                       alt="JOHN VINK 07 1"
@@ -138,10 +154,12 @@ export default function JohnVink() {
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">존 빈크 John Vink</p>
+          <section className="md:mb-[4rem] mb-12">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                존 빈크 John Vink
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               1948년 벨기에에서 태어난 존 빈크는 1968년 라 캄브르 순수미술 전문
@@ -158,15 +176,16 @@ export default function JohnVink() {
               Phnom Penh”를 2000년 출간하기도 했다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
+
                 <p className="DB1">
                   1974년 온두라스에서 첫 의료지원 활동을 개시했다. 1988년
                   엘살바도르에서 4만 명, 니카라과에서 2만 명의 난민이 온두라스에
@@ -178,9 +197,41 @@ export default function JohnVink() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex justify-between">
                   <Link to="/photographers/AlessandroPenso">
                     <div className="flex items-center gap-2">
@@ -191,7 +242,7 @@ export default function JohnVink() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"

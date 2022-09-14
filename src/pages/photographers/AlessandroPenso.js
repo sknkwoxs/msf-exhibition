@@ -63,7 +63,7 @@ export default function AlessandroPenso() {
                   alt="ALESSANDRO_PENSO 02 1"
                 />
               </div>
-              <div className="mb-12">
+              <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
                   유러피안 드림
