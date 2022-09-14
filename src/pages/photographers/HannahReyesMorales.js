@@ -85,7 +85,7 @@ export default function HannahReyesMorales() {
               자극적이다. 유혈이 낭자한 모습이 아닌, 아직 세상에 알려지지 않은
               이야기를 사진에 담을 수 있을까? 높은 장벽 너머 수많은 생명을
               앗아간 마약과의 전쟁 속에서도 열심히 살아가는 사람들의 모습을
-              보여주고 싶다. - 2017년
+              보여주고 싶다.<p className="not-italic">- 2017년</p>
             </p>
           </section>
         </div>
