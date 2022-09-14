@@ -48,8 +48,8 @@ export default function Main() {
               </div>
             </div>
           </section>
-          <section className="bg-bg-blur">
-            <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto px-4">
+          <section className="px-4 bg-bg-blur">
+            <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
               <div className="mb-8">
                 <p className="H4">작가 소개</p>
               </div>

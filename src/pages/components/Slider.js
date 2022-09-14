@@ -15,14 +15,17 @@ export default class SimpleSlider extends Component {
       // autoplay: true,
       autoplaySpeed: 5000,
       pauseOnHover: true,
+      // centerMode: true,
+      // centerPadding: "24px",
     };
     return (
-      <div className="hidden md:block">
+      <div className="hidden mx-auto md:block">
         <Slider {...settings}>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/GaelTurine">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/gael_thumb.png"
                   alt="gael_thumb"
                 />
@@ -33,10 +36,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/AlessandroPenso">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/alessandro_thumb.png"
                   alt="alessandro_thumb"
                 />
@@ -47,10 +51,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/JohnVink">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/john_thumb.png"
                   alt="john_thumb"
                 />
@@ -61,10 +66,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/DominicNahr">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/dominic_thumb.png"
                   alt="dominic_thumb"
                 />
@@ -75,10 +81,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/CedricGerbehaye">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/cedric_thumb.png"
                   alt="cedric_thumb"
                 />
@@ -91,10 +98,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/HannahReyesMorales">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/hannah_thumb.png"
                   alt="hannah_thumb"
                 />
@@ -107,10 +115,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/MassimoBerruti">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/massimo_thumb.png"
                   alt="massimo_thumb"
                 />
@@ -121,10 +130,11 @@ export default class SimpleSlider extends Component {
               </p>
             </Link>
           </div>
-          <div>
+          <div className="-mx-3">
             <Link to="/photographers/AshfikaRahman">
-              <div className="mb-8">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                 <img
+                  className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/ashfika_thumb.png"
                   alt="ashfika_thumb"
                 />
