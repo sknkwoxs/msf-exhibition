@@ -110,7 +110,7 @@ export default function AlessandroPenso() {
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
+          <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
@@ -191,7 +191,7 @@ export default function AlessandroPenso() {
                     />
                   </button>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex items-center justify-between">
                   <Link to="/photographers/GaelTurine">
                     <div className="flex items-center gap-2">
                       <img

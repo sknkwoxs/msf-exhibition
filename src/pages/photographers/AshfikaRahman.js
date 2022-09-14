@@ -148,7 +148,7 @@ export default function AshfikaRahman() {
                 <button className="flex mx-auto mb-6">
                   내 채널에 공유하기
                 </button>
-                <div className="flex justify-between">
+                <div className="flex items-center justify-between">
                   <Link to="/photographers/MassimoBerruti">
                     <div className="flex items-center gap-2">
                       <img

@@ -4,18 +4,26 @@ export default function CedricGerbehaye() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/CedricGerbehaye/img.png" alt="img" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/CedricGerbehaye/img.png"
+            alt="img"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">세드릭 게르베하이 - 콩고민주공화국</h3>
-              <h3 className="mb-6 font-bold H3">
+              <h3 className="md:H3 MH2">세드릭 게르베하이 - 콩고민주공화국</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
                 Cédric Gerbehaye - Democratic Republic of the Congo
               </h3>
-              <p className="mb-4 DB1">마시시(Masisi), 2008년 8월 8일</p>
-              <p className="mb-[3.375rem] DB3">Mamiya 6, Tri-X 400</p>
+              <p className="mb-4 md:DB1 text-[1rem]">
+                마시시(Masisi), 2008년 8월 8일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+                Mamiya 6, Tri-X 400
+              </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
                 2008년 8월, 콩고민주공화국 동부 북키부 주에서 심각한 폭력사태가
                 발발했다. 무장단체 간 분쟁이 격화하면서 수백만 명이 피난하고,
@@ -27,7 +35,7 @@ export default function CedricGerbehaye() {
                 지역에서 피난민들의 모습을 카메라로 포착했다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -40,11 +48,13 @@ export default function CedricGerbehaye() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/CedricGerbehaye/CEDRIC GERBEHAYE 02 - edited 1.png"
                   alt="CEDRIC GERBEHAYE 02 - edited 1"
@@ -54,13 +64,13 @@ export default function CedricGerbehaye() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
                   게르베하이과 국경없는의사회의 첫 만남
                 </p>
               </div>
-              <p className="max-w-[63rem] mx-auto DB1 mb-[6rem]">
+              <p className="max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]">
                 “마시시 지역의 한 병원에서 국경없는의사회와 처음 연이 닿았어요.
                 저녁 시간이 다 되었을 때쯤 길에서 공격당한 부상자들이 트럭에
                 실려 병원에 왔어요. 전기는 들어오지 않았고 발전기도 고장 난
@@ -72,20 +82,20 @@ export default function CedricGerbehaye() {
                 다음날 새벽 환자는 병상에 누운 채 미소를 지어 보였습니다. 밤
                 사이 아들을 출산한 것입니다. “
               </p>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img src="/images/CedricGerbehaye/31 1.png" alt="31 1" />
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img src="/images/CedricGerbehaye/35 1.png" alt="35 1" />
               </div>
             </div>
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">
+          <section className="md:mb-[4rem] mb-[3rem]">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
                 세드릭 게르베하이 Cédric Gerbehaye
               </p>
             </div>
@@ -108,13 +118,13 @@ export default function CedricGerbehaye() {
           </section>
           <section className="max-w-[63rem] mx-auto">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[6rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   1977년 콩고민주공화국에서 첫 활동을 시작했다. 특히 동부
                   지역에서는 전쟁부상자를 치료하고 국내실향민과 지역주민을
@@ -127,21 +137,53 @@ export default function CedricGerbehaye() {
             </div>
           </section>
         </div>
-        <div className="mb-[6rem] flex justify-center w-full">
+        <div className="md:mb-[6rem] mb-[4rem] flex justify-center w-full min-h-[20rem]">
           <img
-            className="w-full"
-            src="/images/CedricGerbehaye/31 1.png"
-            alt="31 1"
+            className="object-cover w-full"
+            src="/images/CedricGerbehaye/30 1.png"
+            alt="30 1"
           />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
-                <div className="flex justify-between">
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
+                <div className="flex items-center justify-between">
                   <Link to="/photographers/DominicNahr">
                     <div className="flex items-center gap-2">
                       <img
@@ -151,7 +193,7 @@ export default function CedricGerbehaye() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"

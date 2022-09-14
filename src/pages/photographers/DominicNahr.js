@@ -92,7 +92,7 @@ export default function DominicNahr() {
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
+          <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-12">
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
               <p className="text-center H4">도미닉 나흐르 Dominic Nahr</p>
@@ -174,7 +174,7 @@ export default function DominicNahr() {
                     />
                   </button>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex items-center justify-between">
                   <Link to="/photographers/JohnVink">
                     <div className="flex items-center gap-2">
                       <img
