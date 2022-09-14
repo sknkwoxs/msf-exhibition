@@ -4,18 +4,24 @@ export default function HannahReyesMorales() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/HannahReyesMorales/img.png" alt="img" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/HannahReyesMorales/img.png"
+            alt="img"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">해나 레예스 모랄레스 - 필리핀</h3>
-              <h3 className="mb-6 font-bold H3">
+              <h3 className="md:H3 MH2">해나 레예스 모랄레스 - 필리핀</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
                 Hannah Reyes Morales - Philippines
               </h3>
-              <p className="mb-4 DB1">톤도(Tondo), 2017년 7월 31일</p>
-              <p className="mb-[3.375rem] DB3">
+              <p className="mb-4 md:DB1 text-[1rem]">
+                톤도(Tondo), 2017년 7월 31일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
                 Sony ILCE-7M2 28mm f3.5 1/3200sec ISO 400
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
@@ -27,7 +33,7 @@ export default function HannahReyesMorales() {
                 인식을 제고하기 위해 지역주민의 모습을 카메라에 담았다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -40,11 +46,13 @@ export default function HannahReyesMorales() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/HannahReyesMorales/HANNAH REYES MORALES 02 1.png"
                   alt="HANNAH REYES MORALES 02 1"
@@ -54,10 +62,12 @@ export default function HannahReyesMorales() {
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">모랄레스의 일기</p>
+          <section className="md:mb-[4rem] mb-[3rem]">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                모랄레스의 일기
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               마닐라의 슬럼가는 지상에 존재하나 거의 지하에 파묻혀 있는
@@ -77,8 +87,8 @@ export default function HannahReyesMorales() {
             </p>
           </section>
         </div>
-        <div className="mx-auto md:max-w-[76rem] mb-[6rem]">
-          <div className="flex gap-8">
+        <div className="mx-auto md:max-w-[76rem] md:mb-[6rem] mb-[5rem] px-4 md:px-0">
+          <div className="flex flex-col gap-8 md:flex-row">
             <div>
               <img
                 src="/images/HannahReyesMorales/IMG_20180221_173336 (1) 1.png"
@@ -102,10 +112,10 @@ export default function HannahReyesMorales() {
           </div>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">
+          <section className="md:mb-[4rem] mb-[3rem]">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
                 해나 레예스 모랄레스 Hannah Reyes Morales
               </p>
             </div>
@@ -127,15 +137,15 @@ export default function HannahReyesMorales() {
               지오그래픽 크리에이티브 소속 작가로 활동하고 있다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   1987년 필리핀에서 처음 활동을 시작했고, 2016년부터 수도
                   마닐라에 위치한 슬럼가 산 안드레스와 톤도에서 종합적인 성∙생식
@@ -144,11 +154,42 @@ export default function HannahReyesMorales() {
                   자궁경부암 치료를 제공했다.
                 </p>
               </div>
-
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex items-center justify-between">
                   <Link to="/photographers/CedricGerbehaye">
                     <div className="flex items-center gap-2">
@@ -159,7 +200,7 @@ export default function HannahReyesMorales() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"
