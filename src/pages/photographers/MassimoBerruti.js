@@ -4,16 +4,24 @@ export default function MassimoBerruti() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/MassimoBerruti/7 1.png" alt="7 1" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/MassimoBerruti/7 1.png"
+            alt="7 1"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">마시모 베루티 - 파키스탄</h3>
-              <h3 className="mb-6 font-bold H3">Massimo Berruti - Pakistan</h3>
-              <p className="mb-4 DB1">타타(Thatta), 2010년 8월 28일</p>
-              <p className="mb-[3.375rem] DB3">
+              <h3 className="md:H3 MH2">마시모 베루티 - 파키스탄</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
+                Massimo Berruti - Pakistan
+              </h3>
+              <p className="mb-4 md:DB1 text-[1rem]">
+                타타(Thatta), 2010년 8월 28일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
                 Canon EOS 5D Mark II 24mm f 6.3 1/1000s ISO 400
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
@@ -25,7 +33,7 @@ export default function MassimoBerruti() {
                 포착했다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -38,11 +46,13 @@ export default function MassimoBerruti() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/MassimoBerruti/MASSIMO BERRUTI 02 1.png"
                   alt="MASSIMO BERRUTI 02 1"
@@ -60,7 +70,7 @@ export default function MassimoBerruti() {
                 없었다. 다행히 시간이 지날수록 수위가 낮아져 구호활동가들이 피해
                 지역으로 가 인도적 지원을 제공할 수 있었다.
               </p>
-              <div className="flex gap-8 my-[6rem]">
+              <div className="flex md:flex-row flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
                   <img
                     src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 04 1.png"
@@ -78,10 +88,12 @@ export default function MassimoBerruti() {
           </section>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">마시모 베루티 Massimo Berruti</p>
+          <section className="md:mb-[4rem] mb-[3rem]">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                마시모 베루티 Massimo Berruti
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               마시모 베루티는 이탈리아 출신의 사진작가이다. 2003년 대학에서
@@ -104,15 +116,15 @@ export default function MassimoBerruti() {
               센터의 회원이며 로마에서 활동하고 있다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   2010년, 수십 년 만에 발생한 최악의 홍수로 수많은 마을이
                   고립되고 식량과 깨끗한 식수도 부족해진 파키스탄에서 긴급
@@ -125,9 +137,41 @@ export default function MassimoBerruti() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex items-center justify-between">
                   <Link to="/photographers/HannahReyesMorales">
                     <div className="flex items-center gap-2">
@@ -138,7 +182,7 @@ export default function MassimoBerruti() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"
