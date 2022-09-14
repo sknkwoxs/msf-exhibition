@@ -70,7 +70,7 @@ export default function CedricGerbehaye() {
                   게르베하이과 국경없는의사회의 첫 만남
                 </p>
               </div>
-              <p className="max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]">
+              <p className="max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem] italic">
                 “마시시 지역의 한 병원에서 국경없는의사회와 처음 연이 닿았어요.
                 저녁 시간이 다 되었을 때쯤 길에서 공격당한 부상자들이 트럭에
                 실려 병원에 왔어요. 전기는 들어오지 않았고 발전기도 고장 난
@@ -80,7 +80,7 @@ export default function CedricGerbehaye() {
                 수술대에서 떨어지지 않게 꼭 붙잡고, 진정시키기 위해 눈을
                 마주쳐가며 계속 말을 걸었습니다. 그동안 바트가 총알을 제거했죠.
                 다음날 새벽 환자는 병상에 누운 채 미소를 지어 보였습니다. 밤
-                사이 아들을 출산한 것입니다. “
+                사이 아들을 출산한 것입니다.“
               </p>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img src="/images/CedricGerbehaye/31 1.png" alt="31 1" />

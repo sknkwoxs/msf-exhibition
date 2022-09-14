@@ -69,7 +69,7 @@ export default function HannahReyesMorales() {
                 모랄레스의 일기
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1 italic">
               마닐라의 슬럼가는 지상에 존재하나 거의 지하에 파묻혀 있는
               느낌이다. 과거에는 슬럼가 주변에 높은 벽을 세워 이곳을 사람들의
               시야에서 가리려고 했다. 슬럼가는 점점 팽창해 수백만 명의 집이

@@ -56,7 +56,7 @@ export default function GaelTurine() {
                   alt="GAEL TURINE 02 1"
                 />
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1">
+              <p className="mb-4 max-w-[63rem] mx-auto DB1 italic">
                 “쿠이토에 머물던 중 국경없는의사회와 연락이 닿아 함께 작업할 수
                 있었습니다. 국경없는의사회 직원들의 도움으로 현장 상황을 더욱
                 명확히 파악할 수 있었습니다. 위중한 상태로 병원에 실려온

@@ -69,7 +69,7 @@ export default function AlessandroPenso() {
                   유러피안 드림
                 </p>
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1">
+              <p className="mb-4 max-w-[63rem] mx-auto DB1 italic">
                 알렉산드로 펜소는 유럽난민 위기를 알리기 위해 전시 《유러피안
                 드림 The European Dream》을 열었다. 난민의 주요 이동수단인
                 트럭을 개조해 개최한 이 전시는 유럽에서의 안전한 삶을 꿈꾸는

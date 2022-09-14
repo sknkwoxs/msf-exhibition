@@ -63,7 +63,7 @@ export default function AshfikaRahman() {
                 <img src="/images/AshfikaRahman/84.png" alt="84" />
               </div>
               <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
-                <p className="flex-1 my-auto DB1">
+                <p className="flex-1 my-auto italic DB1">
                   “제 이름은 아노와라 베굼입니다. 저는 14살에 결혼해 15살에 첫
                   아이를 임신했습니다. 더 빨리 임신하게 도와준다는 부적을 받기도
                   했어요. 게다가 제 어머니는 12살에 첫 아이를 낳았으니 저는 이른
@@ -81,7 +81,7 @@ export default function AshfikaRahman() {
                 <div className="hidden md:block">
                   <img src="/images/AshfikaRahman/85.png" alt="85" />
                 </div>
-                <p className="flex-1 my-auto DB1">
+                <p className="flex-1 my-auto italic DB1">
                   사랑하는 사비나,
                   <br />
                   <br />

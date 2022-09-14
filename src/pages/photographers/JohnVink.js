@@ -89,7 +89,7 @@ export default function JohnVink() {
                 </div>
                 <div className="flex gap-8 mb-8">
                   <div className="flex-1">
-                    <p className="DB1">
+                    <p className="italic DB1">
                       안녕하세요 작가님,
                       <br />
                       <br />
@@ -130,7 +130,7 @@ export default function JohnVink() {
                     />
                   </div>
                 </div>
-                <p className="DB1">
+                <p className="italic DB1">
                   사진을 눌러보니 작가님의 사이트로 연결이 되었습니다.
                   사진설명을 보니 ‘에벨리오’라는 한 번도 들어본 적 없는 이름의
                   사람이라고 되어 있었지만 당시 내전을 겪는 동안 엘살바도르
