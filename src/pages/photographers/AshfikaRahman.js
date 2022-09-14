@@ -4,16 +4,24 @@ export default function AshfikaRahman() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/AshfikaRahman/8 1.png" alt="8 1" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/AshfikaRahman/8 1.png"
+            alt="8 1"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">아슈피카 라만 - 방글라데시</h3>
-              <h3 className="mb-6 font-bold H3">Ashfika Rahman - Bangladesh</h3>
-              <p className="mb-4 DB1">다카(Dhaka), 2021년 1월 28일 </p>
-              <p className="mb-[3.375rem] DB3">
+              <h3 className="md:H3 MH2">아슈피카 라만 - 방글라데시</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
+                Ashfika Rahman - Bangladesh
+              </h3>
+              <p className="mb-4 md:DB1 text-[1rem]">
+                다카(Dhaka), 2021년 1월 28일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
                 Nikon D810 35mm f 2.8 1/60s ISO 640
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
@@ -26,7 +34,7 @@ export default function AshfikaRahman() {
                 17세 임산부 루키아를 비롯한 소녀들의 모습을 카메라에 담았다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -39,17 +47,22 @@ export default function AshfikaRahman() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/AshfikaRahman/ASHIFIKA RAHMAN02 1.png"
                   alt="ASHIFIKA RAHMAN02 1"
                 />
               </div>
-              <div className="flex max-w-[63rem] mx-auto gap-8 mb-[6rem]">
+              <div className="md:hidden mb-[5rem]">
+                <img src="/images/AshfikaRahman/84.png" alt="84" />
+              </div>
+              <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
                 <p className="flex-1 my-auto DB1">
                   “제 이름은 아노와라 베굼입니다. 저는 14살에 결혼해 15살에 첫
                   아이를 임신했습니다. 더 빨리 임신하게 도와준다는 부적을 받기도
@@ -57,12 +70,15 @@ export default function AshfikaRahman() {
                   편이 아니었죠. 지금 저는 아들 셋과 딸 하나가 있는데, 딸은 이미
                   결혼했습니다.”
                 </p>
-                <div>
+                <div className="hidden md:block">
                   <img src="/images/AshfikaRahman/84.png" alt="84" />
                 </div>
               </div>
-              <div className="flex max-w-[63rem] mx-auto gap-8 mb-[6rem]">
-                <div>
+              <div className="md:hidden mb-[5rem]">
+                <img src="/images/AshfikaRahman/85.png" alt="85" />
+              </div>
+              <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
+                <div className="hidden md:block">
                   <img src="/images/AshfikaRahman/85.png" alt="85" />
                 </div>
                 <p className="flex-1 my-auto DB1">
@@ -86,7 +102,7 @@ export default function AshfikaRahman() {
             </div>
           </section>
         </div>
-        <div className="mb-[6rem] flex justify-center gap-8">
+        <div className="md:mb-[6rem] mb-[5rem] flex md:flex-row flex-col justify-center gap-8 px-4">
           <div>
             <img
               src="/images/AshfikaRahman/EXTRA_03_MSF 1.png"
@@ -101,10 +117,12 @@ export default function AshfikaRahman() {
           </div>
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
-          <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">아슈피카 라만 Ashfika Rahman</p>
+          <section className="md:mb-[4rem] mb-[3rem]">
+            <div className="mb-10 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                컨택트시트
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               방글라데시 다카 출신의 아슈피카 라흐만은 방글라데시 파트샬라
@@ -123,15 +141,15 @@ export default function AshfikaRahman() {
               근무하고 있다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   1985년 방글라데시에서 첫 의료지원 활동을 시작했다. 현재
                   국경없는의사회는 로힝야 난민과 방글라데시 지역주민을 대상으로
@@ -145,9 +163,41 @@ export default function AshfikaRahman() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex items-center justify-between">
                   <Link to="/photographers/MassimoBerruti">
                     <div className="flex items-center gap-2">
@@ -158,7 +208,7 @@ export default function AshfikaRahman() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"
