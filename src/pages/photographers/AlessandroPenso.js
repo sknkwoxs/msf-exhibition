@@ -4,20 +4,24 @@ export default function AlessandroPenso() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/AlessandroPenso/img.png" alt="img" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/AlessandroPenso/img.png"
+            alt="img"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">알레산드로 펜소 - 지중해</h3>
-              <h3 className="mb-6 font-bold H3">
+              <h3 className="md:H3 MH2">알레산드로 펜소 - 지중해</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
                 Alessandro Penso - Mediterranean Sea
               </h3>
-              <p className="mb-4 DB1">
+              <p className="mb-4 md:DB1 text-[1rem]">
                 지중해(Mediterranean Sea), 2015년 11월 1일
               </p>
-              <p className="mb-[3.375rem] DB3">
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
                 Canon 5D Mark III, 35mm, f9-1/125s ISO 640
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
@@ -34,7 +38,7 @@ export default function AlessandroPenso() {
                 올라 해상난민 구조 작업 중 마주한 긴박한 순간들을 기록했다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -47,19 +51,23 @@ export default function AlessandroPenso() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/AlessandroPenso/ALESSANDRO_PENSO 02 1.png"
                   alt="ALESSANDRO_PENSO 02 1"
                 />
               </div>
               <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">유러피안 드림</p>
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  유러피안 드림
+                </p>
               </div>
               <p className="mb-4 max-w-[63rem] mx-auto DB1">
                 알렉산드로 펜소는 유럽난민 위기를 알리기 위해 전시 《유러피안
@@ -84,7 +92,7 @@ export default function AlessandroPenso() {
               <p className="max-w-[63rem] mx-auto DB1 font-bold">
                 알레산드로 펜소(2014)
               </p>
-              <div className="flex flex-col gap-8 my-[6rem]">
+              <div className="flex flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
                   <img
                     src="/images/AlessandroPenso/MSF160552_Medium 1.png"
@@ -104,8 +112,10 @@ export default function AlessandroPenso() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="mb-[4rem]">
             <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">알레산드로 펜소 Alessandro Penso</p>
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                알레산드로 펜소 Alessandro Penso
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               알레산드로 펜소는 이탈리아에서 태어나 로마 라 사피엔자 대학교에서
@@ -126,15 +136,15 @@ export default function AlessandroPenso() {
               재단, 게티 이미지 등으로부터 지원을 받았다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회의 지중해 활동</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회의 지중해 활동</p>
                 <p className="DB1">
                   국경없는의사회는 2015년부터 지중해에서 난민 수색구조 활동을
                   전개했고, 지금까지 구조한 난민의 수는 8만여명에 이른다.
@@ -146,9 +156,41 @@ export default function AlessandroPenso() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex justify-between">
                   <Link to="/photographers/GaelTurine">
                     <div className="flex items-center gap-2">
@@ -159,7 +201,7 @@ export default function AlessandroPenso() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"

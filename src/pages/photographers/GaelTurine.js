@@ -4,16 +4,24 @@ export default function GaelTurine() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/GaelTurine/bg.png" alt="bg" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/GaelTurine/bg.png"
+            alt="bg"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">가엘 튜린 - 앙골라</h3>
-              <h3 className="mb-6 font-bold H3">Gaël Turine - Angola</h3>
-              <p className="mb-4 DB1">쿠이토(Kuito), 1996년 3월 2일</p>
-              <p className="mb-[3.375rem] DB3">Mamiya 6, Tri-X 400</p>
+              <h3 className="md:H3 MH2">가엘 튜린 - 앙골라</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">Gaël Turine - Angola</h3>
+              <p className="mb-4 md:DB1 text-[1rem]">
+                쿠이토(Kuito), 1996년 3월 2일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+                Mamiya 6, Tri-X 400
+              </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
                 앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
                 아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,
@@ -23,7 +31,7 @@ export default function GaelTurine() {
                 현장을 기록했다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -36,11 +44,13 @@ export default function GaelTurine() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/GaelTurine/GAEL TURINE 02 1.png"
                   alt="GAEL TURINE 02 1"
@@ -57,7 +67,7 @@ export default function GaelTurine() {
               <p className="max-w-[63rem] mx-auto DB1 font-bold">
                 가엘 튜린(2021)
               </p>
-              <div className="flex gap-8 my-[6rem]">
+              <div className="md:flex-row flex flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
                   <img
                     src="/images/GaelTurine/GAEL TURINE 04 1.png"
@@ -74,7 +84,7 @@ export default function GaelTurine() {
             </div>
           </section>
         </div>
-        <div className="mb-[6rem] flex justify-center">
+        <div className="md:mb-[6rem] mb-[5rem] flex justify-center">
           <img
             src="/images/GaelTurine/GAEL TURINE 06 1.png"
             alt="GAEL TURINE 06 1"
@@ -82,9 +92,11 @@ export default function GaelTurine() {
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="mb-[4rem]">
-            <div className="mb-12">
-              <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-              <p className="text-center H4">가엘 튜린 Gaël Turine</p>
+            <div className="mb-8 md:mb-12">
+              <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                가엘 튜린 Gaël Turine
+              </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               가엘 튜린은 포켓사진집 포토 포슈 Photo Poche 시리즈의 ‘장벽과 공포
@@ -100,15 +112,15 @@ export default function GaelTurine() {
               지금까지 회장직을 맡고 있다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   1983년 앙골라에서 첫 활동을 개시했다. 1996년 국경없는의사회는
                   벤구엘라, 후암보, 쿠안도 쿠반고주 등 앙골라 전역에서 영양실조
@@ -116,12 +128,44 @@ export default function GaelTurine() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
-                <div className="flex justify-between">
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
+                <div className="flex items-center justify-between">
                   <Link to="/photographers/AshfikaRahman">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 H7">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
                         alt="arrows_left"
@@ -129,7 +173,7 @@ export default function GaelTurine() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"
@@ -162,7 +206,7 @@ export default function GaelTurine() {
                     </button>
                   </div>
                   <Link to="/photographers/AlessandroPenso">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 H7">
                       다음 작가로
                       <img
                         src="/images/svgIcons/arrows_right.svg"

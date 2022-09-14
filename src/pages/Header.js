@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-10 bg-Neutrals-Grey9 text-Neutrals-White">
-        {/* <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White"> */}
+      {/* <div className="fixed top-0 left-0 right-0 z-10 bg-Neutrals-Grey9 text-Neutrals-White"> */}
+      <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White">
         <div>
           <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem]">
             <a href="/">
