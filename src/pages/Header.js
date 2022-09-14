@@ -9,10 +9,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-10 bg-Neutrals-Grey9 text-Neutrals-White">
+      <header className="fixed top-0 left-0 right-0 z-10 bg-Neutrals-Grey9 text-Neutrals-White">
         {/* <div className="fixed top-0 left-0 right-0 bg-transparent text-Neutrals-White"> */}
         <div>
-          <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem]">
+          <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem] relative">
             <a href="/">
               <img
                 className="py-[1.75rem]"
@@ -20,32 +20,65 @@ const Header = () => {
                 alt="logo"
               />
             </a>
-            <div className="my-auto">
-              <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold items-center text-center">
-                <li className="ml-[4rem] relative inline-block">
+            <div className="absolute right-0 top-10">
+              <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
+                <li className="mx-[2rem] relative inline-block py-2 expanded">
                   <Link to="#">사진전 소개</Link>
-                  {/* <ul className="absolute whitespace-nowrap left-[50%] -translate-x-[50%] flex flex-col gap-y-4 pt-[5rem] pb-[4rem] text-[1.125rem] leading-6 font-normal">
-                    <li>사진전 소개</li>
-                    <li>사무총장 인사말</li>
-                  </ul> */}
+                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%]">
+                    <li>
+                      <Link to="#">모시는 말씀</Link>
+                    </li>
+                    <li>
+                      <Link to="#">사진전 소개</Link>
+                    </li>
+                    <li>
+                      <Link to="#">사무총장 인사말</Link>
+                    </li>
+                  </ul>
                 </li>
-                <li className="ml-[4rem] relative inline-block">
+                <li className="mx-[2rem] relative inline-block py-2 expanded">
                   <Link to="#">작가 소개</Link>
-                  {/* <ul className="absolute whitespace-nowrap left-[50%] -translate-x-[50%] flex flex-col gap-y-4 pt-[5rem] pb-[4rem] text-[1.125rem] leading-6 font-normal">
-                    <li>가엘 튜린</li>
-                    <li>알레산드로펜소</li>
-                    <li>존 빈크</li>
-                    <li>도미닉 나흐르</li>
-                    <li>세드릭 게르베하이</li>
-                    <li>해나 레예스 모랄레스</li>
-                    <li>마시모 베루티</li>
-                    <li>아슈피카 라만</li>
-                  </ul> */}
+                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%]">
+                    <li>
+                      <Link to="/photographers/GaelTurine">가엘 튜린</Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/AlessandroPenso">
+                        알레산드로펜소
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/JohnVink">존 빈크</Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/DominicNahr">도미닉 나흐르</Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/CedricGerbehaye">
+                        세드릭 게르베하이
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/HannahReyesMorales">
+                        해나 레예스 모랄레스
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/MassimoBerruti">
+                        마시모 베루티
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/photographers/AshfikaRahman">
+                        아슈피카 라만
+                      </Link>
+                    </li>
+                  </ul>
                 </li>
-                <li className="pl-[4rem]">
+                <li className="mx-[2rem] relative inline-block py-2">
                   <Link to="#">이벤트</Link>
                 </li>
-                <li className="pl-[4rem]">
+                <li className="mx-[2rem] relative inline-block py-2">
                   <Link to="/address">오시는길</Link>
                 </li>
               </ul>
@@ -96,7 +129,7 @@ const Header = () => {
             </div>
           ) : null}
         </div>
-      </div>
+      </header>
     </>
   );
 };

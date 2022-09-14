@@ -179,4 +179,57 @@
     line-height: 0px;
     margin: 0px 208px 0px 24px;
   }
+
+  .header_menu li > a::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  .header_menu li:hover > a::after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  .header_menu ul li:hover > a {
+    text-decoration: underline;
+  }
+
+  .header_menu ul li:hover > a::after {
+    display: none;
+  }
+
+  /* header ul.header_menu > li.expanded > a:after {
+    content: "\e941";
+    display: block;
+    width: 18px;
+    height: 24px;
+    background-color: transparent;
+    font-size: 1.125rem;
+    color: #fff;
+    font-family: xeicon;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transition: transform 0.3s;
+  }
+
+  header ul.header_menu > li.expanded.current > a:after {
+    transform: rotate(180deg);
+    width: 18px;
+    height: 24px;
+  } */
 }
