@@ -17,7 +17,7 @@ export default function CedricGerbehaye() {
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
                 세드릭 게르베하이 - 콩고민주공화국
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
                 Cédric Gerbehaye - Democratic Republic of the Congo
               </h3>
               <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
@@ -52,7 +52,7 @@ export default function CedricGerbehaye() {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
                 </p>
               </div>
@@ -68,7 +68,7 @@ export default function CedricGerbehaye() {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   게르베하이과 국경없는의사회의 첫 만남
                 </p>
               </div>
@@ -97,7 +97,7 @@ export default function CedricGerbehaye() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 세드릭 게르베하이 Cédric Gerbehaye
               </p>
             </div>

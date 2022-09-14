@@ -35,6 +35,7 @@ module.exports = {
       fontFamily: {
         PT: ["Pretendard-Regular"],
         nanummyeongjo: ["Nanum Myeongjo"],
+        sans: ["Arial"],
       },
     },
     backgroundImage: {

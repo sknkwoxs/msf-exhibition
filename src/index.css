@@ -161,7 +161,6 @@
   }
 
   .hr-sect::before {
-    /* max-width: 76rem; */
     content: "";
     flex-grow: 1;
     background: #e2e8ee;
@@ -172,7 +171,6 @@
   }
 
   .hr-sect::after {
-    /* max-width: 76rem; */
     content: "";
     flex-grow: 1;
     background: #e2e8ee;

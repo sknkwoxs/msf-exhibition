@@ -17,7 +17,7 @@ export default function HannahReyesMorales() {
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
                 해나 레예스 모랄레스 - 필리핀
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-nanummyeongjo">
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans font-nanummyeongjo">
                 Hannah Reyes Morales - Philippines
               </h3>
               <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
@@ -50,7 +50,7 @@ export default function HannahReyesMorales() {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
                 </p>
               </div>
@@ -67,7 +67,7 @@ export default function HannahReyesMorales() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 모랄레스의 일기
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function HannahReyesMorales() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 해나 레예스 모랄레스 Hannah Reyes Morales
               </p>
             </div>

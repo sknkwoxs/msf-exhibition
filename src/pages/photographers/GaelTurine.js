@@ -14,8 +14,12 @@ export default function GaelTurine() {
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">가엘 튜린 - 앙골라</h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2">Gaël Turine - Angola</h3>
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+                가엘 튜린 - 앙골라
+              </h3>
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+                Gaël Turine - Angola
+              </h3>
               <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
                 쿠이토(Kuito), 1996년 3월 2일
               </p>
@@ -46,7 +50,7 @@ export default function GaelTurine() {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
                 </p>
               </div>
@@ -94,17 +98,24 @@ export default function GaelTurine() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-8 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 가엘 튜린 Gaël Turine
               </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
-              가엘 튜린은 포켓사진집 포토 포슈 Photo Poche 시리즈의 ‘장벽과 공포
-              Le mur et la peur’, ‘맹목적으로 Aveuglément’ ‘카불에서 스무살 되기
-              Avoir 20 ans à Kaboul’ ‘아이티의 시내 En bas la ville’ 등 다수의
-              모노그래프를 발간한 사진작가이다. 튜린은 유럽과 미국에서 유수의
-              상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스, 르몽드, 뉴스위크
-              재팬 등 여러 매체에 게재됐다.
+              가엘 튜린은 포켓사진집 포토 포슈
+              <span className="font-sans italic"> Photo Poche </span> 시리즈의
+              ‘장벽과 공포
+              <span className="font-sans italic"> Le mur et la peur </span>’,
+              ‘맹목적으로{" "}
+              <span className="font-sans italic"> Aveuglément </span>’ ‘카불에서
+              스무살 되기
+              <span className="font-sans italic"> Avoir 20 ans à Kaboul </span>’
+              ‘아이티의 시내
+              <span className="font-sans italic"> En bas la ville </span>’ 등
+              다수의 모노그래프를 발간한 사진작가이다. 튜린은 유럽과 미국에서
+              유수의 상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스, 르몽드,
+              뉴스위크 재팬 등 여러 매체에 게재됐다.
               <br />
               <br /> 현재 벨기에 소재 리브르 드 브뤼셀 대학교에서 포토저널리즘을
               가르치고 있으며, 다양한 국가에서 기록사진 워크숍을 이끌고 있다.
