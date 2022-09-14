@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { Map } from "react-kakao-maps-sdk";
 
-import Slider from "./components/Slider";
+import MainSlide from "./components/MainSlide";
+import MobileSlideWriter from "./components/MobileSlideWriter";
+import MobileSlideEvent from "./components/MobileSlideEvent";
 
 export default function Main() {
   return (
@@ -53,22 +55,8 @@ export default function Main() {
               <div className="mb-8">
                 <p className="H4">작가 소개</p>
               </div>
-              <Slider />
-              <div className="grid grid-cols-1 grid-rows-1 gap-8 md:hidden ">
-                <div>
-                  <div className="h-0 pb-[75%] overflow-hidden relative z-0 mb-8">
-                    <img
-                      className="absolute object-cover w-full h-full"
-                      src="/images/ev_th_3.png"
-                      alt="ev_th_3"
-                    />
-                  </div>
-                  <p className="mb-2 H6">이벤트 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 text-[0.875rem] leading-6 font-normal">
-                    2021-11-05
-                  </p>
-                </div>
-              </div>
+              <MainSlide />
+              <MobileSlideWriter />
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey8">
