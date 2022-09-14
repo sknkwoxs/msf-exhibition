@@ -24,21 +24,21 @@ const Header = () => {
               <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
                   <Link to="#">사진전 소개</Link>
-                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%]">
-                    <li>
+                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
+                    <li className="header_submenu_item">
                       <Link to="#">모시는 말씀</Link>
                     </li>
-                    <li>
+                    <li className="header_submenu_item">
                       <Link to="#">사진전 소개</Link>
                     </li>
-                    <li>
+                    <li className="header_submenu_item">
                       <Link to="#">사무총장 인사말</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
                   <Link to="#">작가 소개</Link>
-                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%]">
+                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     <li>
                       <Link to="/photographers/GaelTurine">가엘 튜린</Link>
                     </li>

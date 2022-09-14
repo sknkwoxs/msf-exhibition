@@ -180,6 +180,12 @@
     margin: 0px 208px 0px 24px;
   }
 
+  header .expanded:hover {
+    header .header_submenu {
+      display: block;
+    }
+  }
+
   .header_menu li > a::after {
     content: "";
     width: 0%;
