@@ -4,16 +4,26 @@ export default function DominicNahr() {
   return (
     <>
       <div className="bg-Neutrals-Grey8 text-Neutrals-White">
-        <div className="mb-[4rem] flex justify-center">
-          <img src="/images/DominicNahr/img.png" alt="img" />
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+          <img
+            className="object-cover"
+            src="/images/DominicNahr/img.png"
+            alt="img"
+          />
         </div>
         <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="H3">도미닉 나흐르 - 남수단</h3>
-              <h3 className="mb-6 font-bold H3">Dominic Nahr - South Sudan</h3>
-              <p className="mb-4 DB1">리어(Leer), 2015년 12월 14일</p>
-              <p className="mb-[3.375rem] DB3">TBA</p>
+              <h3 className="md:H3 MH2">도미닉 나흐르 - 남수단</h3>
+              <h3 className="mb-6 font-bold md:H3 MH2">
+                Dominic Nahr - South Sudan
+              </h3>
+              <p className="mb-4 md:DB1 text-[1rem]">
+                리어(Leer), 2015년 12월 14일
+              </p>
+              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+                TBA
+              </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
                 남수단 대부분의 지역에선 부족간 분쟁과 폭력사태가 반복적으로
                 발생해 강제 피난하는 인구가 많다. 의료시설 또한 약탈과 공격의
@@ -23,7 +33,7 @@ export default function DominicNahr() {
                 담았다.
               </p>
             </div>
-            <div className="my-[6rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -36,17 +46,19 @@ export default function DominicNahr() {
           </section>
           <section>
             <div>
-              <div className="mb-12">
-                <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
-                <p className="text-center H4">컨택트시트</p>
+              <div className="mb-10 md:mb-12">
+                <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
+                <p className="text-center md:H4 text-[1.25rem] leading-[2rem]">
+                  컨택트시트
+                </p>
               </div>
-              <div className="mb-[6rem]">
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/DominicNahr/DOMINIC NAHR 1.png"
                   alt="DOMINIC NAHR 1"
                 />
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1">
+              <p className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto DB1">
                 2015년 5월, 부족간 폭력사태가 격화하며 남수단 리어 지역에서
                 활동하던 모든 구호단체가 철수했다. 수천 명의 민간인이 숲이나
                 늪지대로 피신하고, 벤티우에 위치한 유엔 민간인 보호센터로
@@ -62,7 +74,7 @@ export default function DominicNahr() {
                   alt="NAD20150372641 1"
                 />
               </div>
-              <div className="flex gap-8 my-[6rem]">
+              <div className="flex md:flex-row flex-col md:gap-8 gap-6 md:my-[6rem] mb-[5rem] mt-6">
                 <div>
                   <img
                     src="/images/DominicNahr/NAD20150373280 1.png"
@@ -107,15 +119,15 @@ export default function DominicNahr() {
               성공적으로 개최했다.
             </p>
           </section>
-          <section className="max-w-[63rem] mx-auto pb-[8rem]">
+          <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
-              <div className="px-8 pt-8 pb-10 border mb-[5rem] border-Neutrals-Grey7 rounded-lg">
+              <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
                   src="/images/svgIcons/introduction_footer_logo.svg"
                   alt="introduction_footer_logo"
                 />
-                <p className="mb-4 H4">국경없는의사회는</p>
+                <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
                   1983년 당시 수단의 일부였던 남수단에서 첫 활동을 시작했다.
                   이때부터 지속적인 분쟁으로 200만 명 이상의 국내실향민이
@@ -127,9 +139,41 @@ export default function DominicNahr() {
                 </p>
               </div>
               <div>
-                <button className="flex mx-auto mb-6">
+                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </button>
+                <div className="flex justify-center gap-2 mb-10 md:hidden">
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_link.svg"
+                      alt="share_link"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_kakao.svg"
+                      alt="share_kakao"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_twit.svg"
+                      alt="share_twit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_facebook.svg"
+                      alt="share_facebook"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      src="/images/svgIcons/share_naver.svg"
+                      alt="share_naver"
+                    />
+                  </button>
+                </div>
                 <div className="flex justify-between">
                   <Link to="/photographers/JohnVink">
                     <div className="flex items-center gap-2">
@@ -140,7 +184,7 @@ export default function DominicNahr() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="flex gap-2">
+                  <div className="hidden gap-2 md:flex">
                     <button>
                       <img
                         src="/images/svgIcons/share_link.svg"
