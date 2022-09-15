@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
       // centerPadding: "24px",
     };
     return (
-      <div className="mx-auto md:hidden">
+      <div className="mx-auto translate-x-2.5 md:hidden">
         <Slider {...settings}>
           <div className="-mx-3">
             <Link to="/photographers/GaelTurine">
