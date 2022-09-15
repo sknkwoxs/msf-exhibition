@@ -44,7 +44,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <Link to="#">작가 소개</Link>
+                  작가 소개
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     <li>
                       <Link to="/photographers/GaelTurine">가엘 튜린</Link>
@@ -115,21 +115,49 @@ const Header = () => {
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
                     작가 소개
                     <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
-                      <li>가엘 튜린</li>
-                      <li>알레산드로펜소</li>
-                      <li>존 빈크</li>
-                      <li>도미닉 나흐르</li>
-                      <li>세드릭 게르베하이</li>
-                      <li>해나 레예스 모랄레스</li>
-                      <li>마시모 베루티</li>
-                      <li>아슈피카 라만</li>
+                      <li>
+                        <Link to="/photographers/GaelTurine">가엘 튜린</Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/AlessandroPenso">
+                          알레산드로펜소
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/JohnVink">존 빈크</Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/DominicNahr">
+                          도미닉 나흐르
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/CedricGerbehaye">
+                          세드릭 게르베하이
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/HannahReyesMorales">
+                          해나 레예스 모랄레스
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/MassimoBerruti">
+                          마시모 베루티
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/photographers/AshfikaRahman">
+                          아슈피카 라만
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    이벤트
+                    <Link to="#">이벤트</Link>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    오시는길
+                    <Link to="/address">오시는길</Link>
                   </li>
                 </ul>
               </div>
