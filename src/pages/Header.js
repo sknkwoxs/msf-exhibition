@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
 
 const Header = () => {
+  const [dropdown, setDropdown] = useState(false);
+
   const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();
   const toggleMenu = () => {
@@ -24,7 +26,10 @@ const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
-        <div className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}>
+        <div
+          id="headerWrap"
+          className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}
+        >
           <div className="hidden md:flex justifㄹy-between px-4 mx-auto max-w-[76rem] relative">
             <a href="/">
               <img
