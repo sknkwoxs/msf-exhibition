@@ -75,12 +75,14 @@ export default function MassimoBerruti() {
               <div className="flex md:flex-row flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
                   <img
+                    className="mx-auto"
                     src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 04 1.png"
                     alt="MASSIMO BERRUTI EXTRA 04 1"
                   />
                 </div>
                 <div>
                   <img
+                    className="mx-auto"
                     src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 03 - Copy 1.png"
                     alt="MASSIMO BERRUTI EXTRA 03 - Copy 1"
                   />

@@ -62,7 +62,11 @@ export default function AshfikaRahman() {
                 />
               </div>
               <div className="md:hidden mb-[5rem]">
-                <img src="/images/AshfikaRahman/84.png" alt="84" />
+                <img
+                  className="mx-auto"
+                  src="/images/AshfikaRahman/84.png"
+                  alt="84"
+                />
               </div>
               <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
                 <p className="flex-1 my-auto italic DB1">
@@ -77,11 +81,19 @@ export default function AshfikaRahman() {
                 </div>
               </div>
               <div className="md:hidden mb-[5rem]">
-                <img src="/images/AshfikaRahman/85.png" alt="85" />
+                <img
+                  className="mx-auto"
+                  src="/images/AshfikaRahman/85.png"
+                  alt="85"
+                />
               </div>
               <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
                 <div className="hidden md:block">
-                  <img src="/images/AshfikaRahman/85.png" alt="85" />
+                  <img
+                    className="mx-auto"
+                    src="/images/AshfikaRahman/85.png"
+                    alt="85"
+                  />
                 </div>
                 <p className="flex-1 my-auto italic DB1">
                   사랑하는 사비나,
@@ -107,12 +119,14 @@ export default function AshfikaRahman() {
         <div className="md:mb-[6rem] mb-[5rem] flex md:flex-row flex-col justify-center gap-8 px-4">
           <div>
             <img
+              className="mx-auto"
               src="/images/AshfikaRahman/EXTRA_03_MSF 1.png"
               alt="EXTRA_03_MSF 1"
             />
           </div>
           <div>
             <img
+              className="mx-auto"
               src="/images/AshfikaRahman/EXTRA_04_MSF 1.png"
               alt="EXTRA_04_MSF 1"
             />

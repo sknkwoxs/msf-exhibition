@@ -87,6 +87,7 @@ export default function JohnVink() {
                 </p>
                 <div className="md:hidden mb-[3.5rem]">
                   <img
+                    className="mx-auto"
                     src="/images/JohnVink/JOHN VINK 07 1.png"
                     alt="JOHN VINK 07 1"
                   />

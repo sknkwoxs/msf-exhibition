@@ -100,12 +100,14 @@ export default function HannahReyesMorales() {
             <div className="flex flex-col gap-8">
               <div>
                 <img
+                  className="mx-auto"
                   src="/images/HannahReyesMorales/11-HRMorales for MSF 1.png"
                   alt="11-HRMorales for MSF 1"
                 />
               </div>
               <div>
                 <img
+                  className="mx-auto"
                   src="/images/HannahReyesMorales/HRMorales00029 1.png"
                   alt="HRMorales00029 1"
                 />

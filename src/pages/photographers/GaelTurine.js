@@ -74,6 +74,7 @@ export default function GaelTurine() {
               <div className="md:flex-row flex flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
                   <img
+                    className="w-full"
                     src="/images/GaelTurine/GAEL TURINE 04 1.png"
                     alt="GAEL TURINE 04 1"
                   />
