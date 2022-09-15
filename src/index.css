@@ -244,6 +244,14 @@
     background-color: black;
   }
 
+  div.slick-slide {
+    margin: 0 24px;
+  }
+
+  div.slick-list {
+    margin: 0 -24px;
+  }
+
   .slick-dots li button {
     font-size: 0;
     line-height: 0;

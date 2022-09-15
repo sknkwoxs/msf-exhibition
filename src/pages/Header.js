@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White">
+      <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
         <div className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}>
           <div className="hidden md:flex justify-between px-4 mx-auto max-w-[76rem] relative">
             <a href="/">
@@ -44,7 +44,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  작가 소개
+                  <Link to="#">작가 소개</Link>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     <li>
                       <Link to="/photographers/GaelTurine">가엘 튜린</Link>
