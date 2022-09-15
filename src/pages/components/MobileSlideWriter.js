@@ -30,7 +30,7 @@ export default class SimpleSlider extends Component {
                   alt="gael_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">가엘 튜린 - 앙골라</p>
+              <p className="mb-2 text-center H5">가엘 튀린 - 앙골라</p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Gaël Turine - Angola
               </p>

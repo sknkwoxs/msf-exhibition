@@ -15,7 +15,7 @@ export default function GaelTurine() {
           <section className="text-center">
             <div>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
-                가엘 튜린 - 앙골라
+                가엘 튀린 - 앙골라
               </h3>
               <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
                 Gaël Turine - Angola
@@ -30,7 +30,7 @@ export default function GaelTurine() {
                 앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
                 아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,
                 설사, 말라리라, 홍역 등으로 아동 사망률이 잇따라 증가했다.
-                1996년, 포토저널리스트 튜린은 앙골라에서 6주를 보내며 무장단체간
+                1996년, 포토저널리스트 튀린은 앙골라에서 6주를 보내며 무장단체간
                 충돌이 끊이지 않는 비에주 쿠이토의 국경없는의사회 병원을 찾아
                 현장을 기록했다.
               </p>
@@ -69,7 +69,7 @@ export default function GaelTurine() {
                 그대로 담을 수 있었습니다.”
               </p>
               <p className="max-w-[63rem] mx-auto DB1 font-bold">
-                가엘 튜린(2021)
+                가엘 튀린(2021)
               </p>
               <div className="md:flex-row flex flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div>
@@ -100,11 +100,11 @@ export default function GaelTurine() {
             <div className="mb-8 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
-                가엘 튜린 Gaël Turine
+                가엘 튀린 Gaël Turine
               </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
-              가엘 튜린은 포켓사진집 포토 포슈
+              가엘 튀린은 포켓사진집 포토 포슈
               <span className="font-sans italic"> Photo Poche </span> 시리즈의
               ‘장벽과 공포
               <span className="font-sans italic"> Le mur et la peur </span>’,
@@ -114,13 +114,13 @@ export default function GaelTurine() {
               <span className="font-sans italic"> Avoir 20 ans à Kaboul </span>’
               ‘아이티의 시내
               <span className="font-sans italic"> En bas la ville </span>’ 등
-              다수의 모노그래프를 발간한 사진작가이다. 튜린은 유럽과 미국에서
+              다수의 모노그래프를 발간한 사진작가이다. 튀린은 유럽과 미국에서
               유수의 상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스, 르몽드,
               뉴스위크 재팬 등 여러 매체에 게재됐다.
               <br />
               <br /> 현재 벨기에 소재 리브르 드 브뤼셀 대학교에서 포토저널리즘을
               가르치고 있으며, 다양한 국가에서 기록사진 워크숍을 이끌고 있다.
-              튜린은 사진 에이전시 맵스(MAPS)의 창립멤버로, 2017년 창설 이래
+              튀린은 사진 에이전시 맵스(MAPS)의 창립멤버로, 2017년 창설 이래
               지금까지 회장직을 맡고 있다.
             </p>
           </section>

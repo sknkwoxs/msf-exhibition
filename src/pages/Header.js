@@ -54,7 +54,7 @@ const Header = () => {
                   <Link to="#">작가 소개</Link>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     <li>
-                      <Link to="/photographers/GaelTurine">가엘 튜린</Link>
+                      <Link to="/photographers/GaelTurine">가엘 튀린</Link>
                     </li>
                     <li>
                       <Link to="/photographers/AlessandroPenso">
@@ -127,7 +127,7 @@ const Header = () => {
                     작가 소개
                     <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
                       <li>
-                        <Link to="/photographers/GaelTurine">가엘 튜린</Link>
+                        <Link to="/photographers/GaelTurine">가엘 튀린</Link>
                       </li>
                       <li>
                         <Link to="/photographers/AlessandroPenso">
