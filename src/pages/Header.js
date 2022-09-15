@@ -39,7 +39,9 @@ const Header = () => {
                       <Link to="#">사진전 소개</Link>
                     </li>
                     <li className="header_submenu_item">
-                      <Link to="#">사무총장 인사말</Link>
+                      <Link to="/photo_exhibition/Greetings">
+                        사무총장 인사말
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -109,7 +111,11 @@ const Header = () => {
                     사진전 소개
                     <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
                       <li>사진전 소개</li>
-                      <li>사무총장 인사말</li>
+                      <li>
+                        <Link to="/photo_exhibition/Greetings">
+                          사무총장 인사말
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
