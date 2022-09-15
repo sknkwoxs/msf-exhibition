@@ -9,6 +9,7 @@ export default function Greetings() {
           <div className="py-20 text-center">
             <p className="text-[#BB9503] mb-2">Secretary General's Greetings</p>
             <p className=" text-Neutrals-Grey8">사무총장 인사말</p>
+            <p>퍼블리싱은 아직</p>
           </div>
           <div className="flex flex-col gap-8 md:flex-row">
             <div className="flex-1">

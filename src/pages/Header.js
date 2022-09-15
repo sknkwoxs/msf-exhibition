@@ -1,11 +1,16 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const { pathname } = useLocation();
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  useEffect(() => {
+    setOpenMenu(false);
+  }, [pathname]);
 
   const [scrollPosition, setScrollPosition] = useState(0);
   const updateScroll = () => {
