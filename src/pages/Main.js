@@ -109,7 +109,7 @@ export default function Main() {
             </div>
           </section>
           <section className="bg-Brand-Primary">
-            <div className="w-full flex flex-col md:flex-row gap-6  mx-auto md:max-w-[76rem] py-8 px-4">
+            <div className="w-full flex flex-col md:flex-row gap-6  mx-auto md:max-w-[76rem] py-8 md:py-0 px-4">
               <p className="w-full flex items-center MH3 md:text-[1.375rem] text-center justify-center md:justify-start break-words text-ellipsis whitespace-nowrap">
                 국경없는의사회 한국에서 진행하는
                 <br className="md:hidden" /> 이벤트 관련 최신 소식을 받아보세요
