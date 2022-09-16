@@ -4,7 +4,7 @@ import ShareButtons from "../components/ShareButtons";
 export default function MassimoBerruti() {
   return (
     <>
-      <div className="bg-Neutrals-Grey8 text-Neutrals-White">
+      <div className="bg-Neutrals-Grey9 text-Neutrals-White">
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
           <img
             className="object-cover"
@@ -12,7 +12,7 @@ export default function MassimoBerruti() {
             alt="7 1"
           />
         </div>
-        <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
+        <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
@@ -92,7 +92,7 @@ export default function MassimoBerruti() {
             </div>
           </section>
         </div>
-        <div className="bg-Neutrals-Grey8 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
+        <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
