@@ -20,7 +20,14 @@ export default function Footer() {
               <div className="hidden mb-6 md:block DB3">
                 <div className="flex justify-center md:justify-start">
                   <p>사무국 이메일 : </p>&nbsp;
-                  <button>events@seoul.msf.org</button>
+                  <a
+                    className="font-normal"
+                    href="mailto:events@seoul.msf.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    events@seoul.msf.org
+                  </a>
                 </div>
                 <div>
                   <p>COPYRIGHT @ 2022 MSF. All right reserved</p>
