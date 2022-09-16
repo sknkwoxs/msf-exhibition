@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 export default function Greetings() {
   return (
     <>
-      <div className="h-[7.5rem] bg-black" />
+      <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div className="mb-[7.5rem] mx-4">
         <div className="mx-auto max-w-[76rem] ">
           <div className="py-20 text-center">
