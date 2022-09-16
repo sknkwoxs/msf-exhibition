@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ShareButtons from "../components/ShareButtons";
 
 export default function CedricGerbehaye() {
   return (
@@ -154,36 +155,7 @@ export default function CedricGerbehaye() {
                   내 채널에 공유하기
                 </button>
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_link.svg"
-                      alt="share_link"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_kakao.svg"
-                      alt="share_kakao"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_twit.svg"
-                      alt="share_twit"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_facebook.svg"
-                      alt="share_facebook"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_naver.svg"
-                      alt="share_naver"
-                    />
-                  </button>
+                  <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
                   <Link to="/photographers/DominicNahr">
@@ -196,36 +168,7 @@ export default function CedricGerbehaye() {
                     </div>
                   </Link>
                   <div className="hidden gap-2 md:flex">
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_link.svg"
-                        alt="share_link"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_kakao.svg"
-                        alt="share_kakao"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_twit.svg"
-                        alt="share_twit"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_facebook.svg"
-                        alt="share_facebook"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_naver.svg"
-                        alt="share_naver"
-                      />
-                    </button>
+                    <ShareButtons />
                   </div>
                   <Link to="/photographers/HannahReyesMorales">
                     <div className="flex items-center gap-2">

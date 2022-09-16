@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ShareButtons from "../components/ShareButtons";
 
 export default function HannahReyesMorales() {
   return (
@@ -17,7 +18,7 @@ export default function HannahReyesMorales() {
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
                 해나 레예스 모랄레스 - 필리핀
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans font-nanummyeongjo">
+              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
                 Hannah Reyes Morales - Philippines
               </h3>
               <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
@@ -163,36 +164,7 @@ export default function HannahReyesMorales() {
                   내 채널에 공유하기
                 </button>
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_link.svg"
-                      alt="share_link"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_kakao.svg"
-                      alt="share_kakao"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_twit.svg"
-                      alt="share_twit"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_facebook.svg"
-                      alt="share_facebook"
-                    />
-                  </button>
-                  <button>
-                    <img
-                      src="/images/svgIcons/share_naver.svg"
-                      alt="share_naver"
-                    />
-                  </button>
+                  <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
                   <Link to="/photographers/CedricGerbehaye">
@@ -205,36 +177,7 @@ export default function HannahReyesMorales() {
                     </div>
                   </Link>
                   <div className="hidden gap-2 md:flex">
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_link.svg"
-                        alt="share_link"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_kakao.svg"
-                        alt="share_kakao"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_twit.svg"
-                        alt="share_twit"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_facebook.svg"
-                        alt="share_facebook"
-                      />
-                    </button>
-                    <button>
-                      <img
-                        src="/images/svgIcons/share_naver.svg"
-                        alt="share_naver"
-                      />
-                    </button>
+                    <ShareButtons />
                   </div>
                   <Link to="/photographers/MassimoBerruti">
                     <div className="flex items-center gap-2">
