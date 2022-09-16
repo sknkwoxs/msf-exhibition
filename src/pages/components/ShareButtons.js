@@ -10,6 +10,7 @@ const ShareButtons = () => {
           className="cursor-pointer"
           src="/images/svgIcons/share_link.svg"
           alt="share_link"
+          onClick={() => alert("링크가 복사되었습니다.")}
         />
       </CopyToClipboard>
       <button>
