@@ -13,9 +13,7 @@ const ShareButtons = () => {
           onClick={() => alert("링크가 복사되었습니다.")}
         />
       </CopyToClipboard>
-      <button>
-        <img src="/images/svgIcons/share_kakao.svg" alt="share_kakao" />
-      </button>
+
       <button>
         <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
       </button>
