@@ -6,12 +6,12 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
-      arrows: false,
+      arrows: true,
       infinite: true,
       speed: 500,
       dotsClass: "slick-dots",
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       // autoplay: true,
       autoplaySpeed: 5000,
       pauseOnHover: true,
@@ -30,7 +30,9 @@ export default class SimpleSlider extends Component {
                   alt="gael_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">가엘 튀린 - 앙골라</p>
+              <p className="mb-2 text-center H5 card_title">
+                가엘 튀린 - 앙골라
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Gaël Turine - Angola
               </p>
@@ -45,7 +47,9 @@ export default class SimpleSlider extends Component {
                   alt="alessandro_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">알레산드로 펜소 - 지중해</p>
+              <p className="mb-2 text-center H5 card_title">
+                알레산드로 펜소 - 지중해
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Alessandro Penso - Mediterranean Sea
               </p>
@@ -60,7 +64,9 @@ export default class SimpleSlider extends Component {
                   alt="john_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">존 빈크 - 온두라스</p>
+              <p className="mb-2 text-center H5 card_title">
+                존 빈크 - 온두라스
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 John Vink - Honduras
               </p>
@@ -75,7 +81,9 @@ export default class SimpleSlider extends Component {
                   alt="dominic_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">도미닉 나흐르 - 남수단</p>
+              <p className="mb-2 text-center H5 card_title">
+                도미닉 나흐르 - 남수단
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Dominic Nahr - South Sudan
               </p>
@@ -90,7 +98,7 @@ export default class SimpleSlider extends Component {
                   alt="cedric_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">
+              <p className="mb-2 text-center H5 card_title">
                 세드릭 게르베하이 - 콩고민주공화국
               </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
@@ -107,7 +115,7 @@ export default class SimpleSlider extends Component {
                   alt="hannah_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">
+              <p className="mb-2 text-center H5 card_title">
                 해나 레예스 모랄레스 - 필리핀
               </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
@@ -124,7 +132,9 @@ export default class SimpleSlider extends Component {
                   alt="massimo_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">마시모 베루티 - 파키스탄</p>
+              <p className="mb-2 text-center H5 card_title">
+                마시모 베루티 - 파키스탄
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Massimo Berruti - Pakistan
               </p>
@@ -139,7 +149,9 @@ export default class SimpleSlider extends Component {
                   alt="ashfika_thumb"
                 />
               </div>
-              <p className="mb-2 text-center H5">아슈피카 라만 - 방글라데시</p>
+              <p className="mb-2 text-center H5 card_title">
+                아슈피카 라만 - 방글라데시
+              </p>
               <p className="text-center text-Neutrals-Grey5 DB2">
                 Ashfika Rahman - Bangladesh
               </p>

@@ -308,4 +308,28 @@
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
+
+  Slider a > card_title::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  Slider a:hover > card_title::after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
 }

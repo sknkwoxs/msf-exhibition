@@ -68,7 +68,7 @@ export default function Main() {
                   <img src="/images/svgIcons/symbol_+.svg" alt="symbol_+" />
                 </div>
               </div>
-              <div className="hidden grid-cols-3 grid-rows-1 gap-8 md:grid ">
+              <div className="hidden grid-cols-4 grid-rows-1 gap-8 md:grid ">
                 <div>
                   <div className="mb-8">
                     <img src="/images/ev_th_1.png" alt="ev_th_1" />
@@ -78,14 +78,21 @@ export default function Main() {
                 </div>
                 <div>
                   <div className="mb-8">
-                    <img src="/images/ev_th_2.png" alt="ev_th_2" />
+                    <img src="/images/ev_th_2.png" alt="ev_th_1" />
                   </div>
                   <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
                 </div>
                 <div>
                   <div className="mb-8">
-                    <img src="/images/ev_th_3.png" alt="ev_th_3" />
+                    <img src="/images/ev_th_3.png" alt="ev_th_2" />
+                  </div>
+                  <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
+                  <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
+                </div>
+                <div>
+                  <div className="mb-8">
+                    <img src="/images/ev_th_4.png" alt="ev_th_3" />
                   </div>
                   <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
