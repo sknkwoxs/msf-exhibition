@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
 
 const Header = () => {
-  const [dropdown, setDropdown] = useState(false);
+  // const [dropdown, setDropdown] = useState(false);
 
   const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();
@@ -69,7 +69,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <Link to="#">이벤트</Link>
+                  <Link to="#">참여 방법</Link>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
                   <Link to="/address">오시는길</Link>
@@ -120,7 +120,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <Link to="#">이벤트</Link>
+                    <Link to="#">참여 방법</Link>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
                     <Link to="/address">오시는길</Link>

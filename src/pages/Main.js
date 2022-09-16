@@ -52,9 +52,6 @@ export default function Main() {
           </section>
           <section className="px-4 bg-center bg-no-repeat bg-cover bg-bg-blur">
             <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
-              <div className="mb-8">
-                <p className="H4">작가 소개</p>
-              </div>
               <MainSlide />
               <MobileSlideWriter />
             </div>
@@ -62,9 +59,9 @@ export default function Main() {
           <section className="px-4 bg-Neutrals-Grey8">
             <div className="py-[6rem] md:max-w-[76rem] mx-auto">
               <div className="flex justify-between mb-8">
-                <p className="H4">이벤트</p>
+                <p className="H4">참여 방법</p>
                 <div className="flex items-center gap-2">
-                  <p className="H7">이벤트 페이지로 이동</p>
+                  <p className="H7">참여 방법 페이지로 이동</p>
                   <img src="/images/svgIcons/symbol_+.svg" alt="symbol_+" />
                 </div>
               </div>
@@ -73,28 +70,28 @@ export default function Main() {
                   <div className="mb-8">
                     <img src="/images/ev_th_1.png" alt="ev_th_1" />
                   </div>
-                  <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
+                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
                 </div>
                 <div>
                   <div className="mb-8">
                     <img src="/images/ev_th_2.png" alt="ev_th_1" />
                   </div>
-                  <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
+                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
                 </div>
                 <div>
                   <div className="mb-8">
                     <img src="/images/ev_th_3.png" alt="ev_th_2" />
                   </div>
-                  <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
+                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
                 </div>
                 <div>
                   <div className="mb-8">
                     <img src="/images/ev_th_4.png" alt="ev_th_3" />
                   </div>
-                  <p className="mb-2 H5">이벤트 내용이 나옵니다.</p>
+                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
                 </div>
               </div>
@@ -107,7 +104,7 @@ export default function Main() {
                       alt="ev_th_3"
                     />
                   </div>
-                  <p className="mb-2 H6">이벤트 내용이 나옵니다.</p>
+                  <p className="mb-2 H6">참여 방법 내용이 나옵니다.</p>
                   <p className="text-Neutrals-Grey5 text-[0.875rem] leading-6 font-normal">
                     2021-11-05
                   </p>
@@ -119,7 +116,8 @@ export default function Main() {
             <div className="w-full flex flex-col md:flex-row gap-6  mx-auto md:max-w-[76rem] py-8 md:py-0 px-4">
               <p className="w-full flex items-center MH3 md:text-[1.375rem] text-center justify-center md:justify-start break-words text-ellipsis whitespace-nowrap">
                 국경없는의사회 한국에서 진행하는
-                <br className="md:hidden" /> 이벤트 관련 최신 소식을 받아보세요
+                <br className="md:hidden" /> 참여 방법 관련 최신 소식을
+                받아보세요
               </p>
               <div className="flex flex-col w-full gap-2 py-0 md:py-10 md:flex-row md:gap-0 md:pl-[3.5rem]">
                 <div className="w-full">
