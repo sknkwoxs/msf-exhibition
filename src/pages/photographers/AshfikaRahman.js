@@ -138,7 +138,7 @@ export default function AshfikaRahman() {
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
-                컨택트시트
+                아슈피카 라만 Ashfika Rahman
               </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
