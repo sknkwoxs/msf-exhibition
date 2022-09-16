@@ -105,8 +105,11 @@ export default function DominicNahr() {
               캐나다 토론토의 라이어슨 대학에서 순수예술학사 학위를 받은
               나흐르는 케냐로 향해 분쟁, 인도적 위기와 사회적 문제를 기록하는 데
               헌신했다. 나흐르의 주요 클라이언트로는 내셔널 지오그래픽, 독일
-              잡지 슈테른, 스위스 주간지 슈바이처 일루스트리에르테 Schweizer
-              Illustrierte 등이 있다.
+              잡지 슈테른, 스위스 주간지 슈바이처 일루스트리에르테{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Schweizer Illustrierte
+              </span>{" "}
+              등이 있다.
               <br />
               <br />
               나흐르는 2011~2015년 타임지의 사진작가로 활동했다. 세계보도사진상,
@@ -115,11 +118,20 @@ export default function DominicNahr() {
               ‘올해의 사진작가’로 선정됐다.
               <br />
               <br />
-              나흐르는 스위스 사진작가 재단, 아를 국제 사진전 Les Rencontres
-              d'Arles, 국제 보도사진 페스티벌 '비자 뿌르 리마쥬-페르피냥 Visa
-              pour l'Image-Perpignan, 뒤셀도르프의 ‘노르트라인 문화와 경제 포럼
-              NRW-Forum Kultur and Wirtschaft 등 국제무대에서 개인전을
-              성공적으로 개최했다.
+              나흐르는 스위스 사진작가 재단, 아를 국제 사진전{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Les Rencontres d'Arles
+              </span>
+              , 국제 보도사진 페스티벌 '비자 뿌르 리마쥬-페르피냥{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Visa pour l'Image-Perpignan
+              </span>
+              , 뒤셀도르프의 ‘노르트라인 문화와 경제 포럼
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                NRW-Forum Kultur and Wirtschaft
+              </span>{" "}
+              등 국제무대에서 개인전을 성공적으로 개최했다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">

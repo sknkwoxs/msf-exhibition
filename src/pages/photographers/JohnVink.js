@@ -171,15 +171,26 @@ export default function JohnVink() {
               1948년 벨기에에서 태어난 존 빈크는 1968년 라 캄브르 순수미술 전문
               대학에서 사진을 전공한 후 프리랜스 저널리스트로 활동하기 시작했다.
               1986년 빙크는 파리의 사진 에이전시 뷰 소속작가로 활동하며 발표한
-              보고기사 “사헬의 물 Water in the Sahel”로 유진스미스상을 수상했다.
+              보고기사 “사헬의 물{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Water in the Sahel
+              </span>
+              ”로 유진스미스상을 수상했다.
               <br />
               <br />
               빙크는 1987년부터 약 6년간 세계 각지의 난민을 담은 방대한 분량의
-              작업물을 엮어 1994년 “레퓨지 Réfugiés ·난민 ”를 출간했다.
-              기록사진으로 구성된 포토매거진 “테마 Themes”도 출간했다.
-              2000년부터 약 16년 동안 캄보디아의 정치사회적 문제를 직접
-              취재했는데, 이를 다룬 책 “프놈펜에서 스무 살 되기 Avoir 20 Ans à
-              Phnom Penh”를 2000년 출간하기도 했다.
+              작업물을 엮어 1994년 “레퓨지{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Réfugiés
+              </span>{" "}
+              · 난민 ”를 출간했다. 기록사진으로 구성된 포토매거진 “테마{" "}
+              <span className="font-sans italic text-[0.875rem]">Themes</span>
+              ”도 출간했다. 2000년부터 약 16년 동안 캄보디아의 정치사회적 문제를
+              직접 취재했는데, 이를 다룬 책 “프놈펜에서 스무 살 되기{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Avoir 20 Ans à Phnom Penh
+              </span>
+              ”를 2000년 출간하기도 했다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">

@@ -108,9 +108,17 @@ export default function MassimoBerruti() {
               <br />
               베루티는 2008년부터 4년 동안 중앙아시아에서 활동하며 파키스탄 및
               중앙아시아 등지의 사회적 변화를 취재했다. 베루티의 대표적인
-              프로젝트 ‘먼지투성이 길 The Dusty Path’은 카르미냑 재단 Carmignac
-              Foundation의 지원을 받아 그의 첫 모노그래프인 ‘라슈카르
-              Lashkars’로 출간됐다.
+              프로젝트 ‘먼지투성이 길{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                The Dusty Path
+              </span>
+              ’ 은 카르미냑 재단{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Carmignac Foundation
+              </span>{" "}
+              의 지원을 받아 그의 첫 모노그래프인 ‘라슈카르{" "}
+              <span className="font-sans italic text-[0.875rem]">Lashkars</span>{" "}
+              ’로 출간됐다.
               <br />
               <br />
               베루티는 타임, 뉴요커, 뉴스위크, 엘에스프레소 등 다양한 매체와

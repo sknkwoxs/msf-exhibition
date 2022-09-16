@@ -34,11 +34,15 @@ const AlessandroPenso = () => {
                 민간 구호 단체에 의해 이뤄지고 있다.
                 <br />
                 <br /> 2015년 5월, 국경없는의사회의 첫 수색구조선 부르봉
-                아르고스 Bourbon Argos 호가 첫 구조 활동을 시작했다. 총 400명의
-                해상난민을 수용할 수 있는 부르봉 아르고스 호에는 수색구조팀을
-                비롯해 의료진, 식수위생 전문가 등 총 29명이 승선해 활동했다.
-                포토저널리스트 알레산드로 펜소는 2015년 11월 부르봉 아르고스호에
-                올라 해상난민 구조 작업 중 마주한 긴박한 순간들을 기록했다.
+                아르고스{" "}
+                <span className="font-sans italic text-[0.875rem]">
+                  Bourbon Argos
+                </span>{" "}
+                호가 첫 구조 활동을 시작했다. 총 400명의 해상난민을 수용할 수
+                있는 부르봉 아르고스 호에는 수색구조팀을 비롯해 의료진, 식수위생
+                전문가 등 총 29명이 승선해 활동했다. 포토저널리스트 알레산드로
+                펜소는 2015년 11월 부르봉 아르고스호에 올라 해상난민 구조 작업
+                중 마주한 긴박한 순간들을 기록했다.
               </p>
             </div>
             <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
@@ -75,9 +79,13 @@ const AlessandroPenso = () => {
               <p className="mb-4 max-w-[63rem] mx-auto DB1 italic">
                 <span className="not-italic">
                   알렉산드로 펜소는 유럽난민 위기를 알리기 위해 전시 《유러피안
-                  드림 The European Dream》을 열었다. 난민의 주요 이동수단인
-                  트럭을 개조해 개최한 이 전시는 유럽에서의 안전한 삶을 꿈꾸는
-                  난민의 험난한 여정을 보여주었다.
+                  드림{" "}
+                  <span className="font-sans italic text-[0.875rem]">
+                    The European Dream
+                  </span>
+                  》을 열었다. 난민의 주요 이동수단인 트럭을 개조해 개최한 이
+                  전시는 유럽에서의 안전한 삶을 꿈꾸는 난민의 험난한 여정을
+                  보여주었다.
                 </span>
                 <br />
                 <br />
@@ -131,14 +139,21 @@ const AlessandroPenso = () => {
               사회 문제에 관심이 많은 그는 최근 몇 년 지중해 난민 문제에 주목해
               몰타의 구금센터, 이탈리아 남부의 이주민 농업 종사자, 그리스에 발이
               묶인 이주민의 현실을 카메라에 담았다. 그리스에서 그가 찍은 사진은
-              《유러피안 드림 The European Dream》 전시를 통해 이탈리아, 프랑스,
-              스위스와 벨기에에서 주목받았다.
+              《유러피안 드림{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                The European Dream
+              </span>
+              》 전시를 통해 이탈리아, 프랑스, 스위스와 벨기에에서 주목받았다.
               <br />
               <br />
               펜소는 인터내셔널 헤럴드 트리뷴, 타임, 워싱턴 포스트, 비즈니스
               위크, 가디언, BBC 등 여러 굴지의 매체와 협업했다. 세계보도사진
-              World Press Photo 상을 포함해 다수의 수상 경력이 있으며, 매그넘
-              재단, 게티 이미지 등으로부터 지원을 받았다.
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                World Press Photo
+              </span>{" "}
+              상을 포함해 다수의 수상 경력이 있으며, 매그넘 재단, 게티 이미지
+              등으로부터 지원을 받았다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">

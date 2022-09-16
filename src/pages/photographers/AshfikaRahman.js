@@ -153,9 +153,12 @@ export default function AshfikaRahman() {
               방글라데시 외곽 언덕지대의 성폭력 생존자의 현실을 보도해
               주목받았다. 현재는 방글라데시 북부 군경의 초법적 살인과 납치 등을
               심도 있게 탐구한 ‘실종자 파일’ 프로젝트를 진행 중이다. 2018년
-              세계보도사진재단의 교육기관 줍 스와트 Joop Swart 마스터클래스에
-              참여했으며, 현재 모교인 방글라데시 남아시아 언론학교의 교수로
-              근무하고 있다.
+              세계보도사진재단의 교육기관 줍 스와트{" "}
+              <span className="font-sans italic text-[0.875rem]">
+                Joop Swart
+              </span>{" "}
+              마스터클래스에 참여했으며, 현재 모교인 방글라데시 남아시아
+              언론학교의 교수로 근무하고 있다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
