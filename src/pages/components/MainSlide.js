@@ -23,7 +23,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
           <div className="-mx-3">
             <Link to="/photographers/GaelTurine">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/gael_thumb.png"
@@ -38,7 +38,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/AlessandroPenso">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/alessandro_thumb.png"
@@ -53,7 +53,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/JohnVink">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/john_thumb.png"
@@ -68,7 +68,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/DominicNahr">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/dominic_thumb.png"
@@ -83,7 +83,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/CedricGerbehaye">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/cedric_thumb.png"
@@ -100,7 +100,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/HannahReyesMorales">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/hannah_thumb.png"
@@ -117,7 +117,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/MassimoBerruti">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/massimo_thumb.png"
@@ -132,7 +132,7 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="-mx-3">
             <Link to="/photographers/AshfikaRahman">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
+              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3 thumbnail">
                 <img
                   className="absolute object-cover w-full h-full"
                   src="/images/mainPageThumbnail/ashfika_thumb.png"
