@@ -15,7 +15,7 @@ export default function HannahReyesMorales() {
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 해나 레예스 모랄레스 - 필리핀
               </h3>
               <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">

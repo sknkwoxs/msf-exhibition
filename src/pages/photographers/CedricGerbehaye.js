@@ -15,7 +15,7 @@ export default function CedricGerbehaye() {
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 세드릭 게르베하이 - 콩고민주공화국
               </h3>
               <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">

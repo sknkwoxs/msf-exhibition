@@ -15,7 +15,7 @@ export default function AshfikaRahman() {
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
             <div>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2">
+              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 아슈피카 라만 - 방글라데시
               </h3>
               <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
