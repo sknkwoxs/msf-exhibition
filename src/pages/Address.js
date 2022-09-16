@@ -7,13 +7,13 @@ export default function Address() {
       {/* <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-White text-Neutrals-Grey8"> */}
       <div className="bg-Neutrals-White text-Neutrals-Grey8">
         <div>
-          <div className="my-20 text-center">
+          {/* <div className="my-20 text-center">
             <p className="mb-2 font-bold text-Brand-Secondary DB2">
               PHOTO EXHIBITION LOCATION
             </p>
             <h3 className="H3 text-Neutrals-Grey8">사진전 장소 안내</h3>
-          </div>
-          <div className="mb-12 text-center">
+          </div> */}
+          <div className="mt-[6rem] mb-12 text-center">
             <div className="H5 hr-sect">
               갤러리 라메르Gallery La Mer(제3전시실)
             </div>
@@ -51,7 +51,7 @@ export default function Address() {
               <h6 className="H6 mr-[6.875rem] whitespace-nowrap">
                 지하철 이용시
               </h6>
-              <div className="w-full text-Neutrals-Grey7">
+              <div className="w-full text-Neutrals-Grey7 DB1">
                 <div className="border-b">
                   <div className="flex items-center gap-2 mb-4">
                     <img src="/images/svgIcons/line1.svg" alt="line1" />
@@ -80,20 +80,22 @@ export default function Address() {
               <h6 className="H6 mr-[7.813rem]">버스 이용시</h6>
               <div>
                 <h6 className="pb-4 H6 text-[#343A40]">광역버스</h6>
-                <div className="pb-6 text-[#343A40]">
+                <div className="pb-6 text-[#343A40] DB1">
                   <span className="mr-2">&bull;</span>
                   <span className="text-[#E30613]">5000A, 5005</span>번 탑승 후
                   조계사 앞에서 하차
                 </div>
                 <h6 className="pb-4 H6 text-[#343A40]">일반버스</h6>
-                <div className="text-[#343A40]">
+                <div className="text-[#343A40] DB1">
                   <p>
+                    <span className="mr-2">&bull;</span>
                     <span className="text-[#2579CC]">741, 470</span>번 탑승 후
                     종로2가 하차 후 도보 약 77m 직진 후&nbsp;
                     <span className="text-[#00A807]">마을버스 02</span>번 환승
                     후 공평.종각 하차 후 우측으로 약 200m 이동
                   </p>
                   <p>
+                    <span className="mr-2">&bull;</span>
                     <span className="text-[#2579CC]">162</span>번 탑승 후 조계사
                     앞 하차, 약 150m 센터마크호텔 방향으로 직진
                   </p>
