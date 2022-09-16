@@ -151,6 +151,11 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "DIN";
+    src: url("./fonts/DIN-Regular.ttf") format("woff");
+  }
+
   html {
     @apply font-PT;
   }

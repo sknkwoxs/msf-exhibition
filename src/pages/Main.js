@@ -13,17 +13,29 @@ export default function Main() {
           <div className="flex w-full md:hidden">
             <img
               className="w-full"
-              src="/images/Asset 3@3x 1.png"
-              alt="Asset 3@3x 1"
+              src="/images/Asset 1@3x 1.png"
+              alt="Asset 1@3x 1"
             />
           </div>
           <section className="md:py-[4rem] pt-8 px-4 mx-auto md:max-w-[76rem]">
             <div className="md:flex md:justify-between">
               <div>
-                <h1 className="md:text-[4rem] text-[2.5rem] md:leading-[4.5rem] leading-[3rem] font-bold mb-6">
+                {/* <h1 className="md:text-[6.5rem] text-[4rem] md:leading-[7rem] leading-[4.5rem] font-bold font-din">
                   MORE
                   <br /> THAN A<br className="hidden md:flex" /> PICTURE
-                </h1>
+                </h1> */}
+                <div>
+                  <img
+                    className="hidden object-cover w-full mb-8 md:flex"
+                    src="/images/MORE THAN A PICTURE.svg"
+                    alt="MORETHANAPICTURE"
+                  />
+                  <img
+                    className="object-cover w-full mb-8 md:hidden"
+                    src="/images/MORE THAN A PICTURE_mobile.svg"
+                    alt="MORETHANAPICTURE"
+                  />
+                </div>
                 <p className="mb-[3.5rem] H5">
                   8인의 포토저널리스트가 담은
                   <br /> 국경없는의사회 구호현장의 기록
@@ -32,20 +44,12 @@ export default function Main() {
                   <p className="mb-2">갤러리 라메르</p>
                   <p>2022.11.02 - 11.14</p>
                 </div>
-                <div className="flex gap-4 mb-6 md:mb-0">
-                  <img
-                    src="/images/svgIcons/content_logo.svg"
-                    alt="content_logo"
-                  />
-                  <img src="/images/svgIcons/symbol_x.svg" alt="symbol_x" />
-                  <img src="/images/svgIcons/MAPS_logo.svg" alt="MAPS_logo" />
-                </div>
               </div>
               <div className="hidden md:flex">
                 <img
                   className="object-cover w-full"
-                  src="/images/Asset 3@3x 1.png"
-                  alt="Asset 3@3x 1"
+                  src="/images/Asset 1@3x 1.png"
+                  alt="Asset 1@3x 1"
                 />
               </div>
             </div>
@@ -56,7 +60,7 @@ export default function Main() {
               <MobileSlideWriter />
             </div>
           </section>
-          <section className="px-4 bg-Neutrals-Grey8">
+          <section className="px-4 bg-Neutrals-Grey9">
             <div className="py-[6rem] md:max-w-[76rem] mx-auto">
               <div className="flex justify-between mb-8">
                 <p className="H4">참여 방법</p>
@@ -115,9 +119,8 @@ export default function Main() {
           <section className="bg-Brand-Primary">
             <div className="w-full flex flex-col md:flex-row gap-6  mx-auto md:max-w-[76rem] py-8 md:py-0 px-4">
               <p className="w-full flex items-center MH3 md:text-[1.375rem] text-center justify-center md:justify-start break-words text-ellipsis whitespace-nowrap">
-                국경없는의사회 한국에서 진행하는
-                <br className="md:hidden" /> 참여 방법 관련 최신 소식을
-                받아보세요
+                국경없는의사회 한국 사무소에서 진행하는
+                <br className="md:hidden" /> 이벤트 관련 최신 소식을 받아보세요
               </p>
               <div className="flex flex-col w-full gap-2 py-0 md:py-10 md:flex-row md:gap-0 md:pl-[3.5rem]">
                 <div className="w-full">

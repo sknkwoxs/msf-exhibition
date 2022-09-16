@@ -1,14 +1,10 @@
 export const introduction = [
   {
-    title: "모시는 말씀",
+    title: "개요",
     url: "#",
   },
   {
-    title: "사진전 소개",
-    url: "#",
-  },
-  {
-    title: "사무총장 인사말",
+    title: "인사말",
     url: "/introduction/Greetings",
   },
 ];

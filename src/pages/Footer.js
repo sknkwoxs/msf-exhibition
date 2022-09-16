@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="px-4 pt-[2.5rem] md:pt-[4rem] mx-auto text-center md:w-full md:max-w-[76rem]">
           <div className="md:flex md:justify-between">
             <div>
-              <div className="flex justify-center mb-6 md:mb-8 md:justify-start">
+              <div className="flex justify-center mb-6 md:mb-12 md:justify-start">
                 <img
                   className="hidden md:block"
                   src="/images/svgIcons/logo.svg"
@@ -35,7 +35,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <div className="flex justify-between mb-6 md:mb-8 H7">
+              <div className="flex justify-between mb-6 md:mt-6 md:mb-10 H7">
                 <a
                   href="https://msf.or.kr/"
                   target="_blank"
