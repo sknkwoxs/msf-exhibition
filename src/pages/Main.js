@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Map } from "react-kakao-maps-sdk";
 
 import MainSlide from "./components/MainSlide";
 import MobileSlideWriter from "./components/MobileSlideWriter";
-import MobileSlideEvent from "./components/MobileSlideEvent";
+// import MobileSlideEvent from "./components/MobileSlideEvent";
 
 export default function Main() {
   return (
