@@ -106,18 +106,33 @@ export default function GaelTurine() {
             </div>
             <p className="max-w-[63rem] mx-auto DB1">
               가엘 튀린은 포켓사진집 포토 포슈
-              <span className="font-sans italic"> Photo Poche </span> 시리즈의
-              ‘장벽과 공포
-              <span className="font-sans italic"> Le mur et la peur </span>’,
-              ‘맹목적으로{" "}
-              <span className="font-sans italic"> Aveuglément </span>’ ‘카불에서
-              스무살 되기
-              <span className="font-sans italic"> Avoir 20 ans à Kaboul </span>’
-              ‘아이티의 시내
-              <span className="font-sans italic"> En bas la ville </span>’ 등
-              다수의 모노그래프를 발간한 사진작가이다. 튀린은 유럽과 미국에서
-              유수의 상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스, 르몽드,
-              뉴스위크 재팬 등 여러 매체에 게재됐다.
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                Photo Poche{" "}
+              </span>{" "}
+              시리즈의 ‘장벽과 공포
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                Le mur et la peur{" "}
+              </span>
+              ’, ‘맹목적으로
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                Aveuglément{" "}
+              </span>
+              ’ ‘카불에서 스무살 되기
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                Avoir 20 ans à Kaboul{" "}
+              </span>
+              ’ ‘아이티의 시내
+              <span className="font-sans italic text-[0.875rem]">
+                {" "}
+                En bas la ville{" "}
+              </span>
+              ’ 등 다수의 모노그래프를 발간한 사진작가이다. 튀린은 유럽과
+              미국에서 유수의 상과 후원을 받았으며, 그의 에세이는 뉴욕 타임스,
+              르몽드, 뉴스위크 재팬 등 여러 매체에 게재됐다.
               <br />
               <br /> 현재 벨기에 소재 리브르 드 브뤼셀 대학교에서 포토저널리즘을
               가르치고 있으며, 다양한 국가에서 기록사진 워크숍을 이끌고 있다.
