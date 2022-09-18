@@ -69,10 +69,10 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <Link to="#">참여 방법</Link>
+                  <Link to="/Participate">참여 방법</Link>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <Link to="/address">오시는길</Link>
+                  <Link to="/Address">오시는길</Link>
                 </li>
               </ul>
             </div>

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
+import Participate from "./pages/participate/Participate";
 import Address from "./pages/address/Address";
 // 사진전 소개 페이지
 import Summary from "./pages/introduction/Summary";
@@ -27,6 +28,7 @@ function Router() {
       <Header />
       <Routes>
         <Route path="/" exact element={<Main />} />
+        <Route path="/Participate" element={<Participate />} />
         <Route path="/Address" element={<Address />} />
         {/* 사진전 소개 페이지 */}
         <Route path="/introduction/Summary" element={<Summary />} />

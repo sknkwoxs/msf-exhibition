@@ -1,4 +1,4 @@
-export default function Greetings() {
+export default function Summary() {
   return (
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
