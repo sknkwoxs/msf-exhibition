@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
-export default class MobileWriterSlider extends Component {
+export default class MobileSlidePhotographers extends Component {
   render() {
     const settings = {
       dots: true,

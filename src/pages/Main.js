@@ -1,8 +1,9 @@
 // import { Link } from "react-router-dom";
 import { Map } from "react-kakao-maps-sdk";
 
-import MainSlide from "./components/MainSlide";
-import MobileSlideWriter from "./components/MobileSlideWriter";
+import MainSlidePhotographers from "./components/MainSlidePhotographers";
+import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
+// import MainSlideEvent from "./components/MainSlideEvent";
 // import MobileSlideEvent from "./components/MobileSlideEvent";
 
 export default function Main() {
@@ -56,18 +57,14 @@ export default function Main() {
           </section>
           <section className="px-4 bg-center bg-no-repeat bg-cover bg-bg-blur">
             <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
-              <MainSlide />
-              <MobileSlideWriter />
+              <MainSlidePhotographers />
+              <MobileSlidePhotographers />
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
             <div className="py-[6rem] md:max-w-[76rem] mx-auto">
               <div className="flex justify-between mb-8">
                 <p className="H4">참여 방법</p>
-                <div className="flex items-center gap-2">
-                  <p className="H7">참여 방법 페이지로 이동</p>
-                  <img src="/images/svgIcons/symbol_+.svg" alt="symbol_+" />
-                </div>
               </div>
               <div className="hidden grid-cols-4 grid-rows-1 gap-8 md:grid ">
                 <div>

@@ -3,7 +3,7 @@ import $ from "jquery";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
-export default class MainSlider extends Component {
+export default class MainSlidePhotographers extends Component {
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
