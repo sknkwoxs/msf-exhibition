@@ -3,7 +3,7 @@ import { Map } from "react-kakao-maps-sdk";
 
 import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
-// import MainSlideEvent from "./components/MainSlideEvent";
+import MainSlideEvent from "./components/MainSlideEvent";
 // import MobileSlideEvent from "./components/MobileSlideEvent";
 
 export default function Main() {
@@ -62,55 +62,8 @@ export default function Main() {
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
-            <div className="py-[6rem] md:max-w-[76rem] mx-auto">
-              <div className="flex justify-between mb-8">
-                <p className="H4">참여 방법</p>
-              </div>
-              <div className="hidden grid-cols-4 grid-rows-1 gap-8 md:grid ">
-                <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_1.png" alt="ev_th_1" />
-                  </div>
-                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
-                </div>
-                <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_2.png" alt="ev_th_1" />
-                  </div>
-                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
-                </div>
-                <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_3.png" alt="ev_th_2" />
-                  </div>
-                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
-                </div>
-                <div>
-                  <div className="mb-8">
-                    <img src="/images/ev_th_4.png" alt="ev_th_3" />
-                  </div>
-                  <p className="mb-2 H5">참여 방법 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 DB2">2021-11-05</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-1 grid-rows-1 gap-8 md:hidden ">
-                <div>
-                  <div className="h-0 pb-[75%] overflow-hidden relative z-0 mb-8">
-                    <img
-                      className="absolute object-cover w-full h-full"
-                      src="/images/ev_th_3.png"
-                      alt="ev_th_3"
-                    />
-                  </div>
-                  <p className="mb-2 H6">참여 방법 내용이 나옵니다.</p>
-                  <p className="text-Neutrals-Grey5 text-[0.875rem] leading-6 font-normal">
-                    2021-11-05
-                  </p>
-                </div>
-              </div>
+            <div className="py-[6rem] md:max-w-[76rem] mx-auto md:pb-[10rem] pb-[6rem]">
+              <MainSlideEvent />
             </div>
           </section>
           <section className="bg-Brand-Primary">
