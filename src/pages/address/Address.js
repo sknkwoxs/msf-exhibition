@@ -43,7 +43,7 @@ export default function Address() {
               level={3}
             />
           </div>
-          <div className="mx-auto md:max-w-[76rem]">
+          <div className="mx-auto md:max-w-[76rem] px-4">
             <div>
               <h5 className="pb-6 border-b-2 H5">대중교통 이용시</h5>
             </div>

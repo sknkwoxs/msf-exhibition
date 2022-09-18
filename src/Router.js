@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
-import Address from "./pages/Address";
+import Address from "./pages/address/Address";
 // 사진전 소개 페이지
 import Summary from "./pages/introduction/Summary";
 import Greetings from "./pages/introduction/Greetings";
