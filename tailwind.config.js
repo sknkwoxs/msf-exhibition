@@ -41,6 +41,7 @@ module.exports = {
     },
     backgroundImage: {
       "bg-blur": "url('../public/images/bg_bl.png')",
+      "bg-introduction": "url('../public/images/Asset 1@3x 2.png')",
     },
   },
   plugins: [],
