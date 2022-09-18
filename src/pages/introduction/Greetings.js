@@ -12,13 +12,13 @@ export default function Greetings() {
         </div>
         <div className="absolute w-full">
           <img
-            className="object-cover w-full"
+            className="object-cover w-full max-h-[94.5rem]"
             src="/images/Asset 1@3x 2.png"
             alt="Asset 1@3x 2"
           />
         </div>
         <div className="mx-auto md:max-w-[76rem] px-4 DB1 text-Neutrals-Grey8">
-          <p className="my-[6rem]">
+          <p className="md:my-[6rem] my-[3rem]">
             국경없는의사회는 전 세계 분쟁과 전염병, 자연 재해 현장과 의료
             사각지대에서 의료 지원을 제공하는 단체로 알려져 있지만, 우리는 이와
             동시에 이러한 인도적 위기에 대한 인식을 높이고 논의를 촉진하기
@@ -65,7 +65,7 @@ export default function Greetings() {
               국경없는의사회 한국 사무총장 티에리 코펜스
             </span>
           </p>
-          <p className="mb-[6rem]">
+          <p className="md:mb-[6rem] mb-[3rem]">
             For many, Médecins Sans Frontières is synonymous with emergency
             medical teams around the world providing assistance to people
             affected by conflicts, epidemics, natural disasters, and exclusion

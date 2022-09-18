@@ -31,38 +31,38 @@ export default class MainSlideEvent extends Component {
     const eventsCardComponent = [
       {
         url: "/photographers/GaelTurine",
-        img_src: "/images/mainPageThumbnail/gael_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "사진전 관람",
         sub_title:
           "11.02(수) - 11.14(월) 10:30-18:00 (11.05(토) / 11.12(토) 오전 제외)",
       },
       {
         url: "/photographers/AlessandroPenso",
-        img_src: "/images/mainPageThumbnail/alessandro_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "전시 사진 기부 옥션",
         sub_title: "11.02 (수) – 11.14 (월) 13일간",
       },
       {
         url: "/photographers/JohnVink",
-        img_src: "/images/mainPageThumbnail/john_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "스페셜 토크",
         sub_title: "11.05 (토) 12:00-13:00",
       },
       {
         url: "/photographers/DominicNahr",
-        img_src: "/images/mainPageThumbnail/dominic_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "도슨트 가이드 투어",
         sub_title: "자세한 일정은 추후 안내 예정",
       },
       {
         url: "/photographers/CedricGerbehaye",
-        img_src: "/images/mainPageThumbnail/cedric_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "배우 유해진 오디오 가이드",
         // sub_title: "",
       },
       {
         url: "/photographers/HannahReyesMorales",
-        img_src: "/images/mainPageThumbnail/hannah_thumb.png",
+        img_src: "/images/SD-default.png",
         title: "다큐멘터리 에고이스트 온라인 무료 상영",
         sub_title: "11.02(수)-11.14(월)",
       },

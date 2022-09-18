@@ -6,6 +6,7 @@ import Footer from "./pages/Footer";
 import Main from "./pages/Main";
 import Address from "./pages/Address";
 // 사진전 소개 페이지
+import Summary from "./pages/introduction/Summary";
 import Greetings from "./pages/introduction/Greetings";
 // 작가 소개 페이지
 import GaelTurine from "./pages/photographers/GaelTurine";
@@ -28,6 +29,7 @@ function Router() {
         <Route path="/" exact element={<Main />} />
         <Route path="/Address" element={<Address />} />
         {/* 사진전 소개 페이지 */}
+        <Route path="/introduction/Summary" element={<Summary />} />
         <Route path="/introduction/Greetings" element={<Greetings />} />
         {/* 작가 소개 페이지 */}
         <Route path="/photographers/GaelTurine" element={<GaelTurine />} />
