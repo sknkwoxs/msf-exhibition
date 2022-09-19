@@ -41,7 +41,7 @@ const Header = () => {
             <div className="absolute right-0 top-10">
               <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <Link to="#">사진전 소개</Link>
+                  <Link to="/introduction/Summary">사진전 소개</Link>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {introduction.map((introduction, index) => {
                       return (
@@ -55,7 +55,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <Link to="#">작가 소개</Link>
+                  <Link to="/photographers/GaelTurine">작가 소개</Link>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {photographers.map((photographers, index) => {
                       return (
