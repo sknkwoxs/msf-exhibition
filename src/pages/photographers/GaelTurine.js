@@ -163,7 +163,7 @@ export default function GaelTurine() {
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
                   <ShareButtons />
                 </div>
-                <div className="grid items-center grid-cols-3">
+                <div className="items-center md:grid md:grid-cols-3">
                   <Link to="/photographers/AshfikaRahman">
                     {/* <div className="flex items-center gap-2 H7 ">
                       <img
