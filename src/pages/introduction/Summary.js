@@ -10,13 +10,6 @@ export default function Summary() {
             alt="SD-default"
           />
         </div>
-        {/* <div className="absolute w-full">
-          <img
-            className="w-full "
-            src="/images/Asset 1@3x 2.png"
-            alt="Asset 1@3x 2"
-          />
-        </div> */}
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
           <div className="mx-auto md:max-w-[76rem]">
             <p className="md:py-[6rem] py-[3rem]">

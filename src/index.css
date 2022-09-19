@@ -313,4 +313,12 @@
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
+
+  .scrollBox {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scrollBox::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+  }
 }
