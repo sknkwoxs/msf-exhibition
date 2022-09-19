@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import ScrollToTop from "./pages/components/ScrollToTop";
+
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
@@ -26,6 +28,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" exact element={<Main />} />
         <Route path="/Participate" element={<Participate />} />
