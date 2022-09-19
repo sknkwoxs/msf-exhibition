@@ -5,9 +5,9 @@ export default function GaelTurine() {
   return (
     <>
       <div className="bg-Neutrals-Grey9 text-Neutrals-White">
-        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center max-h-[60rem] md:h-full">
           <img
-            className="object-cover"
+            className="object-cover w-full"
             src="/images/GaelTurine/bg.png"
             alt="bg"
           />
@@ -90,8 +90,9 @@ export default function GaelTurine() {
             </div>
           </section>
         </div>
-        <div className="md:mb-[6rem] mb-[5rem] flex justify-center">
+        <div className="md:mb-[6rem] mb-[5rem] flex justify-center max-h-[100rem]">
           <img
+            className="object-cover w-full"
             src="/images/GaelTurine/GAEL TURINE 06 1.png"
             alt="GAEL TURINE 06 1"
           />

@@ -5,11 +5,11 @@ export default function AshfikaRahman() {
   return (
     <>
       <div className="bg-Neutrals-Grey9 text-Neutrals-White">
-        <div className="md:mb-[4rem] mb-[3rem] flex justify-center h-[40rem] md:h-full">
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center max-h-[60rem] md:h-full">
           <img
-            className="object-cover"
-            src="/images/AshfikaRahman/8 1.png"
-            alt="8 1"
+            className="object-cover w-full"
+            src="/images/GaelTurine/bg.png"
+            alt="bg"
           />
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
