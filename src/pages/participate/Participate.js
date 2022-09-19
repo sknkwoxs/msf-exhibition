@@ -23,8 +23,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate1.png"
+                alt="participate1"
               />
             </div>
           </div>
@@ -62,8 +62,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate2.png"
+                alt="participate2"
               />
             </div>
           </div>
@@ -93,8 +93,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate3.png"
+                alt="participate3"
               />
             </div>
           </div>
@@ -120,8 +120,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate4.png"
+                alt="participate4"
               />
             </div>
           </div>
@@ -147,8 +147,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate5.png"
+                alt="participate5"
               />
             </div>
           </div>
@@ -174,8 +174,8 @@ export default function Participate() {
             <div className="min-w-[30.5rem]">
               <img
                 className="w-full"
-                src="/images/Asset 1@3x 1.png"
-                alt="Asset 1@3x 1"
+                src="/images/participate6.png"
+                alt="participate6"
               />
             </div>
           </div>

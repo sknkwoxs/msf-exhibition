@@ -28,7 +28,6 @@ export default class MainSlidePhotographers extends Component {
       prevArrow: "",
       nextArrow: "",
       arrows: false,
-      centerPadding: "32px",
       draggable: false,
       // autoplay: true,
     };
