@@ -50,6 +50,7 @@ export default function Address() {
               >
                 <div style={{ padding: "5px", color: "#000" }}>
                   <a
+                    className="whitespace-nowrap"
                     href="https://map.kakao.com/link/map/서울시 종로구 인사동 5길 26 홍익빌딩,37.5725546,126.9848341"
                     target="_blank"
                     rel="noreferrer"
