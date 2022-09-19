@@ -14,8 +14,13 @@ export default function Address() {
             <h3 className="H3 text-Neutrals-Grey8">사진전 장소 안내</h3>
           </div> */}
           <div className="mt-[6rem] mb-12 text-center">
-            <div className="H5 hr-sect">
+            <div className="hidden H5 hr-sect md:flex">
               갤러리 라메르Gallery La Mer(제3전시실)
+            </div>
+            <div className="H5 md:hidden">
+              갤러리 라메르Gallery La Mer
+              <br />
+              (제3전시실)
             </div>
             <a
               href="http://www.gallerylamer.com/"
