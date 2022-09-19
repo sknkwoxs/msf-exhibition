@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
+import Collapsible from "react-collapsible";
 
 const Header = () => {
   // const [dropdown, setDropdown] = useState(false);
@@ -87,37 +88,40 @@ const Header = () => {
               </button>
             </div>
           </div>
+          {/* mobile menu */}
           {openMenu ? (
-            <div className="border-t border-Neutrals-Grey6 md:hidden">
+            <div className="h-screen border-t border-Neutrals-Grey6 md:hidden">
               <div className="px-4 pb-12">
                 <ul>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    사진전 소개
-                    <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
-                      {introduction.map((introduction, index) => {
-                        return (
-                          <li key={index}>
-                            <Link to={introduction.url}>
-                              {introduction.title}
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    <Collapsible trigger="사진전 소개">
+                      <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
+                        {introduction.map((introduction, index) => {
+                          return (
+                            <li key={index}>
+                              <Link to={introduction.url}>
+                                {introduction.title}
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    작가 소개
-                    <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
-                      {photographers.map((photographers, index) => {
-                        return (
-                          <li key={index}>
-                            <Link to={photographers.url}>
-                              {photographers.title}
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    <Collapsible trigger="작가 소개">
+                      <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
+                        {photographers.map((photographers, index) => {
+                          return (
+                            <li key={index}>
+                              <Link to={photographers.url}>
+                                {photographers.title}
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
                     <Link to="/Participate">참여 방법</Link>

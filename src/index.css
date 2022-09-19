@@ -291,4 +291,33 @@
   .scrollBox::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera*/
   }
+
+  .Collapsible .Collapsible__trigger {
+    display: block;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .Collapsible .Collapsible__trigger:after {
+    content: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M6 9L12 15L18 9' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  .Collapsible .Collapsible__trigger.is-open:after {
+    content: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M18 15L12 9L6 15' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    position: absolute;
+    right: 0px;
+    top: -4px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  .Collapsible .Collapsible__trigger.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
 }
