@@ -4,7 +4,6 @@ export default function Participate() {
       <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div>
         <div className="my-[6rem]">
-          <h1 className="text-center H1">모바일은아직</h1>
           <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
@@ -102,7 +101,7 @@ export default function Participate() {
           <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">도슨트 가이드 투어</p>
-              <p className="DB1 text-[#636B73]">
+              <p className="DB1 text-[#636B73] mb-6">
                 국경없는의사회 한국 사무소 설립 10주년을 기념하기 위해 개최되는
                 MORE THAN A PICTURE 사진전에는 8명의 사진작가가 8곳의
                 국경없는의사회 구호활동 현장에서 찍은 총 30여점의 사진이
@@ -116,6 +115,11 @@ export default function Participate() {
                   일시: 자세한 일정은 추후 안내 예정
                 </span>
               </p>
+              <div>
+                <button className="px-8 py-2 border rounded border-Neutrals-Grey7">
+                  세부 일정 보기
+                </button>
+              </div>
             </div>
             <div className="min-w-[30.5rem]">
               <img
