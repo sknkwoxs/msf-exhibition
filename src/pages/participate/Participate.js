@@ -3,8 +3,8 @@ export default function Participate() {
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div>
-        <div className="my-[6rem]">
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+        <div className="md:my-[6rem] my-[4rem] px-4">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
               <p className="mb-4 font-semibold DB1">
@@ -19,16 +19,16 @@ export default function Participate() {
                 이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
               </p>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate1.png"
                 alt="participate1"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">전시 사진 기부 옥션</p>
               <p className="DB1 text-Neutrals-Grey6">
@@ -58,19 +58,20 @@ export default function Participate() {
                 발급이 가능합니다.
               </p>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate2.png"
                 alt="participate2"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">
                 스페셜 토크
+                <br className="md:hidden" />
                 <span className="text-[24px]">
                   &nbsp;&lt;떼모아나지 Témoignage: 위기를 증언하다&gt;
                 </span>
@@ -89,16 +90,16 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate3.png"
                 alt="participate3"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">도슨트 가이드 투어</p>
               <p className="DB1 text-[#636B73] mb-6">
@@ -121,16 +122,16 @@ export default function Participate() {
                 </button>
               </div>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate4.png"
                 alt="participate4"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">
                 배우 유해진 오디오 가이드
@@ -148,16 +149,16 @@ export default function Participate() {
                 <span className="DB2">*개인 이어폰을 지참해 주세요.</span>
               </p>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate5.png"
                 alt="participate5"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:max-w-[76rem] mx-auto gap-[6.5rem] pt-[6rem] mb-[6rem]">
+          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div>
               <p className="mb-6 text-Brand-Primary H4">
                 다큐멘터리 에고이스트 온라인 무료 상영
@@ -175,9 +176,9 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="min-w-[30.5rem]">
+            <div className="md:min-w-[30.5rem]">
               <img
-                className="w-full"
+                className="object-cover w-full"
                 src="/images/participate6.png"
                 alt="participate6"
               />
