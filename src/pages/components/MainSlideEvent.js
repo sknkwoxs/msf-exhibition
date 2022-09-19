@@ -26,6 +26,8 @@ export default class MainSlideEvent extends Component {
       autoplaySpeed: 5000,
       prevArrow: "",
       nextArrow: "",
+      arrows: false,
+      // autoplay: true,
     };
 
     const eventsCardComponent = [

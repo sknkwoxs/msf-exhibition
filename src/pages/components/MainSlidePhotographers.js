@@ -27,6 +27,8 @@ export default class MainSlidePhotographers extends Component {
       autoplaySpeed: 5000,
       prevArrow: "",
       nextArrow: "",
+      arrows: false,
+      // autoplay: true,
     };
 
     const photographersCardComponent = [

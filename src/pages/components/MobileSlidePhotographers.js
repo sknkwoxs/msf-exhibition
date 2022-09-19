@@ -12,9 +12,9 @@ export default class MobileSlidePhotographers extends Component {
       dotsClass: "slick-dots",
       slidesToShow: 1,
       slidesToScroll: 1,
-      // autoplay: true,
       autoplaySpeed: 5000,
       pauseOnHover: true,
+      // autoplay: true,
       // centerMode: true,
       // centerPadding: "24px",
     };

@@ -260,10 +260,6 @@
     opacity: 1;
   }
 
-  button.slick-arrow {
-    display: none;
-  }
-
   /* thumbnail image scale effect */
   .thumbnail {
     display: block;

@@ -12,11 +12,9 @@ export default class MobileSlideEvent extends Component {
       dotsClass: "slick-dots",
       slidesToShow: 3,
       slidesToScroll: 3,
-      // autoplay: true,
       autoplaySpeed: 5000,
       pauseOnHover: true,
-      // centerMode: true,
-      // centerPadding: "24px",
+      // autoplay: true,
     };
     return (
       <div className="hidden mx-auto md:block slide">
