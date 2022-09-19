@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Participate() {
   return (
     <>
@@ -9,8 +11,12 @@ export default function Participate() {
               <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
               <p className="mb-4 font-semibold DB1">
                 전시 기간: 11.02(수) - 11.14(월) 10:30-18:00
-                (11.05(토)/11.12(토) 오전 제외) 전시 장소: 갤러리 라메르 (오시는
-                길)
+                *11.05(토)/11.12(토) 오전 제외
+                <br /> 전시 장소: 갤러리 라메르 (
+                <Link to="/Address">
+                  <span className="underline">오시는 길</span>
+                </Link>
+                )
               </p>
               <p className="DB2 text-[#636B73]">
                 * 전시와 모든 이벤트에는 무료로 참여가 가능하며, 현장 방문을

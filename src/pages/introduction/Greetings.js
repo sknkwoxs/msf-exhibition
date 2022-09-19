@@ -3,15 +3,15 @@ export default function Greetings() {
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div>
-        <div className="mt-[4rem] md:mt-0 w-full">
+        <div className="mt-[4rem] md:mt-0 overflow-hidden">
           <img
-            className="w-full max-h-[44rem] object-cover"
-            src="/images/Welcome Remarks_Thierry Coppens.png"
-            alt="Welcome Remarks_Thierry Coppens"
+            className="w-full max-h-[44rem] min-h-[22rem] object-cover"
+            src="/images/Welcome.png"
+            alt="Welcome"
           />
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
-          <div className="mx-auto md:max-w-[76rem] max-h-[94.5rem] overflow-scroll scrollBox">
+          <div className="mx-auto md:max-w-[76rem]">
             <p className="md:py-[6rem] py-[3rem]">
               국경없는의사회는 전 세계 분쟁과 전염병, 자연 재해 현장과 의료
               사각지대에서 의료 지원을 제공하는 단체로 알려져 있지만, 우리는
@@ -57,59 +57,6 @@ export default function Greetings() {
               <br />
               <span className="font-bold">
                 국경없는의사회 한국 사무총장 티에리 코펜스
-              </span>
-            </p>
-            <p className="md:pb-[6rem] pb-[3rem]">
-              For many, Médecins Sans Frontières is synonymous with emergency
-              medical teams around the world providing assistance to people
-              affected by conflicts, epidemics, natural disasters, and exclusion
-              of healthcare. However, we also work to raise awareness and
-              stimulate debates about these crises through our policy of
-              'témoignage’.
-              <br />
-              <br />
-              The word 'témoignage’ comes from the French verb ‘temoigner,’
-              which literally translates as ‘to witness’. Témoignage is simply
-              the act of being willing to speak out about what we see happening
-              in front of us. For us, this means a willingness to speak on
-              behalf of the people we assist: to bring abuses and intolerable
-              situations to the public eye.
-              <br />
-              <br />
-              Throughout more than 50 years of its operation, MSF refused to
-              watch in silence in spite of the risks because we believe that
-              silence could kill, making those that watched complicit in the
-              atrocities. Until today, it is still in the heart of our
-              activities, witnessing what we see, in the hope that by bringing
-              abuses to light we could bring them to an end.
-              <br />
-              <br />
-              I am pleased to announce the launch of our photo exhibition “More
-              Than A Picture”, a collection of photos taken by eminent photo
-              journalists from MAPS in collaboration with MSF. They captured the
-              moments of humanitarian crises in which MSF provided medical
-              assistance to the affected population. Photography is a powerful
-              tool to shed light on the realities of people who are facing
-              crisis that are often overlooked, neglected, or silenced. Through
-              these photographs, I hope you will see what is more than a
-              picture, the stories of life, perseverance, and humanity.
-              <br />
-              <br />
-              I would like to take this opportunity to express my gratitude to
-              the dedicated photographers who strived to capture the realities
-              of humanitarian crises as well as MSF teams around the world who
-              are working to save lives at this very moment. Also thank you all
-              for empathy and participation in our effort in raising awareness
-              of the humanitarian crises. I hope you enjoy the exhibition.
-              <br />
-              <br />
-              Thank you.
-              <br />
-              <br />
-              <span className="font-bold">
-                Thierry Coppens
-                <br />
-                General Director of MSF Korea
               </span>
             </p>
           </div>

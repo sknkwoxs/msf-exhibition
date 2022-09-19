@@ -36,13 +36,13 @@ export default class MainSlideEvent extends Component {
         img_src: "/images/SD-default.png",
         title: "사진전 관람",
         sub_title:
-          "11.02(수) - 11.14(월) 10:30-18:00 (11.05(토) / 11.12(토) 오전 제외)",
+          "11.02(수) - 11.14(월) 10:30-18:00 *11.05(토)/11.12(토) 오전 제외",
       },
       {
         url: "/photographers/AlessandroPenso",
         img_src: "/images/SD-default.png",
         title: "전시 사진 기부 옥션",
-        sub_title: "11.02 (수) – 11.14 (월) 13일간",
+        sub_title: "11.02 (수) - 11.14 (월) 13일간",
       },
       {
         url: "/photographers/JohnVink",
