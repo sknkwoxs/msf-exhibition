@@ -81,7 +81,7 @@ export default class MainSlidePhotographers extends Component {
     ];
 
     return (
-      <div id="mainSlide" className="hidden mx-auto md:block">
+      <div id="mainSlide" className="hidden mx-auto md:block slide">
         <div className="flex items-center justify-between mb-10">
           <p className="H4">작가 소개</p>
           <div className="flex items-center">

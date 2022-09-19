@@ -161,6 +161,7 @@
     @apply font-PT;
   }
 
+  /* text 양 옆 중간선 */
   .hr-sect {
     display: flex;
     flex-basis: 100%;
@@ -189,12 +190,8 @@
     margin: 0px 208px 0px 24px;
   }
 
-  /* dropdown submenu */
+  /* dropdown submenu display */
   header .header_submenu {
-    display: none;
-  }
-
-  header .header_menu:hover .header_submenu {
     display: flex;
   }
 
@@ -263,12 +260,8 @@
     opacity: 1;
   }
 
-  .slick-slider button.slick-arrow {
-    display: none !important;
-  }
-
-  .slick-slider button.slick-arrow::before {
-    display: none !important;
+  button.slick-arrow {
+    display: none;
   }
 
   /* thumbnail image scale effect */

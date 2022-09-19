@@ -9,7 +9,7 @@ import MobileSlideEvent from "./components/MobileSlideEvent";
 const Main = () => {
   return (
     <>
-      <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
+      <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
         <div>
           <div className="flex w-full md:hidden">
             <img
@@ -152,7 +152,7 @@ const Main = () => {
             </Map>
           </section>
         </div>
-      </div>
+      </main>
     </>
   );
 };

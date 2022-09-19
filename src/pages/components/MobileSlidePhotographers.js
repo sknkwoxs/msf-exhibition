@@ -19,7 +19,7 @@ export default class MobileSlidePhotographers extends Component {
       // centerPadding: "24px",
     };
     return (
-      <div className="mx-auto translate-x-2.5 md:hidden">
+      <div className="mx-auto translate-x-2.5 md:hidden slide">
         <Slider {...settings}>
           <div className="-mx-3">
             <Link to="/photographers/GaelTurine">

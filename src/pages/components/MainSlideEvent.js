@@ -69,7 +69,7 @@ export default class MainSlideEvent extends Component {
     ];
 
     return (
-      <div id="mainSlide" className="hidden mx-auto md:block">
+      <div id="mainSlide" className="hidden mx-auto md:block slide">
         <div className="flex items-center justify-between mb-10">
           <p className="H4">참여 방법</p>
           <div className="flex items-center">

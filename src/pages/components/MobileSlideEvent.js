@@ -19,7 +19,7 @@ export default class MobileSlideEvent extends Component {
       // centerPadding: "24px",
     };
     return (
-      <div className="hidden mx-auto md:block">
+      <div className="hidden mx-auto md:block slide">
         <Slider {...settings}>
           <div className="-mx-3">
             <Link to="/photographers/GaelTurine">
