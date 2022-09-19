@@ -163,21 +163,21 @@ export default function GaelTurine() {
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
                   <ShareButtons />
                 </div>
-                <div className="flex items-center justify-between">
+                <div className="grid items-center grid-cols-3">
                   <Link to="/photographers/AshfikaRahman">
-                    <div className="flex items-center gap-2 H7">
+                    {/* <div className="flex items-center gap-2 H7 ">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
                         alt="arrows_left"
                       />
                       이전 작가로
-                    </div>
+                    </div> */}
                   </Link>
-                  <div className="hidden gap-2 md:flex">
+                  <div className="hidden gap-2 md:flex justify-self-center">
                     <ShareButtons />
                   </div>
                   <Link to="/photographers/AlessandroPenso">
-                    <div className="flex items-center gap-2 H7">
+                    <div className="flex items-center justify-end w-full gap-2 H7">
                       다음 작가로
                       <img
                         src="/images/svgIcons/arrows_right.svg"

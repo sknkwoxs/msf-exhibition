@@ -189,7 +189,7 @@ export default function AshfikaRahman() {
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
                   <ShareButtons />
                 </div>
-                <div className="flex items-center justify-between">
+                <div className="grid items-center grid-cols-3">
                   <Link to="/photographers/MassimoBerruti">
                     <div className="flex items-center gap-2">
                       <img
@@ -199,10 +199,10 @@ export default function AshfikaRahman() {
                       이전 작가로
                     </div>
                   </Link>
-                  <div className="hidden gap-2 md:flex">
+                  <div className="hidden gap-2 md:flex justify-self-center">
                     <ShareButtons />
                   </div>
-                  <Link to="/photographers/GaelTurine">
+                  {/* <Link to="/photographers/GaelTurine">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img
@@ -210,7 +210,7 @@ export default function AshfikaRahman() {
                         alt="arrows_right"
                       />
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
