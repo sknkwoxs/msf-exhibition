@@ -4,7 +4,7 @@ import { Map, MapMarker } from "react-kakao-maps-sdk";
 import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
-// import MobileSlideEvent from "./components/MobileSlideEvent";
+import MobileSlideEvent from "./components/MobileSlideEvent";
 
 const Main = () => {
   return (
@@ -58,12 +58,13 @@ const Main = () => {
           <section className="px-4 bg-center bg-no-repeat bg-cover bg-bg-blur">
             <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
-              <MobileSlidePhotographers />
+              {/* <MobileSlidePhotographers /> */}
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
             <div className="py-[6rem] md:max-w-[76rem] mx-auto md:pb-[10rem] pb-[6rem]">
               <MainSlideEvent />
+              {/* <MobileSlideEvent /> */}
             </div>
           </section>
           <section className="bg-Brand-Primary">

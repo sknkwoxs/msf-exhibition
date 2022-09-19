@@ -71,7 +71,7 @@ export default class MainSlideEvent extends Component {
     return (
       <div id="mainSlide" className="hidden mx-auto md:block">
         <div className="flex items-center justify-between mb-10">
-          <p className="H4">작가 소개</p>
+          <p className="H4">참여 방법</p>
           <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
               <img
