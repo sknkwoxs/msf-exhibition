@@ -1,12 +1,12 @@
 // import { Link } from "react-router-dom";
-import { Map } from "react-kakao-maps-sdk";
+import { Map, MapMarker } from "react-kakao-maps-sdk";
 
 import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 // import MobileSlideEvent from "./components/MobileSlideEvent";
 
-export default function Main() {
+const Main = () => {
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
@@ -98,7 +98,24 @@ export default function Main() {
                 minHeight: "400px",
               }}
               level={3}
-            />
+            >
+              <MapMarker
+                position={{
+                  lat: 37.5725546,
+                  lng: 126.9848341,
+                }}
+              >
+                <div style={{ padding: "5px", color: "#000" }}>
+                  <a
+                    href="https://map.kakao.com/link/map/서울시 종로구 인사동 5길 26 홍익빌딩,37.5725546,126.9848341"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    서울시 종로구 인사동 5길 26 홍익빌딩
+                  </a>
+                </div>
+              </MapMarker>
+            </Map>
           </section>
           <section className="md:hidden">
             <Map
@@ -112,10 +129,29 @@ export default function Main() {
                 minHeight: "240px",
               }}
               level={3}
-            />
+            >
+              <MapMarker
+                position={{
+                  lat: 37.5725546,
+                  lng: 126.9848341,
+                }}
+              >
+                <div style={{ padding: "5px", color: "#000" }}>
+                  <a
+                    href="https://map.kakao.com/link/map/서울시 종로구 인사동 5길 26 홍익빌딩,37.5725546,126.9848341"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    서울시 종로구 인사동 5길 26 홍익빌딩
+                  </a>
+                </div>
+              </MapMarker>
+            </Map>
           </section>
         </div>
       </div>
     </>
   );
-}
+};
+
+export default Main;

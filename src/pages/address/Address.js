@@ -1,4 +1,4 @@
-import { Map } from "react-kakao-maps-sdk";
+import { Map, MapMarker } from "react-kakao-maps-sdk";
 
 export default function Address() {
   return (
@@ -41,7 +41,24 @@ export default function Address() {
                 height: "480px",
               }}
               level={3}
-            />
+            >
+              <MapMarker
+                position={{
+                  lat: 37.5725546,
+                  lng: 126.9848341,
+                }}
+              >
+                <div style={{ padding: "5px", color: "#000" }}>
+                  <a
+                    href="https://map.kakao.com/link/map/서울시 종로구 인사동 5길 26 홍익빌딩,37.5725546,126.9848341"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    서울시 종로구 인사동 5길 26 홍익빌딩
+                  </a>
+                </div>
+              </MapMarker>
+            </Map>
           </div>
           <div className="mx-auto md:max-w-[76rem] px-4">
             <div>
