@@ -24,10 +24,12 @@ export default class MainSlidePhotographers extends Component {
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 2000,
       prevArrow: "",
       nextArrow: "",
       arrows: false,
+      centerPadding: "32px",
+      draggable: false,
       // autoplay: true,
     };
 
@@ -93,7 +95,7 @@ export default class MainSlidePhotographers extends Component {
                 alt="slider_arrows_left"
               />
             </button>
-            <div className="h-6 border border-r border-Neutrals-Grey7 " />
+            <div className="h-6 border border-r border-Neutrals-Grey7" />
             <button className="main_slider_arrows_right" onClick={this.next}>
               <img
                 src="/images/svgIcons/slider_arrows_right.svg"
@@ -106,9 +108,9 @@ export default class MainSlidePhotographers extends Component {
           {photographersCardComponent.map(
             (photographersCardComponent, index) => {
               return (
-                <li className="mx-3 list-none" key={index}>
+                <li className="px-3 list-none" key={index}>
                   <Link to={photographersCardComponent.url}>
-                    <div className="mb-8 -mx-3 thumbnail">
+                    <div className="mb-8 thumbnail -px-3">
                       <img
                         className="object-cover w-full h-full"
                         src={photographersCardComponent.img_src}

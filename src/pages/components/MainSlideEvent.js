@@ -64,7 +64,7 @@ export default class MainSlideEvent extends Component {
       },
       {
         url: "/photographers/HannahReyesMorales",
-        img_src: "/images/SD-default.png",
+        img_src: "https://youtu.be/zlcdcJUSJBs",
         title: "다큐멘터리 에고이스트 온라인 무료 상영",
         sub_title: "11.02(수)-11.14(월)",
       },
@@ -93,11 +93,11 @@ export default class MainSlideEvent extends Component {
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           {eventsCardComponent.map((eventsCardComponent, index) => {
             return (
-              <li className="mx-3 list-none" key={index}>
+              <li className="list-none -px-4" key={index}>
                 {/* <Link to={eventsCardComponent.url}> */}
-                <div className="mb-8 -mx-3 thumbnail">
+                <div className="px-4 mb-8 thumbnail">
                   <img
-                    className="object-cover w-full h-full"
+                    className="object-cover"
                     src={eventsCardComponent.img_src}
                     alt="photographers_thumb"
                   />
