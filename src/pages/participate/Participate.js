@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
 
 export default function Participate() {
@@ -7,16 +7,19 @@ export default function Participate() {
       <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div>
         <div className="md:my-[6rem] my-[4rem] px-4">
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div
+            id="Section1"
+            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+          >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
               <p className="mb-4 font-semibold DB1">
                 전시 기간: 11.02(수) - 11.14(월) 10:30-18:00
                 *11.05(토)/11.12(토) 오전 제외
                 <br /> 전시 장소: 갤러리 라메르 (
-                <Link to="/Address">
+                <HashLink to="/Address">
                   <span className="underline">오시는 길</span>
-                </Link>
+                </HashLink>
                 )
               </p>
               <p className="DB2 text-[#636B73]">
@@ -35,7 +38,10 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div
+            id="Section2"
+            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+          >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">전시 사진 기부 옥션</p>
               <p className="DB1 text-Neutrals-Grey6">
@@ -74,7 +80,10 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div
+            id="Section3"
+            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+          >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">
                 스페셜 토크
@@ -106,7 +115,10 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div
+            id="Section4"
+            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+          >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">도슨트 가이드 투어</p>
               <p className="DB1 text-[#636B73] mb-6">
@@ -138,7 +150,10 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div
+            id="Section5"
+            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+          >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">
                 배우 유해진 오디오 가이드
@@ -185,7 +200,7 @@ export default function Participate() {
             </div>
             <div className="md:min-w-[30.5rem] h-[488px]">
               <YouTube
-                videoId={"https://youtu.be/zlcdcJUSJBs"}
+                videoId="zlcdcJUSJBs"
                 opts={{
                   width: "100%",
                   maxHeight: "488px",
@@ -196,6 +211,7 @@ export default function Participate() {
                   },
                 }}
               />
+              <h1 className="H1">크기조정필요</h1>
             </div>
           </div>
         </div>

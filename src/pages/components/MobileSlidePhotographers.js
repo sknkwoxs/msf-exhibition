@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default class MobileSlidePhotographers extends Component {
   constructor(props) {
@@ -107,7 +107,7 @@ export default class MobileSlidePhotographers extends Component {
             (photographersCardComponent, index) => {
               return (
                 <li className="list-none" key={index}>
-                  <Link to={photographersCardComponent.url}>
+                  <HashLink to={photographersCardComponent.url}>
                     <div className="mb-8 thumbnail">
                       <img
                         className="object-cover w-full h-full"
@@ -121,7 +121,7 @@ export default class MobileSlidePhotographers extends Component {
                     <p className="text-center text-Neutrals-Grey5 DB2">
                       {photographersCardComponent.sub_title}
                     </p>
-                  </Link>
+                  </HashLink>
                 </li>
               );
             }

@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
 import Collapsible from "react-collapsible";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   // const [dropdown, setDropdown] = useState(false);
@@ -42,38 +43,38 @@ const Header = () => {
             <div className="absolute right-0 top-10">
               <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <Link to="/introduction/Summary">사진전 소개</Link>
+                  <HashLink to="/introduction/Summary#">사진전 소개</HashLink>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {introduction.map((introduction, index) => {
                       return (
                         <li key={index}>
-                          <Link to={introduction.url}>
+                          <HashLink to={introduction.url}>
                             {introduction.title}
-                          </Link>
+                          </HashLink>
                         </li>
                       );
                     })}
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <Link to="/photographers/GaelTurine">작가 소개</Link>
+                  <HashLink to="/photographers/GaelTurine#">작가 소개</HashLink>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {photographers.map((photographers, index) => {
                       return (
                         <li key={index}>
-                          <Link to={photographers.url}>
+                          <HashLink to={photographers.url}>
                             {photographers.title}
-                          </Link>
+                          </HashLink>
                         </li>
                       );
                     })}
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <Link to="/Participate">참여 방법</Link>
+                  <HashLink to="/Participate#">참여 방법</HashLink>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <Link to="/Address">오시는길</Link>
+                  <HashLink to="/Address#">오시는길</HashLink>
                 </li>
               </ul>
             </div>
@@ -99,9 +100,9 @@ const Header = () => {
                         {introduction.map((introduction, index) => {
                           return (
                             <li key={index}>
-                              <Link to={introduction.url}>
+                              <HashLink to={introduction.url}>
                                 {introduction.title}
-                              </Link>
+                              </HashLink>
                             </li>
                           );
                         })}
@@ -114,9 +115,9 @@ const Header = () => {
                         {photographers.map((photographers, index) => {
                           return (
                             <li key={index}>
-                              <Link to={photographers.url}>
+                              <HashLink to={photographers.url}>
                                 {photographers.title}
-                              </Link>
+                              </HashLink>
                             </li>
                           );
                         })}
@@ -124,10 +125,10 @@ const Header = () => {
                     </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <Link to="/Participate">참여 방법</Link>
+                    <HashLink to="/Participate">참여 방법</HashLink>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <Link to="/Address">오시는길</Link>
+                    <HashLink to="/Address">오시는길</HashLink>
                   </li>
                 </ul>
               </div>

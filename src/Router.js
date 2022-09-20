@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import ScrollToTop from "./pages/components/ScrollToTop";
+// import ScrollToTop from "./pages/components/hooks/ScrollToTop";
 
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
@@ -28,7 +28,6 @@ function Router() {
   return (
     <BrowserRouter>
       <Header />
-      <ScrollToTop />
       <Routes>
         <Route path="/" exact element={<Main />} />
         <Route path="/Participate" element={<Participate />} />
@@ -61,7 +60,7 @@ function Router() {
           element={<AshfikaRahman />}
         />
         <Route path="*" element={<Error404 />} />
-        <Route path="/Error403" element={<Error403 />} />
+        {/* <Route path="/Error403" element={<Error403 />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import ShareButtons from "../components/ShareButtons";
 
 export default function MassimoBerruti() {
@@ -157,7 +157,7 @@ export default function MassimoBerruti() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <Link to="/photographers/HannahReyesMorales">
+                  <HashLink to="/photographers/HannahReyesMorales">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -165,11 +165,11 @@ export default function MassimoBerruti() {
                       />
                       이전 작가로
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <Link to="/photographers/AshfikaRahman">
+                  <HashLink to="/photographers/AshfikaRahman">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img
@@ -177,7 +177,7 @@ export default function MassimoBerruti() {
                         alt="arrows_right"
                       />
                     </div>
-                  </Link>
+                  </HashLink>
                 </div>
               </div>
             </div>

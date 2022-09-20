@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default class MobileSlideEvent extends Component {
   constructor(props) {
@@ -94,7 +94,7 @@ export default class MobileSlideEvent extends Component {
           {eventsCardComponent.map((eventsCardComponent, index) => {
             return (
               <li className="list-none" key={index}>
-                {/* <Link to={eventsCardComponent.url}> */}
+                {/* <HashLink to={eventsCardComponent.url}> */}
                 <div className="mb-8 thumbnail max-w-[20.5rem] mx-auto">
                   <img
                     className="object-cover w-full"
@@ -108,7 +108,7 @@ export default class MobileSlideEvent extends Component {
                 <p className="text-Neutrals-Grey5 DB2">
                   {eventsCardComponent.sub_title}
                 </p>
-                {/* </Link> */}
+                {/* </HashLink> */}
               </li>
             );
           })}

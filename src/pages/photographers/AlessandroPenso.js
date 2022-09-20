@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import ShareButtons from "../components/ShareButtons";
 
 const AlessandroPenso = () => {
@@ -183,7 +183,7 @@ const AlessandroPenso = () => {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <Link to="/photographers/GaelTurine">
+                  <HashLink to="/photographers/GaelTurine">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -191,11 +191,11 @@ const AlessandroPenso = () => {
                       />
                       이전 작가로
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <Link to="/photographers/JohnVink">
+                  <HashLink to="/photographers/JohnVink">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img
@@ -203,7 +203,7 @@ const AlessandroPenso = () => {
                         alt="arrows_right"
                       />
                     </div>
-                  </Link>
+                  </HashLink>
                 </div>
               </div>
             </div>

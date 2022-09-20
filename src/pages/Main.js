@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+// import { HashLink } from "react-router-hash-link";
 import { Map, MapMarker } from "react-kakao-maps-sdk";
 
 import MainSlidePhotographers from "./components/MainSlidePhotographers";

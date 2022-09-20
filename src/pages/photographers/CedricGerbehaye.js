@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import ShareButtons from "../components/ShareButtons";
 
 export default function CedricGerbehaye() {
@@ -165,7 +165,7 @@ export default function CedricGerbehaye() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <Link to="/photographers/DominicNahr">
+                  <HashLink to="/photographers/DominicNahr">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -173,11 +173,11 @@ export default function CedricGerbehaye() {
                       />
                       이전 작가로
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <Link to="/photographers/HannahReyesMorales">
+                  <HashLink to="/photographers/HannahReyesMorales">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img
@@ -185,7 +185,7 @@ export default function CedricGerbehaye() {
                         alt="arrows_right"
                       />
                     </div>
-                  </Link>
+                  </HashLink>
                 </div>
               </div>
             </div>
