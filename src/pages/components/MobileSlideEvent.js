@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { HashLink } from "react-router-hash-link";
 
 export default class MobileSlideEvent extends Component {
   constructor(props) {
@@ -74,7 +73,7 @@ export default class MobileSlideEvent extends Component {
       <div id="mainSlide" className="mx-auto md:hidden slide">
         <div className="flex items-center justify-between mb-10">
           <p className="H4">참여 방법</p>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
               <img
                 src="/images/svgIcons/slider_arrows_left.svg"
@@ -88,7 +87,7 @@ export default class MobileSlideEvent extends Component {
                 alt="slider_arrows_right"
               />
             </button>
-          </div>
+          </div> */}
         </div>
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           {eventsCardComponent.map((eventsCardComponent, index) => {

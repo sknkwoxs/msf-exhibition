@@ -17,15 +17,15 @@ export default class MobileSlidePhotographers extends Component {
 
   render() {
     const settings = {
-      dots: false,
+      dots: true,
       dotsClass: "slick-dots",
       infinite: true,
-      speed: 500,
+      speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplaySpeed: 2000,
-      prevArrow: "",
-      nextArrow: "",
+      // prevArrow: "",
+      // nextArrow: "",
       arrows: false,
       draggable: false,
       // autoplay: true,
@@ -86,7 +86,7 @@ export default class MobileSlidePhotographers extends Component {
       <div id="mainSlide" className="mx-auto md:hidden slide">
         <div className="flex items-center justify-between mb-10">
           <p className="H4">작가 소개</p>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
               <img
                 src="/images/svgIcons/slider_arrows_left.svg"
@@ -100,7 +100,7 @@ export default class MobileSlidePhotographers extends Component {
                 alt="slider_arrows_right"
               />
             </button>
-          </div>
+          </div> */}
         </div>
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           {photographersCardComponent.map(
@@ -108,9 +108,9 @@ export default class MobileSlidePhotographers extends Component {
               return (
                 <li className="list-none" key={index}>
                   <HashLink to={photographersCardComponent.url}>
-                    <div className="mb-8 thumbnail">
+                    <div className="mb-6 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
                       <img
-                        className="object-cover w-full h-full"
+                        className="absolute object-cover w-full h-full thumbnail"
                         src={photographersCardComponent.img_src}
                         alt="photographers_thumb"
                       />

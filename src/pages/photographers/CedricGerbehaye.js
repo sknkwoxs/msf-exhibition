@@ -5,9 +5,9 @@ export default function CedricGerbehaye() {
   return (
     <>
       <div className="bg-Neutrals-Grey9 text-Neutrals-White">
-        <div className="md:mb-[4rem] mb-[3rem] flex justify-center max-h-[60rem] md:h-full">
+        <div className="mt-[4rem] md:mt-0 md:mb-[4rem] mb-[3rem] flex justify-center md:max-h-[60rem] md:h-full">
           <img
-            className="object-cover w-full"
+            className="object-cover w-full md:max-h-[60rem] min-h-[40rem]"
             src="/images/CedricGerbehaye/img.png"
             alt="img"
           />
