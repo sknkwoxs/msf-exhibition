@@ -8,8 +8,8 @@ const AlessandroPenso = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center max-h-[60rem] md:h-full">
           <img
             className="object-cover w-full"
-            src="/images/GaelTurine/bg.png"
-            alt="bg"
+            src="/images/AlessandroPenso/img.png"
+            alt="img"
           />
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
