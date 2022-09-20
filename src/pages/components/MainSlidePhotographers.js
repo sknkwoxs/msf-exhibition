@@ -33,49 +33,49 @@ export default class MainSlidePhotographers extends Component {
 
     const photographersCardComponent = [
       {
-        url: "/photographers/GaelTurine",
+        url: "/photographers/GaelTurine#",
         img_src: "/images/mainPageThumbnail/gael_thumb.png",
         title: "가엘 튀린",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/AlessandroPenso",
+        url: "/photographers/AlessandroPenso#",
         img_src: "/images/mainPageThumbnail/alessandro_thumb.png",
         title: "알레산드로 펜소",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/JohnVink",
+        url: "/photographers/JohnVink#",
         img_src: "/images/mainPageThumbnail/john_thumb.png",
         title: "존 빈크",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/DominicNahr",
+        url: "/photographers/DominicNahr#",
         img_src: "/images/mainPageThumbnail/dominic_thumb.png",
         title: "도미닉 나흐르",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/CedricGerbehaye",
+        url: "/photographers/CedricGerbehaye#",
         img_src: "/images/mainPageThumbnail/cedric_thumb.png",
         title: "세드릭 게르베하이",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/HannahReyesMorales",
+        url: "/photographers/HannahReyesMorales#",
         img_src: "/images/mainPageThumbnail/hannah_thumb.png",
         title: "해나 레예스 모랄레스",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/MassimoBerruti",
+        url: "/photographers/MassimoBerruti#",
         img_src: "/images/mainPageThumbnail/massimo_thumb.png",
         title: "마시모 베루티",
         sub_title: "Gaël Turine - Angola",
       },
       {
-        url: "/photographers/AshfikaRahman",
+        url: "/photographers/AshfikaRahman#",
         img_src: "/images/mainPageThumbnail/ashfika_thumb.png",
         title: "아슈피카 라만",
         sub_title: "Gaël Turine - Angola",

@@ -1,11 +1,11 @@
 export const introduction = [
   {
     title: "개요",
-    url: "/introduction/Summary#",
+    url: "/introduction/Summary#top",
   },
   {
     title: "인사말",
-    url: "/introduction/Greetings#",
+    url: "/introduction/Greetings#top",
   },
 ];
 

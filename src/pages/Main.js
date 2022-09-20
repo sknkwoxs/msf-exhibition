@@ -8,6 +8,7 @@ import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
+import Stibee from "./components/Stibee";
 
 const Main = () => {
   const [expandButtons, setexpandButtons] = useState(false);
@@ -97,6 +98,7 @@ const Main = () => {
                   구독하기
                 </button>
               </div>
+              <Stibee />
             </div>
           </section>
           <section className="hidden md:block">
