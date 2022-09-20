@@ -5,8 +5,6 @@ import Collapsible from "react-collapsible";
 import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
-  // const [dropdown, setDropdown] = useState(false);
-
   const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();
   const toggleMenu = () => {
@@ -21,6 +19,7 @@ const Header = () => {
   const updateScroll = () => {
     setScrollPosition(window.scrollY || document.documentElement.scrollTop);
   };
+
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
   });

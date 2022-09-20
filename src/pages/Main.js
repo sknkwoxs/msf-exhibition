@@ -1,4 +1,8 @@
+import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import { Map, MapMarker } from "react-kakao-maps-sdk";
+import CopyToClipboard from "react-copy-to-clipboard";
 
 import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
@@ -6,6 +10,18 @@ import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
 
 const Main = () => {
+  const [expandButtons, setexpandButtons] = useState(false);
+  const { pathname } = useLocation();
+  const toggleButtons = () => {
+    setexpandButtons(!expandButtons);
+  };
+
+  useEffect(() => {
+    setexpandButtons(false);
+  }, [pathname]);
+
+  const currentUrl = window.location.href;
+
   return (
     <>
       <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
@@ -20,10 +36,6 @@ const Main = () => {
           <section className="md:pt-[4rem] pt-8 mx-auto md:max-w-[76rem] px-4">
             <div className="md:flex md:justify-between">
               <div>
-                {/* <h1 className="md:text-[6.5rem] text-[4rem] md:leading-[7rem] leading-[4.5rem] font-bold font-din">
-                  MORE
-                  <br /> THAN A<br className="hidden md:flex" /> PICTURE
-                </h1> */}
                 <div>
                   <img
                     className="hidden object-cover w-full mb-8 md:flex"
@@ -152,6 +164,79 @@ const Main = () => {
           </section>
         </div>
       </main>
+      <div className="fixed z-10 bottom-[1.125rem] right-4 md:hidden">
+        <div>
+          {expandButtons ? (
+            <ul className="flex flex-col gap-2">
+              <li>
+                <button>
+                  <img
+                    src="/images/shareButtons/share_naver_button.svg"
+                    alt="share_naver_button"
+                  />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img
+                    src="/images/shareButtons/share_facebook_button.svg"
+                    alt="share_facebook_button"
+                  />
+                </button>
+              </li>
+              <li>
+                <button>
+                  <a
+                    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                    className="twitter-share-button"
+                    data-show-count="false"
+                  >
+                    <img
+                      src="/images/shareButtons/share_twitter_button.svg"
+                      alt="share_twitter_button"
+                    />
+                  </a>
+                  <script
+                    async
+                    src="https://platform.twitter.com/widgets.js"
+                    charSet="utf-8"
+                  ></script>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <img
+                    src="/images/shareButtons/share_kakao_button.svg"
+                    alt="share_kakao_button"
+                  />
+                </button>
+              </li>
+              <li>
+                <CopyToClipboard text={currentUrl}>
+                  <img
+                    className="cursor-pointer"
+                    src="/images/shareButtons/share_link_button.svg"
+                    alt="share_link_button"
+                    onClick={() => alert("링크가 복사되었습니다.")}
+                  />
+                </CopyToClipboard>
+              </li>
+              <li>
+                <button onClick={toggleButtons}>
+                  <img
+                    src="/images/shareButtons/closeButton.svg"
+                    alt="closeButton"
+                  />
+                </button>
+              </li>
+            </ul>
+          ) : (
+            <div onClick={toggleButtons}>
+              <img src="/images/shareButtons/openButton.svg" alt="openButton" />
+            </div>
+          )}
+        </div>
+      </div>
     </>
   );
 };
