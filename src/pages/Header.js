@@ -125,10 +125,10 @@ const Header = () => {
                     </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <HashLink to="/Participate">참여 방법</HashLink>
+                    <HashLink to="/Participate#">참여 방법</HashLink>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <HashLink to="/Address">오시는길</HashLink>
+                    <HashLink to="/Address#">오시는길</HashLink>
                   </li>
                 </ul>
               </div>

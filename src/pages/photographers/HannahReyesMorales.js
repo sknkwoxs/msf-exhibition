@@ -170,7 +170,7 @@ export default function HannahReyesMorales() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/CedricGerbehaye">
+                  <HashLink to="/photographers/CedricGerbehaye#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -182,7 +182,7 @@ export default function HannahReyesMorales() {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/MassimoBerruti">
+                  <HashLink to="/photographers/MassimoBerruti#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

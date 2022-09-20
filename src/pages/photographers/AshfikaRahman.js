@@ -190,7 +190,7 @@ export default function AshfikaRahman() {
                   <ShareButtons />
                 </div>
                 <div className="grid items-center grid-cols-3">
-                  <HashLink to="/photographers/MassimoBerruti">
+                  <HashLink to="/photographers/MassimoBerruti#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"

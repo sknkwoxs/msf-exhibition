@@ -157,7 +157,7 @@ export default function MassimoBerruti() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/HannahReyesMorales">
+                  <HashLink to="/photographers/HannahReyesMorales#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -169,7 +169,7 @@ export default function MassimoBerruti() {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/AshfikaRahman">
+                  <HashLink to="/photographers/AshfikaRahman#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

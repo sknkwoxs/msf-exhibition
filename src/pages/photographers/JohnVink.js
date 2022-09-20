@@ -221,7 +221,7 @@ export default function JohnVink() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/AlessandroPenso">
+                  <HashLink to="/photographers/AlessandroPenso#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -233,7 +233,7 @@ export default function JohnVink() {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/DominicNahr">
+                  <HashLink to="/photographers/DominicNahr#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

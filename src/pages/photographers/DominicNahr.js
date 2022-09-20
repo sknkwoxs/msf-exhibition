@@ -161,7 +161,7 @@ export default function DominicNahr() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/JohnVink">
+                  <HashLink to="/photographers/JohnVink#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -173,7 +173,7 @@ export default function DominicNahr() {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/CedricGerbehaye">
+                  <HashLink to="/photographers/CedricGerbehaye#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

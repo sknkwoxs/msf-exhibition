@@ -183,7 +183,7 @@ const AlessandroPenso = () => {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/GaelTurine">
+                  <HashLink to="/photographers/GaelTurine#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -195,7 +195,7 @@ const AlessandroPenso = () => {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/JohnVink">
+                  <HashLink to="/photographers/JohnVink#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

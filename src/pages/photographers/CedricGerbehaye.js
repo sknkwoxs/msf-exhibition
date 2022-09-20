@@ -165,7 +165,7 @@ export default function CedricGerbehaye() {
                   <ShareButtons />
                 </div>
                 <div className="flex items-center justify-between">
-                  <HashLink to="/photographers/DominicNahr">
+                  <HashLink to="/photographers/DominicNahr#">
                     <div className="flex items-center gap-2">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -177,7 +177,7 @@ export default function CedricGerbehaye() {
                   <div className="hidden gap-2 md:flex">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/HannahReyesMorales">
+                  <HashLink to="/photographers/HannahReyesMorales#">
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img

@@ -164,7 +164,7 @@ export default function GaelTurine() {
                   <ShareButtons />
                 </div>
                 <div className="items-center md:grid md:grid-cols-3">
-                  <HashLink to="/photographers/AshfikaRahman">
+                  <HashLink to="/photographers/AshfikaRahman#">
                     {/* <div className="flex items-center gap-2 H7 ">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
@@ -176,7 +176,7 @@ export default function GaelTurine() {
                   <div className="hidden gap-2 md:flex justify-self-center">
                     <ShareButtons />
                   </div>
-                  <HashLink to="/photographers/AlessandroPenso">
+                  <HashLink to="/photographers/AlessandroPenso#">
                     <div className="flex items-center justify-end w-full gap-2 H7">
                       다음 작가로
                       <img
