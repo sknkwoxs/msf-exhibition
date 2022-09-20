@@ -68,13 +68,13 @@ const Main = () => {
             </div>
           </section>
           <section className="px-4 bg-center bg-no-repeat bg-cover md:bg-bg-blur bg-bg-blur-mobile">
-            <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
+            <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
               <MobileSlidePhotographers />
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
-            <div className="py-[6rem] md:max-w-[76rem] mx-auto md:pb-[10rem] pb-[6rem]">
+            <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlideEvent />
               <MobileSlideEvent />
             </div>

@@ -95,9 +95,9 @@ export default class MainSlideEvent extends Component {
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           <li className="list-none">
             <HashLink to="/Participate#Section1">
-              <div className="mb-8 thumbnail">
+              <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
-                  className="object-cover"
+                  className="absolute object-cover w-full h-full thumbnail"
                   src="/images/event_slide_1.png"
                   alt="participate_thumb"
                 />
@@ -111,9 +111,9 @@ export default class MainSlideEvent extends Component {
           </li>
           <li className="list-none">
             <HashLink to="/Participate#Section2">
-              <div className="mb-8 thumbnail">
+              <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
-                  className="object-cover"
+                  className="absolute object-cover w-full h-full thumbnail"
                   src="/images/event_slide_2.png"
                   alt="participate_thumb"
                 />
@@ -126,9 +126,9 @@ export default class MainSlideEvent extends Component {
           </li>
           <li className="list-none">
             <HashLink to="/Participate#Section3">
-              <div className="mb-8 thumbnail">
+              <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
-                  className="object-cover"
+                  className="absolute object-cover w-full h-full thumbnail"
                   src="/images/event_slide_3.png"
                   alt="participate_thumb"
                 />
@@ -139,9 +139,9 @@ export default class MainSlideEvent extends Component {
           </li>
           <li className="list-none">
             <HashLink to="/Participate#Section4">
-              <div className="mb-8 thumbnail">
+              <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
-                  className="object-cover"
+                  className="absolute object-cover w-full h-full thumbnail"
                   src="/images/event_slide_4.png"
                   alt="participate_thumb"
                 />
@@ -152,9 +152,9 @@ export default class MainSlideEvent extends Component {
           </li>
           <li className="list-none">
             <HashLink to="/Participate#Section5">
-              <div className="mb-8 thumbnail">
+              <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
-                  className="object-cover"
+                  className="absolute object-cover w-full h-full thumbnail"
                   src="/images/event_slide_5.png"
                   alt="participate_thumb"
                 />
