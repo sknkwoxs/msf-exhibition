@@ -100,7 +100,7 @@ export default function Address() {
           </section>
           <div className="mx-auto md:max-w-[76rem] px-4">
             <div>
-              <h5 className="pb-6 border-b-2 H5">대중교통 이용시</h5>
+              <h5 className="pb-6 border-b-2 H5 md:mt-20">대중교통 이용시</h5>
             </div>
             <div className="flex flex-col py-6 border-b-2 md:py-12 md:flex-row">
               <h6 className="H6 mr-[6.875rem] whitespace-nowrap md:mb-0 mb-4">
