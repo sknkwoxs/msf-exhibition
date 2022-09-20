@@ -93,9 +93,9 @@ export default class MainSlideEvent extends Component {
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           {eventsCardComponent.map((eventsCardComponent, index) => {
             return (
-              <li className="list-none -px-4" key={index}>
+              <li className="list-none" key={index}>
                 {/* <Link to={eventsCardComponent.url}> */}
-                <div className="px-4 mb-8 thumbnail">
+                <div className="mb-8 thumbnail">
                   <img
                     className="object-cover"
                     src={eventsCardComponent.img_src}

@@ -320,4 +320,12 @@
     opacity: 0.5;
     background-color: grey;
   }
+
+  #mainSlide .slider .slick-list {
+    margin: 0 -20px;
+  }
+
+  #mainSlide .slick-slide {
+    margin: 0 20px;
+  }
 }

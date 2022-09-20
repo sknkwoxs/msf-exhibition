@@ -107,9 +107,9 @@ export default class MainSlidePhotographers extends Component {
           {photographersCardComponent.map(
             (photographersCardComponent, index) => {
               return (
-                <li className="px-3 list-none" key={index}>
+                <li className="list-none" key={index}>
                   <Link to={photographersCardComponent.url}>
-                    <div className="mb-8 thumbnail -px-3">
+                    <div className="mb-8 thumbnail">
                       <img
                         className="object-cover w-full h-full"
                         src={photographersCardComponent.img_src}
