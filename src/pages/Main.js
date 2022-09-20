@@ -17,7 +17,7 @@ const Main = () => {
               alt="Asset 1@3x 1"
             />
           </div>
-          <section className="md:pt-[4rem] pt-8 mx-auto md:max-w-[76rem]">
+          <section className="md:pt-[4rem] pt-8 mx-auto md:max-w-[76rem] px-4">
             <div className="md:flex md:justify-between">
               <div>
                 {/* <h1 className="md:text-[6.5rem] text-[4rem] md:leading-[7rem] leading-[4.5rem] font-bold font-din">
@@ -54,7 +54,7 @@ const Main = () => {
               </div>
             </div>
           </section>
-          <section className="px-4 bg-center bg-no-repeat bg-cover bg-bg-blur">
+          <section className="px-4 bg-center bg-no-repeat bg-cover md:bg-bg-blur bg-bg-blur-mobile">
             <div className="pt-[6rem] md:pb-[10rem] pb-[6rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
               <MobileSlidePhotographers />

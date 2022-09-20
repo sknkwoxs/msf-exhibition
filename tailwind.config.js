@@ -41,6 +41,7 @@ module.exports = {
     },
     backgroundImage: {
       "bg-blur": "url('../public/images/bg_bl.png')",
+      "bg-blur-mobile": "url('../public/images/MSF157967_Medium 1_mobile.png')",
       "bg-introduction": "url('../public/images/Asset 1@3x 2.png')",
     },
   },
