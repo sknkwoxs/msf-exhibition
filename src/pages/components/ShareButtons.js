@@ -18,7 +18,18 @@ const ShareButtons = () => {
         <img src="/images/svgIcons/share_kakao.svg" alt="share_kakao" />
       </button>
       <button>
-        <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
+        <a
+          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+          className="twitter-share-button"
+          data-show-count="false"
+        >
+          <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
+        </a>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        ></script>
       </button>
       <button>
         <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
