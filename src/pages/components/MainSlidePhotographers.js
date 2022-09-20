@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import $ from "jquery";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 

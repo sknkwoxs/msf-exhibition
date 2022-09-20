@@ -3,148 +3,129 @@ import Slider from "react-slick";
 import { Link } from "react-router-dom";
 
 export default class MobileSlidePhotographers extends Component {
+  constructor(props) {
+    super(props);
+    this.next = this.next.bind(this);
+    this.previous = this.previous.bind(this);
+  }
+  next() {
+    this.slider.slickNext();
+  }
+  previous() {
+    this.slider.slickPrev();
+  }
+
   render() {
     const settings = {
-      dots: true,
-      arrows: false,
+      dots: false,
+      dotsClass: "slick-dots",
       infinite: true,
       speed: 500,
-      dotsClass: "slick-dots",
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplaySpeed: 5000,
-      pauseOnHover: true,
+      autoplaySpeed: 2000,
+      prevArrow: "",
+      nextArrow: "",
+      arrows: false,
+      draggable: false,
       // autoplay: true,
-      // centerMode: true,
-      // centerPadding: "24px",
     };
+
+    const photographersCardComponent = [
+      {
+        url: "/photographers/GaelTurine",
+        img_src: "/images/mainPageThumbnail/gael_thumb.png",
+        title: "가엘 튀린",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/AlessandroPenso",
+        img_src: "/images/mainPageThumbnail/alessandro_thumb.png",
+        title: "알레산드로 펜소",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/JohnVink",
+        img_src: "/images/mainPageThumbnail/john_thumb.png",
+        title: "존 빈크",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/DominicNahr",
+        img_src: "/images/mainPageThumbnail/dominic_thumb.png",
+        title: "도미닉 나흐르",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/CedricGerbehaye",
+        img_src: "/images/mainPageThumbnail/cedric_thumb.png",
+        title: "세드릭 게르베하이",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/HannahReyesMorales",
+        img_src: "/images/mainPageThumbnail/hannah_thumb.png",
+        title: "해나 레예스 모랄레스",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/MassimoBerruti",
+        img_src: "/images/mainPageThumbnail/massimo_thumb.png",
+        title: "마시모 베루티",
+        sub_title: "Gaël Turine - Angola",
+      },
+      {
+        url: "/photographers/AshfikaRahman",
+        img_src: "/images/mainPageThumbnail/ashfika_thumb.png",
+        title: "아슈피카 라만",
+        sub_title: "Gaël Turine - Angola",
+      },
+    ];
+
     return (
-      <div className="mx-auto translate-x-2.5 md:hidden slide">
-        <Slider {...settings}>
-          <div className="-mx-3">
-            <Link to="/photographers/GaelTurine">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/gael_thumb.png"
-                  alt="gael_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">가엘 튀린 - 앙골라</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Gaël Turine - Angola
-              </p>
-            </Link>
+      <div id="mainSlide" className="mx-auto md:hidden slide">
+        <div className="flex items-center justify-between mb-10">
+          <p className="H4">작가 소개</p>
+          <div className="flex items-center">
+            <button className="main_slider_arrows_left" onClick={this.previous}>
+              <img
+                src="/images/svgIcons/slider_arrows_left.svg"
+                alt="slider_arrows_left"
+              />
+            </button>
+            <div className="h-6 border border-r border-Neutrals-Grey7" />
+            <button className="main_slider_arrows_right" onClick={this.next}>
+              <img
+                src="/images/svgIcons/slider_arrows_right.svg"
+                alt="slider_arrows_right"
+              />
+            </button>
           </div>
-          <div className="-mx-3">
-            <Link to="/photographers/AlessandroPenso">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/alessandro_thumb.png"
-                  alt="alessandro_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">알레산드로 펜소 - 지중해</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Alessandro Penso - Mediterranean Sea
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/JohnVink">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/john_thumb.png"
-                  alt="john_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">존 빈크 - 온두라스</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                John Vink - Honduras
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/DominicNahr">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/dominic_thumb.png"
-                  alt="dominic_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">도미닉 나흐르 - 남수단</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Dominic Nahr - South Sudan
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/CedricGerbehaye">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/cedric_thumb.png"
-                  alt="cedric_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">
-                세드릭 게르베하이 - 콩고민주공화국
-              </p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Cédric Gerbehaye - Democratic Republic of the Congo
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/HannahReyesMorales">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/hannah_thumb.png"
-                  alt="hannah_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">
-                해나 레예스 모랄레스 - 필리핀
-              </p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Hannah Reyes Morales - Philippines
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/MassimoBerruti">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/massimo_thumb.png"
-                  alt="massimo_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">마시모 베루티 - 파키스탄</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Massimo Berruti - Pakistan
-              </p>
-            </Link>
-          </div>
-          <div className="-mx-3">
-            <Link to="/photographers/AshfikaRahman">
-              <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0 mx-3">
-                <img
-                  className="absolute object-cover w-full h-full"
-                  src="/images/mainPageThumbnail/ashfika_thumb.png"
-                  alt="ashfika_thumb"
-                />
-              </div>
-              <p className="mb-2 text-center H5">아슈피카 라만 - 방글라데시</p>
-              <p className="text-center text-Neutrals-Grey5 DB2">
-                Ashfika Rahman - Bangladesh
-              </p>
-            </Link>
-          </div>
+        </div>
+        <Slider {...settings} ref={(c) => (this.slider = c)}>
+          {photographersCardComponent.map(
+            (photographersCardComponent, index) => {
+              return (
+                <li className="list-none" key={index}>
+                  <Link to={photographersCardComponent.url}>
+                    <div className="mb-8 thumbnail">
+                      <img
+                        className="object-cover w-full h-full"
+                        src={photographersCardComponent.img_src}
+                        alt="photographers_thumb"
+                      />
+                    </div>
+                    <p className="mb-2 text-center H5 card_title">
+                      {photographersCardComponent.title}
+                    </p>
+                    <p className="text-center text-Neutrals-Grey5 DB2">
+                      {photographersCardComponent.sub_title}
+                    </p>
+                  </Link>
+                </li>
+              );
+            }
+          )}
         </Slider>
       </div>
     );
