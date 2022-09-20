@@ -192,7 +192,18 @@
 
   /* dropdown submenu display */
   header .header_submenu {
+    display: none;
+  }
+
+  header .header_menu:hover .header_submenu {
     display: flex;
+  }
+
+  header .header_menu li > a::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    transition: all 0.2s ease;
   }
 
   /* dropdown submenu hover effect */
