@@ -195,6 +195,10 @@
     display: none;
   }
 
+  header .header_menu {
+    height: 100%;
+  }
+
   header .header_menu:hover .header_submenu {
     display: flex;
   }
@@ -219,6 +223,7 @@
     transition: all 0.2s ease;
   }
 
+  header .header_menu li > a.active::after,
   header .header_menu li:hover > a::after {
     content: "";
     width: 100%;
@@ -237,6 +242,11 @@
 
   header .header_menu ul li:hover > a::after {
     display: none;
+  }
+
+  header .header_menu li:hover #headerContents {
+    height: 32.5rem;
+    background-color: #000000;
   }
 
   header .bg_black {
@@ -339,13 +349,5 @@
   .Collapsible .Collapsible__trigger.is-disabled {
     opacity: 0.5;
     background-color: grey;
-  }
-
-  #mainSlide .slider .slick-list {
-    margin: 0 -20px;
-  }
-
-  #mainSlide .slick-slide {
-    margin: 0 20px;
   }
 }
