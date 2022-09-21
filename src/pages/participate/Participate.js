@@ -198,11 +198,11 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="overflow-hidden md:h-[488px]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <YouTube
+                className="absolute object-cover w-full h-full"
                 videoId="zlcdcJUSJBs"
                 opts={{
-                  width: "100%",
                   playerVars: {
                     autoplay: 0,
                     rel: 0,

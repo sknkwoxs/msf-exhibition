@@ -177,7 +177,6 @@ export default class MainSlideEvent extends Component {
                     e.target.stopVideo(0);
                   }}
                 />
-                <h1 className="H1">크기조정필요</h1>
               </div>
               <p className="mb-2 H5 card_title">
                 다큐멘터리 에고이스트 온라인 무료 상영

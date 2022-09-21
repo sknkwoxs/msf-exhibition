@@ -385,4 +385,9 @@
   .greetingsMainImg {
     object-position: calc(70%);
   }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
