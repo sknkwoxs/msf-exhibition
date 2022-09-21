@@ -24,6 +24,17 @@ const Main = () => {
   const currentUrl = window.location.href;
 
   const facebookShareButton = () => {
+    window.open(
+      "https://www.facebook.com/sharer/sharer.php?u=" +
+        encodeURIComponent(document.URL) +
+        "&t=" +
+        encodeURIComponent(document.title),
+      "facebooksharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+    );
+  };
+
+  const naverShareButton = () => {
     window.open("http://www.facebook.com/sharer.php?u=www.naver.com");
   };
 
