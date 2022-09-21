@@ -38,8 +38,6 @@ const Header = () => {
     window.addEventListener("scroll", updateScroll);
   });
 
-  console.log(setHover);
-
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
