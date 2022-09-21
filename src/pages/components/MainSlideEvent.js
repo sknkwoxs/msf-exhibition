@@ -174,7 +174,7 @@ export default class MainSlideEvent extends Component {
                 videoId="zlcdcJUSJBs"
                 opts={{
                   playerVars: {
-                    autoplay: 1,
+                    autoplay: 0,
                     rel: 0,
                     modestbranding: 1,
                   },
