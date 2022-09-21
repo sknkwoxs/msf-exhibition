@@ -6,10 +6,10 @@ export default function Participate() {
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
       <div>
-        <div className="md:my-[6rem] my-[4rem] px-4">
+        <div className="md:mb-[6rem] mb-[4rem] px-4">
           <div
             id="Section1"
-            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
@@ -29,9 +29,9 @@ export default function Participate() {
                 이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
               </p>
             </div>
-            <div className="md:min-w-[30.5rem]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
-                className="object-cover w-full"
+                className="absolute object-cover w-full h-full"
                 src="/images/participate1.png"
                 alt="participate1"
               />
@@ -40,7 +40,7 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section2"
-            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">전시 사진 기부 옥션</p>
@@ -71,9 +71,9 @@ export default function Participate() {
                 발급이 가능합니다.
               </p>
             </div>
-            <div className="md:min-w-[30.5rem]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
-                className="object-cover w-full"
+                className="absolute object-cover w-full h-full"
                 src="/images/participate2.png"
                 alt="participate2"
               />
@@ -82,7 +82,7 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section3"
-            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">
@@ -106,9 +106,9 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="md:min-w-[30.5rem]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
-                className="object-cover w-full"
+                className="absolute object-cover w-full h-full"
                 src="/images/participate3.png"
                 alt="participate3"
               />
@@ -117,7 +117,7 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section4"
-            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">도슨트 가이드 투어</p>
@@ -141,9 +141,9 @@ export default function Participate() {
                 </button>
               </div>
             </div>
-            <div className="md:min-w-[30.5rem]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
-                className="object-cover w-full"
+                className="absolute object-cover w-full h-full"
                 src="/images/participate4.png"
                 alt="participate4"
               />
@@ -152,7 +152,7 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section5"
-            className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">
@@ -167,20 +167,20 @@ export default function Participate() {
                 코드를 통해 깊은 울림을 담은 배우 유해진님의 전시 해설을 들으실
                 수 있습니다.
                 <br />
-                <br />{" "}
+                <br />
                 <span className="DB2">*개인 이어폰을 지참해 주세요.</span>
               </p>
             </div>
-            <div className="md:min-w-[30.5rem]">
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
-                className="object-cover w-full"
+                className="absolute object-cover w-full h-full"
                 src="/images/participate5.png"
                 alt="participate5"
               />
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:flex-row flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">
                 다큐멘터리 에고이스트 온라인 무료 상영
@@ -198,20 +198,18 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="md:min-w-[30.5rem] h-[488px]">
+            <div className="overflow-hidden md:h-[488px]">
               <YouTube
                 videoId="zlcdcJUSJBs"
                 opts={{
                   width: "100%",
-                  maxHeight: "488px",
                   playerVars: {
-                    autoplay: 1,
+                    autoplay: 0,
                     rel: 0,
                     modestbranding: 1,
                   },
                 }}
               />
-              <h1 className="H1">크기조정필요</h1>
             </div>
           </div>
         </div>
