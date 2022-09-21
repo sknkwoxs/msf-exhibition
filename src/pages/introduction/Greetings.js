@@ -5,7 +5,7 @@ export default function Greetings() {
       <div>
         <div className="mt-[4rem] md:mt-0 overflow-hidden">
           <img
-            className="w-full max-h-[44rem] min-h-[22rem] object-cover"
+            className="w-full max-h-[44rem] min-h-[22rem] object-cover greetingsMainImg"
             src="/images/Welcome.png"
             alt="Welcome"
           />

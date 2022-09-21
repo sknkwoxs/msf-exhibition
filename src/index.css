@@ -381,4 +381,8 @@
     opacity: 0.5;
     background-color: grey;
   }
+
+  .greetingsMainImg {
+    object-position: calc(70%);
+  }
 }
