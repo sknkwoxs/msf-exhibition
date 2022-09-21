@@ -24,11 +24,11 @@ export default class MobileSlideEvent extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 4000,
       prevArrow: "",
       nextArrow: "",
       arrows: false,
-      // autoplay: true,
+      autoplay: true,
     };
 
     return (
@@ -128,7 +128,7 @@ export default class MobileSlideEvent extends Component {
                 videoId="zlcdcJUSJBs"
                 opts={{
                   playerVars: {
-                    autoplay: 0,
+                    autoplay: 1,
                     rel: 0,
                     modestbranding: 1,
                   },

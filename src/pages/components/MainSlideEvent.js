@@ -24,12 +24,12 @@ export default class MainSlideEvent extends Component {
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 4000,
       prevArrow: "",
       nextArrow: "",
       draggable: false,
       arrows: false,
-      // autoplay: true,
+      autoplay: true,
     };
 
     // const eventsCardComponent = [
@@ -110,7 +110,12 @@ export default class MainSlideEvent extends Component {
             </HashLink>
           </li>
           <li className="list-none">
-            <HashLink to="/Participate#Section2">
+            <HashLink
+              to="/Participate#Section2"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "top" })
+              }
+            >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
@@ -170,6 +175,7 @@ export default class MainSlideEvent extends Component {
                 opts={{
                   playerVars: {
                     autoplay: 1,
+                    rel: 0,
                     modestbranding: 1,
                   },
                 }}

@@ -23,12 +23,12 @@ export default class MobileSlidePhotographers extends Component {
       speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4000,
       // prevArrow: "",
       // nextArrow: "",
       arrows: false,
       draggable: false,
-      // autoplay: true,
+      autoplay: true,
     };
 
     const photographersCardComponent = [

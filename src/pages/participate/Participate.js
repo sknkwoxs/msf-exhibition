@@ -37,11 +37,8 @@ export default function Participate() {
               />
             </div>
           </div>
-          <div className="border-b border-Neutrals-Grey3" />
-          <div
-            id="Section2"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
-          >
+          <div id="Section2" className="border-b border-Neutrals-Grey3" />
+          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary H4">전시 사진 기부 옥션</p>
               <p className="DB1 text-Neutrals-Grey6">
@@ -204,7 +201,7 @@ export default function Participate() {
                 videoId="zlcdcJUSJBs"
                 opts={{
                   playerVars: {
-                    autoplay: 0,
+                    autoplay: 1,
                     rel: 0,
                     modestbranding: 1,
                   },
