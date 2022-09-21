@@ -163,26 +163,25 @@ export default class MainSlideEvent extends Component {
             </HashLink>
           </li>
           <li className="list-none">
-            <HashLink to="/Participate#Section1">
-              <div className="mb-8">
-                <YouTube
-                  videoId="zlcdcJUSJBs"
-                  opts={{
-                    playerVars: {
-                      autoplay: 1,
-                      modestbranding: 1,
-                    },
-                  }}
-                  onEnd={(e) => {
-                    e.target.stopVideo(0);
-                  }}
-                />
-              </div>
-              <p className="mb-2 H5 card_title">
-                다큐멘터리 에고이스트 온라인 무료 상영
-              </p>
-              <p className="text-Neutrals-Grey5 DB2">11.02(수)-11.14(월)</p>
-            </HashLink>
+            <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
+              <YouTube
+                className="absolute object-cover w-full h-full"
+                videoId="zlcdcJUSJBs"
+                opts={{
+                  playerVars: {
+                    autoplay: 1,
+                    modestbranding: 1,
+                  },
+                }}
+                onEnd={(e) => {
+                  e.target.stopVideo(0);
+                }}
+              />
+            </div>
+            <p className="mb-2 H5 card_title">
+              다큐멘터리 에고이스트 온라인 무료 상영
+            </p>
+            <p className="text-Neutrals-Grey5 DB2">11.02(수)-11.14(월)</p>
           </li>
         </Slider>
       </div>
