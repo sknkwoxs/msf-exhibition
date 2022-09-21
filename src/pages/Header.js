@@ -1,10 +1,24 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
 import Collapsible from "react-collapsible";
 import { HashLink, NavHashLink } from "react-router-hash-link";
 
 const Header = () => {
+  const [hover, setHover] = useState(false);
+  const hoverStyle = {
+    height: "32.5rem",
+    backgroundColor: "#000000",
+  };
+
+  const onMouseEnter = () => {
+    setHover(true);
+  };
+
+  const onMouseLeave = () => {
+    setHover(false);
+  };
+
   const [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();
   const toggleMenu = () => {
@@ -24,7 +38,7 @@ const Header = () => {
     window.addEventListener("scroll", updateScroll);
   });
 
-  const [isHover, setIsHover] = useState(false);
+  console.log(setHover);
 
   return (
     <>
@@ -32,10 +46,11 @@ const Header = () => {
         <div
           id="headerWrap"
           className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}
+          style={hover ? hoverStyle : null}
         >
           <div
             id="headerContents"
-            className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative"
+            className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
           >
             <a href="/">
               <img
@@ -47,15 +62,11 @@ const Header = () => {
             <div className="absolute right-0 h-full top-10">
               <ul
                 className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu"
-                onMouseOver={() => setIsHover(true)}
-                onMouseOut={() => setIsHover(false)}
+                onMouseEnter={onMouseEnter}
+                onMouseLeave={onMouseLeave}
               >
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <NavHashLink
-                    to="/introduction/Summary#"
-                    activeClassName="selected"
-                    activeStyle={{ color: "red" }}
-                  >
+                  <NavHashLink to="/introduction/Summary#">
                     사진전 소개
                   </NavHashLink>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
@@ -71,11 +82,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
-                  <NavHashLink
-                    to="/photographers/GaelTurine#"
-                    activeClassName="selected"
-                    activeStyle={{ color: "red" }}
-                  >
+                  <NavHashLink to="/photographers/GaelTurine#">
                     작가 소개
                   </NavHashLink>
                   <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
@@ -91,22 +98,10 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <NavHashLink
-                    to="/Participate#"
-                    activeClassName="selected"
-                    activeStyle={{ color: "red" }}
-                  >
-                    참여 방법
-                  </NavHashLink>
+                  <NavHashLink to="/Participate#">참여 방법</NavHashLink>
                 </li>
                 <li className="mx-[2rem] relative inline-block py-2">
-                  <NavHashLink
-                    to="/Address#"
-                    activeClassName="selected"
-                    activeStyle={{ color: "red" }}
-                  >
-                    오시는길
-                  </NavHashLink>
+                  <NavHashLink to="/Address#">오시는길</NavHashLink>
                 </li>
               </ul>
             </div>

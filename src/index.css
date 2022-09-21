@@ -203,6 +203,11 @@
     display: flex;
   }
 
+  header .bg_black {
+    background-color: black;
+  }
+
+  /* dropdown submenu hover effect */
   header .header_menu li > a::after {
     content: "";
     width: 0%;
@@ -210,7 +215,6 @@
     transition: all 0.2s ease;
   }
 
-  /* dropdown submenu hover effect */
   header .header_menu li > a::after {
     content: "";
     width: 0%;
@@ -262,15 +266,6 @@
 
   header .header_menu ul li:hover > a::after {
     display: none;
-  }
-
-  header .header_menu li:hover #headerContents {
-    height: 32.5rem;
-    background-color: #000000;
-  }
-
-  header .bg_black {
-    background-color: black;
   }
 
   /* slider */
