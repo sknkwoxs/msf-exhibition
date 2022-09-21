@@ -23,6 +23,10 @@ const Main = () => {
 
   const currentUrl = window.location.href;
 
+  const facebookShareButton = () => {
+    window.open("http://www.facebook.com/sharer.php?u=www.naver.com");
+  };
+
   return (
     <>
       <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
@@ -158,7 +162,7 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button>
+                <button onClick={facebookShareButton}>
                   <img
                     src="/images/shareButtons/share_facebook_button.svg"
                     alt="share_facebook_button"
