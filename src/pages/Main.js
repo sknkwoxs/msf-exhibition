@@ -49,7 +49,7 @@ const Main = () => {
                     alt="MORETHANAPICTURE"
                   />
                 </div>
-                <p className="mb-[3.5rem] H5">
+                <p className="md:mb-[3.5rem] mb-4 H5">
                   8인의 포토저널리스트가 담은
                   <br /> 국경없는의사회 구호현장의 기록
                 </p>
