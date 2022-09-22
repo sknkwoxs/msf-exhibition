@@ -75,7 +75,7 @@ const Main = () => {
               alt="Asset 1@3x 1"
             />
           </div>
-          <section className="md:pt-0 pt-8 mx-auto md:max-w-[76rem] px-4">
+          <section className="md:pt-0 pt-4 mx-auto md:max-w-[76rem] px-4">
             <div className="md:flex md:justify-between">
               <div>
                 <div>
@@ -85,12 +85,12 @@ const Main = () => {
                     alt="MORETHANAPICTURE"
                   />
                   <img
-                    className="object-cover w-full mb-8 md:hidden"
+                    className="object-cover w-full mb-4 md:hidden"
                     src="/images/MORE THAN A PICTURE_mobile.svg"
                     alt="MORETHANAPICTURE"
                   />
                 </div>
-                <p className="md:mb-[3.5rem] mb-4 H5">
+                <p className="md:mb-[3.5rem] mb-2 H5">
                   8인의 포토저널리스트가 담은
                   <br /> 국경없는의사회 구호현장의 기록
                 </p>
