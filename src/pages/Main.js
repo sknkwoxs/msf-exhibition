@@ -191,29 +191,32 @@ const Main = () => {
           {expandButtons ? (
             <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
               <li>
-                <button>
+                <button className="w-[60px]">
                   <img
+                    className="w-full"
                     src="/images/shareButtons/share_naver_button.svg"
                     alt="share_naver_button"
                   />
                 </button>
               </li>
               <li>
-                <button onClick={facebookShare}>
+                <button className="w-[60px]" onClick={facebookShare}>
                   <img
+                    className="w-full"
                     src="/images/shareButtons/share_facebook_button.svg"
                     alt="share_facebook_button"
                   />
                 </button>
               </li>
               <li>
-                <button>
+                <button className="w-[60px]">
                   <a
                     href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                     className="twitter-share-button"
                     data-show-count="false"
                   >
                     <img
+                      className="w-full"
                       src="/images/shareButtons/share_twitter_button.svg"
                       alt="share_twitter_button"
                     />
@@ -226,18 +229,23 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button id="kakaoShareButton" onClick={kakaoShare}>
+                <button
+                  id="kakaoShareButton"
+                  className="w-[60px]"
+                  onClick={kakaoShare}
+                >
                   <img
+                    className="w-full"
                     src="/images/shareButtons/share_kakao_button.svg"
                     alt="share_kakao_button"
                   />
                 </button>
               </li>
               <li>
-                <button>
+                <button className="w-[60px]">
                   <CopyToClipboard text={currentUrl}>
                     <img
-                      className="cursor-pointer"
+                      className="w-full cursor-pointer"
                       src="/images/shareButtons/share_link_button.svg"
                       alt="share_link_button"
                       onClick={() => alert("링크가 복사되었습니다.")}
@@ -246,8 +254,9 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button onClick={toggleButtons}>
+                <button className="w-[60px]" onClick={toggleButtons}>
                   <img
+                    className="w-full"
                     src="/images/shareButtons/closeButton.svg"
                     alt="closeButton"
                   />
@@ -256,9 +265,9 @@ const Main = () => {
             </ul>
           ) : (
             <div onClick={toggleButtons}>
-              <button className="text-red-500">
-                <span className="absolute">예시</span>
+              <button className="w-[60px]">
                 <img
+                  className="w-full"
                   src="/images/shareButtons/openButton.svg"
                   alt="openButton"
                 />

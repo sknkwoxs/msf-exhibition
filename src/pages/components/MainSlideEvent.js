@@ -1,4 +1,4 @@
-import React, { useState, useCallback, Component } from "react";
+import React, { Component } from "react";
 import { HashLink } from "react-router-hash-link";
 import Slider from "react-slick";
 import YouTube from "react-youtube";
