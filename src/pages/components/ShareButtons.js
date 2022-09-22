@@ -3,7 +3,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 const ShareButtons = () => {
   const currentUrl = window.location.href;
 
-  const facebookShareButton = () => {
+  const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
         encodeURIComponent(document.URL) +
@@ -41,7 +41,7 @@ const ShareButtons = () => {
           charSet="utf-8"
         ></script>
       </button>
-      <button onClick={facebookShareButton}>
+      <button onClick={facebookShare}>
         <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
       </button>
       <button>

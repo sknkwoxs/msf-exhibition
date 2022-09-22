@@ -23,7 +23,20 @@ const Main = () => {
 
   const currentUrl = window.location.href;
 
-  const facebookShareButton = () => {
+  const shareKakaoLink = () => {
+    window.Kakao.Link.createCustomButton({
+      container: "#kakaoShareButton",
+      templateId: 83080,
+    });
+  };
+
+  const onShareKakaoClick = () => {
+    shareKakaoLink();
+  };
+
+  console.log(currentUrl);
+
+  const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
         encodeURIComponent(document.URL) +
@@ -34,7 +47,7 @@ const Main = () => {
     );
   };
 
-  const naverShareButton = () => {
+  const naverShare = () => {
     window.open("http://www.facebook.com/sharer.php?u=www.naver.com");
   };
 
@@ -173,7 +186,7 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button onClick={facebookShareButton}>
+                <button onClick={facebookShare}>
                   <img
                     src="/images/shareButtons/share_facebook_button.svg"
                     alt="share_facebook_button"
@@ -200,7 +213,7 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button>
+                <button id="kakaoShareButton" onClick={onShareKakaoClick}>
                   <img
                     src="/images/shareButtons/share_kakao_button.svg"
                     alt="share_kakao_button"
