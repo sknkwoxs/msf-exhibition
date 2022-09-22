@@ -99,7 +99,11 @@ export default function Participate() {
                 <br />
                 <span className="font-semibold text-Neutrals-Grey7">
                   일시: 11.05 (토) 12:00-13:00
-                  <br /> 게스트: 도미닉 나흐르 Dominic Nahr(작가소개)
+                  <br /> 게스트: 도미닉 나흐르 Dominic Nahr(
+                  <HashLink to="/photographers/DominicNahr#">
+                    <span className="underline">작가소개</span>
+                  </HashLink>
+                  )
                 </span>
               </p>
             </div>

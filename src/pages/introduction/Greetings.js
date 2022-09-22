@@ -11,7 +11,7 @@ export default function Greetings() {
           />
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
-          <div className="mx-auto md:max-w-[76rem]">
+          <div className="mx-auto md:max-w-[63rem]">
             <p className="md:py-[6rem] py-[3rem]">
               국경없는의사회는 전 세계 분쟁과 전염병, 자연 재해 현장과 의료
               사각지대에서 의료 지원을 제공하는 단체로 알려져 있지만, 우리는
@@ -55,7 +55,7 @@ export default function Greetings() {
               고맙습니다.
               <br />
               <br />
-              <span className="font-bold">
+              <span className="font-PTBold">
                 국경없는의사회 한국 사무총장 티에리 코펜스
               </span>
             </p>
