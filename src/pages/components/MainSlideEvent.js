@@ -19,14 +19,6 @@ export default class MainSlideEvent extends Component {
   }
 
   render() {
-    // const [dragging, setDragging] = useState < boolean > false;
-    // const handleBeforeChange = useCallback(() => {
-    //   setDragging(true);
-    // }, []);
-    // const handleAfterChange = useCallback((i: number) => {
-    //   setDragging(false);
-    // }, []);
-
     const settings = {
       dots: true,
       dotsClass: "slick-dots",
