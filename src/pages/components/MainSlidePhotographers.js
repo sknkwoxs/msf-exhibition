@@ -91,15 +91,23 @@ export default class MainSlidePhotographers extends Component {
         <div className="flex items-center justify-between mt-8 mb-10">
           <p className="H4">작가 소개</p>
           <div className="flex items-center">
-            <button className="main_slider_arrows_left" onClick={this.previous}>
+            <button
+              className="main_slider_arrows_left w-[30px]"
+              onClick={this.previous}
+            >
               <img
+                className="w-full"
                 src="/images/svgIcons/slider_arrows_left.svg"
                 alt="slider_arrows_left"
               />
             </button>
-            <div className="h-6 border border-r border-Neutrals-Grey7" />
-            <button className="main_slider_arrows_right" onClick={this.next}>
+            <div className="h-6 mx-2 border border-r border-Neutrals-Grey7" />
+            <button
+              className="main_slider_arrows_right w-[30px]"
+              onClick={this.next}
+            >
               <img
+                className="w-full"
                 src="/images/svgIcons/slider_arrows_right.svg"
                 alt="slider_arrows_right"
               />
@@ -120,7 +128,7 @@ export default class MainSlidePhotographers extends Component {
                       />
                     </div>
                     <p className="pb-2 text-center H5 card_title">
-                      <a href="#"> {photographersCardComponent.title}</a>
+                      {photographersCardComponent.title}
                     </p>
                     <p className="text-center text-Neutrals-Grey5 DB2">
                       {photographersCardComponent.sub_title}

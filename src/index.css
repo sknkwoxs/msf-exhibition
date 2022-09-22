@@ -392,14 +392,14 @@
 
 */
 
-  #mainSlide .slick-slide > p.card_title > a::after {
+  #mainSlide li p.card_title::after {
     content: "";
     width: 0%;
     left: 50%;
     transition: all 0.2s ease;
   }
 
-  #mainSlide .slick-slide > p.card_title > a::after {
+  #mainSlide li p.card_title::after {
     content: "";
     width: 0%;
     left: 50%;
@@ -411,7 +411,7 @@
     transition: all 0.2s ease;
   }
 
-  #mainSlide .slick-slide:hover > p.card_title > a::after {
+  #mainSlide li:hover p.card_title::after {
     content: "";
     width: 100%;
     left: 0px;
