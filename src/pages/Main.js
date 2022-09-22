@@ -23,18 +23,30 @@ const Main = () => {
 
   const currentUrl = window.location.href;
 
-  const shareKakaoLink = () => {
-    window.Kakao.Link.createCustomButton({
-      container: "#kakaoShareButton",
-      templateId: 83080,
+  const kakaoShare = () => {
+    window.Kakao.init(`${process.env.REACT_APP_REST_API_KEY}`);
+    window.Kakao.Link.sendDefault({
+      objectType: "feed",
+      content: {
+        title: "국경없는의사회 사진전",
+        description: "국경없는의사회 사진전",
+        imageUrl: "카톡 공유시 보여질 이미지",
+        link: {
+          mobileWebUrl: "www.naver.com",
+          webUrl: "www.naver.com",
+        },
+      },
+      buttons: [
+        {
+          title: "웹으로 보기",
+          link: {
+            mobileWebUrl: "www.naver.com",
+            webUrl: "www.naver.com",
+          },
+        },
+      ],
     });
   };
-
-  const onShareKakaoClick = () => {
-    shareKakaoLink();
-  };
-
-  console.log(currentUrl);
 
   const facebookShare = () => {
     window.open(
@@ -213,7 +225,7 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <button id="kakaoShareButton" onClick={onShareKakaoClick}>
+                <button id="kakaoShareButton" onClick={kakaoShare}>
                   <img
                     src="/images/shareButtons/share_kakao_button.svg"
                     alt="share_kakao_button"
