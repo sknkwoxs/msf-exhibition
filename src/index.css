@@ -267,6 +267,46 @@
     padding-right: 20px;
   }
 
+  #mainSlide p.cardTitle {
+    position: relative;
+    display: inline-block;
+  }
+
+  #mainSlide p.cardTitle::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    transition: all 0.2s ease;
+  }
+
+  #mainSlide p.cardTitle::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  #mainSlide li:hover a > p.cardTitle::after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  #mainSlide .mainSlidePhotographersList {
+    text-align: center;
+  }
+
   .slick-dots li button {
     font-size: 0;
     line-height: 0;
@@ -383,43 +423,5 @@
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
     transition: all 1s cubic-bezier(0, 0, 0.2, 1) 0.1s;
-  }
-
-  /* 
-
-
-
-
-*/
-
-  #mainSlide p.cardTitle::after {
-    content: "";
-    width: 0%;
-    left: 50%;
-    transition: all 0.2s ease;
-  }
-
-  #mainSlide p.cardTitle::after {
-    content: "";
-    width: 0%;
-    left: 50%;
-    height: 1px;
-    display: block;
-    position: absolute;
-    margin-top: 2px;
-    border-bottom: 4px solid #e30613;
-    transition: all 0.2s ease;
-  }
-
-  #mainSlide li:hover p.cardTitle::after {
-    content: "";
-    width: 100%;
-    left: 0px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    margin-top: 2px;
-    border-bottom: 4px solid #e30613;
-    transition: all 0.2s ease;
   }
 }

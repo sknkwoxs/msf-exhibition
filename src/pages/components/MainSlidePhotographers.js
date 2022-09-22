@@ -118,7 +118,10 @@ export default class MainSlidePhotographers extends Component {
           {photographersCardComponent.map(
             (photographersCardComponent, index) => {
               return (
-                <li className="mx-3 list-none" key={index}>
+                <li
+                  className="mx-3 list-none mainSlidePhotographersList"
+                  key={index}
+                >
                   <HashLink to={photographersCardComponent.url}>
                     <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0">
                       <img
