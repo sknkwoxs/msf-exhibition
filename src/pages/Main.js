@@ -68,10 +68,10 @@ const Main = () => {
     <>
       <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
         <div>
-          <div className="flex w-full md:hidden">
+          <div className="flex md:w-full md:hidden">
             <img
-              className="w-full"
-              src="/images/Asset 1@3x 1.jpg"
+              className="object-cover w-full"
+              src="/images/Asset 1@3x 1.png"
               alt="Asset 1@3x 1"
             />
           </div>
@@ -99,7 +99,7 @@ const Main = () => {
                   <p>2022.11.02 - 11.14</p>
                 </div>
               </div>
-              <div className="hidden md:flex">
+              <div className="hidden md:flex max-w-[780px]">
                 <img
                   className="object-cover w-full"
                   src="/images/Asset 1@3x 1.png"
