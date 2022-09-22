@@ -30,7 +30,7 @@ export default function Footer() {
                   </a>
                 </div>
                 <div>
-                  <p>COPYRIGHT @ 2022 MSF. All right reserved</p>
+                  <p>COPYRIGHTⓒ 2022 MSF. All right reserved</p>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ export default function Footer() {
               <button>events@seoul.msf.org</button>
             </div>
             <div>
-              <p>COPYRIGHT @ 2022 MSF. All right reserved</p>
+              <p>COPYRIGHTⓒ 2022 MSF. All right reserved</p>
             </div>
           </div>
           <div className="md:hidden visible mb-[4rem]">

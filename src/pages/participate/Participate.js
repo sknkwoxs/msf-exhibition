@@ -9,10 +9,12 @@ export default function Participate() {
         <div className="md:mb-[6rem] mb-[4rem] px-4">
           <div
             id="Section1"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[7rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">사진전 관람</p>
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
+                사진전 관람
+              </p>
               <p className="mb-4 font-semibold DB1">
                 전시 기간: 11.02(수) - 11.14(월) 10:30-18:00
                 *11.05(토)/11.12(토) 오전 제외
@@ -38,9 +40,11 @@ export default function Participate() {
             </div>
           </div>
           <div id="Section2" className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">전시 사진 기부 옥션</p>
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
+                전시 사진 기부 옥션
+              </p>
               <p className="DB1 text-Neutrals-Grey6">
                 세계적인 보도사진 작가 8인이 국경없는의사회 활동 현장에서 촬영한
                 사진을 소장할 수 있는 기회! 국경없는의사회 한국 사무소 설립
@@ -79,13 +83,13 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section3"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 스페셜 토크
                 <br className="md:hidden" />
-                <span className="text-[24px]">
+                <span className="md:text-[24px] text-[16px]">
                   &nbsp;&lt;떼모아나지 Témoignage: 위기를 증언하다&gt;
                 </span>
               </p>
@@ -118,11 +122,13 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section4"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">도슨트 가이드 투어</p>
-              <p className="DB1 text-[#636B73] mb-6">
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
+                도슨트 가이드 투어
+              </p>
+              <p className="DB1 text-[#636B73]">
                 국경없는의사회 한국 사무소 설립 10주년을 기념하기 위해 개최되는
                 MORE THAN A PICTURE 사진전에는 8명의 사진작가가 8곳의
                 국경없는의사회 구호활동 현장에서 찍은 총 30여점의 사진이
@@ -130,14 +136,12 @@ export default function Participate() {
                 국경없는의사회 활동에 대해 구호활동가가 직접 도슨트가 되어
                 설명해 드립니다. 어린이의 눈높이에 맞춰 진행되는 어린이 도슨트
                 투어도 준비되어 있으니 많은 관심 부탁드립니다.
-                <br />
-                <br />
-                <span className="font-semibold text-Neutrals-Grey7">
+                <span className="block mt-6 font-semibold text-Neutrals-Grey7">
                   일시: 자세한 일정은 추후 안내 예정
                 </span>
               </p>
               <div>
-                <button className="px-8 py-2 border rounded border-Neutrals-Grey7">
+                <button className="px-8 py-2 mt-6 border rounded border-Neutrals-Grey7">
                   세부 일정 보기
                 </button>
               </div>
@@ -153,10 +157,10 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section5"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 배우 유해진 오디오 가이드
               </p>
               <p className="DB1 text-[#636B73]">
@@ -181,9 +185,9 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[3.25rem] md:pt-[6rem] pt-[4rem] md:mb-[6rem] mb-[4rem]">
+          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
             <div className="my-auto">
-              <p className="mb-6 text-Brand-Primary H4">
+              <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 다큐멘터리 에고이스트 온라인 무료 상영
               </p>
               <p className="DB1 text-[#636B73]">
@@ -192,12 +196,13 @@ export default function Participate() {
                 무료 공개됩니다! 다큐멘터리를 통해 국경없는의사회 구호활동가들이
                 이 특별한 길을 걷게 된 계기와 소명의식, 현장에서 마주하는
                 두려움과 무력감, 남겨진 가족과 연인의 이야기에 대해 알아보세요.
-                <br />
-                <br />
-                <span className="font-semibold text-Neutrals-Grey7 DB1">
+                <span className="block mt-6 font-semibold text-Neutrals-Grey7 DB1">
                   시청 기간: 11.02(수)-11.14(월)
                 </span>
               </p>
+              <button className="px-8 py-2 mt-6 border rounded border-Neutrals-Grey7">
+                영화 바로 시청하기
+              </button>
             </div>
             <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <YouTube
