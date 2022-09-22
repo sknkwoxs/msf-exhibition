@@ -158,9 +158,9 @@ export default function CedricGerbehaye() {
           <section className="max-w-[63rem] mx-auto md:pb-[8rem] pb-[6rem]">
             <div>
               <div>
-                <button className="flex mx-auto mb-4 font-bold md:mb-6 DB3">
+                <p className="flex mx-auto mb-4 font-bold md:mb-6 DB3 text-center">
                   내 채널에 공유하기
-                </button>
+                </p>
                 <div className="flex justify-center gap-2 mb-10 md:hidden">
                   <ShareButtons />
                 </div>

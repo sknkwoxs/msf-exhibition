@@ -34,7 +34,7 @@ export default class MobileSlideEvent extends Component {
     return (
       <div id="mainSlide" className="mx-auto md:hidden slide">
         <div className="flex items-center justify-between mb-10">
-          <p className="H4">참여 방법</p>
+          <p className="TH4">참여 방법</p>
           {/* <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
               <img

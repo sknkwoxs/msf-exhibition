@@ -35,7 +35,7 @@ export default function Footer() {
               </div>
             </div>
             <div>
-              <div className="flex justify-between mb-6 md:mt-6 md:mb-10 H7">
+              <div className="flex justify-between mb-6 md:mt-6 md:mb-10 H7 text-[0.87rem]">
                 <a
                   href="https://msf.or.kr/"
                   target="_blank"

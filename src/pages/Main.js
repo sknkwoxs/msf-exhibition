@@ -9,6 +9,7 @@ import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
 import Stibee from "./components/Stibee";
+import { HashLink } from "react-router-hash-link";
 
 const Main = () => {
   const [expandButtons, setexpandButtons] = useState(false);
@@ -188,7 +189,7 @@ const Main = () => {
       <div className="fixed z-10 bottom-[1.125rem] right-4 md:hidden">
         <div>
           {expandButtons ? (
-            <ul className="flex flex-col gap-2">
+            <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
               <li>
                 <button>
                   <img
@@ -233,14 +234,16 @@ const Main = () => {
                 </button>
               </li>
               <li>
-                <CopyToClipboard text={currentUrl}>
-                  <img
-                    className="cursor-pointer"
-                    src="/images/shareButtons/share_link_button.svg"
-                    alt="share_link_button"
-                    onClick={() => alert("링크가 복사되었습니다.")}
-                  />
-                </CopyToClipboard>
+                <button>
+                  <CopyToClipboard text={currentUrl}>
+                    <img
+                      className="cursor-pointer"
+                      src="/images/shareButtons/share_link_button.svg"
+                      alt="share_link_button"
+                      onClick={() => alert("링크가 복사되었습니다.")}
+                    />
+                  </CopyToClipboard>
+                </button>
               </li>
               <li>
                 <button onClick={toggleButtons}>
@@ -253,10 +256,20 @@ const Main = () => {
             </ul>
           ) : (
             <div onClick={toggleButtons}>
-              <img src="/images/shareButtons/openButton.svg" alt="openButton" />
+              <button>
+                <img
+                  src="/images/shareButtons/openButton.svg"
+                  alt="openButton"
+                />
+              </button>
             </div>
           )}
         </div>
+        <HashLink to="#top">
+          <button className="bg-white w-[60px] h-[60px] rounded-full">
+            <img src="/images/svgIcons/arrows_top.svg" alt="openButton" />
+          </button>
+        </HashLink>
       </div>
     </>
   );

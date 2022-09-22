@@ -85,7 +85,7 @@ export default class MobileSlidePhotographers extends Component {
     return (
       <div id="mainSlide" className="mx-auto md:hidden slide">
         <div className="flex items-center justify-between mb-10">
-          <p className="H4">작가 소개</p>
+          <p className="TH4">작가 소개</p>
           {/* <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
               <img
