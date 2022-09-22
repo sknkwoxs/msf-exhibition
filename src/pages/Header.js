@@ -9,17 +9,22 @@ const Header = () => {
   const hoverStyle = {
     height: "29.5rem",
     backgroundColor: "#000000",
-    before: {
-      content: "",
-      display: "block",
-      position: "absolute",
-      width: "100%",
-      height: "1px",
-      top: "7.5rem",
-      left: "0",
-      backgroundColor: "#636B73",
-      zIndex: "-1",
-    },
+  };
+
+  const subMenuFlex = {
+    display: "flex",
+  };
+
+  const beforeBorderBottoms = {
+    content: "",
+    display: "block",
+    position: "absolute",
+    width: "100%",
+    height: "1px",
+    top: "7.5rem",
+    left: "0",
+    backgroundColor: "#636B73",
+    zIndex: "1",
   };
 
   const onMouseEnter = () => {
@@ -56,10 +61,12 @@ const Header = () => {
           id="headerWrap"
           className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}
           style={hover ? hoverStyle : null}
+          onMouseLeave={onMouseLeave}
         >
           <div
             id="headerContents"
             className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
+            // style={hover ? beforeBorderBottoms : null}
           >
             <a href="/">
               <img
@@ -68,17 +75,19 @@ const Header = () => {
                 alt="logo"
               />
             </a>
-            <div className="absolute right-0 h-full top-10">
-              <ul
-                className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu"
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-              >
+            <div
+              className="absolute right-0 top-10"
+              onMouseEnter={onMouseEnter}
+            >
+              <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
                 <li className="mx-[2rem] relative inline-block py-2 expanded">
                   <NavHashLink to="/introduction/Summary#">
                     사진전 소개
                   </NavHashLink>
-                  <ul className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
+                  <ul
+                    className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    style={hover ? subMenuFlex : null}
+                  >
                     {introduction.map((introduction, index) => {
                       return (
                         <li key={index}>
@@ -94,7 +103,10 @@ const Header = () => {
                   <NavHashLink to="/photographers/GaelTurine#">
                     작가 소개
                   </NavHashLink>
-                  <ul className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
+                  <ul
+                    className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    style={hover ? subMenuFlex : null}
+                  >
                     {photographers.map((photographers, index) => {
                       return (
                         <li key={index}>
