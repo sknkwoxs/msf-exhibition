@@ -285,6 +285,15 @@
   }
 
   /* slider */
+
+  .mainSlide .slick-list {
+    marign-right: -20px;
+  }
+
+  .mainSlide .slick-slide {
+    padding-right: 20px;
+  }
+
   .slick-dots li button {
     font-size: 0;
     line-height: 0;

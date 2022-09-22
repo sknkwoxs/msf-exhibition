@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState, useCallback, Component } from "react";
 import { HashLink } from "react-router-hash-link";
 import Slider from "react-slick";
 import YouTube from "react-youtube";
@@ -9,14 +9,24 @@ export default class MainSlideEvent extends Component {
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
   }
+
   next() {
     this.slider.slickNext();
   }
+
   previous() {
     this.slider.slickPrev();
   }
 
   render() {
+    // const [dragging, setDragging] = useState < boolean > false;
+    // const handleBeforeChange = useCallback(() => {
+    //   setDragging(true);
+    // }, []);
+    // const handleAfterChange = useCallback((i: number) => {
+    //   setDragging(false);
+    // }, []);
+
     const settings = {
       dots: true,
       dotsClass: "slick-dots",
@@ -27,9 +37,10 @@ export default class MainSlideEvent extends Component {
       autoplaySpeed: 4000,
       prevArrow: "",
       nextArrow: "",
-      draggable: false,
       arrows: false,
-      autoplay: true,
+      draggable: true,
+      touchThreshold: 100,
+      // autoplay: true,
     };
 
     // const eventsCardComponent = [
@@ -73,7 +84,7 @@ export default class MainSlideEvent extends Component {
     // ];
 
     return (
-      <div id="mainSlide" className="hidden mx-auto md:block slide">
+      <div id="mainSlide" className="hidden mx-auto md:block mainSlide">
         <div className="flex items-center justify-between mb-10">
           <p className="H4">참여 방법</p>
           <div className="flex items-center">
