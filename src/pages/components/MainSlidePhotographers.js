@@ -32,7 +32,7 @@ export default class MainSlidePhotographers extends Component {
       arrows: false,
       draggable: true,
       touchThreshold: 100,
-      // autoplay: true,
+      autoplay: true,
     };
 
     const photographersCardComponent = [
@@ -127,7 +127,7 @@ export default class MainSlidePhotographers extends Component {
                         alt="photographers_thumb"
                       />
                     </div>
-                    <p className="pb-2 text-center H5 card_title">
+                    <p className="pb-2 text-center H5 cardTitle">
                       {photographersCardComponent.title}
                     </p>
                     <p className="text-center text-Neutrals-Grey5 DB2">

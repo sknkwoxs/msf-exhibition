@@ -32,7 +32,7 @@ export default class MainSlideEvent extends Component {
       arrows: false,
       draggable: true,
       touchThreshold: 100,
-      // autoplay: true,
+      autoplay: true,
     };
 
     // const eventsCardComponent = [
@@ -113,7 +113,7 @@ export default class MainSlideEvent extends Component {
                   alt="participate_thumb"
                 />
               </div>
-              <p className="mb-2 H5 card_title">사진전 관람</p>
+              <p className="mb-2 H5 cardTitle">사진전 관람</p>
               <p className="text-Neutrals-Grey5 DB2">
                 11.02(수) - 11.14(월) 10:30-18:00
                 <br /> *11.05(토)/11.12(토) 오전 제외
@@ -134,7 +134,7 @@ export default class MainSlideEvent extends Component {
                   alt="participate_thumb"
                 />
               </div>
-              <p className="mb-2 H5 card_title">전시 사진 기부 옥션</p>
+              <p className="mb-2 H5 cardTitle">전시 사진 기부 옥션</p>
               <p className="text-Neutrals-Grey5 DB2">
                 11.02 (수) - 11.14 (월) 13일간
               </p>
@@ -149,7 +149,7 @@ export default class MainSlideEvent extends Component {
                   alt="participate_thumb"
                 />
               </div>
-              <p className="mb-2 H5 card_title">스페셜 토크</p>
+              <p className="mb-2 H5 cardTitle">스페셜 토크</p>
               <p className="text-Neutrals-Grey5 DB2">11.05 (토) 12:00-13:00</p>
             </HashLink>
           </li>
@@ -162,7 +162,7 @@ export default class MainSlideEvent extends Component {
                   alt="participate_thumb"
                 />
               </div>
-              <p className="mb-2 H5 card_title">도슨트 가이드 투어</p>
+              <p className="mb-2 H5 cardTitle">도슨트 가이드 투어</p>
               <p className="text-Neutrals-Grey5 DB2">11.05 (토) 12:00-13:00</p>
             </HashLink>
           </li>
@@ -175,7 +175,7 @@ export default class MainSlideEvent extends Component {
                   alt="participate_thumb"
                 />
               </div>
-              <p className="mb-2 H5 card_title">배우 유해진 오디오 가이드</p>
+              <p className="mb-2 H5 cardTitle">배우 유해진 오디오 가이드</p>
             </HashLink>
           </li>
           <li className="list-none">
@@ -195,7 +195,7 @@ export default class MainSlideEvent extends Component {
                 }}
               />
             </div>
-            <p className="mb-2 H5 card_title">
+            <p className="mb-2 H5 cardTitle">
               다큐멘터리 에고이스트 온라인 무료 상영
             </p>
             <p className="text-Neutrals-Grey5 DB2">11.02(수)-11.14(월)</p>

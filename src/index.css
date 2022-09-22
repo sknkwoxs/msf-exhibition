@@ -392,14 +392,14 @@
 
 */
 
-  #mainSlide li p.card_title::after {
+  #mainSlide p.cardTitle::after {
     content: "";
     width: 0%;
     left: 50%;
     transition: all 0.2s ease;
   }
 
-  #mainSlide li p.card_title::after {
+  #mainSlide p.cardTitle::after {
     content: "";
     width: 0%;
     left: 50%;
@@ -411,7 +411,7 @@
     transition: all 0.2s ease;
   }
 
-  #mainSlide li:hover p.card_title::after {
+  #mainSlide li:hover p.cardTitle::after {
     content: "";
     width: 100%;
     left: 0px;
