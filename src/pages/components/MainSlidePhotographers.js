@@ -88,7 +88,7 @@ export default class MainSlidePhotographers extends Component {
 
     return (
       <div id="mainSlide" className="hidden mx-auto md:block mainSlide">
-        <div className="flex items-center justify-between mb-10">
+        <div className="flex items-center justify-between mt-8 mb-10">
           <p className="H4">작가 소개</p>
           <div className="flex items-center">
             <button className="main_slider_arrows_left" onClick={this.previous}>
