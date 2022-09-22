@@ -4,20 +4,13 @@ export default function Address() {
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[3.5rem] bg-black"></div>
-      {/* <div className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-White text-Neutrals-Grey8"> */}
       <div className="bg-Neutrals-White text-Neutrals-Grey8">
         <div>
-          {/* <div className="my-20 text-center">
-            <p className="mb-2 font-bold text-Brand-Secondary DB2">
-              PHOTO EXHIBITION LOCATION
-            </p>
-            <h3 className="H3 text-Neutrals-Grey8">사진전 장소 안내</h3>
-          </div> */}
           <div className="md:mt-[6rem] mt-[3rem] mb-12 text-center">
             <div className="hidden H5 hr-sect md:flex">
               갤러리 라메르Gallery La Mer(제3전시실)
             </div>
-            <div className="H5 md:hidden">
+            <div className="md:text-[1.5rem] md:leading-[2rem] text-[1.25rem] leading-[1.5rem] md:hidden font-semibold">
               갤러리 라메르Gallery La Mer
               <br />
               (제3전시실)
@@ -100,7 +93,9 @@ export default function Address() {
           </section>
           <div className="mx-auto md:max-w-[76rem] px-4">
             <div>
-              <h5 className="pb-6 border-b-2 H5 md:mt-20">대중교통 이용시</h5>
+              <h5 className="pb-6 border-b-2 md:text-[1.5rem] md:leading-[2rem] text-[1.25rem] leading-[1.5rem] md:mt-20">
+                대중교통 이용시
+              </h5>
             </div>
             <div className="flex flex-col py-6 border-b-2 md:py-12 md:flex-row">
               <h6 className="H6 mr-[6.875rem] whitespace-nowrap md:mb-0 mb-4">

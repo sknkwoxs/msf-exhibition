@@ -204,18 +204,20 @@ export default function Participate() {
                 영화 바로 시청하기
               </button>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
-              <YouTube
-                className="absolute object-cover w-full h-full"
-                videoId="zlcdcJUSJBs"
-                opts={{
-                  playerVars: {
-                    autoplay: 0,
-                    rel: 0,
-                    modestbranding: 1,
-                  },
-                }}
-              />
+            <div className="bg-Neutrals-Grey8 pb-[100%] h-0">
+              <div className="h-0 pb-[67.21%] overflow-hidden relative z-0 participateYoutubeEmbed mt-[80px]">
+                <YouTube
+                  className="absolute object-cover w-full h-full"
+                  videoId="zlcdcJUSJBs"
+                  opts={{
+                    playerVars: {
+                      autoplay: 0,
+                      rel: 0,
+                      modestbranding: 1,
+                    },
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
