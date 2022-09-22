@@ -9,7 +9,6 @@ const Header = () => {
   const hoverStyle = {
     height: "32.5rem",
     backgroundColor: "#000000",
-    // backgroundColor: "yellow",
     before: {
       content: "",
       display: "block",
@@ -18,7 +17,7 @@ const Header = () => {
       height: "1px",
       top: "7.5rem",
       left: "0",
-      backgroundColor: "red",
+      backgroundColor: "#636B73",
       // zIndex: "-1",
     },
   };
