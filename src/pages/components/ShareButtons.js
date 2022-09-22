@@ -3,6 +3,17 @@ import CopyToClipboard from "react-copy-to-clipboard";
 const ShareButtons = () => {
   const currentUrl = window.location.href;
 
+  const facebookShareButton = () => {
+    window.open(
+      "https://www.facebook.com/sharer/sharer.php?u=" +
+        encodeURIComponent(document.URL) +
+        "&t=" +
+        encodeURIComponent(document.title),
+      "facebooksharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+    );
+  };
+
   return (
     <>
       <CopyToClipboard text={currentUrl}>
@@ -30,7 +41,7 @@ const ShareButtons = () => {
           charSet="utf-8"
         ></script>
       </button>
-      <button>
+      <button onClick={facebookShareButton}>
         <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
       </button>
       <button>
