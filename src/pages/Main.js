@@ -68,49 +68,47 @@ const Main = () => {
     <>
       <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
         <div>
-          <div className="h-[calc(100vh-64px)]">
-            <div className="flex w-full md:hidden">
-              <img
-                className="w-full"
-                src="/images/Asset 1@3x 1.jpg"
-                alt="Asset 1@3x 1"
-              />
-            </div>
-            <section className="md:pt-0 pt-4 mx-auto md:max-w-[76rem] px-4">
-              <div className="md:flex md:justify-between">
-                <div>
-                  <div className="md:w-full ">
-                    <img
-                      className="hidden object-cover w-full mb-8 md:flex mt-[3.5rem]"
-                      src="/images/MORE THAN A PICTURE.svg"
-                      alt="MORETHANAPICTURE"
-                    />
-                    <img
-                      className="object-cover w-full mb-4 md:hidden"
-                      src="/images/MORE THAN A PICTURE_mobile.svg"
-                      alt="MORETHANAPICTURE"
-                    />
-                  </div>
-                  <p className="md:mb-[3.5rem] mb-2 H5">
-                    8인의 포토저널리스트가 담은
-                    <br className="hidden sm:flex" /> 국경없는의사회 구호현장의
-                    기록
-                  </p>
-                  <div className="H6 text-Neutrals-Grey5 md:mb-[6rem] mb-[4rem]">
-                    <p className="mb-2">갤러리 라메르</p>
-                    <p>2022.11.02 - 11.14</p>
-                  </div>
-                </div>
-                <div className="hidden md:flex">
+          <div className="flex w-full md:hidden">
+            <img
+              className="w-full"
+              src="/images/Asset 1@3x 1.jpg"
+              alt="Asset 1@3x 1"
+            />
+          </div>
+          <section className="md:pt-0 pt-4 mx-auto md:max-w-[76rem] px-4">
+            <div className="md:flex md:justify-between">
+              <div>
+                <div className="md:w-full w-[222px]">
                   <img
-                    className="object-cover w-full"
-                    src="/images/Asset 1@3x 1.png"
-                    alt="Asset 1@3x 1"
+                    className="hidden object-cover w-full mb-8 md:flex mt-[3.5rem]"
+                    src="/images/MORE THAN A PICTURE.svg"
+                    alt="MORETHANAPICTURE"
+                  />
+                  <img
+                    className="object-cover w-full mb-4 md:hidden"
+                    src="/images/MORE THAN A PICTURE_mobile.svg"
+                    alt="MORETHANAPICTURE"
                   />
                 </div>
+                <p className="md:mb-[3.5rem] mb-2 H5">
+                  8인의 포토저널리스트가 담은
+                  <br /> 국경없는의사회 구호현장의 기록
+                </p>
+                <div className="H6 text-Neutrals-Grey5 md:mb-[6rem] mb-[4rem]">
+                  <p className="mb-2">갤러리 라메르</p>
+                  <p>2022.11.02 - 11.14</p>
+                </div>
               </div>
-            </section>
-          </div>
+              <div className="hidden md:flex">
+                <img
+                  className="object-cover w-full"
+                  src="/images/Asset 1@3x 1.png"
+                  alt="Asset 1@3x 1"
+                />
+              </div>
+            </div>
+          </section>
+
           <section className="px-4 bg-center bg-no-repeat bg-cover md:bg-bg-blur bg-bg-blur-mobile">
             <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
