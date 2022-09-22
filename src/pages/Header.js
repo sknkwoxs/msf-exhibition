@@ -7,7 +7,7 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 const Header = () => {
   const [hover, setHover] = useState(false);
   const hoverStyle = {
-    height: "32.5rem",
+    height: "29.5rem",
     backgroundColor: "#000000",
     before: {
       content: "",
@@ -18,7 +18,7 @@ const Header = () => {
       top: "7.5rem",
       left: "0",
       backgroundColor: "#636B73",
-      // zIndex: "-1",
+      zIndex: "-1",
     },
   };
 
@@ -78,7 +78,7 @@ const Header = () => {
                   <NavHashLink to="/introduction/Summary#">
                     사진전 소개
                   </NavHashLink>
-                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
+                  <ul className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {introduction.map((introduction, index) => {
                       return (
                         <li key={index}>
@@ -94,7 +94,7 @@ const Header = () => {
                   <NavHashLink to="/photographers/GaelTurine#">
                     작가 소개
                   </NavHashLink>
-                  <ul className="absolute top-[7.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
+                  <ul className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu">
                     {photographers.map((photographers, index) => {
                       return (
                         <li key={index}>

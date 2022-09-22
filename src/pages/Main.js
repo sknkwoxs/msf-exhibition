@@ -70,7 +70,7 @@ const Main = () => {
           <div className="flex w-full md:hidden">
             <img
               className="w-full"
-              src="/images/Asset 1@3x 1.png"
+              src="/images/Asset 1@3x 1.jpg"
               alt="Asset 1@3x 1"
             />
           </div>
