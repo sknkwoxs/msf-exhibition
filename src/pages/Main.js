@@ -62,12 +62,12 @@ const Main = () => {
               alt="Asset 1@3x 1"
             />
           </div>
-          <section className="md:pt-[4rem] pt-8 mx-auto md:max-w-[76rem] px-4">
+          <section className="md:pt-0 pt-8 mx-auto md:max-w-[76rem] px-4">
             <div className="md:flex md:justify-between">
               <div>
                 <div>
                   <img
-                    className="hidden object-cover w-full mb-8 md:flex"
+                    className="hidden object-cover w-full mb-8 md:flex mt-[3.5rem]"
                     src="/images/MORE THAN A PICTURE.svg"
                     alt="MORETHANAPICTURE"
                   />
