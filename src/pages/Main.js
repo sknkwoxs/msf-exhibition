@@ -90,11 +90,11 @@ const Main = () => {
                     alt="MORETHANAPICTURE"
                   />
                 </div>
-                <p className="md:mb-[3.5rem] mb-2 H5">
+                <p className="md:mb-[3.5rem] mb-2 MH5 md:text-[1.5rem] md:leading-[2rem]">
                   8인의 포토저널리스트가 담은
                   <br /> 국경없는의사회 구호현장의 기록
                 </p>
-                <div className="H6 text-Neutrals-Grey5 md:mb-[6rem] mb-[4rem]">
+                <div className="MH6 text-Neutrals-Grey5 md:mb-[6rem] mb-[4rem] md:text-[1.125rem] md:leading-[1.5rem]">
                   <p className="mb-2">갤러리 라메르</p>
                   <p>2022.11.02 - 11.14</p>
                 </div>
