@@ -12,7 +12,7 @@ export default function Summary() {
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
           <div className="mx-auto md:max-w-[63rem]">
-            <p className="md:py-[6rem] py-[3rem]">
+            <p className="md:py-[6rem] py-[3rem] ">
               ‘치료’와 ‘증언’은 국경없는의사회가 존재하는 두 가지 이유입니다.
               국경없는의사회는 지난 50년동안 전 세계의 인도적 위기 현장에서
               생존을 위협받는 환자에게 의료지원을 제공하는 동시에 환자가 처한

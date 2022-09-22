@@ -119,8 +119,8 @@ export default class MainSlidePhotographers extends Component {
                         alt="photographers_thumb"
                       />
                     </div>
-                    <p className="mb-2 text-center H5 card_title">
-                      {photographersCardComponent.title}
+                    <p className="pb-2 text-center H5 card_title">
+                      <a href="#"> {photographersCardComponent.title}</a>
                     </p>
                     <p className="text-center text-Neutrals-Grey5 DB2">
                       {photographersCardComponent.sub_title}

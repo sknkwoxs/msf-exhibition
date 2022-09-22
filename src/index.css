@@ -227,7 +227,7 @@
     height: 1px;
     top: 7.5rem;
     left: 0;
-    background-color: red;
+    background-color: #636b73;
     z-index: -1;
   }
 
@@ -387,5 +387,50 @@
   iframe {
     width: 100%;
     height: 100%;
+  }
+
+  /* transition effect */
+  .transitionEffect {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 1s cubic-bezier(0, 0, 0.2, 1) 0.1s;
+  }
+
+  /* 
+
+
+
+
+*/
+
+  #mainSlide .slick-slide > p.card_title > a::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    transition: all 0.2s ease;
+  }
+
+  #mainSlide .slick-slide > p.card_title > a::after {
+    content: "";
+    width: 0%;
+    left: 50%;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
+  }
+
+  #mainSlide .slick-slide:hover > p.card_title > a::after {
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    border-bottom: 4px solid #e30613;
+    transition: all 0.2s ease;
   }
 }
