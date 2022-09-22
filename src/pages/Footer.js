@@ -53,11 +53,11 @@ export default function Footer() {
                 </a>
                 <div className="mx-4 border-r border-Neutrals-Grey7"></div>
                 <a
-                  href="https://msf.or.kr/privacy-policy?_ga=2.42526947.776451771.1662340029-227573643.1660274904"
+                  href="https://msf.or.kr/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  개인정보취급방침
+                  개인정보처리방침
                 </a>
               </div>
               <div className="hidden md:block mb-[4rem]">

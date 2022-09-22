@@ -5,9 +5,9 @@ export default function MassimoBerruti() {
   return (
     <>
       <div className="bg-Neutrals-Grey9 text-Neutrals-White">
-        <div className="md:mb-[4rem] mb-[3rem] flex justify-center max-h-[60rem] md:h-full">
+        <div className="mt-[4rem] md:mt-0 md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
-            className="object-cover w-full"
+            className="object-cover w-full h-full"
             src="/images/MassimoBerruti/7 1.png"
             alt="7 1"
           />
@@ -150,7 +150,7 @@ export default function MassimoBerruti() {
                 </p>
               </div>
               <div>
-                <p className="flex mx-auto mb-4 font-bold md:mb-6 DB3 text-center">
+                <p className="flex justify-center mx-auto mb-4 font-bold md:mb-6 DB3">
                   내 채널에 공유하기
                 </p>
                 <div className="flex justify-center gap-2 mb-10 md:hidden">

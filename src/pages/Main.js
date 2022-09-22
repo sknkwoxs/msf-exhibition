@@ -256,7 +256,8 @@ const Main = () => {
             </ul>
           ) : (
             <div onClick={toggleButtons}>
-              <button>
+              <button className="text-red-500">
+                <span className="absolute">예시</span>
                 <img
                   src="/images/shareButtons/openButton.svg"
                   alt="openButton"
@@ -265,11 +266,6 @@ const Main = () => {
             </div>
           )}
         </div>
-        <HashLink to="#top">
-          <button className="bg-white w-[60px] h-[60px] rounded-full">
-            <img src="/images/svgIcons/arrows_top.svg" alt="openButton" />
-          </button>
-        </HashLink>
       </div>
     </>
   );
