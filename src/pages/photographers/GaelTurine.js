@@ -1,7 +1,17 @@
 import { HashLink } from "react-router-hash-link";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function GaelTurine() {
+const GaelTurine = () => {
+  const animatedItem = {
+    0: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.1),
+    5: useScrollFadeIn("up", 1, 0.1),
+  };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -15,7 +25,7 @@ export default function GaelTurine() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 가엘 튀린 - 앙골라
               </h3>
@@ -52,7 +62,10 @@ export default function GaelTurine() {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
+                <p
+                  className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
+                  {...animatedItem[1]}
+                >
                   컨택트시트
                 </p>
               </div>
@@ -62,7 +75,10 @@ export default function GaelTurine() {
                   alt="GAEL TURINE 02 1"
                 />
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1 italic">
+              <p
+                className="mb-4 max-w-[63rem] mx-auto DB1 italic"
+                {...animatedItem[2]}
+              >
                 “쿠이토에 머물던 중 국경없는의사회와 연락이 닿아 함께 작업할 수
                 있었습니다. 국경없는의사회 직원들의 도움으로 현장 상황을 더욱
                 명확히 파악할 수 있었습니다. 위중한 상태로 병원에 실려온
@@ -70,7 +86,10 @@ export default function GaelTurine() {
                 크게 무겁지 않은 분위기 속에서 환자와 의료진의 모습을 있는
                 그대로 담을 수 있었습니다.”
               </p>
-              <p className="max-w-[63rem] mx-auto DB1 font-bold">
+              <p
+                className="max-w-[63rem] mx-auto DB1 font-bold"
+                {...animatedItem[3]}
+              >
                 가엘 튀린(2021)
               </p>
               <div className="md:flex-row flex flex-col gap-8 md:my-[6rem] my-[5rem]">
@@ -102,11 +121,14 @@ export default function GaelTurine() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-8 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
+              <p
+                className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
+                {...animatedItem[4]}
+              >
                 가엘 튀린 Gaël Turine
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[5]}>
               가엘 튀린은 포켓사진집 포토 포슈
               <span className="font-sans italic text-[0.875rem]">
                 {" "}
@@ -194,4 +216,6 @@ export default function GaelTurine() {
       </div>
     </>
   );
-}
+};
+
+export default GaelTurine;

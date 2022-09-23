@@ -12,7 +12,7 @@ export default function Summary() {
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
           <div className="mx-auto md:max-w-[63rem]">
-            <p className="md:py-[6rem] py-[3rem] ">
+            <p className="md:py-[6rem] py-[3rem] transitionEffect">
               ‘치료’와 ‘증언’은 국경없는의사회가 존재하는 두 가지 이유입니다.
               국경없는의사회는 지난 50년동안 전 세계의 인도적 위기 현장에서
               생존을 위협받는 환자에게 의료지원을 제공하는 동시에 환자가 처한
@@ -37,10 +37,10 @@ export default function Summary() {
               <br />
               <br />
             </p>
-            <p className="pb-6 text-Brand-Primary H5">
+            <p className="pb-6 text-Brand-Primary H5 transitionEffect">
               맵스 이미지(MAPS IMAGES)
             </p>
-            <p className="md:pb-[6rem] pb-[3rem]">
+            <p className="md:pb-[6rem] pb-[3rem] transitionEffect">
               2017년 9월 설립된 보도사진 작가 그룹으로 세계적인 사진작가인
               도미닉 나흐르, 가엘 튜린, 존 빙크 등 16명의 소속 작가들이 활동하고
               있다. 빠르게 변화하는 사회의 모습과 단조로운 일상을 새로운
