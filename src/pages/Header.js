@@ -9,6 +9,7 @@ const Header = () => {
   const hoverStyle = {
     height: "30rem",
     backgroundColor: "#000000",
+    transition: "0.5s all",
   };
 
   const hoverBorder = {
