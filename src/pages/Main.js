@@ -30,8 +30,9 @@ const Main = () => {
       objectType: "feed",
       content: {
         title: "국경없는의사회 사진전",
-        description: "국경없는의사회 사진전",
-        imageUrl: "카톡 공유시 보여질 이미지",
+        description:
+          "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
+        imageUrl: "",
         link: {
           mobileWebUrl: "www.naver.com",
           webUrl: "www.naver.com",
@@ -222,6 +223,8 @@ const Main = () => {
                   <a
                     href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                     className="twitter-share-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     data-show-count="false"
                   >
                     <img

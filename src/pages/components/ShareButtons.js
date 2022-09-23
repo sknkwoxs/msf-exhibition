@@ -3,6 +3,32 @@ import CopyToClipboard from "react-copy-to-clipboard";
 const ShareButtons = () => {
   const currentUrl = window.location.href;
 
+  const kakaoShare = () => {
+    window.Kakao.init(`${process.env.REACT_APP_JS_KEY}`);
+    window.Kakao.Link.sendDefault({
+      objectType: "feed",
+      content: {
+        title: "국경없는의사회 사진전",
+        description:
+          "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
+        imageUrl: "",
+        link: {
+          mobileWebUrl: "www.naver.com",
+          webUrl: "www.naver.com",
+        },
+      },
+      buttons: [
+        {
+          title: "웹으로 보기",
+          link: {
+            mobileWebUrl: "www.naver.com",
+            webUrl: "www.naver.com",
+          },
+        },
+      ],
+    });
+  };
+
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
@@ -11,6 +37,15 @@ const ShareButtons = () => {
         encodeURIComponent(document.title),
       "facebooksharedialog",
       "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+    );
+  };
+
+  const naverShare = () => {
+    window.open(
+      "http://share.naver.com/web/shareView.nhn?url=" +
+        encodeURIComponent(document.URL) +
+        "&title=" +
+        encodeURIComponent(document.title)
     );
   };
 
@@ -24,13 +59,15 @@ const ShareButtons = () => {
           onClick={() => alert("링크가 복사되었습니다.")}
         />
       </CopyToClipboard>
-      <button>
+      <button onClick={kakaoShare}>
         <img src="/images/svgIcons/share_kakao.svg" alt="share_kakao" />
       </button>
       <button>
         <a
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
           className="twitter-share-button"
+          target="_blank"
+          rel="noopener noreferrer"
           data-show-count="false"
         >
           <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
@@ -44,7 +81,7 @@ const ShareButtons = () => {
       <button onClick={facebookShare}>
         <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
       </button>
-      <button>
+      <button onClick={naverShare}>
         <img src="/images/svgIcons/share_naver.svg" alt="share_naver" />
       </button>
     </>
