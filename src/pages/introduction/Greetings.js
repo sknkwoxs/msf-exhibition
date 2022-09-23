@@ -1,9 +1,9 @@
 export default function Greetings() {
   return (
     <>
-      <div className="md:pt-[7.5rem] pt-[3.5rem] bg-black hidden md:flex" />
+      <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="md:mt-[0rem] mt-[4rem] overflow-hidden">
+        <div className="overflow-hidden">
           <img
             className="w-full max-h-[44rem] min-h-[22rem] object-cover greetingsMainImg"
             src="/images/Welcome.png"

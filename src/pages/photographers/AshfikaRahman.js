@@ -4,8 +4,9 @@ import ShareButtons from "../components/ShareButtons";
 export default function AshfikaRahman() {
   return (
     <>
+      <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div className="bg-Neutrals-Grey9 text-Neutrals-White">
-        <div className="mt-[4rem] md:mt-0 md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
+        <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
             src="/images/AshfikaRahman/8 1.png"

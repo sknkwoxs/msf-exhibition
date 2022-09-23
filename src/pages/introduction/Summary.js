@@ -1,9 +1,9 @@
 export default function Summary() {
   return (
     <>
-      <div className="h-[7.5rem] bg-black hidden md:flex" />
+      <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="mt-[4rem] md:mt-0 w-full">
+        <div className="w-full">
           <img
             className="w-full max-h-[44rem] object-cover"
             src="/images/SD-default.png"
