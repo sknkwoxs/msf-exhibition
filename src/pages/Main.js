@@ -9,7 +9,7 @@ import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
 import Stibee from "./components/Stibee";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 
 const Main = () => {
   const [expandButtons, setexpandButtons] = useState(false);
@@ -25,7 +25,7 @@ const Main = () => {
   const currentUrl = window.location.href;
 
   const kakaoShare = () => {
-    window.Kakao.init(`${process.env.REACT_APP_REST_API_KEY}`);
+    window.Kakao.init(`${process.env.REACT_APP_JS_KEY}`);
     window.Kakao.Link.sendDefault({
       objectType: "feed",
       content: {
@@ -48,6 +48,40 @@ const Main = () => {
       ],
     });
   };
+
+  // const shareLink = "msf.or.kr/morethanapicture";
+  // const Kakao = () => {
+  //   Kakao.Link.createDefaultButton({
+  //     container: "#kakaoShareButton",
+  //     objectType: "feed",
+  //     content: {
+  //       title: "국경없는의사회 사진전",
+  //       description:
+  //         "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
+  //       imageUrl: "/images/OG.jpg",
+  //       link: {
+  //         webUrl: shareLink,
+  //         mobileWebUrl: shareLink,
+  //       },
+  //     },
+  //     buttons: [
+  //       {
+  //         title: "웹으로 보기",
+  //         link: {
+  //           webUrl: shareLink,
+  //           mobileWebUrl: shareLink,
+  //         },
+  //       },
+  //       {
+  //         title: "앱으로 보기",
+  //         link: {
+  //           webUrl: shareLink,
+  //           mobileWebUrl: shareLink,
+  //         },
+  //       },
+  //     ],
+  //   });
+  // };
 
   const facebookShare = () => {
     window.open(
@@ -187,23 +221,17 @@ const Main = () => {
         <div>
           {expandButtons ? (
             <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
+              {/* naver */}
               <li>
                 <button className="w-[60px]">
-                  <a
-                    href="#"
-                    onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url=' +encodeURIComponent(document.URL)+'&amp;title='+encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-                    target="_blank"
-                    alt="Share on Naver"
-                    rel="nofollow"
-                  >
-                    <img
-                      className="w-full"
-                      src="/images/shareButtons/share_naver_button.svg"
-                      alt="share_naver_button"
-                    />
-                  </a>
+                  <img
+                    className="w-full"
+                    src="/images/shareButtons/share_naver_button.svg"
+                    alt="share_naver_button"
+                  />
                 </button>
               </li>
+              {/* facebook */}
               <li>
                 <button className="w-[60px]" onClick={facebookShare}>
                   <img
@@ -213,9 +241,10 @@ const Main = () => {
                   />
                 </button>
               </li>
+              {/* twitter */}
               <li>
                 <button className="w-[60px]">
-                  {/* <a
+                  <a
                     href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                     className="twitter-share-button"
                     data-show-count="false"
@@ -230,23 +259,10 @@ const Main = () => {
                     async
                     src="https://platform.twitter.com/widgets.js"
                     charSet="utf-8"
-                  ></script> */}
-
-                  <a
-                    href="#"
-                    onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
-                    target="_blank"
-                    alt="Share on Twitter"
-                    rel="nofollow"
-                  >
-                    <img
-                      className="w-full"
-                      src="/images/shareButtons/share_twitter_button.svg"
-                      alt="share_twitter_button"
-                    />
-                  </a>
+                  ></script>
                 </button>
               </li>
+              {/* kakao */}
               <li>
                 <button
                   id="kakaoShareButton"
@@ -260,6 +276,7 @@ const Main = () => {
                   />
                 </button>
               </li>
+              {/* clipboard url */}
               <li>
                 <button className="w-[60px]">
                   <CopyToClipboard text={currentUrl}>
