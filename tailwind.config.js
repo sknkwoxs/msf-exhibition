@@ -34,6 +34,7 @@ module.exports = {
       },
       fontFamily: {
         PT: ["Pretendard-Regular"],
+        PTSemiBold: ["Pretendard-SemiBold"],
         PTBold: ["Pretendard-Bold"],
         din: ["DIN"],
         nanummyeongjo: ["Nanum Myeongjo"],

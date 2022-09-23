@@ -15,7 +15,7 @@ export default function Participate() {
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 사진전 관람
               </p>
-              <p className="mb-4 font-semibold DB1">
+              <p className="mb-4 font-PTSemiBold DB1">
                 전시 기간: 11.02(수) - 11.14(월) 10:30-18:00
                 *11.05(토)/11.12(토) 오전 제외
                 <br /> 전시 장소: 갤러리 라메르 (
@@ -52,7 +52,7 @@ export default function Participate() {
                 살리는 기부 옥션에도 참여하세요.
               </p>
               <br />
-              <p className="font-semibold text-Neutrals-Grey7 DB1">
+              <p className="font-PTSemiBold text-Neutrals-Grey7 DB1">
                 옥션 기간: 11.02 (수) - 11.14 (월) 13일간
                 <br /> 참여 방법:
                 <br /> 1. 국경없는의사회 설립 10주년 기념 사진전을 관람한다
@@ -101,7 +101,7 @@ export default function Participate() {
                 질의응답 시간도 가질 예정입니다.
                 <br />
                 <br />
-                <span className="font-semibold text-Neutrals-Grey7">
+                <span className="font-PTSemiBold text-Neutrals-Grey7">
                   일시: 11.05 (토) 12:00-13:00
                   <br /> 게스트: 도미닉 나흐르 Dominic Nahr(
                   <HashLink to="/photographers/DominicNahr#">
@@ -136,12 +136,12 @@ export default function Participate() {
                 국경없는의사회 활동에 대해 구호활동가가 직접 도슨트가 되어
                 설명해 드립니다. 어린이의 눈높이에 맞춰 진행되는 어린이 도슨트
                 투어도 준비되어 있으니 많은 관심 부탁드립니다.
-                <span className="block mt-6 font-semibold text-Neutrals-Grey7">
+                <span className="block mt-6 font-PTSemiBold text-Neutrals-Grey7">
                   일시: 자세한 일정은 추후 안내 예정
                 </span>
               </p>
               <div>
-                <button className="px-8 py-2 mt-6 border rounded border-Neutrals-Grey7">
+                <button className="px-8 py-2 mt-6 border rounded font-PTSemiBold text-[1rem] leading-6 border-Neutrals-Grey7 text-Neutrals-Grey8">
                   세부 일정 보기
                 </button>
               </div>
@@ -196,7 +196,7 @@ export default function Participate() {
                 무료 공개됩니다! 다큐멘터리를 통해 국경없는의사회 구호활동가들이
                 이 특별한 길을 걷게 된 계기와 소명의식, 현장에서 마주하는
                 두려움과 무력감, 남겨진 가족과 연인의 이야기에 대해 알아보세요.
-                <span className="block mt-6 font-semibold text-Neutrals-Grey7 DB1">
+                <span className="block mt-6 font-PTSemiBold text-Neutrals-Grey7 DB1">
                   시청 기간: 11.02(수)-11.14(월)
                 </span>
               </p>
