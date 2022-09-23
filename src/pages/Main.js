@@ -61,11 +61,12 @@ const Main = () => {
   };
 
   const naverShare = () => {
-    const url = encodeURI(encodeURIComponent("#myform".url.value));
-    const title = encodeURI("#myform".title.value);
-    const shareURL =
-      "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
-    document.location = shareURL;
+    window.open(
+      "http://share.naver.com/web/shareView.nhn?url=" +
+        encodeURIComponent(document.URL) +
+        "&title=" +
+        encodeURIComponent(document.title)
+    );
   };
 
   return (
@@ -157,7 +158,7 @@ const Main = () => {
               </MapMarker>
             </Map>
           </section>
-          <section className="md:hidden">
+          <section className="md:hidden z-[10]">
             <Map
               center={{
                 lat: 37.5725546,
@@ -191,21 +192,19 @@ const Main = () => {
           </section>
         </div>
       </main>
-      <div className="fixed z-10 bottom-[1.125rem] right-4 md:hidden">
+      <div className="fixed bottom-[1.125rem] right-4 md:hidden z-[1]">
         <div>
           {expandButtons ? (
             <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
               {/* naver */}
               <li>
-                <form id="myform">
-                  <button className="w-[60px]" onClick={naverShare}>
-                    <img
-                      className="w-full"
-                      src="/images/shareButtons/share_naver_button.svg"
-                      alt="share_naver_button"
-                    />
-                  </button>
-                </form>
+                <button className="w-[60px]" onClick={naverShare}>
+                  <img
+                    className="w-full"
+                    src="/images/shareButtons/share_naver_button.svg"
+                    alt="share_naver_button"
+                  />
+                </button>
               </li>
               {/* facebook */}
               <li>
