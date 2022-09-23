@@ -7,7 +7,7 @@ const AlessandroPenso = () => {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
     2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.3),
     4: useScrollFadeIn("up", 1, 0.1),
     5: useScrollFadeIn("up", 1, 0.1),
     6: useScrollFadeIn("up", 1, 0.1),

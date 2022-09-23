@@ -2,15 +2,17 @@ import { HashLink } from "react-router-hash-link";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function HannahReyesMorales() {
+const HannahReyesMorales = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
     2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.1),
     5: useScrollFadeIn("up", 1, 0.1),
+    6: useScrollFadeIn("up", 1, 0.1),
   };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -24,7 +26,7 @@ export default function HannahReyesMorales() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 해나 레예스 모랄레스 - 필리핀
               </h3>
@@ -59,7 +61,7 @@ export default function HannahReyesMorales() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -76,13 +78,16 @@ export default function HannahReyesMorales() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12">
+            <div className="mb-10 md:mb-12" {...animatedItem[2]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 모랄레스의 일기
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1 italic">
+            <p
+              className="max-w-[63rem] mx-auto DB1 italic"
+              {...animatedItem[3]}
+            >
               마닐라의 슬럼가는 지상에 존재하나 거의 지하에 파묻혀 있는
               느낌이다. 과거에는 슬럼가 주변에 높은 벽을 세워 이곳을 사람들의
               시야에서 가리려고 했다. 슬럼가는 점점 팽창해 수백만 명의 집이
@@ -130,11 +135,14 @@ export default function HannahReyesMorales() {
           <section className="md:mb-[4rem] mb-[3rem]">
             <div className="mb-10 md:mb-12">
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-              <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
+              <p
+                className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
+                {...animatedItem[5]}
+              >
                 해나 레예스 모랄레스 Hannah Reyes Morales
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[6]}>
               해나 레예스 모랄레스는 필리핀 마닐라에서 태어나 자랐다. 필리핀
               딜리만 대학교에서 스피치 커뮤니케이션을 전공했다. 모랄레스는
               불평등, 빈곤과 범죄에 노출된 이들을 조명하는 사진을 찍어왔다.
@@ -209,4 +217,6 @@ export default function HannahReyesMorales() {
       </div>
     </>
   );
-}
+};
+
+export default HannahReyesMorales;

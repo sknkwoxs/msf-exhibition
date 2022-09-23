@@ -2,15 +2,16 @@ import { HashLink } from "react-router-hash-link";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function CedricGerbehaye() {
+const CedricGerbehaye = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
     2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.1),
     5: useScrollFadeIn("up", 1, 0.1),
   };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -24,7 +25,7 @@ export default function CedricGerbehaye() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 세드릭 게르베하이 - 콩고민주공화국
               </h3>
@@ -61,7 +62,7 @@ export default function CedricGerbehaye() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -77,13 +78,16 @@ export default function CedricGerbehaye() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[2]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   게르베하이과 국경없는의사회의 첫 만남
                 </p>
               </div>
-              <p className="max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem] italic">
+              <p
+                className="max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem] italic"
+                {...animatedItem[3]}
+              >
                 “마시시 지역의 한 병원에서 국경없는의사회와 처음 연이 닿았어요.
                 저녁 시간이 다 되었을 때쯤 길에서 공격당한 부상자들이 트럭에
                 실려 병원에 왔어요. 전기는 들어오지 않았고 발전기도 고장 난
@@ -106,13 +110,13 @@ export default function CedricGerbehaye() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12">
+            <div className="mb-10 md:mb-12" {...animatedItem[4]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 세드릭 게르베하이 Cédric Gerbehaye
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[5]}>
               세드릭 게르베하이는 벨기에에서 태생으로 저널리즘을 전공했고,
               인도네시아 여행 당시 사진을 처음 접한 후 콩고민주공화국에서
               사진작가로 활동했다. 그의 사진과 에세이를 담은 책 ‘잊혀진
@@ -204,4 +208,6 @@ export default function CedricGerbehaye() {
       </div>
     </>
   );
-}
+};
+
+export default CedricGerbehaye;

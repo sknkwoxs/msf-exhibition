@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function MassimoBerruti() {
+const MassimoBerruti = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
@@ -11,6 +11,7 @@ export default function MassimoBerruti() {
     4: useScrollFadeIn("up", 1, 0.1),
     5: useScrollFadeIn("up", 1, 0.1),
   };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -24,7 +25,7 @@ export default function MassimoBerruti() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 마시모 베루티 - 파키스탄
               </h3>
@@ -59,7 +60,7 @@ export default function MassimoBerruti() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -71,7 +72,10 @@ export default function MassimoBerruti() {
                   alt="MASSIMO BERRUTI 02 1"
                 />
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1">
+              <p
+                className="mb-4 max-w-[63rem] mx-auto DB1"
+                {...animatedItem[2]}
+              >
                 베루티는 파키스탄에서 수십년 만에 발생한 최악의 홍수를 타임지에
                 보도하기 위해 파키스탄 스왓 골짜기를 방문했다. 이 지역은 집
                 대부분이 진흙으로 지어져 홍수 피해를 크게 받은 곳이었다.
@@ -104,13 +108,13 @@ export default function MassimoBerruti() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12">
+            <div className="mb-10 md:mb-12" {...animatedItem[3]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 마시모 베루티 Massimo Berruti
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[4]}>
               마시모 베루티는 이탈리아 출신의 사진작가이다. 2003년 대학에서
               생물학을 전공하던 그는 우연한 기회로 사진을 처음 접한 후 독학하여
               일 년 후 프리랜스 사진작가가 되었다.
@@ -196,4 +200,6 @@ export default function MassimoBerruti() {
       </div>
     </>
   );
-}
+};
+
+export default MassimoBerruti;

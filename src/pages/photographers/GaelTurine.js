@@ -6,9 +6,9 @@ const GaelTurine = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("up", 1, 0.4),
     3: useScrollFadeIn("up", 1, 0.1),
-    4: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.2),
     5: useScrollFadeIn("up", 1, 0.1),
   };
 

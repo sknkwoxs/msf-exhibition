@@ -2,12 +2,12 @@ import { HashLink } from "react-router-hash-link";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function AshfikaRahman() {
+const AshfikaRahman = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
     1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("left", 1, 0.4),
+    3: useScrollFadeIn("right", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.1),
     5: useScrollFadeIn("up", 1, 0.1),
   };
@@ -24,7 +24,7 @@ export default function AshfikaRahman() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 아슈피카 라만 - 방글라데시
               </h3>
@@ -60,7 +60,7 @@ export default function AshfikaRahman() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -80,7 +80,7 @@ export default function AshfikaRahman() {
                 />
               </div>
               <div className="flex max-w-[63rem] mx-auto gap-8 md:mb-[6rem] mb-[5rem]">
-                <p className="flex-1 my-auto italic DB1">
+                <p className="flex-1 my-auto italic DB1" {...animatedItem[2]}>
                   “제 이름은 아노와라 베굼입니다. 저는 14살에 결혼해 15살에 첫
                   아이를 임신했습니다. 더 빨리 임신하게 도와준다는 부적을 받기도
                   했어요. 게다가 제 어머니는 12살에 첫 아이를 낳았으니 저는 이른
@@ -106,7 +106,7 @@ export default function AshfikaRahman() {
                     alt="85"
                   />
                 </div>
-                <p className="flex-1 my-auto italic DB1">
+                <p className="flex-1 my-auto italic DB1" {...animatedItem[3]}>
                   사랑하는 사비나,
                   <br />
                   <br />
@@ -145,13 +145,13 @@ export default function AshfikaRahman() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12">
+            <div className="mb-10 md:mb-12" {...animatedItem[4]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 아슈피카 라만 Ashfika Rahman
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[5]}>
               방글라데시 다카 출신의 아슈피카 라흐만은 방글라데시 파트샬라
               남아시아 언론학교에서 기록사진을 전공했다. 그의 작업은 예술과
               기록사진의 영역을 넘나드는데, 특히 19세기 판화로부터 영감을 얻어
@@ -229,4 +229,6 @@ export default function AshfikaRahman() {
       </div>
     </>
   );
-}
+};
+
+export default AshfikaRahman;
