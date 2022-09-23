@@ -7,24 +7,22 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 const Header = () => {
   const [hover, setHover] = useState(false);
   const hoverStyle = {
-    height: "29.5rem",
+    height: "30rem",
     backgroundColor: "#000000",
+  };
+
+  const hoverBorder = {
+    display: "block",
+    position: "absolute",
+    width: "100%",
+    height: "",
+    top: "7.5rem",
+    zIndex: "100",
+    borderBottom: "1px solid #636B73",
   };
 
   const subMenuFlex = {
     display: "flex",
-  };
-
-  const beforeBorderBottoms = {
-    content: "",
-    display: "block",
-    position: "absolute",
-    width: "100%",
-    height: "1px",
-    top: "7.5rem",
-    left: "0",
-    backgroundColor: "#636B73",
-    zIndex: "1",
   };
 
   const onMouseEnter = () => {
@@ -57,7 +55,7 @@ const Header = () => {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-10 shadow-md text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
-        {/* <div className="border-b border-white" /> */}
+        <div style={hover ? hoverBorder : null} />
         <div
           id="headerWrap"
           className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}
@@ -67,7 +65,6 @@ const Header = () => {
           <div
             id="headerContents"
             className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
-            // style={hover ? beforeBorderBottoms : null}
           >
             <a href="/">
               <img
@@ -86,7 +83,7 @@ const Header = () => {
                     사진전 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    className="absolute top-[6.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
                     style={hover ? subMenuFlex : null}
                   >
                     {introduction.map((introduction, index) => {
@@ -105,7 +102,7 @@ const Header = () => {
                     작가 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[5.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    className="absolute top-[6.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
                     style={hover ? subMenuFlex : null}
                   >
                     {photographers.map((photographers, index) => {

@@ -219,6 +219,10 @@
     background-color: black;
   }
 
+  header #headerWrap::before {
+    border: 1px solid red;
+  }
+
   /* dropdown submenu hover effect */
   header .header_menu li > a::after {
     content: "";
