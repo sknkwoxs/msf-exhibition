@@ -32,11 +32,11 @@ const ShareButtons = () => {
   const twitterShare = () => {
     window.open(
       "https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20" +
-        encodeURIComponent(document.URL) +
+        encodeURIComponent(document.currentUrl) +
         "%20-%20" +
         encodeURIComponent(document.title),
       "twittersharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
     );
   };
 
@@ -47,7 +47,7 @@ const ShareButtons = () => {
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
     );
   };
 
@@ -58,7 +58,7 @@ const ShareButtons = () => {
         "&title=" +
         encodeURIComponent(document.title),
       "naversharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
     );
   };
 

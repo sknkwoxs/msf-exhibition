@@ -50,23 +50,36 @@ const Main = () => {
     });
   };
 
+  const twitterShare = () => {
+    window.open(
+      "https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20" +
+        encodeURIComponent(document.currentUrl) +
+        "%20-%20" +
+        encodeURIComponent(document.title),
+      "twittersharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+    );
+  };
+
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
-        encodeURIComponent(document.URL) +
+        encodeURIComponent(document.currentUrl) +
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
     );
   };
 
   const naverShare = () => {
     window.open(
       "http://share.naver.com/web/shareView.nhn?url=" +
-        encodeURIComponent(document.URL) +
+        encodeURIComponent(document.currentUrl) +
         "&title=" +
-        encodeURIComponent(document.title)
+        encodeURIComponent(document.title),
+      "naversharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
     );
   };
 
@@ -219,20 +232,12 @@ const Main = () => {
               </li>
               {/* twitter */}
               <li>
-                <button className="w-[60px]">
-                  <a
-                    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                    className="twitter-share-button"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-show-count="false"
-                  >
-                    <img
-                      className="w-full"
-                      src="/images/shareButtons/share_twitter_button.svg"
-                      alt="share_twitter_button"
-                    />
-                  </a>
+                <button className="w-[60px]" onClick={twitterShare}>
+                  <img
+                    className="w-full"
+                    src="/images/shareButtons/share_twitter_button.svg"
+                    alt="share_twitter_button"
+                  />
                   <script
                     async
                     src="https://platform.twitter.com/widgets.js"
