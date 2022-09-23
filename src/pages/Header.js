@@ -138,7 +138,7 @@ const Header = () => {
           </div>
           {/* mobile menu */}
           {openMenu ? (
-            <div className="z-[30] h-screen border-t border-Neutrals-Grey6 md:hidden">
+            <div className="z-[30] h-screen border-t border-Neutrals-Grey6 md:hidden animate-fade-in-down">
               <div className="px-4 pb-12">
                 <ul>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
