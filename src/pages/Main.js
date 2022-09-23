@@ -60,10 +60,6 @@ const Main = () => {
     );
   };
 
-  const naverShare = () => {
-    window.open("http://www.facebook.com/sharer.php?u=www.naver.com");
-  };
-
   return (
     <>
       <main className="md:pt-[7.5rem] pt-[3.5rem] bg-Neutrals-Grey9 text-Neutrals-White">
@@ -193,11 +189,19 @@ const Main = () => {
             <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
               <li>
                 <button className="w-[60px]">
-                  <img
-                    className="w-full"
-                    src="/images/shareButtons/share_naver_button.svg"
-                    alt="share_naver_button"
-                  />
+                  <a
+                    href="#"
+                    onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url=' +encodeURIComponent(document.URL)+'&amp;title='+encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    target="_blank"
+                    alt="Share on Naver"
+                    rel="nofollow"
+                  >
+                    <img
+                      className="w-full"
+                      src="/images/shareButtons/share_naver_button.svg"
+                      alt="share_naver_button"
+                    />
+                  </a>
                 </button>
               </li>
               <li>
@@ -211,7 +215,7 @@ const Main = () => {
               </li>
               <li>
                 <button className="w-[60px]">
-                  <a
+                  {/* <a
                     href="https://twitter.com/share?ref_src=twsrc%5Etfw"
                     className="twitter-share-button"
                     data-show-count="false"
@@ -226,7 +230,21 @@ const Main = () => {
                     async
                     src="https://platform.twitter.com/widgets.js"
                     charSet="utf-8"
-                  ></script>
+                  ></script> */}
+
+                  <a
+                    href="#"
+                    onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                    target="_blank"
+                    alt="Share on Twitter"
+                    rel="nofollow"
+                  >
+                    <img
+                      className="w-full"
+                      src="/images/shareButtons/share_twitter_button.svg"
+                      alt="share_twitter_button"
+                    />
+                  </a>
                 </button>
               </li>
               <li>
