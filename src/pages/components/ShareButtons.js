@@ -47,7 +47,7 @@ const ShareButtons = () => {
         "&title=" +
         encodeURIComponent(document.title),
       "naversharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
     );
   };
 
