@@ -49,40 +49,6 @@ const Main = () => {
     });
   };
 
-  // const shareLink = "msf.or.kr/morethanapicture";
-  // const Kakao = () => {
-  //   Kakao.Link.createDefaultButton({
-  //     container: "#kakaoShareButton",
-  //     objectType: "feed",
-  //     content: {
-  //       title: "국경없는의사회 사진전",
-  //       description:
-  //         "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
-  //       imageUrl: "/images/OG.jpg",
-  //       link: {
-  //         webUrl: shareLink,
-  //         mobileWebUrl: shareLink,
-  //       },
-  //     },
-  //     buttons: [
-  //       {
-  //         title: "웹으로 보기",
-  //         link: {
-  //           webUrl: shareLink,
-  //           mobileWebUrl: shareLink,
-  //         },
-  //       },
-  //       {
-  //         title: "앱으로 보기",
-  //         link: {
-  //           webUrl: shareLink,
-  //           mobileWebUrl: shareLink,
-  //         },
-  //       },
-  //     ],
-  //   });
-  // };
-
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
@@ -92,6 +58,14 @@ const Main = () => {
       "facebooksharedialog",
       "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
     );
+  };
+
+  const naverShare = () => {
+    const url = encodeURI(encodeURIComponent("#myform".url.value));
+    const title = encodeURI("#myform".title.value);
+    const shareURL =
+      "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
+    document.location = shareURL;
   };
 
   return (
@@ -223,13 +197,15 @@ const Main = () => {
             <ul className="flex flex-col items-center justify-center gap-2 mx-auto">
               {/* naver */}
               <li>
-                <button className="w-[60px]">
-                  <img
-                    className="w-full"
-                    src="/images/shareButtons/share_naver_button.svg"
-                    alt="share_naver_button"
-                  />
-                </button>
+                <form id="myform">
+                  <button className="w-[60px]" onClick={naverShare}>
+                    <img
+                      className="w-full"
+                      src="/images/shareButtons/share_naver_button.svg"
+                      alt="share_naver_button"
+                    />
+                  </button>
+                </form>
               </li>
               {/* facebook */}
               <li>
