@@ -56,7 +56,8 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-10 text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
+      <header className="fixed top-0 left-0 right-0 z-10 shadow-md text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
+        {/* <div className="border-b border-white" /> */}
         <div
           id="headerWrap"
           className={scrollPosition < 1 ? "bg_transparent" : "bg_black"}
