@@ -13,16 +13,16 @@ const ShareButtons = () => {
           "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
         imageUrl: "",
         link: {
-          mobileWebUrl: "www.naver.com",
-          webUrl: "www.naver.com",
+          mobileWebUrl: window.location.href,
+          webUrl: window.location.href,
         },
       },
       buttons: [
         {
           title: "웹으로 보기",
           link: {
-            mobileWebUrl: "www.naver.com",
-            webUrl: "www.naver.com",
+            mobileWebUrl: window.location.href,
+            webUrl: window.location.href,
           },
         },
       ],
@@ -36,7 +36,7 @@ const ShareButtons = () => {
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
     );
   };
 
@@ -45,7 +45,9 @@ const ShareButtons = () => {
       "http://share.naver.com/web/shareView.nhn?url=" +
         encodeURIComponent(document.URL) +
         "&title=" +
-        encodeURIComponent(document.title)
+        encodeURIComponent(document.title),
+      "naversharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600"
     );
   };
 
