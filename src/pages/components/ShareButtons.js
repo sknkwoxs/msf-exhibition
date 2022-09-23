@@ -29,10 +29,21 @@ const ShareButtons = () => {
     });
   };
 
+  const twitterShare = () => {
+    window.open(
+      "https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20" +
+        encodeURIComponent(document.URL) +
+        "%20-%20" +
+        encodeURIComponent(document.title),
+      "twittersharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes"
+    );
+  };
+
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?u=" +
-        encodeURIComponent(document.URL) +
+        encodeURIComponent(document.currentUrl) +
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
@@ -43,7 +54,7 @@ const ShareButtons = () => {
   const naverShare = () => {
     window.open(
       "http://share.naver.com/web/shareView.nhn?url=" +
-        encodeURIComponent(document.URL) +
+        encodeURIComponent(document.currentUrl) +
         "&title=" +
         encodeURIComponent(document.title),
       "naversharedialog",
@@ -64,8 +75,8 @@ const ShareButtons = () => {
       <button onClick={kakaoShare}>
         <img src="/images/svgIcons/share_kakao.svg" alt="share_kakao" />
       </button>
-      <button>
-        <a
+      <button onClick={twitterShare}>
+        {/* <a
           href="https://twitter.com/share?ref_src=twsrc%5Etfw"
           className="twitter-share-button"
           target="_blank"
@@ -78,7 +89,8 @@ const ShareButtons = () => {
           async
           src="https://platform.twitter.com/widgets.js"
           charSet="utf-8"
-        ></script>
+        ></script> */}
+        <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
       </button>
       <button onClick={facebookShare}>
         <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
