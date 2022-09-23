@@ -1,7 +1,18 @@
 import { HashLink } from "react-router-hash-link";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
 const AlessandroPenso = () => {
+  const animatedItem = {
+    0: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.1),
+    5: useScrollFadeIn("up", 1, 0.1),
+    6: useScrollFadeIn("up", 1, 0.1),
+  };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -15,7 +26,7 @@ const AlessandroPenso = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 알레산드로 펜소 - 지중해
               </h3>
@@ -61,7 +72,10 @@ const AlessandroPenso = () => {
             <div>
               <div className="mb-10 md:mb-12">
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
-                <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
+                <p
+                  className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
+                  {...animatedItem[1]}
+                >
                   컨택트시트
                 </p>
               </div>
@@ -71,13 +85,16 @@ const AlessandroPenso = () => {
                   alt="ALESSANDRO_PENSO 02 1"
                 />
               </div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[2]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   유러피안 드림
                 </p>
               </div>
-              <p className="mb-4 max-w-[63rem] mx-auto DB1 italic">
+              <p
+                className="mb-4 max-w-[63rem] mx-auto DB1 italic"
+                {...animatedItem[3]}
+              >
                 <span className="not-italic">
                   알렉산드로 펜소는 유럽난민 위기를 알리기 위해 전시 《유러피안
                   드림{" "}
@@ -103,7 +120,10 @@ const AlessandroPenso = () => {
                 노동자, 수비가 한층 강화된 국경지대, 제대로 된 생활시설조차 없는
                 오래된 건물에 방치된 사람들을 주로 찍었습니다.”
               </p>
-              <p className="max-w-[63rem] mx-auto DB1 font-bold">
+              <p
+                className="max-w-[63rem] mx-auto DB1 font-bold"
+                {...animatedItem[4]}
+              >
                 알레산드로 펜소(2014)
               </p>
               <div className="flex flex-col gap-8 md:my-[6rem] my-[5rem]">
@@ -125,13 +145,13 @@ const AlessandroPenso = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-12">
+            <div className="mb-12" {...animatedItem[5]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 알레산드로 펜소 Alessandro Penso
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[6]}>
               알레산드로 펜소는 이탈리아에서 태어나 로마 라 사피엔자 대학교에서
               임상심리학을 전공했다. 로마 사진영화 학교에 장학생으로 진학해
               포토저널리즘을 배웠다.

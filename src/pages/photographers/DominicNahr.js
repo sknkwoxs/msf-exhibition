@@ -1,7 +1,16 @@
 import { HashLink } from "react-router-hash-link";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
-export default function DominicNahr() {
+const DominicNahr = () => {
+  const animatedItem = {
+    0: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.1),
+  };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
@@ -15,7 +24,7 @@ export default function DominicNahr() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div>
+            <div {...animatedItem[0]}>
               <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
                 도미닉 나흐르 - 남수단
               </h3>
@@ -50,7 +59,7 @@ export default function DominicNahr() {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12">
+              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -62,7 +71,10 @@ export default function DominicNahr() {
                   alt="DOMINIC NAHR 1"
                 />
               </div>
-              <p className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto DB1">
+              <p
+                className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto DB1"
+                {...animatedItem[2]}
+              >
                 2015년 5월, 부족간 폭력사태가 격화하며 남수단 리어 지역에서
                 활동하던 모든 구호단체가 철수했다. 수천 명의 민간인이 숲이나
                 늪지대로 피신하고, 벤티우에 위치한 유엔 민간인 보호센터로
@@ -97,11 +109,11 @@ export default function DominicNahr() {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-12">
+            <div className="mb-12" {...animatedItem[3]}>
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
               <p className="text-center H4">도미닉 나흐르 Dominic Nahr</p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1">
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[4]}>
               도미닉 나흐르는 스위스 아펜첼에서 태어나 홍콩에서 자랐다. 2008년
               캐나다 토론토의 라이어슨 대학에서 순수예술학사 학위를 받은
               나흐르는 케냐로 향해 분쟁, 인도적 위기와 사회적 문제를 기록하는 데
@@ -191,4 +203,6 @@ export default function DominicNahr() {
       </div>
     </>
   );
-}
+};
+
+export default DominicNahr;

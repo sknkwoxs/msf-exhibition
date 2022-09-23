@@ -1,7 +1,16 @@
 import { HashLink } from "react-router-hash-link";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
 export default function MassimoBerruti() {
+  const animatedItem = {
+    0: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.1),
+    2: useScrollFadeIn("up", 1, 0.1),
+    3: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.1),
+    5: useScrollFadeIn("up", 1, 0.1),
+  };
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
