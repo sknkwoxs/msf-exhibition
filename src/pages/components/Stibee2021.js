@@ -2,7 +2,6 @@ const app = new Vue({
   el: "#main_wrap",
   data: {
     form: {
-      // mobile: '',
       email: "",
     },
     agree: false,
@@ -29,12 +28,7 @@ const app = new Vue({
     leftPx: 417,
     widthPx: 600,
   },
-  created: function () {
-    // var self = this;
-    // window.addEventListener('resize', function() {
-    // 	self.reCalWidth();
-    // });
-  },
+  created: function () {},
 
   filters: {
     trim: function (value) {
@@ -64,11 +58,6 @@ const app = new Vue({
         return;
       }
 
-      // if(!this.agree) {
-      // 	alert('개인정보 수집 및 이용에 동의가 필요합니다.');
-      // 	return;
-      // }
-
       this.$http
         .post(
           "https://stibee.com/api/v1.0/lists/5wzULi3PasL0TdkBcTxnfNkIVlAiEA==/public/subscribers",
@@ -89,18 +78,9 @@ const app = new Vue({
           }
         );
 
-      // this.form.mobile = '';
       this.form.email = "";
-      // this.agree = false;
 
       return false;
     },
-    // closePop: function() {
-    // 	if(this.dayCheck) {
-    // 		this.$cookies.set('checkPop', '1', '1d');
-    // 	}
-    //
-    // 	this.viewPop = false;
-    // },
   },
 });
