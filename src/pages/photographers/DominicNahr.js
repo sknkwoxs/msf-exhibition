@@ -35,7 +35,7 @@ const DominicNahr = () => {
                 리어(Leer), 2015년 12월 14일
               </p>
               <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
-                TBA
+                Leica M9 and 35mm lens
               </p>
               <p className="text-left max-w-[63rem] mx-auto DB1">
                 남수단 대부분의 지역에선 부족간 분쟁과 폭력사태가 반복적으로
