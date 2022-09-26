@@ -15,7 +15,7 @@ export default function Participate() {
     8: useScrollFadeIn("right", 1, 0.4),
     9: useScrollFadeIn("left", 1, 0.4),
     10: useScrollFadeIn("left", 1, 0.4),
-    10: useScrollFadeIn("right", 1, 0.4),
+    11: useScrollFadeIn("right", 1, 0.4),
   };
 
   return (

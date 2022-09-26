@@ -53,7 +53,7 @@ const ShareButtons = () => {
 
   const naverShare = () => {
     window.open(
-      "http://share.naver.com/web/shareView.nhn?url=" +
+      "https://share.naver.com/web/shareView.nhn?url=" +
         encodeURIComponent(document.currentUrl) +
         "&title=" +
         encodeURIComponent(document.title),

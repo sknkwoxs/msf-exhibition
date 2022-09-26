@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { introduction, photographers } from "./components/SubmenuItems";
 import Collapsible from "react-collapsible";
