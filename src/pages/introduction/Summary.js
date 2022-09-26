@@ -11,12 +11,13 @@ export default function Summary() {
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="w-full">
+        <div className="w-full max-h-[44rem] min-h-[22rem]">
           <video
             className="w-full max-h-[44rem] min-h-[22rem] object-cover"
             src="/videos/Youtube(30s)_10yr photo exhibit_1.mp4"
-            autoplay
-            controls
+            autoplay="autoplay"
+            muted="muted"
+            controls="true"
           ></video>
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">

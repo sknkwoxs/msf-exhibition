@@ -10,7 +10,7 @@ export default function Greetings() {
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="overflow-hidden">
+        <div className="max-h-[44rem] min-h-[22rem]">
           <img
             className="w-full max-h-[44rem] min-h-[22rem] object-cover greetingsMainImg"
             src="/images/Welcome.png"
