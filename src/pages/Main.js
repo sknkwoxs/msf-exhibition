@@ -8,7 +8,7 @@ import MainSlidePhotographers from "./components/MainSlidePhotographers";
 import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
-import Stibee from "./components/Stibee";
+import StibeeSubscriptionForm from "./components/StibeeSubscriptionForm";
 // import { HashLink } from "react-router-hash-link";
 
 const Main = () => {
@@ -140,7 +140,7 @@ const Main = () => {
               <MobileSlideEvent />
             </div>
           </section>
-          <Stibee />
+          <StibeeSubscriptionForm />
           <section className="hidden md:block">
             <Map
               center={{
