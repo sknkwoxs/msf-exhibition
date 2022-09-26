@@ -4,10 +4,10 @@ import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Participate() {
   const animatedItem = {
-    0: useScrollFadeIn("right", 1, 0.4),
-    1: useScrollFadeIn("left", 1, 0.4),
-    2: useScrollFadeIn("right", 1, 0.4),
-    3: useScrollFadeIn("left", 1, 0.4),
+    0: useScrollFadeIn("right", 1, 0.2),
+    1: useScrollFadeIn("left", 1, 0.2),
+    2: useScrollFadeIn("right", 1, 0.6),
+    3: useScrollFadeIn("left", 1, 0.6),
     4: useScrollFadeIn("right", 1, 0.4),
     5: useScrollFadeIn("left", 1, 0.4),
     6: useScrollFadeIn("right", 1, 0.4),
