@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className="flex justify-center md:justify-start">
                   <p>사무국 이메일 : </p>&nbsp;
                   <a
-                    className="font-normal"
+                    className="font-normal hover:underline"
                     href="mailto:events@seoul.msf.org"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -69,6 +69,7 @@ export default function Footer() {
                 </p>
                 <div className="md:flex md:justify-end">
                   <a
+                    className="hover:opacity-90"
                     href="https://www.facebook.com/msfkorea"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -77,8 +78,8 @@ export default function Footer() {
                   </a>
                   <div className="inline-block w-2" />
                   <a
-                    href="https://www.instagram.com/msfkorea/
-"
+                    className="hover:opacity-90"
+                    href="https://www.instagram.com/msfkorea/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -86,6 +87,7 @@ export default function Footer() {
                   </a>
                   <div className="inline-block w-2" />
                   <a
+                    className="hover:opacity-90"
                     href="https://www.youtube.com/user/msfkorea"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -94,6 +96,7 @@ export default function Footer() {
                   </a>
                   <div className="inline-block w-2" />
                   <a
+                    className="hover:opacity-90"
                     href="https://blog.naver.com/msfkr"
                     target="_blank"
                     rel="noopener noreferrer"
