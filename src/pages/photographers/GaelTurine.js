@@ -5,11 +5,19 @@ import ShareButtons from "../components/ShareButtons";
 const GaelTurine = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.4),
-    3: useScrollFadeIn("up", 1, 0.1),
-    4: useScrollFadeIn("up", 1, 0.2),
-    5: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.3),
+    6: useScrollFadeIn("up", 1, 0.3),
+    7: useScrollFadeIn("up", 1, 0.1),
+    8: useScrollFadeIn("up", 1, 0.5),
+    9: useScrollFadeIn("up", 1, 0.5),
+    10: useScrollFadeIn("up", 1, 0.3),
+    11: useScrollFadeIn("up", 1, 0.3),
+    12: useScrollFadeIn("up", 1, 0.3),
+    13: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -25,20 +33,35 @@ const GaelTurine = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 가엘 튀린 - 앙골라
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Gaël Turine - Angola
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 쿠이토(Kuito), 1996년 3월 2일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[3]}
+              >
                 Mamiya 6, Tri-X 400
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1"
+                {...animatedItem[4]}
+              >
                 앙골라 내전 1975~2002 이 장기화하며 극심한 영양실조로 고통받는
                 아동 환자가 급증했다. 심각한 영양실조 위기가 길어지자 폐렴,
                 설사, 말라리라, 홍역 등으로 아동 사망률이 잇따라 증가했다.
@@ -47,7 +70,10 @@ const GaelTurine = () => {
                 현장을 기록했다.
               </p>
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -60,13 +86,13 @@ const GaelTurine = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[6]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
                 </p>
               </div>
-              <div className="md:mb-[6rem] mb-[5rem]">
+              <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[7]}>
                 <img
                   src="/images/GaelTurine/GAEL TURINE 02 1.png"
                   alt="GAEL TURINE 02 1"
@@ -74,7 +100,7 @@ const GaelTurine = () => {
               </div>
               <p
                 className="mb-4 max-w-[63rem] mx-auto DB1 italic"
-                {...animatedItem[2]}
+                {...animatedItem[8]}
               >
                 “쿠이토에 머물던 중 국경없는의사회와 연락이 닿아 함께 작업할 수
                 있었습니다. 국경없는의사회 직원들의 도움으로 현장 상황을 더욱
@@ -85,19 +111,19 @@ const GaelTurine = () => {
               </p>
               <p
                 className="max-w-[63rem] mx-auto DB1 font-bold"
-                {...animatedItem[3]}
+                {...animatedItem[9]}
               >
                 가엘 튀린(2021)
               </p>
               <div className="md:flex-row flex flex-col gap-8 md:my-[6rem] my-[5rem]">
-                <div>
+                <div {...animatedItem[10]}>
                   <img
                     className="w-full"
                     src="/images/GaelTurine/GAEL TURINE 04 1.png"
                     alt="GAEL TURINE 04 1"
                   />
                 </div>
-                <div>
+                <div {...animatedItem[11]}>
                   <img
                     src="/images/GaelTurine/GAEL TURINE 05 1.png"
                     alt="GAEL TURINE 05 1"
@@ -116,13 +142,13 @@ const GaelTurine = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-8 md:mb-12" {...animatedItem[4]}>
+            <div className="mb-8 md:mb-12" {...animatedItem[12]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 가엘 튀린 Gaël Turine
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[5]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
               가엘 튀린은 포켓사진집 포토 포슈
               <span className="font-sans italic text-[0.875rem]">
                 {" "}
