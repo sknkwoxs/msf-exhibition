@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 // import ScrollToTop from "./pages/components/hooks/ScrollToTop";
-
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
 import Main from "./pages/Main";
@@ -22,11 +20,10 @@ import MassimoBerruti from "./pages/photographers/MassimoBerruti";
 import AshfikaRahman from "./pages/photographers/AshfikaRahman";
 // Error
 import Error404 from "./pages/Error404";
-import Error403 from "./pages/Error403";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/morethanapicture">
       <Header />
       <Routes>
         <Route path="/" exact element={<Main />} />
