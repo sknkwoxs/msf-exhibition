@@ -1,7 +1,23 @@
 import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Participate() {
+  const animatedItem = {
+    0: useScrollFadeIn("right", 1, 0.4),
+    1: useScrollFadeIn("left", 1, 0.4),
+    2: useScrollFadeIn("right", 1, 0.4),
+    3: useScrollFadeIn("left", 1, 0.4),
+    4: useScrollFadeIn("right", 1, 0.4),
+    5: useScrollFadeIn("left", 1, 0.4),
+    6: useScrollFadeIn("right", 1, 0.4),
+    7: useScrollFadeIn("left", 1, 0.4),
+    8: useScrollFadeIn("right", 1, 0.4),
+    9: useScrollFadeIn("left", 1, 0.4),
+    10: useScrollFadeIn("left", 1, 0.4),
+    10: useScrollFadeIn("right", 1, 0.4),
+  };
+
   return (
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
@@ -11,7 +27,7 @@ export default function Participate() {
             id="Section1"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[7rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[0]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 사진전 관람
               </p>
@@ -31,7 +47,10 @@ export default function Participate() {
                 이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
               </p>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
+            <div
+              className="h-0 pb-[100%] overflow-hidden relative z-0"
+              {...animatedItem[1]}
+            >
               <img
                 className="absolute object-cover w-full h-full"
                 src="/images/participate1.png"
@@ -41,7 +60,7 @@ export default function Participate() {
           </div>
           <div id="Section2" className="border-b border-Neutrals-Grey3" />
           <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[2]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 전시 사진 기부 옥션
               </p>
@@ -72,7 +91,10 @@ export default function Participate() {
                 발급이 가능합니다.
               </p>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
+            <div
+              className="h-0 pb-[100%] overflow-hidden relative z-0"
+              {...animatedItem[3]}
+            >
               <img
                 className="absolute object-cover w-full h-full"
                 src="/images/participate2.png"
@@ -85,7 +107,7 @@ export default function Participate() {
             id="Section3"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[4]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 스페셜 토크
                 <br className="md:hidden" />
@@ -111,7 +133,10 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
+            <div
+              className="h-0 pb-[100%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <img
                 className="absolute object-cover w-full h-full"
                 src="/images/participate3.png"
@@ -124,7 +149,7 @@ export default function Participate() {
             id="Section4"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[6]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 도슨트 가이드 투어
               </p>
@@ -146,7 +171,10 @@ export default function Participate() {
                 </button>
               </div>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
+            <div
+              className="h-0 pb-[100%] overflow-hidden relative z-0"
+              {...animatedItem[7]}
+            >
               <img
                 className="absolute object-cover w-full h-full"
                 src="/images/participate4.png"
@@ -159,7 +187,7 @@ export default function Participate() {
             id="Section5"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[8]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 배우 유해진 오디오 가이드
               </p>
@@ -176,7 +204,10 @@ export default function Participate() {
                 <span className="DB2">*개인 이어폰을 지참해 주세요.</span>
               </p>
             </div>
-            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
+            <div
+              className="h-0 pb-[100%] overflow-hidden relative z-0"
+              {...animatedItem[9]}
+            >
               <img
                 className="absolute object-cover w-full h-full"
                 src="/images/participate5.png"
@@ -186,7 +217,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
-            <div className="my-auto">
+            <div className="my-auto" {...animatedItem[10]}>
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 다큐멘터리 에고이스트 온라인 무료 상영
               </p>
