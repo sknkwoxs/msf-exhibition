@@ -31,12 +31,14 @@ export default function Participate() {
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 사진전 관람
               </p>
-              <p className="mb-4 font-PTSemiBold DB1">
+              <p className="mb-4 font-PTSemiBold DB1 text-Neutrals-Grey7">
                 전시 기간: 11.02(수) - 11.14(월) 10:30-18:00
                 *11.05(토)/11.12(토) 오전 제외
                 <br /> 전시 장소: 갤러리 라메르 (
                 <HashLink to="/Address">
-                  <span className="underline">오시는 길</span>
+                  <span className="hover:underline hover:text-Neutrals-Grey9">
+                    오시는 길
+                  </span>
                 </HashLink>
                 )
               </p>
