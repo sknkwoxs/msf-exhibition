@@ -31,10 +31,20 @@ export default function Address() {
             >
               http://www.gallerylamer.com
             </a>
-            <h6 className="font-normal H6 text-Neutrals-Grey7">
+            <a
+              className="flex justify-center mb-2 font-normal H6 text-Neutrals-Grey7 hover:underline"
+              href="https://map.kakao.com/?urlX=496650.0&urlY=1131393.0&name=%EC%84%9C%EC%9A%B8%EC%8B%9C+%EC%A2%85%EB%A1%9C%EA%B5%AC+%EC%9D%B8%EC%82%AC%EB%8F%99+5%EA%B8%B8+26+%ED%99%8D%EC%9D%B5%EB%B9%8C%EB%94%A9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               서울시 종로구 인사동 5길 26 홍익빌딩
-            </h6>
-            <h6 className="font-normal H6 text-Neutrals-Grey7">02-730-5454</h6>
+            </a>
+            <a
+              className="font-normal H6 text-Neutrals-Grey7 hover:underline"
+              href="tel:02-730-5454"
+            >
+              02-730-5454
+            </a>
           </div>
           <section className="hidden md:block">
             <Map

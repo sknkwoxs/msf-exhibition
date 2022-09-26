@@ -37,7 +37,7 @@ export default function Footer() {
             <div>
               <div className="flex justify-between mb-6 md:mt-6 md:mb-10 H7 text-[0.87rem]">
                 <a
-                  className="hover:text-Neutrals-Grey3"
+                  className="hover:text-Neutrals-Grey3 hover:underline"
                   href="https://msf.or.kr/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -46,7 +46,7 @@ export default function Footer() {
                 </a>
                 <div className="mx-4 border-r border-Neutrals-Grey7"></div>
                 <a
-                  className="hover:text-Neutrals-Grey3"
+                  className="hover:text-Neutrals-Grey3 hover:underline"
                   href="https://msf.or.kr/terms-conditions"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,7 +55,7 @@ export default function Footer() {
                 </a>
                 <div className="mx-4 border-r border-Neutrals-Grey7"></div>
                 <a
-                  className="hover:text-Neutrals-Grey3"
+                  className="hover:text-Neutrals-Grey3 hover:underline"
                   href="https://msf.or.kr/privacy-policy"
                   target="_blank"
                   rel="noopener noreferrer"
