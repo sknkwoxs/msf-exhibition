@@ -90,7 +90,7 @@ const Main = () => {
           <div className="flex md:w-full md:hidden">
             <img
               className="object-cover w-full"
-              src="/images/Asset 1@3x 1.png"
+              src="/images/Asset 1@3x 1.jpg"
               alt="Asset 1@3x 1"
             />
           </div>
@@ -121,7 +121,7 @@ const Main = () => {
               <div className="hidden md:flex max-w-[780px]">
                 <img
                   className="object-cover w-full"
-                  src="/images/Asset 1@3x 1.png"
+                  src="/images/Asset 1@3x 1.jpg"
                   alt="Asset 1@3x 1"
                 />
               </div>
