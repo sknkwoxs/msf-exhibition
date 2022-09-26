@@ -12,11 +12,12 @@ export default function Summary() {
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
         <div className="w-full">
-          <img
-            className="w-full max-h-[44rem] object-cover"
-            src="/images/SD-default.png"
-            alt="SD-default"
-          />
+          <video
+            className="w-full max-h-[44rem] min-h-[22rem] object-cover"
+            src="/videos/Youtube(30s)_10yr photo exhibit_1.mp4"
+            autoplay
+            controls
+          ></video>
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
           <div className="mx-auto md:max-w-[63rem]">
