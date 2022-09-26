@@ -235,7 +235,7 @@ const JohnVink = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <HashLink to="/photographers/AlessandroPenso#">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
                         alt="arrows_left"
@@ -247,7 +247,7 @@ const JohnVink = () => {
                     <ShareButtons />
                   </div>
                   <HashLink to="/photographers/DominicNahr#">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
                         src="/images/svgIcons/arrows_right.svg"

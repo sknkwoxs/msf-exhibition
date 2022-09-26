@@ -201,7 +201,7 @@ const AshfikaRahman = () => {
                 </div>
                 <div className="grid items-center grid-cols-3">
                   <HashLink to="/photographers/MassimoBerruti#">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
                         src="/images/svgIcons/arrows_left.svg"
                         alt="arrows_left"

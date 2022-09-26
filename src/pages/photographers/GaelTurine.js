@@ -220,7 +220,7 @@ const GaelTurine = () => {
                     <ShareButtons />
                   </div>
                   <HashLink to="/photographers/AlessandroPenso#">
-                    <div className="flex items-center justify-end w-full gap-2 H7">
+                    <div className="flex items-center justify-end w-full gap-2 H7 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
                         src="/images/svgIcons/arrows_right.svg"
