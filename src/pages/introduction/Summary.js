@@ -18,6 +18,7 @@ export default function Summary() {
             autoplay="autoplay"
             muted="muted"
             controls="true"
+            loop="true"
           ></video>
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
