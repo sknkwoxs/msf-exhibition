@@ -13,7 +13,7 @@ export default function Greetings() {
         <div className="max-h-[44rem] min-h-[22rem]">
           <img
             className="w-full max-h-[44rem] min-h-[22rem] object-cover greetingsMainImg"
-            src="/images/Welcome.png"
+            src={`${process.env.PUBLIC_URL}/images/Welcome.png`}
             alt="Welcome"
           />
         </div>

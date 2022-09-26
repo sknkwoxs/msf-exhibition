@@ -28,7 +28,7 @@ const GaelTurine = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/GaelTurine/bg.png"
+            src={`${process.env.PUBLIC_URL}/images/GaelTurine/bg.png`}
             alt="bg"
           />
         </div>
@@ -95,7 +95,7 @@ const GaelTurine = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img
-                  src="/images/GaelTurine/GAEL TURINE 02 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/GaelTurine/GAEL TURINE 02 1.png`}
                   alt="GAEL TURINE 02 1"
                 />
               </div>
@@ -120,13 +120,13 @@ const GaelTurine = () => {
                 <div {...animatedItem[10]}>
                   <img
                     className="w-full"
-                    src="/images/GaelTurine/GAEL TURINE 04 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/GaelTurine/GAEL TURINE 04 1.png`}
                     alt="GAEL TURINE 04 1"
                   />
                 </div>
                 <div {...animatedItem[11]}>
                   <img
-                    src="/images/GaelTurine/GAEL TURINE 05 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/GaelTurine/GAEL TURINE 05 1.png`}
                     alt="GAEL TURINE 05 1"
                   />
                 </div>
@@ -137,7 +137,7 @@ const GaelTurine = () => {
         <div className="md:mb-[6rem] mb-[5rem] flex justify-center max-h-[100rem]">
           <img
             className="object-cover w-full"
-            src="/images/GaelTurine/GAEL TURINE 06 1.png"
+            src={`${process.env.PUBLIC_URL}/images/GaelTurine/GAEL TURINE 06 1.png`}
             alt="GAEL TURINE 06 1"
           />
         </div>
@@ -190,7 +190,7 @@ const GaelTurine = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
@@ -211,7 +211,7 @@ const GaelTurine = () => {
                   <HashLink to="/photographers/AshfikaRahman#">
                     {/* <div className="flex items-center gap-2 H7 ">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -224,7 +224,7 @@ const GaelTurine = () => {
                     <div className="flex items-center justify-end w-full gap-2 H7 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>

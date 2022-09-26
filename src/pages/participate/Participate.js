@@ -55,7 +55,7 @@ export default function Participate() {
             >
               <img
                 className="absolute object-cover w-full h-full"
-                src="/images/participate1.png"
+                src={`${process.env.PUBLIC_URL}/images/participate1.png`}
                 alt="participate1"
               />
             </div>
@@ -99,7 +99,7 @@ export default function Participate() {
             >
               <img
                 className="absolute object-cover w-full h-full"
-                src="/images/participate2.png"
+                src={`${process.env.PUBLIC_URL}/images/participate2.png`}
                 alt="participate2"
               />
             </div>
@@ -141,7 +141,7 @@ export default function Participate() {
             >
               <img
                 className="absolute object-cover w-full h-full"
-                src="/images/participate3.png"
+                src={`${process.env.PUBLIC_URL}/images/participate3.png`}
                 alt="participate3"
               />
             </div>
@@ -179,7 +179,7 @@ export default function Participate() {
             >
               <img
                 className="absolute object-cover w-full h-full"
-                src="/images/participate4.png"
+                src={`${process.env.PUBLIC_URL}/images/participate4.png`}
                 alt="participate4"
               />
             </div>
@@ -212,7 +212,7 @@ export default function Participate() {
             >
               <img
                 className="absolute object-cover w-full h-full"
-                src="/images/participate5.png"
+                src={`${process.env.PUBLIC_URL}/images/participate5.png`}
                 alt="participate5"
               />
             </div>

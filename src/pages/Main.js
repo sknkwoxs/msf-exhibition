@@ -90,7 +90,7 @@ const Main = () => {
           <div className="flex md:w-full md:hidden">
             <img
               className="object-cover w-full"
-              src="/images/Asset 1@3x 1.jpg"
+              src={`${process.env.PUBLIC_URL}/images/Asset 1@3x 1.jpg`}
               alt="Asset 1@3x 1"
             />
           </div>
@@ -100,12 +100,12 @@ const Main = () => {
                 <div className="md:w-full w-[222px]">
                   <img
                     className="hidden object-cover w-full mb-8 md:flex mt-[3.5rem]"
-                    src="/images/MORE THAN A PICTURE.svg"
+                    src={`${process.env.PUBLIC_URL}/images/MORE THAN A PICTURE.svg`}
                     alt="MORETHANAPICTURE"
                   />
                   <img
                     className="object-cover w-full mb-4 md:hidden"
-                    src="/images/MORE THAN A PICTURE_mobile.svg"
+                    src={`${process.env.PUBLIC_URL}/images/MORE THAN A PICTURE_mobile.svg`}
                     alt="MORETHANAPICTURE"
                   />
                 </div>
@@ -121,7 +121,7 @@ const Main = () => {
               <div className="hidden md:flex max-w-[780px]">
                 <img
                   className="object-cover w-full"
-                  src="/images/Asset 1@3x 1.jpg"
+                  src={`${process.env.PUBLIC_URL}/images/Asset 1@3x 1.jpg`}
                   alt="Asset 1@3x 1"
                 />
               </div>
@@ -215,7 +215,7 @@ const Main = () => {
                 <button className="w-[60px]" onClick={naverShare}>
                   <img
                     className="w-full"
-                    src="/images/shareButtons/share_naver_button.svg"
+                    src={`${process.env.PUBLIC_URL}/images/shareButtons/share_naver_button.svg`}
                     alt="share_naver_button"
                   />
                 </button>
@@ -225,7 +225,7 @@ const Main = () => {
                 <button className="w-[60px]" onClick={facebookShare}>
                   <img
                     className="w-full"
-                    src="/images/shareButtons/share_facebook_button.svg"
+                    src={`${process.env.PUBLIC_URL}/images/shareButtons/share_facebook_button.svg`}
                     alt="share_facebook_button"
                   />
                 </button>
@@ -235,12 +235,12 @@ const Main = () => {
                 <button className="w-[60px]" onClick={twitterShare}>
                   <img
                     className="w-full"
-                    src="/images/shareButtons/share_twitter_button.svg"
+                    src={`${process.env.PUBLIC_URL}/images/shareButtons/share_twitter_button.svg`}
                     alt="share_twitter_button"
                   />
                   <script
                     async
-                    src="https://platform.twitter.com/widgets.js"
+                    src={`${process.env.PUBLIC_URL}/https://platform.twitter.com/widgets.js`}
                     charSet="utf-8"
                   ></script>
                 </button>
@@ -254,7 +254,7 @@ const Main = () => {
                 >
                   <img
                     className="w-full"
-                    src="/images/shareButtons/share_kakao_button.svg"
+                    src={`${process.env.PUBLIC_URL}/images/shareButtons/share_kakao_button.svg`}
                     alt="share_kakao_button"
                   />
                 </button>
@@ -265,7 +265,7 @@ const Main = () => {
                   <CopyToClipboard text={currentUrl}>
                     <img
                       className="w-full cursor-pointer"
-                      src="/images/shareButtons/share_link_button.svg"
+                      src={`${process.env.PUBLIC_URL}/images/shareButtons/share_link_button.svg`}
                       alt="share_link_button"
                       onClick={() => alert("링크가 복사되었습니다.")}
                     />
@@ -276,7 +276,7 @@ const Main = () => {
                 <button className="w-[60px]" onClick={toggleButtons}>
                   <img
                     className="w-full"
-                    src="/images/shareButtons/closeButton.svg"
+                    src={`${process.env.PUBLIC_URL}/images/shareButtons/closeButton.svg`}
                     alt="closeButton"
                   />
                 </button>
@@ -287,7 +287,7 @@ const Main = () => {
               <button className="w-[60px]">
                 <img
                   className="w-full"
-                  src="/images/shareButtons/openButton.svg"
+                  src={`${process.env.PUBLIC_URL}/images/shareButtons/openButton.svg`}
                   alt="openButton"
                 />
               </button>

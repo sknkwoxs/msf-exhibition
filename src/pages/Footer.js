@@ -8,12 +8,12 @@ export default function Footer() {
               <div className="flex justify-center mb-6 md:mb-12 md:justify-start">
                 <img
                   className="hidden md:block"
-                  src="/images/svgIcons/logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/logo.svg`}
                   alt="logo"
                 />
                 <img
                   className="block md:hidden"
-                  src="/images/svgIcons/Mlogo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/Mlogo.svg`}
                   alt="Mlogo"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/svgIcons/facebook.svg" alt="facebook" />
+                    <img src={`${process.env.PUBLIC_URL}/images/svgIcons/facebook.svg`} alt="facebook" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -83,7 +83,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/svgIcons/insta.svg" alt="insta" />
+                    <img src={`${process.env.PUBLIC_URL}/images/svgIcons/insta.svg`} alt="insta" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -92,7 +92,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/svgIcons/youtube.svg" alt="youtube" />
+                    <img src={`${process.env.PUBLIC_URL}/images/svgIcons/youtube.svg`} alt="youtube" />
                   </a>
                   <div className="inline-block w-2" />
                   <a
@@ -101,7 +101,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/images/svgIcons/naver.svg" alt="naver" />
+                    <img src={`${process.env.PUBLIC_URL}/images/svgIcons/naver.svg`} alt="naver" />
                   </a>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/svgIcons/facebook.svg" alt="facebook" />
+                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/facebook.svg`} alt="facebook" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -135,7 +135,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/svgIcons/insta.svg" alt="insta" />
+                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/insta.svg`} alt="insta" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -144,7 +144,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/svgIcons/youtube.svg" alt="youtube" />
+                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/youtube.svg`} alt="youtube" />
               </a>
               <div className="inline-block w-2" />
               <a
@@ -153,7 +153,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/svgIcons/naver.svg" alt="naver" />
+                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/naver.svg`} alt="naver" />
               </a>
             </div>
           </div>

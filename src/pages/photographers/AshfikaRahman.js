@@ -27,7 +27,7 @@ const AshfikaRahman = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/AshfikaRahman/8 1.png"
+            src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/8 1.png`}
             alt="8 1"
           />
         </div>
@@ -95,14 +95,14 @@ const AshfikaRahman = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img
-                  src="/images/AshfikaRahman/ASHIFIKA RAHMAN02 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/ASHIFIKA RAHMAN02 1.png`}
                   alt="ASHIFIKA RAHMAN02 1"
                 />
               </div>
               <div className="md:hidden mb-[5rem]">
                 <img
                   className="mx-auto"
-                  src="/images/AshfikaRahman/84.png"
+                  src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/84.png`}
                   alt="84"
                 />
               </div>
@@ -115,13 +115,13 @@ const AshfikaRahman = () => {
                   결혼했습니다.”
                 </p>
                 <div className="hidden md:block" {...animatedItem[8]}>
-                  <img src="/images/AshfikaRahman/84.png" alt="84" />
+                  <img src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/84.png`} alt="84" />
                 </div>
               </div>
               <div className="md:hidden mb-[5rem]">
                 <img
                   className="mx-auto"
-                  src="/images/AshfikaRahman/85.png"
+                  src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/85.png`}
                   alt="85"
                 />
               </div>
@@ -129,7 +129,7 @@ const AshfikaRahman = () => {
                 <div className="hidden md:block" {...animatedItem[9]}>
                   <img
                     className="mx-auto"
-                    src="/images/AshfikaRahman/85.png"
+                    src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/85.png`}
                     alt="85"
                   />
                 </div>
@@ -158,14 +158,14 @@ const AshfikaRahman = () => {
           <div {...animatedItem[11]}>
             <img
               className="mx-auto"
-              src="/images/AshfikaRahman/EXTRA_03_MSF 1.png"
+              src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/EXTRA_03_MSF 1.png`}
               alt="EXTRA_03_MSF 1"
             />
           </div>
           <div {...animatedItem[12]}>
             <img
               className="mx-auto"
-              src="/images/AshfikaRahman/EXTRA_04_MSF 1.png"
+              src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/EXTRA_04_MSF 1.png`}
               alt="EXTRA_04_MSF 1"
             />
           </div>
@@ -203,7 +203,7 @@ const AshfikaRahman = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
@@ -230,7 +230,7 @@ const AshfikaRahman = () => {
                   <HashLink to="/photographers/MassimoBerruti#">
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -243,7 +243,7 @@ const AshfikaRahman = () => {
                     <div className="flex items-center gap-2">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>

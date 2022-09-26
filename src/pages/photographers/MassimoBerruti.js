@@ -25,7 +25,7 @@ const MassimoBerruti = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/MassimoBerruti/7 1.png"
+            src={`${process.env.PUBLIC_URL}/images/MassimoBerruti/7 1.png`}
             alt="7 1"
           />
         </div>
@@ -92,7 +92,7 @@ const MassimoBerruti = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img
-                  src="/images/MassimoBerruti/MASSIMO BERRUTI 02 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/MassimoBerruti/MASSIMO BERRUTI 02 1.png`}
                   alt="MASSIMO BERRUTI 02 1"
                 />
               </div>
@@ -115,14 +115,14 @@ const MassimoBerruti = () => {
                 <div {...animatedItem[8]}>
                   <img
                     className="mx-auto"
-                    src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 04 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 04 1.png`}
                     alt="MASSIMO BERRUTI EXTRA 04 1"
                   />
                 </div>
                 <div {...animatedItem[9]}>
                   <img
                     className="mx-auto"
-                    src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 03 - Copy 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 03 - Copy 1.png`}
                     alt="MASSIMO BERRUTI EXTRA 03 - Copy 1"
                   />
                 </div>
@@ -172,7 +172,7 @@ const MassimoBerruti = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
@@ -198,7 +198,7 @@ const MassimoBerruti = () => {
                   <HashLink to="/photographers/HannahReyesMorales#">
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -211,7 +211,7 @@ const MassimoBerruti = () => {
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>

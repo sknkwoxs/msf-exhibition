@@ -86,7 +86,7 @@ export default class MainSlideEvent extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_left.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_left.svg`}
                 alt="slider_arrows_left"
               />
             </button>
@@ -97,7 +97,7 @@ export default class MainSlideEvent extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_right.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_right.svg`}
                 alt="slider_arrows_right"
               />
             </button>
@@ -109,7 +109,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/event_slide_1.png"
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_1.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -130,7 +130,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/event_slide_2.png"
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_2.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -145,7 +145,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/event_slide_3.png"
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_3.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -158,7 +158,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/event_slide_4.png"
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_4.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -171,7 +171,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/event_slide_5.png"
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_5.png`}
                   alt="participate_thumb"
                 />
               </div>

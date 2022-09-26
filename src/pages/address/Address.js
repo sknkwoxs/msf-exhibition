@@ -128,7 +128,7 @@ export default function Address() {
               >
                 <div className="border-b">
                   <div className="flex items-center gap-2 mb-2 md:mb-4">
-                    <img src="/images/svgIcons/line1.svg" alt="line1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/svgIcons/line1.svg`} alt="line1" />
                     <h6 className="H6 text-[#343A40]">
                       1호선 종각역 (도보 3분)
                     </h6>
@@ -140,7 +140,7 @@ export default function Address() {
                   </p>
                 </div>
                 <div className="flex items-center gap-2 pt-6 mb-2 md:mb-4 md:pt-12">
-                  <img src="/images/svgIcons/line3.svg" alt="line3" />
+                  <img src={`${process.env.PUBLIC_URL}/images/svgIcons/line3.svg`} alt="line3" />
                   <h6 className="H6 text-[#343A40]">3호선 안국역(도보 5분)</h6>
                 </div>
                 <p className="DB1">

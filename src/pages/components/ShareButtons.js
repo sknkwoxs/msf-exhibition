@@ -67,13 +67,13 @@ const ShareButtons = () => {
       <CopyToClipboard text={currentUrl}>
         <img
           className="cursor-pointer"
-          src="/images/svgIcons/share_link.svg"
+          src={`${process.env.PUBLIC_URL}/images/svgIcons/share_link.svg`}
           alt="share_link"
           onClick={() => alert("링크가 복사되었습니다.")}
         />
       </CopyToClipboard>
       <button onClick={kakaoShare}>
-        <img src="/images/svgIcons/share_kakao.svg" alt="share_kakao" />
+        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_kakao.svg`} alt="share_kakao" />
       </button>
       <button onClick={twitterShare}>
         {/* <a
@@ -83,20 +83,20 @@ const ShareButtons = () => {
           rel="noopener noreferrer"
           data-show-count="false"
         >
-          <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
+          <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_twit.svg`} alt="share_twit" />
         </a>
         <script
           async
-          src="https://platform.twitter.com/widgets.js"
+          src={`${process.env.PUBLIC_URL}/https://platform.twitter`}com/widgets.js"
           charSet="utf-8"
         ></script> */}
-        <img src="/images/svgIcons/share_twit.svg" alt="share_twit" />
+        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_twit.svg`} alt="share_twit" />
       </button>
       <button onClick={facebookShare}>
-        <img src="/images/svgIcons/share_facebook.svg" alt="share_facebook" />
+        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_facebook.svg`} alt="share_facebook" />
       </button>
       <button onClick={naverShare}>
-        <img src="/images/svgIcons/share_naver.svg" alt="share_naver" />
+        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_naver.svg`} alt="share_naver" />
       </button>
     </>
   );

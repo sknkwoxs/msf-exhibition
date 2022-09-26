@@ -14,7 +14,7 @@ export default function Summary() {
         <div className="w-full max-h-[44rem] min-h-[22rem]">
           <video
             className="w-full max-h-[44rem] min-h-[22rem] object-cover"
-            src="/videos/Youtube(30s)_10yr photo exhibit_1.mp4"
+            src={`${process.env.PUBLIC_URL}/videos/Youtube(30s)_10yr photo exhibit_1.mp4`}
             autoplay="autoplay"
             muted="muted"
             controls="true"

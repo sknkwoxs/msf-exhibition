@@ -96,7 +96,7 @@ export default class MainSlidePhotographers extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_left.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_left.svg`}
                 alt="slider_arrows_left"
               />
             </button>
@@ -107,7 +107,7 @@ export default class MainSlidePhotographers extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_right.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_right.svg`}
                 alt="slider_arrows_right"
               />
             </button>
@@ -125,7 +125,7 @@ export default class MainSlidePhotographers extends Component {
                     <div className="mb-8 h-0 pb-[75%] overflow-hidden relative z-0">
                       <img
                         className="absolute object-cover w-full h-full thumbnail"
-                        src={photographersCardComponent.img_src}
+                        src={`${process.env.PUBLIC_URL}/${photographersCardComponent.img_src}`}
                         alt="photographers_thumb"
                       />
                     </div>

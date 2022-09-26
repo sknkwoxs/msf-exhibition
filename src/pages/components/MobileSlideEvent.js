@@ -42,7 +42,7 @@ export default class MobileSlideEvent extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_left.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_left.svg`}
                 alt="slider_arrows_left"
               />
             </button>
@@ -53,7 +53,7 @@ export default class MobileSlideEvent extends Component {
             >
               <img
                 className="w-full"
-                src="/images/svgIcons/slider_arrows_right.svg"
+                src={`${process.env.PUBLIC_URL}/images/svgIcons/slider_arrows_right.svg`}
                 alt="slider_arrows_right"
               />
             </button>
@@ -65,7 +65,7 @@ export default class MobileSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[75.609%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/participate1.png"
+                  src={`${process.env.PUBLIC_URL}/images/participate1.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -81,7 +81,7 @@ export default class MobileSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[75.609%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/participate2.png"
+                  src={`${process.env.PUBLIC_URL}/images/participate2.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -96,7 +96,7 @@ export default class MobileSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[75.609%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/participate3.png"
+                  src={`${process.env.PUBLIC_URL}/images/participate3.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -109,7 +109,7 @@ export default class MobileSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[75.609%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/participate4.png"
+                  src={`${process.env.PUBLIC_URL}/images/participate4.png`}
                   alt="participate_thumb"
                 />
               </div>
@@ -122,7 +122,7 @@ export default class MobileSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[75.609%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src="/images/participate5.png"
+                  src={`${process.env.PUBLIC_URL}/images/participate5.png`}
                   alt="participate_thumb"
                 />
               </div>

@@ -28,7 +28,7 @@ const CedricGerbehaye = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/CedricGerbehaye/img.png"
+            src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/img.png`}
             alt="img"
           />
         </div>
@@ -97,7 +97,7 @@ const CedricGerbehaye = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[7]}>
                 <img
-                  src="/images/CedricGerbehaye/CEDRIC GERBEHAYE 02 - edited 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/CEDRIC GERBEHAYE 02 - edited 1.png`}
                   alt="CEDRIC GERBEHAYE 02 - edited 1"
                 />
               </div>
@@ -127,10 +127,10 @@ const CedricGerbehaye = () => {
                 사이 아들을 출산한 것입니다.“
               </p>
               <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[10]}>
-                <img src="/images/CedricGerbehaye/31 1.png" alt="31 1" />
+                <img src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/31 1.png`} alt="31 1" />
               </div>
               <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[11]}>
-                <img src="/images/CedricGerbehaye/35 1.png" alt="35 1" />
+                <img src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/35 1.png`} alt="35 1" />
               </div>
             </div>
           </section>
@@ -172,7 +172,7 @@ const CedricGerbehaye = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
@@ -191,7 +191,7 @@ const CedricGerbehaye = () => {
         <div className="md:mb-[6rem] mb-[4rem] flex justify-center w-full min-h-[20rem]">
           <img
             className="object-cover w-full"
-            src="/images/CedricGerbehaye/30 1.png"
+            src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/30 1.png`}
             alt="30 1"
           />
         </div>
@@ -209,7 +209,7 @@ const CedricGerbehaye = () => {
                   <HashLink to="/photographers/DominicNahr#">
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -222,7 +222,7 @@ const CedricGerbehaye = () => {
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>

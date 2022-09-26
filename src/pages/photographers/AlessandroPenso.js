@@ -27,7 +27,7 @@ const AlessandroPenso = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/AlessandroPenso/img.png"
+            src={`${process.env.PUBLIC_URL}/images/AlessandroPenso/img.png`}
             alt="img"
           />
         </div>
@@ -106,7 +106,7 @@ const AlessandroPenso = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img
-                  src="/images/AlessandroPenso/ALESSANDRO_PENSO 02 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/AlessandroPenso/ALESSANDRO_PENSO 02 1.png`}
                   alt="ALESSANDRO_PENSO 02 1"
                 />
               </div>
@@ -154,13 +154,13 @@ const AlessandroPenso = () => {
               <div className="flex flex-col gap-8 md:my-[6rem] my-[5rem]">
                 <div {...animatedItem[10]}>
                   <img
-                    src="/images/AlessandroPenso/MSF160552_Medium 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/AlessandroPenso/MSF160552_Medium 1.png`}
                     alt="MSF160552_Medium 1"
                   />
                 </div>
                 <div {...animatedItem[11]}>
                   <img
-                    src="/images/AlessandroPenso/MSF160580_Medium 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/AlessandroPenso/MSF160580_Medium 1.png`}
                     alt="MSF160580_Medium 1"
                   />
                 </div>
@@ -207,7 +207,7 @@ const AlessandroPenso = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회의 지중해 활동</p>
@@ -232,7 +232,7 @@ const AlessandroPenso = () => {
                   <HashLink to="/photographers/GaelTurine#">
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -245,7 +245,7 @@ const AlessandroPenso = () => {
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>

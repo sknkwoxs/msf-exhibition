@@ -27,7 +27,7 @@ const DominicNahr = () => {
         <div className="md:mb-[4rem] mb-[3rem] flex justify-center md:h-screen h-[calc(100vh-64px)]">
           <img
             className="object-cover w-full h-full"
-            src="/images/DominicNahr/img.png"
+            src={`${process.env.PUBLIC_URL}/images/DominicNahr/img.png`}
             alt="img"
           />
         </div>
@@ -94,7 +94,7 @@ const DominicNahr = () => {
               </div>
               <div className="md:mb-[6rem] mb-[5rem]">
                 <img
-                  src="/images/DominicNahr/DOMINIC NAHR 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/DominicNahr/DOMINIC NAHR 1.png`}
                   alt="DOMINIC NAHR 1"
                 />
               </div>
@@ -113,20 +113,20 @@ const DominicNahr = () => {
               </p>
               <div {...animatedItem[8]}>
                 <img
-                  src="/images/DominicNahr/NAD20150372641 1.png"
+                  src={`${process.env.PUBLIC_URL}/images/DominicNahr/NAD20150372641 1.png`}
                   alt="NAD20150372641 1"
                 />
               </div>
               <div className="flex md:flex-row flex-col md:gap-8 gap-6 md:my-[6rem] mb-[5rem] mt-6">
                 <div {...animatedItem[9]}>
                   <img
-                    src="/images/DominicNahr/NAD20150373280 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/DominicNahr/NAD20150373280 1.png`}
                     alt="NAD20150373280 1"
                   />
                 </div>
                 <div {...animatedItem[10]}>
                   <img
-                    src="/images/DominicNahr/NAD20150373007 1.png"
+                    src={`${process.env.PUBLIC_URL}/images/DominicNahr/NAD20150373007 1.png`}
                     alt="NAD20150373007 1"
                   />
                 </div>
@@ -179,7 +179,7 @@ const DominicNahr = () => {
               <div className="md:px-8 md:pt-8 md:pb-10 p-6 border md:mb-[5rem] mb-[4rem] border-Neutrals-Grey7 rounded-lg">
                 <img
                   className="mb-4"
-                  src="/images/svgIcons/introduction_footer_logo.svg"
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/introduction_footer_logo.svg`}
                   alt="introduction_footer_logo"
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
@@ -204,7 +204,7 @@ const DominicNahr = () => {
                   <HashLink to="/photographers/JohnVink#">
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       <img
-                        src="/images/svgIcons/arrows_left.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_left.svg`}
                         alt="arrows_left"
                       />
                       이전 작가로
@@ -217,7 +217,7 @@ const DominicNahr = () => {
                     <div className="flex items-center gap-2 hover:text-Neutrals-Grey3">
                       다음 작가로
                       <img
-                        src="/images/svgIcons/arrows_right.svg"
+                        src={`${process.env.PUBLIC_URL}/images/svgIcons/arrows_right.svg`}
                         alt="arrows_right"
                       />
                     </div>
