@@ -1,6 +1,14 @@
 import { Map, MapMarker } from "react-kakao-maps-sdk";
+import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Address() {
+  const animatedItem = {
+    0: useScrollFadeIn("right", 1, 0.2),
+    1: useScrollFadeIn("left", 1, 0.4),
+    2: useScrollFadeIn("right", 1, 0.2),
+    3: useScrollFadeIn("left", 1, 0.4),
+  };
+
   return (
     <>
       <div className="md:pt-[7.5rem] pt-[3.5rem] bg-black"></div>
@@ -98,10 +106,16 @@ export default function Address() {
               </h5>
             </div>
             <div className="flex flex-col py-6 border-b-2 md:py-12 md:flex-row">
-              <h6 className="H6 mr-[6.875rem] whitespace-nowrap md:mb-0 mb-4">
+              <h6
+                className="H6 mr-[6.875rem] whitespace-nowrap md:mb-0 mb-4"
+                {...animatedItem[0]}
+              >
                 지하철 이용시
               </h6>
-              <div className="w-full text-Neutrals-Grey7 DB1">
+              <div
+                className="w-full text-Neutrals-Grey7 DB1"
+                {...animatedItem[1]}
+              >
                 <div className="border-b">
                   <div className="flex items-center gap-2 mb-2 md:mb-4">
                     <img src="/images/svgIcons/line1.svg" alt="line1" />
@@ -127,8 +141,13 @@ export default function Address() {
               </div>
             </div>
             <div className="md:pt-12 pt-6 md:mb-[7.5rem] mb-[3rem] flex md:flex-row flex-col">
-              <h6 className="H6 mr-[7.813rem] md:mb-0 mb-4">버스 이용시</h6>
-              <div>
+              <h6
+                className="H6 mr-[7.813rem] md:mb-0 mb-4"
+                {...animatedItem[2]}
+              >
+                버스 이용시
+              </h6>
+              <div {...animatedItem[3]}>
                 <h6 className="md:mb-4 mb-2 H6 text-[#343A40]">광역버스</h6>
                 <div className="md:pb-6 pb-3 text-[#343A40] DB1">
                   <span className="mr-2">&bull;</span>
