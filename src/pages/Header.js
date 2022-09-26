@@ -67,7 +67,7 @@ const Header = () => {
             id="headerContents"
             className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
           >
-            <a href="/">
+            <a href="/morethanapicture">
               <img
                 className="py-[1.75rem]"
                 src="/images/svgIcons/logo.svg"
