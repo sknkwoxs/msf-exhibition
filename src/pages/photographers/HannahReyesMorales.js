@@ -5,12 +5,19 @@ import ShareButtons from "../components/ShareButtons";
 const HannahReyesMorales = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
-    4: useScrollFadeIn("up", 1, 0.1),
-    5: useScrollFadeIn("up", 1, 0.1),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.3),
     6: useScrollFadeIn("up", 1, 0.1),
+    7: useScrollFadeIn("up", 1, 0.5),
+    8: useScrollFadeIn("up", 1, 0.3),
+    9: useScrollFadeIn("up", 1, 0.2),
+    10: useScrollFadeIn("left", 1, 0.3),
+    11: useScrollFadeIn("right", 1, 0.3),
+    12: useScrollFadeIn("up", 1, 0.5),
+    13: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -26,20 +33,35 @@ const HannahReyesMorales = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 해나 레예스 모랄레스 - 필리핀
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Hannah Reyes Morales - Philippines
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 톤도(Tondo), 2017년 7월 31일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]"
+                {...animatedItem[3]}
+              >
                 Sony ILCE-7M2 28mm f3.5 1/3200sec ISO 400
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1"
+                {...animatedItem[4]}
+              >
                 필리핀 마닐라의 가장 큰 슬럼가 톤도에는 30만 명이 거주하고 있다.
                 ‘마약과의 전쟁’으로 인한 영향을 가장 많이 받은 지역인 톤도의
                 주민들은 많은 위험에 노출된 채 생활하고 있다. 특히 수많은 여성이
@@ -48,7 +70,10 @@ const HannahReyesMorales = () => {
                 인식을 제고하기 위해 지역주민의 모습을 카메라에 담았다.
               </p>
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -61,7 +86,7 @@ const HannahReyesMorales = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[6]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -78,7 +103,7 @@ const HannahReyesMorales = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12" {...animatedItem[2]}>
+            <div className="mb-10 md:mb-12" {...animatedItem[7]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 모랄레스의 일기
@@ -86,7 +111,7 @@ const HannahReyesMorales = () => {
             </div>
             <p
               className="max-w-[63rem] mx-auto DB1 italic"
-              {...animatedItem[3]}
+              {...animatedItem[8]}
             >
               마닐라의 슬럼가는 지상에 존재하나 거의 지하에 파묻혀 있는
               느낌이다. 과거에는 슬럼가 주변에 높은 벽을 세워 이곳을 사람들의
@@ -107,21 +132,21 @@ const HannahReyesMorales = () => {
         </div>
         <div className="mx-auto md:max-w-[76rem] md:mb-[6rem] mb-[5rem] px-4 md:px-0">
           <div className="flex flex-col gap-8 md:flex-row">
-            <div>
+            <div {...animatedItem[9]}>
               <img
                 src="/images/HannahReyesMorales/IMG_20180221_173336 (1) 1.png"
                 alt="IMG_20180221_173336 (1) 1"
               />
             </div>
             <div className="flex flex-col gap-8">
-              <div>
+              <div {...animatedItem[10]}>
                 <img
                   className="mx-auto"
                   src="/images/HannahReyesMorales/11-HRMorales for MSF 1.png"
                   alt="11-HRMorales for MSF 1"
                 />
               </div>
-              <div>
+              <div {...animatedItem[11]}>
                 <img
                   className="mx-auto"
                   src="/images/HannahReyesMorales/HRMorales00029 1.png"
@@ -137,12 +162,12 @@ const HannahReyesMorales = () => {
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p
                 className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
-                {...animatedItem[5]}
+                {...animatedItem[12]}
               >
                 해나 레예스 모랄레스 Hannah Reyes Morales
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[6]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
               해나 레예스 모랄레스는 필리핀 마닐라에서 태어나 자랐다. 필리핀
               딜리만 대학교에서 스피치 커뮤니케이션을 전공했다. 모랄레스는
               불평등, 빈곤과 범죄에 노출된 이들을 조명하는 사진을 찍어왔다.

@@ -5,11 +5,17 @@ import ShareButtons from "../components/ShareButtons";
 const MassimoBerruti = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
-    4: useScrollFadeIn("up", 1, 0.1),
-    5: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.3),
+    6: useScrollFadeIn("up", 1, 0.1),
+    7: useScrollFadeIn("up", 1, 0.5),
+    8: useScrollFadeIn("left", 1, 0.3),
+    9: useScrollFadeIn("right", 1, 0.3),
+    10: useScrollFadeIn("up", 1, 0.5),
+    11: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -25,20 +31,35 @@ const MassimoBerruti = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 마시모 베루티 - 파키스탄
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Massimo Berruti - Pakistan
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 타타(Thatta), 2010년 8월 28일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[3]}
+              >
                 Canon EOS 5D Mark II 24mm f 6.3 1/1000s ISO 400
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1"
+                {...animatedItem[4]}
+              >
                 2010년 파키스탄 사상 최악의 홍수가 발생해 약 1,400만 명이 피해를
                 입었다. 북동부 산악지대에서부터 인구 밀도가 높은 계곡과 평원
                 쪽으로 빗물이 흘러 수많은 사람들이 집을 잃고 피난했다.
@@ -47,7 +68,10 @@ const MassimoBerruti = () => {
                 포착했다.
               </p>
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -60,7 +84,7 @@ const MassimoBerruti = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[6]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -74,7 +98,7 @@ const MassimoBerruti = () => {
               </div>
               <p
                 className="mb-4 max-w-[63rem] mx-auto DB1"
-                {...animatedItem[2]}
+                {...animatedItem[7]}
               >
                 베루티는 파키스탄에서 수십년 만에 발생한 최악의 홍수를 타임지에
                 보도하기 위해 파키스탄 스왓 골짜기를 방문했다. 이 지역은 집
@@ -88,14 +112,14 @@ const MassimoBerruti = () => {
                 지역으로 가 인도적 지원을 제공할 수 있었다.
               </p>
               <div className="flex md:flex-row flex-col gap-8 md:my-[6rem] my-[5rem]">
-                <div>
+                <div {...animatedItem[8]}>
                   <img
                     className="mx-auto"
                     src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 04 1.png"
                     alt="MASSIMO BERRUTI EXTRA 04 1"
                   />
                 </div>
-                <div>
+                <div {...animatedItem[9]}>
                   <img
                     className="mx-auto"
                     src="/images/MassimoBerruti/MASSIMO BERRUTI EXTRA 03 - Copy 1.png"
@@ -108,13 +132,13 @@ const MassimoBerruti = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12" {...animatedItem[3]}>
+            <div className="mb-10 md:mb-12" {...animatedItem[10]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 마시모 베루티 Massimo Berruti
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[4]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[11]}>
               마시모 베루티는 이탈리아 출신의 사진작가이다. 2003년 대학에서
               생물학을 전공하던 그는 우연한 기회로 사진을 처음 접한 후 독학하여
               일 년 후 프리랜스 사진작가가 되었다.

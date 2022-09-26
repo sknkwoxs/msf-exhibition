@@ -5,10 +5,19 @@ import ShareButtons from "../components/ShareButtons";
 const DominicNahr = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
-    4: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.3),
+    6: useScrollFadeIn("up", 1, 0.1),
+    7: useScrollFadeIn("up", 1, 0.1),
+    8: useScrollFadeIn("up", 1, 0.3),
+    9: useScrollFadeIn("right", 1, 0.3),
+    10: useScrollFadeIn("left", 1, 0.3),
+    11: useScrollFadeIn("up", 1, 0.1),
+    12: useScrollFadeIn("up", 1, 0.5),
+    13: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -24,20 +33,35 @@ const DominicNahr = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 도미닉 나흐르 - 남수단
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Dominic Nahr - South Sudan
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 리어(Leer), 2015년 12월 14일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[3]}
+              >
                 Leica M9, 35mm
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1"
+                {...animatedItem[4]}
+              >
                 남수단 대부분의 지역에선 부족간 분쟁과 폭력사태가 반복적으로
                 발생해 강제 피난하는 인구가 많다. 의료시설 또한 약탈과 공격의
                 대상이 되기 때문에 안전하지 않다. 도미닉 나흐르는 극심한 인도적
@@ -46,7 +70,10 @@ const DominicNahr = () => {
                 담았다.
               </p>
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -59,7 +86,7 @@ const DominicNahr = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[6]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -73,7 +100,7 @@ const DominicNahr = () => {
               </div>
               <p
                 className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto DB1"
-                {...animatedItem[2]}
+                {...animatedItem[7]}
               >
                 2015년 5월, 부족간 폭력사태가 격화하며 남수단 리어 지역에서
                 활동하던 모든 구호단체가 철수했다. 수천 명의 민간인이 숲이나
@@ -84,20 +111,20 @@ const DominicNahr = () => {
                 중단했다. 분쟁 발발 이후 국경없는의사회 의료시설은 총 세 차례
                 약탈당했다.
               </p>
-              <div>
+              <div {...animatedItem[8]}>
                 <img
                   src="/images/DominicNahr/NAD20150372641 1.png"
                   alt="NAD20150372641 1"
                 />
               </div>
               <div className="flex md:flex-row flex-col md:gap-8 gap-6 md:my-[6rem] mb-[5rem] mt-6">
-                <div>
+                <div {...animatedItem[9]}>
                   <img
                     src="/images/DominicNahr/NAD20150373280 1.png"
                     alt="NAD20150373280 1"
                   />
                 </div>
-                <div>
+                <div {...animatedItem[10]}>
                   <img
                     src="/images/DominicNahr/NAD20150373007 1.png"
                     alt="NAD20150373007 1"
@@ -109,11 +136,11 @@ const DominicNahr = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-12" {...animatedItem[3]}>
+            <div className="mb-12" {...animatedItem[11]}>
               <div className="mb-8 border-b border-Neutrals-Grey6 w-[6.5rem] mx-auto" />
               <p className="text-center H4">도미닉 나흐르 Dominic Nahr</p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[4]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[12]}>
               도미닉 나흐르는 스위스 아펜첼에서 태어나 홍콩에서 자랐다. 2008년
               캐나다 토론토의 라이어슨 대학에서 순수예술학사 학위를 받은
               나흐르는 케냐로 향해 분쟁, 인도적 위기와 사회적 문제를 기록하는 데

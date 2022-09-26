@@ -5,12 +5,19 @@ import ShareButtons from "../components/ShareButtons";
 const AlessandroPenso = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.3),
-    4: useScrollFadeIn("up", 1, 0.1),
-    5: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.3),
     6: useScrollFadeIn("up", 1, 0.1),
+    7: useScrollFadeIn("up", 1, 0.1),
+    8: useScrollFadeIn("up", 1, 0.5),
+    9: useScrollFadeIn("up", 1, 0.7),
+    10: useScrollFadeIn("left", 1, 0.3),
+    11: useScrollFadeIn("right", 1, 0.3),
+    12: useScrollFadeIn("up", 1, 0.3),
+    13: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -26,20 +33,35 @@ const AlessandroPenso = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 알레산드로 펜소 - 지중해
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Alessandro Penso - Mediterranean Sea
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 지중해(Mediterranean Sea), 2015년 11월 1일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[3]}
+              >
                 Canon 5D Mark III, 35mm, f9-1/125s ISO 640
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1"
+                {...animatedItem[4]}
+              >
                 2014년부터 최소 3만 명의 난민이 지중해를 건너다 목숨을 잃었다.
                 유럽연합은 국경 수비에만 집중한 채 해상난민을 방치하고 있다.
                 현재 해상난민 수색구조 작업은 대부분 국경없는의사회를 비롯한
@@ -57,7 +79,10 @@ const AlessandroPenso = () => {
                 중 마주한 긴박한 순간들을 기록했다.
               </p>
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[5]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -74,7 +99,7 @@ const AlessandroPenso = () => {
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p
                   className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]"
-                  {...animatedItem[1]}
+                  {...animatedItem[6]}
                 >
                   컨택트시트
                 </p>
@@ -85,7 +110,7 @@ const AlessandroPenso = () => {
                   alt="ALESSANDRO_PENSO 02 1"
                 />
               </div>
-              <div className="mb-10 md:mb-12" {...animatedItem[2]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[7]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   유러피안 드림
@@ -93,7 +118,7 @@ const AlessandroPenso = () => {
               </div>
               <p
                 className="mb-4 max-w-[63rem] mx-auto DB1 italic"
-                {...animatedItem[3]}
+                {...animatedItem[8]}
               >
                 <span className="not-italic">
                   알렉산드로 펜소는 유럽난민 위기를 알리기 위해 전시 《유러피안
@@ -122,18 +147,18 @@ const AlessandroPenso = () => {
               </p>
               <p
                 className="max-w-[63rem] mx-auto DB1 font-bold"
-                {...animatedItem[4]}
+                {...animatedItem[9]}
               >
                 알레산드로 펜소(2014)
               </p>
               <div className="flex flex-col gap-8 md:my-[6rem] my-[5rem]">
-                <div>
+                <div {...animatedItem[10]}>
                   <img
                     src="/images/AlessandroPenso/MSF160552_Medium 1.png"
                     alt="MSF160552_Medium 1"
                   />
                 </div>
-                <div>
+                <div {...animatedItem[11]}>
                   <img
                     src="/images/AlessandroPenso/MSF160580_Medium 1.png"
                     alt="MSF160580_Medium 1"
@@ -145,13 +170,13 @@ const AlessandroPenso = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-12" {...animatedItem[5]}>
+            <div className="mb-12" {...animatedItem[12]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 알레산드로 펜소 Alessandro Penso
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[6]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
               알레산드로 펜소는 이탈리아에서 태어나 로마 라 사피엔자 대학교에서
               임상심리학을 전공했다. 로마 사진영화 학교에 장학생으로 진학해
               포토저널리즘을 배웠다.

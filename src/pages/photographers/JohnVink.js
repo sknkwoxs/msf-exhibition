@@ -5,13 +5,20 @@ import ShareButtons from "../components/ShareButtons";
 const JohnVink = () => {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.1),
-    1: useScrollFadeIn("up", 1, 0.1),
-    2: useScrollFadeIn("up", 1, 0.1),
-    3: useScrollFadeIn("up", 1, 0.1),
-    4: useScrollFadeIn("up", 1, 0.4),
-    5: useScrollFadeIn("up", 1, 0.4),
-    6: useScrollFadeIn("up", 1, 0.1),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.3),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.5),
+    5: useScrollFadeIn("up", 1, 0.6),
+    6: useScrollFadeIn("up", 1, 0.3),
     7: useScrollFadeIn("up", 1, 0.1),
+    8: useScrollFadeIn("up", 1, 0.1),
+    9: useScrollFadeIn("up", 1, 0.1),
+    10: useScrollFadeIn("right", 1, 0.1),
+    11: useScrollFadeIn("up", 1, 0.1),
+    12: useScrollFadeIn("up", 1, 0.1),
+    13: useScrollFadeIn("up", 1, 0.1),
+    14: useScrollFadeIn("left", 1, 0.1),
   };
 
   return (
@@ -27,20 +34,35 @@ const JohnVink = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="text-center">
-            <div {...animatedItem[0]}>
-              <h3 className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold">
+            <div>
+              <h3
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                {...animatedItem[0]}
+              >
                 존 빈크 - 온두라스
               </h3>
-              <h3 className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans">
+              <h3
+                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                {...animatedItem[1]}
+              >
                 Gohn Vink - Honduras
               </h3>
-              <p className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[2]}
+              >
                 메사 그란데(Mesa Grande), 1988년 4월 8일
               </p>
-              <p className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo">
+              <p
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
+                {...animatedItem[3]}
+              >
                 Leica M4, 35mm, Tri-X 400
               </p>
-              <p className="text-left max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]">
+              <p
+                className="text-left max-w-[63rem] mx-auto DB1 md:mb-[6rem] mb-[5rem]"
+                {...animatedItem[4]}
+              >
                 1980년대 온두라스에는 엘살바도르와 니카라과에서 발생한 내전으로
                 수십만 명의 피난민이 몰렸다. 국경없는의사회는 당시 온두라스의
                 난민캠프에서 생활하던 피난민을 대상으로 의료지원을 제공했다.
@@ -48,13 +70,16 @@ const JohnVink = () => {
                 난민캠프에서 난민이 겪는 폭력 현장을 카메라에 포착했다.
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center" {...animatedItem[5]}>
               <img
                 src="/images/JohnVink/VIJ2010000G1398 1.png"
                 alt="VIJ2010000G1398 1"
               />
             </div>
-            <div className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0">
+            <div
+              className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
+              {...animatedItem[6]}
+            >
               <iframe
                 className="absolute object-cover w-full h-full"
                 src="https://www.youtube.com/embed/LeiKlmvd6KI"
@@ -67,7 +92,7 @@ const JohnVink = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[1]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[7]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   컨택트시트
@@ -83,14 +108,14 @@ const JohnVink = () => {
           </section>
           <section>
             <div>
-              <div className="mb-10 md:mb-12" {...animatedItem[2]}>
+              <div className="mb-10 md:mb-12" {...animatedItem[8]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                   마리나와의 이메일
                 </p>
               </div>
               <div className="md:mb-[6rem] mb-[5rem] max-w-[63rem] mx-auto">
-                <p className="mb-[3.5rem] DB1" {...animatedItem[3]}>
+                <p className="mb-[3.5rem] DB1" {...animatedItem[9]}>
                   빈크가 온두라스에서 활동한 지 30년도 더 넘은 어느 날, 자신을
                   에벨리오의 딸 마리나라고 소개한 여성이 연락을 해왔다. 마리나는
                   인터넷 검색을 하던 중 아버지로 추정되는 사진을 발견했다고
@@ -108,7 +133,7 @@ const JohnVink = () => {
                 </div>
                 <div className="flex gap-8 mb-8">
                   <div className="flex-1">
-                    <p className="italic DB1" {...animatedItem[4]}>
+                    <p className="italic DB1" {...animatedItem[10]}>
                       안녕하세요 작가님,
                       <br />
                       <br />
@@ -142,14 +167,17 @@ const JohnVink = () => {
                       들것에 실린 그 남성이 제 아버지라는 사실을 확신했습니다.
                     </p>
                   </div>
-                  <div className="hidden md:flex md:flex-1">
+                  <div
+                    className="hidden md:flex md:flex-1"
+                    {...animatedItem[14]}
+                  >
                     <img
                       src="/images/JohnVink/JOHN VINK 07 1.png"
                       alt="JOHN VINK 07 1"
                     />
                   </div>
                 </div>
-                <p className="italic DB1" {...animatedItem[5]}>
+                <p className="italic DB1" {...animatedItem[11]}>
                   사진을 눌러보니 작가님의 사이트로 연결이 되었습니다.
                   사진설명을 보니 ‘에벨리오’라는 한 번도 들어본 적 없는 이름의
                   사람이라고 되어 있었지만 당시 내전을 겪는 동안 엘살바도르
@@ -174,13 +202,13 @@ const JohnVink = () => {
         </div>
         <div className="bg-Neutrals-Grey9 text-Neutrals-White px-4 mx-auto md:max-w-[76rem]">
           <section className="md:mb-[4rem] mb-[3rem]">
-            <div className="mb-10 md:mb-12" {...animatedItem[6]}>
+            <div className="mb-10 md:mb-12" {...animatedItem[12]}>
               <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
               <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
                 존 빈크 John Vink
               </p>
             </div>
-            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[7]}>
+            <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
               1948년 벨기에에서 태어난 존 빈크는 1968년 라 캄브르 순수미술 전문
               대학에서 사진을 전공한 후 프리랜스 저널리스트로 활동하기 시작했다.
               1986년 빙크는 파리의 사진 에이전시 뷰 소속작가로 활동하며 발표한
