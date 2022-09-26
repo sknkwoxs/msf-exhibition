@@ -13,11 +13,12 @@ const GaelTurine = () => {
     6: useScrollFadeIn("up", 1, 0.3),
     7: useScrollFadeIn("up", 1, 0.1),
     8: useScrollFadeIn("up", 1, 0.5),
-    9: useScrollFadeIn("up", 1, 0.5),
-    10: useScrollFadeIn("up", 1, 0.3),
-    11: useScrollFadeIn("up", 1, 0.3),
+    9: useScrollFadeIn("up", 1, 0.7),
+    10: useScrollFadeIn("right", 1, 0.3),
+    11: useScrollFadeIn("left", 1, 0.5),
     12: useScrollFadeIn("up", 1, 0.3),
     13: useScrollFadeIn("up", 1, 0.5),
+    14: useScrollFadeIn("up", 1, 0.5),
   };
 
   return (
@@ -92,7 +93,7 @@ const GaelTurine = () => {
                   컨택트시트
                 </p>
               </div>
-              <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[7]}>
+              <div className="md:mb-[6rem] mb-[5rem]">
                 <img
                   src="/images/GaelTurine/GAEL TURINE 02 1.png"
                   alt="GAEL TURINE 02 1"
