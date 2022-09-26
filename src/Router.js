@@ -24,42 +24,44 @@ import Error404 from "./pages/Error404";
 function Router() {
   return (
     <BrowserRouter basename="/morethanapicture">
-      <Header />
-      <Routes>
-        <Route path="/" exact element={<Main />} />
-        <Route path="/Participate" element={<Participate />} />
-        <Route path="/Address" element={<Address />} />
-        {/* 사진전 소개 페이지 */}
-        <Route path="/introduction/Summary" element={<Summary />} />
-        <Route path="/introduction/Greetings" element={<Greetings />} />
-        {/* 작가 소개 페이지 */}
-        <Route path="/photographers/GaelTurine" element={<GaelTurine />} />
-        <Route
-          path="/photographers/AlessandroPenso"
-          element={<AlessandroPenso />}
-        />
-        <Route path="/photographers/JohnVink" element={<JohnVink />} />
-        <Route path="/photographers/DominicNahr" element={<DominicNahr />} />
-        <Route
-          path="/photographers/CedricGerbehaye"
-          element={<CedricGerbehaye />}
-        />
-        <Route
-          path="/photographers/HannahReyesMorales"
-          element={<HannahReyesMorales />}
-        />
-        <Route
-          path="/photographers/MassimoBerruti"
-          element={<MassimoBerruti />}
-        />
-        <Route
-          path="/photographers/AshfikaRahman"
-          element={<AshfikaRahman />}
-        />
-        <Route path="*" element={<Error404 />} />
-        {/* <Route path="/Error403" element={<Error403 />} /> */}
-      </Routes>
-      <Footer />
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<Main />} />
+          <Route path="/Participate" element={<Participate />} />
+          <Route path="/Address" element={<Address />} />
+          {/* 사진전 소개 페이지 */}
+          <Route path="/introduction/Summary" element={<Summary />} />
+          <Route path="/introduction/Greetings" element={<Greetings />} />
+          {/* 작가 소개 페이지 */}
+          <Route path="/photographers/GaelTurine" element={<GaelTurine />} />
+          <Route
+            path="/photographers/AlessandroPenso"
+            element={<AlessandroPenso />}
+          />
+          <Route path="/photographers/JohnVink" element={<JohnVink />} />
+          <Route path="/photographers/DominicNahr" element={<DominicNahr />} />
+          <Route
+            path="/photographers/CedricGerbehaye"
+            element={<CedricGerbehaye />}
+          />
+          <Route
+            path="/photographers/HannahReyesMorales"
+            element={<HannahReyesMorales />}
+          />
+          <Route
+            path="/photographers/MassimoBerruti"
+            element={<MassimoBerruti />}
+          />
+          <Route
+            path="/photographers/AshfikaRahman"
+            element={<AshfikaRahman />}
+          />
+          <Route path="*" element={<Error404 />} />
+          {/* <Route path="/Error403" element={<Error403 />} /> */}
+        </Routes>
+        <Footer />
+      </>
     </BrowserRouter>
   );
 }
