@@ -130,7 +130,15 @@ const Header = () => {
                     {participate.map((participate, index) => {
                       return (
                         <li key={index}>
-                          <HashLink to={participate.url}>
+                          <HashLink
+                            to={participate.url}
+                            scroll={(el) =>
+                              el.scrollIntoView({
+                                behavior: "smooth",
+                                block: "center",
+                              })
+                            }
+                          >
                             {participate.title}
                           </HashLink>
                         </li>

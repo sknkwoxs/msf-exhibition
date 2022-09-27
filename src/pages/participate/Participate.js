@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
-import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
+// import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Participate() {
   // const animatedItem = {
@@ -57,10 +57,10 @@ export default function Participate() {
               />
             </div>
           </div>
-          <div className="border-b border-Neutrals-Grey3 md:mb-[6rem] mb-[3rem]" />
+          <div className="border-b border-Neutrals-Grey3 " />
           <div
             id="Section2"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem]  md:mb-[6rem] mb-[3rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
