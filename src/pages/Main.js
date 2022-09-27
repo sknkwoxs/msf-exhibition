@@ -48,7 +48,6 @@ const Main = () => {
       ],
     });
   };
-  console.log(window.location);
 
   const twitterShare = () => {
     window.open(

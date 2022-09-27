@@ -193,6 +193,7 @@ export default class MainSlideEvent extends Component {
                 onEnd={(e) => {
                   e.target.stopVideo(0);
                 }}
+                dataUrl="https://www.youtube.com/watch?v=zlcdcJUSJBs"
               />
             </div>
             <p className="mb-2 H5 cardTitle">
