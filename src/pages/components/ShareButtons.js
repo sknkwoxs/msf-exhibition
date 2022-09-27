@@ -73,30 +73,28 @@ const ShareButtons = () => {
         />
       </CopyToClipboard>
       <button onClick={kakaoShare}>
-        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_kakao.svg`} alt="share_kakao" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/svgIcons/share_kakao.svg`}
+          alt="share_kakao"
+        />
       </button>
       <button onClick={twitterShare}>
-        {/* <a
-          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          className="twitter-share-button"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-show-count="false"
-        >
-          <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_twit.svg`} alt="share_twit" />
-        </a>
-        <script
-          async
-          src={`${process.env.PUBLIC_URL}/https://platform.twitter`}com/widgets.js"
-          charSet="utf-8"
-        ></script> */}
-        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_twit.svg`} alt="share_twit" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/svgIcons/share_twit.svg`}
+          alt="share_twit"
+        />
       </button>
       <button onClick={facebookShare}>
-        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_facebook.svg`} alt="share_facebook" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/svgIcons/share_facebook.svg`}
+          alt="share_facebook"
+        />
       </button>
       <button onClick={naverShare}>
-        <img src={`${process.env.PUBLIC_URL}/images/svgIcons/share_naver.svg`} alt="share_naver" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/svgIcons/share_naver.svg`}
+          alt="share_naver"
+        />
       </button>
     </>
   );

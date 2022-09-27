@@ -9,7 +9,6 @@ import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
 import StibeeSubscriptionForm from "./components/StibeeSubscriptionForm";
-// import { HashLink } from "react-router-hash-link";
 
 const Main = () => {
   const [expandButtons, setexpandButtons] = useState(false);
@@ -34,21 +33,22 @@ const Main = () => {
           "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
         imageUrl: "",
         link: {
-          mobileWebUrl: "www.naver.com",
-          webUrl: "www.naver.com",
+          mobileWebUrl: window.location.href,
+          webUrl: window.location.href,
         },
       },
       buttons: [
         {
           title: "웹으로 보기",
           link: {
-            mobileWebUrl: "www.naver.com",
-            webUrl: "www.naver.com",
+            mobileWebUrl: window.location.href,
+            webUrl: window.location.href,
           },
         },
       ],
     });
   };
+  console.log(window.location);
 
   const twitterShare = () => {
     window.open(
@@ -57,7 +57,7 @@ const Main = () => {
         "%20-%20" +
         encodeURIComponent(document.title),
       "twittersharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
@@ -68,7 +68,7 @@ const Main = () => {
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
@@ -79,7 +79,7 @@ const Main = () => {
         "&title=" +
         encodeURIComponent(document.title),
       "naversharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
