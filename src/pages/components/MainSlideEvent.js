@@ -105,7 +105,12 @@ export default class MainSlideEvent extends Component {
         </div>
         <Slider {...settings} ref={(c) => (this.slider = c)}>
           <li className="list-none">
-            <HashLink to="/Participate#Section1">
+            <HashLink
+              to="/Participate#Section1"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "center" })
+              }
+            >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
@@ -124,7 +129,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section2"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "top" })
+                el.scrollIntoView({ behavior: "auto", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -141,7 +146,12 @@ export default class MainSlideEvent extends Component {
             </HashLink>
           </li>
           <li className="list-none">
-            <HashLink to="/Participate#Section3">
+            <HashLink
+              to="/Participate#Section3"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "center" })
+              }
+            >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
@@ -154,7 +164,12 @@ export default class MainSlideEvent extends Component {
             </HashLink>
           </li>
           <li className="list-none">
-            <HashLink to="/Participate#Section4">
+            <HashLink
+              to="/Participate#Section4"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "center" })
+              }
+            >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
@@ -167,7 +182,12 @@ export default class MainSlideEvent extends Component {
             </HashLink>
           </li>
           <li className="list-none">
-            <HashLink to="/Participate#Section5">
+            <HashLink
+              to="/Participate#Section5"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "center" })
+              }
+            >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
@@ -196,10 +216,17 @@ export default class MainSlideEvent extends Component {
                 dataUrl="https://www.youtube.com/watch?v=zlcdcJUSJBs"
               />
             </div>
-            <p className="mb-2 H5 cardTitle">
-              다큐멘터리 에고이스트 온라인 무료 상영
-            </p>
-            <p className="text-Neutrals-Grey5 DB2">11.02(수)-11.14(월)</p>
+            <HashLink
+              to="/Participate#Section6"
+              scroll={(el) =>
+                el.scrollIntoView({ behavior: "auto", block: "center" })
+              }
+            >
+              <p className="mb-2 H5 cardTitle">
+                다큐멘터리 에고이스트 온라인 무료 상영
+              </p>
+              <p className="text-Neutrals-Grey5 DB2">11.02(수)-11.14(월)</p>
+            </HashLink>
           </li>
         </Slider>
       </div>

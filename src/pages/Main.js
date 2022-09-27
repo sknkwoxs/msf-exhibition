@@ -127,7 +127,7 @@ const Main = () => {
             </div>
           </section>
 
-          <section className="px-4 bg-center bg-no-repeat bg-cover md:bg-bg-blur bg-bg-blur-mobile">
+          <section className="px-4 bg-center bg-no-repeat bg-cover ">
             <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
               <MobileSlidePhotographers />

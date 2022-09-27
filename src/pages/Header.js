@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { introduction, photographers } from "./components/SubmenuItems";
 import Collapsible from "react-collapsible";
 import { HashLink, NavHashLink } from "react-router-hash-link";
+import {
+  introduction,
+  photographers,
+  participate,
+} from "./components/SubmenuItems";
 
 const Header = () => {
   const [hover, setHover] = useState(false);
@@ -78,13 +82,13 @@ const Header = () => {
               className="absolute right-0 top-10"
               onMouseEnter={onMouseEnter}
             >
-              <ul className="flex text-[1.25rem] leading-[1.5rem] font-bold header_menu">
-                <li className="mx-[2rem] relative inline-block py-2 expanded">
+              <ul className="flex text-[1.25rem] leading-[1.5rem] header_menu">
+                <li className="mx-[2.25rem] font-PTBold relative inline-block py-2 expanded">
                   <NavHashLink to="/introduction/Summary#">
                     사진전 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[6.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
                     style={hover ? subMenuFlex : null}
                   >
                     {introduction.map((introduction, index) => {
@@ -98,12 +102,12 @@ const Header = () => {
                     })}
                   </ul>
                 </li>
-                <li className="mx-[2rem] relative inline-block py-2 expanded">
+                <li className="mx-[2.25rem] font-PTBold relative inline-block py-2 expanded">
                   <NavHashLink to="/photographers/GaelTurine#">
                     작가 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[6.5rem] text-center whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
                     style={hover ? subMenuFlex : null}
                   >
                     {photographers.map((photographers, index) => {
@@ -117,10 +121,24 @@ const Header = () => {
                     })}
                   </ul>
                 </li>
-                <li className="mx-[2rem] relative inline-block py-2">
+                <li className="mx-[2.25rem] font-PTBold relative inline-block py-2 expanded">
                   <NavHashLink to="/Participate#">참여 방법</NavHashLink>
+                  <ul
+                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu"
+                    style={hover ? subMenuFlex : null}
+                  >
+                    {participate.map((participate, index) => {
+                      return (
+                        <li key={index}>
+                          <HashLink to={participate.url}>
+                            {participate.title}
+                          </HashLink>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </li>
-                <li className="mx-[2rem] relative inline-block py-2">
+                <li className="mx-[2.25rem] font-PTBold relative inline-block py-2">
                   <NavHashLink to="/Address#">오시는길</NavHashLink>
                 </li>
               </ul>
@@ -178,7 +196,19 @@ const Header = () => {
                     </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
-                    <HashLink to="/Participate#">참여 방법</HashLink>
+                    <Collapsible trigger="참여 방법">
+                      <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
+                        {participate.map((participate, index) => {
+                          return (
+                            <li key={index}>
+                              <HashLink to={participate.url}>
+                                {participate.title}
+                              </HashLink>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </Collapsible>
                   </li>
                   <li className="py-6 border-b border-Neutrals-Grey6 MH5">
                     <HashLink to="/Address#">오시는길</HashLink>

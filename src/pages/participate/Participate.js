@@ -3,20 +3,20 @@ import YouTube from "react-youtube";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Participate() {
-  const animatedItem = {
-    0: useScrollFadeIn("right", 1, 0.2),
-    1: useScrollFadeIn("left", 1, 0.2),
-    2: useScrollFadeIn("right", 1, 0.6),
-    3: useScrollFadeIn("left", 1, 0.6),
-    4: useScrollFadeIn("right", 1, 0.4),
-    5: useScrollFadeIn("left", 1, 0.4),
-    6: useScrollFadeIn("right", 1, 0.4),
-    7: useScrollFadeIn("left", 1, 0.4),
-    8: useScrollFadeIn("right", 1, 0.4),
-    9: useScrollFadeIn("left", 1, 0.4),
-    10: useScrollFadeIn("left", 1, 0.4),
-    11: useScrollFadeIn("right", 1, 0.4),
-  };
+  // const animatedItem = {
+  //   0: useScrollFadeIn("right", 1, 0.2),
+  //   1: useScrollFadeIn("left", 1, 0.2),
+  //   2: useScrollFadeIn("right", 1, 0.6),
+  //   3: useScrollFadeIn("left", 1, 0.6),
+  //   4: useScrollFadeIn("right", 1, 0.4),
+  //   5: useScrollFadeIn("left", 1, 0.4),
+  //   6: useScrollFadeIn("right", 1, 0.4),
+  //   7: useScrollFadeIn("left", 1, 0.4),
+  //   8: useScrollFadeIn("right", 1, 0.4),
+  //   9: useScrollFadeIn("left", 1, 0.4),
+  //   10: useScrollFadeIn("left", 1, 0.4),
+  //   11: useScrollFadeIn("right", 1, 0.4),
+  // };
 
   return (
     <>
@@ -27,7 +27,7 @@ export default function Participate() {
             id="Section1"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[7rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto" {...animatedItem[0]}>
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 사진전 관람
               </p>
@@ -49,10 +49,7 @@ export default function Participate() {
                 이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
               </p>
             </div>
-            <div
-              className="h-0 pb-[100%] overflow-hidden relative z-0"
-              {...animatedItem[1]}
-            >
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
                 src={`${process.env.PUBLIC_URL}/images/participate1.png`}
@@ -60,9 +57,12 @@ export default function Participate() {
               />
             </div>
           </div>
-          <div id="Section2" className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
-            <div className="my-auto" {...animatedItem[2]}>
+          <div className="border-b border-Neutrals-Grey3 md:mb-[6rem] mb-[3rem]" />
+          <div
+            id="Section2"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem]  md:mb-[6rem] mb-[3rem]"
+          >
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 전시 사진 기부 옥션
               </p>
@@ -93,10 +93,7 @@ export default function Participate() {
                 발급이 가능합니다.
               </p>
             </div>
-            <div
-              className="h-0 pb-[100%] overflow-hidden relative z-0"
-              {...animatedItem[3]}
-            >
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
                 src={`${process.env.PUBLIC_URL}/images/participate2.png`}
@@ -107,9 +104,9 @@ export default function Participate() {
           <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section3"
-            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto" {...animatedItem[4]}>
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 스페셜 토크
                 <br className="md:hidden" />
@@ -135,10 +132,7 @@ export default function Participate() {
                 </span>
               </p>
             </div>
-            <div
-              className="h-0 pb-[100%] overflow-hidden relative z-0"
-              {...animatedItem[5]}
-            >
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
                 src={`${process.env.PUBLIC_URL}/images/participate3.png`}
@@ -151,7 +145,7 @@ export default function Participate() {
             id="Section4"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto" {...animatedItem[6]}>
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 도슨트 가이드 투어
               </p>
@@ -173,10 +167,7 @@ export default function Participate() {
                 </button>
               </div>
             </div>
-            <div
-              className="h-0 pb-[100%] overflow-hidden relative z-0"
-              {...animatedItem[7]}
-            >
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
                 src={`${process.env.PUBLIC_URL}/images/participate4.png`}
@@ -189,7 +180,7 @@ export default function Participate() {
             id="Section5"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
-            <div className="my-auto" {...animatedItem[8]}>
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 배우 유해진 오디오 가이드
               </p>
@@ -206,10 +197,7 @@ export default function Participate() {
                 <span className="DB2">*개인 이어폰을 지참해 주세요.</span>
               </p>
             </div>
-            <div
-              className="h-0 pb-[100%] overflow-hidden relative z-0"
-              {...animatedItem[9]}
-            >
+            <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
                 src={`${process.env.PUBLIC_URL}/images/participate5.png`}
@@ -218,8 +206,11 @@ export default function Participate() {
             </div>
           </div>
           <div className="border-b border-Neutrals-Grey3" />
-          <div className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]">
-            <div className="my-auto" {...animatedItem[10]}>
+          <div
+            id="Section6"
+            className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
+          >
+            <div className="my-auto">
               <p className="mb-6 text-Brand-Primary md:text-[2rem] leading-[2.5rem] TH4">
                 다큐멘터리 에고이스트 온라인 무료 상영
               </p>
