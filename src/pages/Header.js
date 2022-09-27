@@ -67,7 +67,7 @@ const Header = () => {
             id="headerContents"
             className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
           >
-            <a href="/morethanapicture">
+            <a href="/">
               <img
                 className="py-[1.75rem]"
                 src={`${process.env.PUBLIC_URL}/images/svgIcons/logo.svg`}
@@ -129,10 +129,16 @@ const Header = () => {
           <div className="px-4 py-3 mx-auto md:hidden">
             <div className="flex justify-between">
               <a href="/">
-                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/Mlogo.svg`} alt="Mlogo" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/Mlogo.svg`}
+                  alt="Mlogo"
+                />
               </a>
               <button className="flex items-center" onClick={toggleMenu}>
-                <img src={`${process.env.PUBLIC_URL}/images/svgIcons/main_menu.svg`} alt="main_menu" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/svgIcons/main_menu.svg`}
+                  alt="main_menu"
+                />
               </button>
             </div>
           </div>
