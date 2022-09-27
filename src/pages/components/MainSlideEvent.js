@@ -108,7 +108,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section1"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -129,7 +129,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section2"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -149,7 +149,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section3"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -167,7 +167,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section4"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -185,7 +185,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section5"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
@@ -219,7 +219,7 @@ export default class MainSlideEvent extends Component {
             <HashLink
               to="/Participate#Section6"
               scroll={(el) =>
-                el.scrollIntoView({ behavior: "auto", block: "center" })
+                el.scrollIntoView({ behavior: "smooth", block: "center" })
               }
             >
               <p className="mb-2 H5 cardTitle">
