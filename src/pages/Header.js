@@ -67,7 +67,7 @@ const Header = () => {
             id="headerContents"
             className="hidden md:flex justifiy-between px-4 mx-auto max-w-[76rem] relative headerContents"
           >
-            <a href="/">
+            <a href="/morethanapicture">
               <img
                 className="py-[1.75rem]"
                 src={`${process.env.PUBLIC_URL}/images/svgIcons/logo.svg`}
@@ -128,7 +128,7 @@ const Header = () => {
           </div>
           <div className="px-4 py-3 mx-auto md:hidden">
             <div className="flex justify-between">
-              <a href="/">
+              <a href="/morethanapicture">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/svgIcons/Mlogo.svg`}
                   alt="Mlogo"
