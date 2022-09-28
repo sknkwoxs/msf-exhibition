@@ -95,7 +95,7 @@ const Main = () => {
           </div>
           <section className="md:pt-0 pt-4 mx-auto md:max-w-[76rem] px-4">
             <div className="md:flex md:justify-between">
-              <div>
+              <div className="mt-[1rem] md:mt-0">
                 <div className="md:w-full w-[222px]">
                   <img
                     className="hidden object-cover w-full mb-8 md:flex mt-[3.5rem]"
@@ -128,13 +128,13 @@ const Main = () => {
           </section>
 
           <section className="px-4 bg-center bg-no-repeat bg-cover ">
-            <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
+            <div className="pt-[2rem] md:pt-0 md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
               <MobileSlidePhotographers />
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
-            <div className="pt-[4rem] md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
+            <div className="pt-[2rem] md:pt-0 md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlideEvent />
               <MobileSlideEvent />
             </div>
