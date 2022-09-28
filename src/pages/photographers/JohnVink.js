@@ -211,7 +211,7 @@ const JohnVink = () => {
             <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
               1948년 벨기에에서 태어난 존 빈크는 1968년 라 캄브르 순수미술 전문
               대학에서 사진을 전공한 후 프리랜스 저널리스트로 활동하기 시작했다.
-              1986년 빙크는 파리의 사진 에이전시 뷰 소속작가로 활동하며 발표한
+              1986년 빈크는 파리의 사진 에이전시 뷰 소속작가로 활동하며 발표한
               보고기사 “사헬의 물{" "}
               <span className="font-sans italic text-[0.875rem]">
                 Water in the Sahel
@@ -219,7 +219,7 @@ const JohnVink = () => {
               ”로 유진스미스상을 수상했다.
               <br />
               <br />
-              빙크는 1987년부터 약 6년간 세계 각지의 난민을 담은 방대한 분량의
+              빈크는 1987년부터 약 6년간 세계 각지의 난민을 담은 방대한 분량의
               작업물을 엮어 1994년 “레퓨지{" "}
               <span className="font-sans italic text-[0.875rem]">
                 Réfugiés
