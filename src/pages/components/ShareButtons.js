@@ -42,7 +42,7 @@ const ShareButtons = () => {
 
   const facebookShare = () => {
     window.open(
-      "https://www.facebook.com/sharer/sharer.php?u=" +
+      "https://www.facebook.com/sharer/sharer.php?href=" +
         encodeURIComponent(document.currentUrl) +
         "&t=" +
         encodeURIComponent(document.title),

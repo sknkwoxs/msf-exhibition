@@ -62,7 +62,7 @@ const Main = () => {
 
   const facebookShare = () => {
     window.open(
-      "https://www.facebook.com/sharer/sharer.php?u=" +
+      "https://www.facebook.com/sharer/sharer.php?href=" +
         encodeURIComponent(document.currentUrl) +
         "&t=" +
         encodeURIComponent(document.title),
@@ -126,7 +126,6 @@ const Main = () => {
               </div>
             </div>
           </section>
-
           <section className="px-4 bg-center bg-no-repeat bg-cover ">
             <div className="pt-[2rem] md:pb-[9.5rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
