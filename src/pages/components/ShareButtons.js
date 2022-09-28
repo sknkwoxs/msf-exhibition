@@ -2,6 +2,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 
 const ShareButtons = () => {
   const currentUrl = window.location.href;
+  console.log(currentUrl);
 
   const kakaoShare = () => {
     window.Kakao.init(`${process.env.REACT_APP_JS_KEY}`);
@@ -36,7 +37,7 @@ const ShareButtons = () => {
         "%20-%20" +
         encodeURIComponent(document.title),
       "twittersharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
@@ -47,7 +48,7 @@ const ShareButtons = () => {
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
@@ -58,7 +59,7 @@ const ShareButtons = () => {
         "&title=" +
         encodeURIComponent(document.title),
       "naversharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=300, width=600"
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
 
