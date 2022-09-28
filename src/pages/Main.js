@@ -128,13 +128,13 @@ const Main = () => {
           </section>
 
           <section className="px-4 bg-center bg-no-repeat bg-cover ">
-            <div className="pt-[2rem] md:pt-0 md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
+            <div className="pt-[2rem] md:pb-[9.5rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlidePhotographers />
               <MobileSlidePhotographers />
             </div>
           </section>
           <section className="px-4 bg-Neutrals-Grey9">
-            <div className="pt-[2rem] md:pt-0 md:pb-[10rem] pb-[8rem] md:max-w-[76rem] mx-auto">
+            <div className="pt-[2rem] md:pt-0 md:pb-[9.5rem] pb-[8rem] md:max-w-[76rem] mx-auto">
               <MainSlideEvent />
               <MobileSlideEvent />
             </div>
