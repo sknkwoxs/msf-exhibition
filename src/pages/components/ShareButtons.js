@@ -2,7 +2,6 @@ import CopyToClipboard from "react-copy-to-clipboard";
 
 const ShareButtons = () => {
   const currentUrl = window.location.href;
-  console.log(currentUrl);
 
   const kakaoShare = () => {
     window.Kakao.init(`${process.env.REACT_APP_JS_KEY}`);

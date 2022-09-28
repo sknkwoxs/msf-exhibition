@@ -63,13 +63,15 @@ const Main = () => {
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?href=" +
-        encodeURIComponent(document.currentUrl) +
+        encodeURIComponent(currentUrl) +
         "&t=" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
       "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
+
+  // console.log(document.currentUrl);
 
   const naverShare = () => {
     window.open(
