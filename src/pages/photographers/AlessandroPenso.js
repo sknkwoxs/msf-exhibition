@@ -50,7 +50,7 @@ const AlessandroPenso = () => {
                 className="mb-4 md:DB1 md:text-[1.125rem] text-[1rem] font-nanummyeongjo"
                 {...animatedItem[2]}
               >
-                지중해(Mediterranean Sea), 2015년 11월 1일
+                지중해(Mediterranean Sea), 2015년 11월 13일
               </p>
               <p
                 className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
