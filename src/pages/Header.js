@@ -11,7 +11,7 @@ import {
 const Header = () => {
   const [hover, setHover] = useState(false);
   const hoverStyle = {
-    height: "30rem",
+    height: "27.25rem",
     backgroundColor: "#000000",
     transition: "0.5s all",
   };
@@ -88,7 +88,7 @@ const Header = () => {
                     사진전 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu font-PT"
+                    className="absolute top-[6rem] text-center MH5 font-normal  whitespace-nowrap flex flex-col gap-3 left-[50%] -translate-x-[50%] header_submenu font-PT"
                     style={hover ? subMenuFlex : null}
                   >
                     {introduction.map((introduction, index) => {
@@ -107,7 +107,7 @@ const Header = () => {
                     작가 소개
                   </NavHashLink>
                   <ul
-                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu font-PT"
+                    className="absolute top-[6rem] text-center MH5 font-normal  whitespace-nowrap flex flex-col gap-3 left-[50%] -translate-x-[50%] header_submenu font-PT"
                     style={hover ? subMenuFlex : null}
                   >
                     {photographers.map((photographers, index) => {
@@ -124,7 +124,7 @@ const Header = () => {
                 <li className="mx-[2.25rem] font-PTBold relative inline-block py-2 expanded">
                   <NavHashLink to="/Participate#">참여 방법</NavHashLink>
                   <ul
-                    className="absolute top-[6.5rem] text-center MH4 font-normal  whitespace-nowrap flex flex-col gap-4 left-[50%] -translate-x-[50%] header_submenu font-PT"
+                    className="absolute top-[6rem] text-center MH5 font-normal  whitespace-nowrap flex flex-col gap-3 left-[50%] -translate-x-[50%] header_submenu font-PT"
                     style={hover ? subMenuFlex : null}
                   >
                     {participate.map((participate, index) => {
