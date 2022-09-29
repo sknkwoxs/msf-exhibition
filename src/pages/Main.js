@@ -71,7 +71,7 @@ const Main = () => {
   const facebookShare = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?href=" +
-        encodeURIComponent(currentUrl) +
+        encodeURIComponent(document.currentUrl) +
         "%20-%20" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
