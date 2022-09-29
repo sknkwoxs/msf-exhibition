@@ -60,16 +60,16 @@ const Main = () => {
     );
   };
 
-  // const facebookShare = () => {
-  //   window.open(
-  //     "https://www.facebook.com/sharer/sharer.php?href=" +
-  //       encodeURIComponent(currentUrl) +
-  //       "%20-%20" +
-  //       encodeURIComponent(document.title),
-  //     "facebooksharedialog",
-  //     "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
-  //   );
-  // };
+  const facebookShare = () => {
+    window.open(
+      "https://www.facebook.com/sharer/sharer.php?href=" +
+        encodeURIComponent(currentUrl) +
+        "%20-%20" +
+        encodeURIComponent(document.title),
+      "facebooksharedialog",
+      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
+    );
+  };
 
   const naverShare = () => {
     window.open(
@@ -220,26 +220,13 @@ const Main = () => {
               </li>
               {/* facebook */}
               <li>
-                {/* <button className="w-[60px]" onClick={facebookShare}>
+                <button className="w-[60px]" onClick={facebookShare}>
                   <img
                     className="w-full"
                     src={`${process.env.PUBLIC_URL}/images/shareButtons/share_facebook_button.svg`}
                     alt="share_facebook_button"
                   />
-                </button> */}
-                <a
-                  href="#"
-                  onClick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&amp;t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
-                  target="_blank"
-                  alt="Share on Facebook"
-                  rel="nofollow"
-                >
-                  <img
-                    className="w-full"
-                    src={`${process.env.PUBLIC_URL}/images/shareButtons/share_facebook_button.svg`}
-                    alt="share_facebook_button"
-                  />
-                </a>
+                </button>
               </li>
               {/* twitter */}
               <li>
