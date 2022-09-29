@@ -9,7 +9,7 @@ const JohnVink = () => {
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.5),
-    5: useScrollFadeIn("up", 1, 0.6),
+    5: useScrollFadeIn("up", 1, 0.5),
     6: useScrollFadeIn("up", 1, 0.3),
     7: useScrollFadeIn("up", 1, 0.3),
     8: useScrollFadeIn("up", 1, 0.3),

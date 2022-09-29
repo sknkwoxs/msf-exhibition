@@ -3,7 +3,7 @@ import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 export default function Greetings() {
   const animatedItem = {
     0: useScrollFadeIn("up", 1, 0.2),
-    1: useScrollFadeIn("up", 1, 0.4),
+    1: useScrollFadeIn("up", 1, 0.2),
   };
 
   return (
