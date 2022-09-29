@@ -4,13 +4,13 @@ import ShareButtons from "../components/ShareButtons";
 
 const AshfikaRahman = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.1),
+    0: useScrollFadeIn("up", 1, 0.3),
     1: useScrollFadeIn("up", 1, 0.2),
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.5),
     5: useScrollFadeIn("up", 1, 0.3),
-    6: useScrollFadeIn("up", 1, 0.1),
+    6: useScrollFadeIn("up", 1, 0.3),
     7: useScrollFadeIn("up", 1, 0.3),
     8: useScrollFadeIn("left", 1, 0.5),
     9: useScrollFadeIn("right", 1, 0.3),
@@ -115,7 +115,10 @@ const AshfikaRahman = () => {
                   결혼했습니다.”
                 </p>
                 <div className="hidden md:block" {...animatedItem[8]}>
-                  <img src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/84.png`} alt="84" />
+                  <img
+                    src={`${process.env.PUBLIC_URL}/images/AshfikaRahman/84.png`}
+                    alt="84"
+                  />
                 </div>
               </div>
               <div className="md:hidden mb-[5rem]">

@@ -4,21 +4,21 @@ import ShareButtons from "../components/ShareButtons";
 
 const JohnVink = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.1),
+    0: useScrollFadeIn("up", 1, 0.3),
     1: useScrollFadeIn("up", 1, 0.2),
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.5),
     5: useScrollFadeIn("up", 1, 0.6),
     6: useScrollFadeIn("up", 1, 0.3),
-    7: useScrollFadeIn("up", 1, 0.1),
-    8: useScrollFadeIn("up", 1, 0.1),
-    9: useScrollFadeIn("up", 1, 0.1),
-    10: useScrollFadeIn("right", 1, 0.1),
-    11: useScrollFadeIn("up", 1, 0.1),
-    12: useScrollFadeIn("up", 1, 0.1),
-    13: useScrollFadeIn("up", 1, 0.1),
-    14: useScrollFadeIn("left", 1, 0.1),
+    7: useScrollFadeIn("up", 1, 0.3),
+    8: useScrollFadeIn("up", 1, 0.3),
+    9: useScrollFadeIn("up", 1, 0.3),
+    10: useScrollFadeIn("right", 1, 0.3),
+    11: useScrollFadeIn("up", 1, 0.3),
+    12: useScrollFadeIn("up", 1, 0.3),
+    13: useScrollFadeIn("up", 1, 0.3),
+    14: useScrollFadeIn("left", 1, 0.3),
   };
 
   return (

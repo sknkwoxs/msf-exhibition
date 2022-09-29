@@ -4,7 +4,7 @@ import ShareButtons from "../components/ShareButtons";
 
 const CedricGerbehaye = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.1),
+    0: useScrollFadeIn("up", 1, 0.3),
     1: useScrollFadeIn("up", 1, 0.2),
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
@@ -127,10 +127,16 @@ const CedricGerbehaye = () => {
                 사이 아들을 출산한 것입니다.“
               </p>
               <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[10]}>
-                <img src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/31 1.png`} alt="31 1" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/31 1.png`}
+                  alt="31 1"
+                />
               </div>
               <div className="md:mb-[6rem] mb-[5rem]" {...animatedItem[11]}>
-                <img src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/35 1.png`} alt="35 1" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/CedricGerbehaye/35 1.png`}
+                  alt="35 1"
+                />
               </div>
             </div>
           </section>

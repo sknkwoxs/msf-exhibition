@@ -4,14 +4,14 @@ import ShareButtons from "../components/ShareButtons";
 
 const AlessandroPenso = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.1),
+    0: useScrollFadeIn("up", 1, 0.3),
     1: useScrollFadeIn("up", 1, 0.2),
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.5),
     5: useScrollFadeIn("up", 1, 0.3),
-    6: useScrollFadeIn("up", 1, 0.1),
-    7: useScrollFadeIn("up", 1, 0.1),
+    6: useScrollFadeIn("up", 1, 0.3),
+    7: useScrollFadeIn("up", 1, 0.3),
     8: useScrollFadeIn("up", 1, 0.5),
     9: useScrollFadeIn("up", 1, 0.7),
     10: useScrollFadeIn("left", 1, 0.3),

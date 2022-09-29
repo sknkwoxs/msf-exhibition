@@ -4,13 +4,13 @@ import ShareButtons from "../components/ShareButtons";
 
 const HannahReyesMorales = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.1),
+    0: useScrollFadeIn("up", 1, 0.3),
     1: useScrollFadeIn("up", 1, 0.2),
     2: useScrollFadeIn("up", 1, 0.3),
     3: useScrollFadeIn("up", 1, 0.4),
     4: useScrollFadeIn("up", 1, 0.5),
     5: useScrollFadeIn("up", 1, 0.3),
-    6: useScrollFadeIn("up", 1, 0.1),
+    6: useScrollFadeIn("up", 1, 0.3),
     7: useScrollFadeIn("up", 1, 0.5),
     8: useScrollFadeIn("up", 1, 0.3),
     9: useScrollFadeIn("up", 1, 0.2),
