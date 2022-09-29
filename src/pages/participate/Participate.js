@@ -36,7 +36,7 @@ export default function Participate() {
                 *11.05(토)/11.12(토) 오전 제외
                 <br /> 전시 장소: 갤러리 라메르 (
                 <HashLink to="/Address">
-                  <span className="hover:underline hover:text-Neutrals-Grey9">
+                  <span className="underline hover:text-Neutrals-Grey9">
                     오시는 길
                   </span>
                 </HashLink>
@@ -45,8 +45,8 @@ export default function Participate() {
               <p className="DB2 text-[#636B73]">
                 * 전시와 모든 이벤트에는 무료로 참여가 가능하며, 현장 방문을
                 하시는 분들을 위한 스페셜 굿즈가 준비되어 있으니 많은 관심과
-                참여를 부탁드립니다. * 11.05(토), 11.12(토) 오전은 별도 내부
-                이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
+                참여를 부탁드립니다. <br />* 11.05(토), 11.12(토) 오전은 별도
+                내부 이벤트로 인해 관람이 불가한 점 양해 부탁드립니다.
               </p>
             </div>
             <div className="h-0 pb-[100%] overflow-hidden relative z-0">
