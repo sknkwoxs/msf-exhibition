@@ -36,13 +36,13 @@ const JohnVink = () => {
           <section className="text-center">
             <div>
               <h3
-                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold"
+                className="md:text-[2.5rem] md:leading-[3rem] MH2 font-extrabold mb-1 md:mb-2"
                 {...animatedItem[0]}
               >
                 존 빈크 - 온두라스
               </h3>
               <h3
-                className="mb-6 font-bold md:text-[2.5rem] md:leading-[3rem] MH2 font-sans"
+                className="md:mb-8 mb-5 font-bold md:text-[1.5rem] md:leading-[2rem] text-[1.125rem] leading-[1.5rem] font-sans italic"
                 {...animatedItem[1]}
               >
                 Gohn Vink - Honduras
