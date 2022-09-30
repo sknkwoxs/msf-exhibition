@@ -52,7 +52,7 @@ export default function Participate() {
             <div className="h-0 pb-[100%] overflow-hidden relative z-0">
               <img
                 className="absolute object-cover w-full h-full"
-                src={`${process.env.PUBLIC_URL}/images/participate1.png`}
+                src={`${process.env.PUBLIC_URL}/images/participate1.jpg`}
                 alt="participate1"
               />
             </div>

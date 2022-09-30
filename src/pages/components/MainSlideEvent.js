@@ -114,7 +114,7 @@ export default class MainSlideEvent extends Component {
               <div className="mb-6 h-0 pb-[74.285%] overflow-hidden relative z-0">
                 <img
                   className="absolute object-cover w-full h-full thumbnail"
-                  src={`${process.env.PUBLIC_URL}/images/event_slide_1.png`}
+                  src={`${process.env.PUBLIC_URL}/images/event_slide_1.jpg`}
                   alt="participate_thumb"
                 />
               </div>
