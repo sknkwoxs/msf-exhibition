@@ -224,9 +224,14 @@ export default function Participate() {
                   시청 기간: 11.02(수)-11.14(월)
                 </span>
               </p>
-              <button className="px-8 py-2 mt-6 border rounded border-Neutrals-Grey7">
+              <a
+                className="inline-block px-8 py-2 mt-6 border rounded border-Neutrals-Grey7"
+                href="https://www.youtube.com/watch?v=R8FVJlPITN8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 영화 바로 시청하기
-              </button>
+              </a>
             </div>
             <div className="bg-Neutrals-Grey8 pb-[100%] h-0">
               <div className="h-0 pb-[67.21%] overflow-hidden relative z-0 participateYoutubeEmbed mt-[80px]">
