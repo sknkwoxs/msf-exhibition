@@ -4,20 +4,20 @@ import ShareButtons from "../components/ShareButtons";
 
 const DominicNahr = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.2),
-    1: useScrollFadeIn("up", 1, 0.2),
-    2: useScrollFadeIn("up", 1, 0.2),
-    3: useScrollFadeIn("up", 1, 0.2),
-    4: useScrollFadeIn("up", 1, 0.2),
-    5: useScrollFadeIn("up", 1, 0.2),
-    6: useScrollFadeIn("up", 1, 0.2),
-    7: useScrollFadeIn("up", 1, 0.2),
-    8: useScrollFadeIn("up", 1, 0.2),
-    9: useScrollFadeIn("right", 1, 0.2),
-    10: useScrollFadeIn("left", 1, 0.2),
-    11: useScrollFadeIn("up", 1, 0.2),
-    12: useScrollFadeIn("up", 1, 0.2),
-    13: useScrollFadeIn("up", 1, 0.2),
+    0: useScrollFadeIn("up", 1, 0.4),
+    1: useScrollFadeIn("up", 1, 0.4),
+    2: useScrollFadeIn("up", 1, 0.4),
+    3: useScrollFadeIn("up", 1, 0.4),
+    4: useScrollFadeIn("up", 1, 0.4),
+    5: useScrollFadeIn("up", 1, 0.4),
+    6: useScrollFadeIn("up", 1, 0.4),
+    7: useScrollFadeIn("up", 1, 0.4),
+    8: useScrollFadeIn("up", 1, 0.4),
+    9: useScrollFadeIn("right", 1, 0.4),
+    10: useScrollFadeIn("left", 1, 0.4),
+    11: useScrollFadeIn("up", 1, 0.4),
+    12: useScrollFadeIn("up", 1, 0.4),
+    13: useScrollFadeIn("up", 1, 0.4),
   };
 
   return (

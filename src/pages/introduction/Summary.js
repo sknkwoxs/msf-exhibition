@@ -2,9 +2,9 @@ import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Summary() {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.2),
-    1: useScrollFadeIn("up", 1, 0.2),
-    2: useScrollFadeIn("up", 1, 0.2),
+    0: useScrollFadeIn("up", 1, 0.4),
+    1: useScrollFadeIn("up", 1, 0.4),
+    2: useScrollFadeIn("up", 1, 0.4),
   };
 
   return (
