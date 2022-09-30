@@ -114,7 +114,6 @@ export default class MobileSlideEvent extends Component {
                 />
               </div>
               <p className="mb-2 H5 card_title">도슨트 가이드 투어</p>
-              <p className="text-Neutrals-Grey5 DB2">11.05 (토) 12:00-13:00</p>
             </HashLink>
           </li>
           <li className="list-none">
