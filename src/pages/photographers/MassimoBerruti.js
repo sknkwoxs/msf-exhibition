@@ -39,7 +39,7 @@ const MassimoBerruti = () => {
                 마시모 베루티 - 파키스탄
               </h3>
               <h3
-                className="md:mb-8 mb-5 font-bold md:text-[1.5rem] md:leading-[2rem] text-[1.125rem] leading-[1.5rem] font-sans italic"
+                className="md:mb-8 mb-5 font-normal md:text-[1.5rem] md:leading-[2rem] text-[1.125rem] leading-[1.5rem] font-sans italic"
                 {...animatedItem[1]}
               >
                 Massimo Berruti - Pakistan

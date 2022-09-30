@@ -41,7 +41,7 @@ const AshfikaRahman = () => {
                 아슈피카 라만 - 방글라데시
               </h3>
               <h3
-                className="md:mb-8 mb-5 font-bold md:text-[1.5rem] md:leading-[2rem] text-[1.125rem] leading-[1.5rem] font-sans italic"
+                className="md:mb-8 mb-5 font-normal md:text-[1.5rem] md:leading-[2rem] text-[1.125rem] leading-[1.5rem] font-sans italic"
                 {...animatedItem[1]}
               >
                 Ashfika Rahman - Bangladesh
