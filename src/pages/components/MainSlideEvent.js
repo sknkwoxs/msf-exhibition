@@ -30,7 +30,7 @@ export default class MainSlideEvent extends Component {
       prevArrow: "",
       nextArrow: "",
       arrows: false,
-      draggable: true,
+      draggable: false,
       touchThreshold: 100,
       autoplay: true,
     };
