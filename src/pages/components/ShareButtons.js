@@ -30,13 +30,21 @@ const ShareButtons = () => {
   };
 
   const twitterShare = () => {
+    // window.open(
+    //   "https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20" +
+    //     encodeURIComponent(document.currentUrl) +
+    //     "%20-%20" +
+    //     encodeURIComponent(document.title),
+    //   "twittersharedialog",
+    //   "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
+    // );
+    // const sendText = "국경없는의사회 사진전"; // 공유할 텍스트
+    // const sendUrl = window.location.href; // 공유할 URL
+    // window.open(
+    //   `https://twitter.com/intent/tweet?text=${sendText}&url=${sendUrl}`
+    // );
     window.open(
-      "https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20" +
-        encodeURIComponent(document.currentUrl) +
-        "%20-%20" +
-        encodeURIComponent(document.title),
-      "twittersharedialog",
-      "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
+      "https://twitter.com/intent/tweet?url=" + encodeURIComponent(currentUrl)
     );
   };
 
@@ -44,11 +52,16 @@ const ShareButtons = () => {
     window.open(
       "https://www.facebook.com/sharer/sharer.php?href=" +
         encodeURIComponent(document.currentUrl) +
-        "&t=" +
+        "%20-%20" +
         encodeURIComponent(document.title),
       "facebooksharedialog",
       "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
+    // const sendText = "국경없는의사회 사진전"; // 공유할 텍스트
+    // const sendUrl = window.location.href; // 공유할 URL
+    // window.open(
+    //   `http://www.facebook.com/sharer/sharer.php?href=${sendText}&url=${sendUrl}`
+    // );
   };
 
   const naverShare = () => {
