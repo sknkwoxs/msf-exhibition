@@ -4,18 +4,18 @@ import ShareButtons from "../components/ShareButtons";
 
 const MassimoBerruti = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.3),
+    0: useScrollFadeIn("up", 1, 0.2),
     1: useScrollFadeIn("up", 1, 0.2),
-    2: useScrollFadeIn("up", 1, 0.3),
-    3: useScrollFadeIn("up", 1, 0.4),
-    4: useScrollFadeIn("up", 1, 0.5),
-    5: useScrollFadeIn("up", 1, 0.3),
-    6: useScrollFadeIn("up", 1, 0.3),
-    7: useScrollFadeIn("up", 1, 0.5),
-    8: useScrollFadeIn("left", 1, 0.3),
-    9: useScrollFadeIn("right", 1, 0.3),
-    10: useScrollFadeIn("up", 1, 0.5),
-    11: useScrollFadeIn("up", 1, 0.5),
+    2: useScrollFadeIn("up", 1, 0.2),
+    3: useScrollFadeIn("up", 1, 0.2),
+    4: useScrollFadeIn("up", 1, 0.2),
+    5: useScrollFadeIn("up", 1, 0.2),
+    6: useScrollFadeIn("up", 1, 0.2),
+    7: useScrollFadeIn("up", 1, 0.2),
+    8: useScrollFadeIn("left", 1, 0.2),
+    9: useScrollFadeIn("right", 1, 0.2),
+    10: useScrollFadeIn("up", 1, 0.2),
+    11: useScrollFadeIn("up", 1, 0.2),
   };
 
   return (

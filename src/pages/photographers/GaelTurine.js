@@ -4,21 +4,21 @@ import ShareButtons from "../components/ShareButtons";
 
 const GaelTurine = () => {
   const animatedItem = {
-    0: useScrollFadeIn("up", 1, 0.3),
-    1: useScrollFadeIn("up", 1, 0.3),
-    2: useScrollFadeIn("up", 1, 0.3),
-    3: useScrollFadeIn("up", 1, 0.4),
-    4: useScrollFadeIn("up", 1, 0.5),
-    5: useScrollFadeIn("up", 1, 0.5),
-    6: useScrollFadeIn("up", 1, 0.3),
-    7: useScrollFadeIn("up", 1, 0.3),
-    8: useScrollFadeIn("up", 1, 0.5),
-    9: useScrollFadeIn("up", 1, 0.5),
-    10: useScrollFadeIn("right", 1, 0.3),
-    11: useScrollFadeIn("left", 1, 0.5),
-    12: useScrollFadeIn("up", 1, 0.3),
-    13: useScrollFadeIn("up", 1, 0.5),
-    14: useScrollFadeIn("up", 1, 0.5),
+    0: useScrollFadeIn("up", 1, 0.2),
+    1: useScrollFadeIn("up", 1, 0.2),
+    2: useScrollFadeIn("up", 1, 0.2),
+    3: useScrollFadeIn("up", 1, 0.2),
+    4: useScrollFadeIn("up", 1, 0.2),
+    5: useScrollFadeIn("up", 1, 0.2),
+    6: useScrollFadeIn("up", 1, 0.2),
+    7: useScrollFadeIn("up", 1, 0.2),
+    8: useScrollFadeIn("up", 1, 0.2),
+    9: useScrollFadeIn("up", 1, 0.2),
+    10: useScrollFadeIn("right", 1, 0.2),
+    11: useScrollFadeIn("left", 1, 0.2),
+    12: useScrollFadeIn("up", 1, 0.2),
+    13: useScrollFadeIn("up", 1, 0.2),
+    14: useScrollFadeIn("up", 1, 0.2),
   };
 
   return (
