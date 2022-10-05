@@ -115,20 +115,20 @@ export default function Participate() {
                 </span>
               </p>
               <p className="DB1 text-[#636B73]">
-                세계적인 보도사진 작가이자 MAPS 에이전시의 공동설립자인 도미닉
-                나흐르 Dominic Nahr와 국경없는의사회 한국 소속 구호활동가가 사진
-                너머의 생생한 인도적 위기 현장에 대해 이야기합니다. 스페셜
-                토크는 국경없는의사회 유튜브 채널을 통해 생중계 되며, 실시간
-                질의응답 시간도 가질 예정입니다.
+                MAPS 에이전시 소속 세계적 보도사진 작가와 국경없는의사회 한국
+                소속 구호활동가가 사진 너머의 생생한 인도적 위기 현장에 대해
+                이야기합니다. 스페셜 토크는 국경없는의사회 유튜브 채널을 통해
+                생중계되며, 실시간 질의응답 시간도 가질 예정입니다.
                 <br />
                 <br />
                 <span className="font-PTSemiBold text-Neutrals-Grey7">
-                  일시: 11.05 (토) 12:00-13:00
-                  <br /> 게스트: 도미닉 나흐르 Dominic Nahr(
+                  일시: 11.05(토) 12:00-13:00
+                  <br /> 게스트:
+                  {/* TBC (
                   <HashLink to="/photographers/DominicNahr#">
-                    <span className="underline">작가소개</span>
+                    <span className="underline">작가 페이지로 링크</span>
                   </HashLink>
-                  )
+                  ) */}
                 </span>
               </p>
             </div>
