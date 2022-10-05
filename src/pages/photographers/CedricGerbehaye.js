@@ -108,7 +108,7 @@ const CedricGerbehaye = () => {
               <div className="mb-10 md:mb-12" {...animatedItem[8]}>
                 <div className="md:mb-8 mb-6 border-b border-Neutrals-Grey6 md:w-[6.5rem] w-[5rem] mx-auto" />
                 <p className="text-center MH3 md:text-[2rem] md:leading-[2.5rem]">
-                  게르베하이과 국경없는의사회의 첫 만남
+                  게르베하이와 국경없는의사회의 첫 만남
                 </p>
               </div>
               <p
@@ -150,7 +150,7 @@ const CedricGerbehaye = () => {
               </p>
             </div>
             <p className="max-w-[63rem] mx-auto DB1" {...animatedItem[13]}>
-              세드릭 게르베하이는 벨기에에서 태생으로 저널리즘을 전공했고,
+              세드릭 게르베하이는 벨기에 태생으로 저널리즘을 전공했고,
               인도네시아 여행 당시 사진을 처음 접한 후 콩고민주공화국에서
               사진작가로 활동했다. 그의 사진과 에세이를 담은 책 ‘잊혀진
               콩고(2010)’는 미국 해외언론클럽에서 수여하는 올리비에 레보트
@@ -168,9 +168,9 @@ const CedricGerbehaye = () => {
               </span>
               , 2013’를 출간했다. 게르베하이의 작품은 여러 전시회의 초청작으로
               선정됐으며, 매그넘 재단, 퓰리처위기보도센터, 저널리즘 펀드 등의
-              후원을 받았다. 게르베하이의 사진은 휴스턴 미술관, 벨기에 샤를루아
-              미술관, 파리의 유럽사진미술관, 앤트워프 사진박물관 FOMU 에서
-              소장하고 있다.
+              후원을 받았다. 그의 사진은 휴스턴 미술관, 벨기에 샤를루아 미술관,
+              파리의 유럽사진미술관, 앤트워프 사진박물관 FOMU 에서 소장하고
+              있다.
             </p>
           </section>
           <section className="max-w-[63rem] mx-auto">

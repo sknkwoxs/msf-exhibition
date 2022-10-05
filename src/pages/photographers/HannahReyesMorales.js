@@ -53,7 +53,7 @@ const HannahReyesMorales = () => {
                 톤도(Tondo), 2017년 7월 31일
               </p>
               <p
-                className="md:mb-[3.375rem] mb-[3rem] md:DB3 text-[0.75rem]"
+                className="md:mb-[3.375rem] mb-[3rem] md:DB3 md:text-[0.875rem] text-[1rem] font-nanummyeongjo"
                 {...animatedItem[3]}
               >
                 Sony ILCE-7M2 28mm f3.5 1/3200sec ISO 400
@@ -66,7 +66,7 @@ const HannahReyesMorales = () => {
                 ‘마약과의 전쟁’으로 인한 영향을 가장 많이 받은 지역인 톤도의
                 주민들은 많은 위험에 노출된 채 생활하고 있다. 특히 수많은 여성이
                 검사만으로도 예방할 수 있는 자궁경부암으로 고통받고 있다. 2017년
-                모랄레스는 톤도 슬럼가에서 생활하며 이곳의 의료위기에 대해
+                모랄레스는 톤도 슬럼가에서 생활하며 이곳의 의료 위기에 대한
                 인식을 제고하기 위해 지역주민의 모습을 카메라에 담았다.
               </p>
             </div>
