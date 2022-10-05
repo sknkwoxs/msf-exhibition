@@ -11,15 +11,15 @@ export default function Summary() {
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="w-full max-h-[44rem] min-h-[22rem]">
+        <div className="h-0 md:pb-[44%] pb-[100%] overflow-hidden relative z-0">
           <video
-            className="w-full max-h-[44rem] min-h-[22rem] object-cover"
+            className="absolute w-full h-full"
             src={`${process.env.PUBLIC_URL}/videos/Youtube(30s)_10yr photo exhibit_1.mp4`}
             autoplay="autoplay"
             muted="muted"
             controls="true"
             loop="true"
-            // playsInline
+            playsInline
           ></video>
         </div>
         <div className="px-4 bg-center bg-no-repeat bg-cover DB1 text-Neutrals-Grey8 bg-bg-introduction">
