@@ -1,4 +1,5 @@
 import { HashLink } from "react-router-hash-link";
+import YouTube from "react-youtube";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
@@ -74,14 +75,22 @@ const MassimoBerruti = () => {
               className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
               {...animatedItem[5]}
             >
-              <iframe
+              <YouTube
                 className="absolute object-cover w-full h-full"
-                src="https://www.youtube.com/embed/LeiKlmvd6KI"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+                videoId="ULZtTdBOF0s"
+                opts={{
+                  playerVars: {
+                    autoplay: 1,
+                    mute: 1,
+                    rel: 0,
+                    modestbranding: 1,
+                  },
+                }}
+                onEnd={(e) => {
+                  e.target.stopVideo(0);
+                }}
+                dataUrl="https://youtu.be/ULZtTdBOF0s"
+              />
             </div>
           </section>
           <section>
@@ -179,14 +188,16 @@ const MassimoBerruti = () => {
                 />
                 <p className="mb-4 md:H4 MH3">국경없는의사회는</p>
                 <p className="DB1">
-                  2010년, 수십 년 만에 발생한 최악의 홍수로 수많은 마을이
-                  고립되고 식량과 깨끗한 식수도 부족해진 파키스탄에서 긴급
-                  대응을 펼쳤다. 질병이 창궐하는 등 인도적 지원을 지속하기
+                  2010년, 50년만의 최악의 홍수로 발생한 최악의 홍수로 수많은
+                  마을이 고립되고 식량과 깨끗한 식수도 부족해진 파키스탄에서
+                  긴급 대응을 펼쳤다. 질병이 창궐하는 등 인도적 지원을 지속하기
                   어려운 상황에서도 국경없는의사회 직원 1,600여 명이 병원과
                   이동진료소에서 의료지원을 제공하며, 식수, 텐트, 위생용품 및
-                  조리용품 등을 보급했다. 국경없는의사회는 병원 5곳, 이동진료소
-                  7곳, 설사치료센터 6곳에서 활동하며 10만 회 이상의 진료를
-                  제공했다.
+                  조리용품 등을 보급했다. 2022년, 파키스탄 사상 최악의 홍수가
+                  발생해 국토의 3분의 1이 침수되고 2억 2천만 인구가 피해를
+                  입었다. 국가비상사태가 선포된 직후 국경없는의사회는 가용한
+                  모든 자원을 동원해 구호 활동을 시작했고, 현재에도 이동진료소
+                  운영 및 위생품과 필수품을 보급하고 있다.
                 </p>
               </div>
               <div>

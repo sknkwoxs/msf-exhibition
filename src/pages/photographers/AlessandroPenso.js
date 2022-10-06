@@ -1,4 +1,5 @@
 import { HashLink } from "react-router-hash-link";
+import YouTube from "react-youtube";
 import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 import ShareButtons from "../components/ShareButtons";
 
@@ -83,14 +84,22 @@ const AlessandroPenso = () => {
               className="md:my-[6rem] my-[5rem] h-0 pb-[55.921%] overflow-hidden relative z-0"
               {...animatedItem[5]}
             >
-              <iframe
+              <YouTube
                 className="absolute object-cover w-full h-full"
-                src="https://www.youtube.com/embed/LeiKlmvd6KI"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+                videoId="LAuy3wP1p7A"
+                opts={{
+                  playerVars: {
+                    autoplay: 1,
+                    mute: 1,
+                    rel: 0,
+                    modestbranding: 1,
+                  },
+                }}
+                onEnd={(e) => {
+                  e.target.stopVideo(0);
+                }}
+                dataUrl="https://youtu.be/LAuy3wP1p7A"
+              />
             </div>
           </section>
           <section>
