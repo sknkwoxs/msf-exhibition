@@ -57,6 +57,10 @@ const Header = () => {
     window.addEventListener("scroll", updateScroll);
   });
 
+  const refreshPage = () => {
+    window.location.reload();
+  };
+
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-10 shadow-md text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
@@ -208,7 +212,7 @@ const Header = () => {
                       <ul className="flex flex-col pt-6 DB3 text-Neutrals-Grey5 gap-y-2">
                         {participate.map((participate, index) => {
                           return (
-                            <li key={index}>
+                            <li onClick={refreshPage} key={index}>
                               <HashLink to={participate.url}>
                                 {participate.title}
                               </HashLink>
