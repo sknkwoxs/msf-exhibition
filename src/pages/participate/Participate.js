@@ -235,7 +235,7 @@ export default function Participate() {
               </a>
             </div>
             <div className="bg-Neutrals-Grey8 pb-[100%] h-0">
-              <div className="h-0 pb-[67.21%] overflow-hidden relative z-0 participateYoutubeEmbed mt-[80px]">
+              <div className="h-0 pb-[67.21%] overflow-hidden relative z-0 participateYoutubeEmbed mt-[50%] -translate-y-[50%]">
                 <YouTube
                   className="absolute object-cover w-full h-full"
                   videoId="zlcdcJUSJBs"
