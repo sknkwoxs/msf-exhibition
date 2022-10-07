@@ -144,51 +144,49 @@ const JohnVink = () => {
                   <div className="flex-1">
                     <p className="italic DB1" {...animatedItem[10]}>
                       안녕하세요 작가님, <br />
-                      <br />
+                      <br className="hidden md:block" />
                       사진을 보내주셔서 정말 감사합니다.
                       <br />
                       아버지께서 어떤 일을 겪으셨는지 이야기로만 전해 듣다가
                       직접 사진을 보니 믿기지 않을 정도로 벅차네요. [중략]
                       <br />
-                      부모님께선 10년이란 세월 동안 난민캠프에서 생활하셨습니다.
-                      <br />
+                      부모님께선 10년이란 세월 동안 난민캠프에서
+                      생활하셨습니다.&nbsp;
+                      <br className="hidden md:block" />
                       두 분은 난민캠프에서 만나 저랑 제 남동생을 캠프 안에서
-                      낳으셨죠.
+                      낳으셨죠.&nbsp;
                       <br />
-                      <br />
-                      아버지는 끔찍한 경험을 했지만 다행히 잘 회복하셨고,
-                      <br />
+                      <br className="hidden md:block" />
+                      아버지는 끔찍한 경험을 했지만 다행히 잘 회복하셨고,&nbsp;
+                      <br className="hidden md:block" />
                       사진촬영 당시로부터 얼마 지나지 않아 가족 모두가 캐나다로
                       이주했습니다. 부모님께선 그동안 가족과 떨어져 지내기
-                      싫어서 망명기회가 와도 붙잡지 않으셨죠.
-                      <br />
-                      하지만 어머니의 친구가 설득에 성공했고 그렇게 1990년
-                      <br />
+                      싫어서 망명기회가 와도 붙잡지 않으셨죠.&nbsp;
+                      <br className="hidden md:block" />
+                      하지만 어머니의 친구가 설득에 성공했고 그렇게 1990년&nbsp;
+                      <br className="hidden md:block" />
                       3월, 저희 아버지와 저, 제 남매들이 캐나다로 먼저
-                      이주했습니다.
-                      <br />
+                      이주했습니다.&nbsp;
+                      <br className="hidden md:block" />
                       어머니는 3월에 제 남동생을 낳은 후 다음 달에 캐나다로
-                      오셨죠.
-                      <br />
-                      어머니가 오시고 한 달 후, 할머니까지 캐나다에 오셨습니다.{" "}
-                      <br />
-                      <br />
+                      오셨죠.&nbsp;
+                      <br className="hidden md:block" />
+                      어머니가 오시고 한 달 후, 할머니까지 캐나다에
+                      오셨습니다.&nbsp;
+                      <br className="hidden md:block" />
+                      <br className="hidden md:block" />
                       저는 항상 제가 어디 출신인지,
-                      <br />
-                      저희 가족이 그동안 어떤 일을 겪었는지 알고 싶었습니다.
-                      과거 난민캠프였던
-                      <br />
-                      메사
-                      <br />
-                      그란데는 현재 공터이기 때문에 수많은 엘살바도르 사람들의
-                      “삶의
-                      <br />
-                      터전”이었던 흔적을 더 이상 찾아볼 수 없습니다.
-                      <br />
+                      <br className="hidden md:block" />
+                      저희 가족이 그동안 어떤 일을 겪었는지 알고
+                      싶었습니다.&nbsp;
+                      <br className="hidden md:block" />
+                      과거 난민캠프였던 메사 그란데는 현재 공터이기 때문에
+                      수많은 엘살바도르 사람들의 “삶의 터전”이었던 흔적을 더
+                      이상 찾아볼 수 없습니다.&nbsp;
+                      <br className="hidden md:block" />
                       그래서 저는 가끔 우리 가족의 사진이 한 장이라도 있을까
-                      바라며 구글에 들어가 “온두라스 메사
-                      <br />
-                      그란데”를 검색해보곤 합니다.
+                      바라며 구글에 들어가 “온두라스 메사 그란데”를 검색해보곤
+                      합니다.
                     </p>
                   </div>
                   <div
@@ -204,32 +202,35 @@ const JohnVink = () => {
                 <p className="italic DB1" {...animatedItem[11]}>
                   어느 날 밤, 검색된 사진들을 보다가 제 아버지를 발견했습니다.
                   핸드폰으로 봤기 때문에 사진이 너무 작았지만 들것에 실린 그
-                  남성이 제 아버지라는 사실을 확실히 알 수 있었죠. <br />
+                  남성이 제 아버지라는 사실을 확실히 알 수 있었죠.&nbsp;
                   <br />
-                  사진을 눌러보니 작가님의 사이트로 연결이 되었습니다.
-                  <br />
+                  <br className="hidden md:block" />
+                  사진을 눌러보니 작가님의 사이트로 연결이 되었습니다.&nbsp;
+                  <br className="hidden md:block" />
                   사진설명을 보니 ‘에벨리오’라는 한 번도 들어본 적 없는 이름의
-                  사람이라고 되어 있었지만
-                  <br />
+                  사람이라고 되어 있었지만&nbsp;
+                  <br className="hidden md:block" />
                   당시 내전을 겪는 동안 엘살바도르 사람들이 신원을 보호하기 위해
-                  가명을 쓰곤 해서 사진 속 그 남자가 제 아버지임을 확신했습니다.
-                  <br />
+                  가명을 쓰곤 해서 사진 속 그 남자가 제 아버지임을
+                  확신했습니다.&nbsp;
+                  <br className="hidden md:block" />
                   나중에 어머니께 여쭤보니 에벨리오는 아버지가 쓰던
-                  가명이었습니다.
-                  <br />
+                  가명이었습니다.&nbsp;
+                  <br className="hidden md:block" />
                   그렇게 작가님의 앨범 전체를 보고, 가족에게도 사진을
-                  보여주었습니다.
-                  <br />
-                  저와 할머니, 어머니가 아는 얼굴들과 친척들도 있었어요.
-                  <br />
+                  보여주었습니다.&nbsp;
+                  <br className="hidden md:block" />
+                  저와 할머니, 어머니가 아는 얼굴들과 친척들도 있었어요.&nbsp;
+                  <br className="hidden md:block" />
                   어머니와 할머니가 옛 추억을 떠올릴 만한 사진을 더 볼 수 있으면
-                  좋겠다고 생각했습니다. <br />
+                  좋겠다고 생각했습니다. <br className="hidden md:block" />
                   작가님께서 보여주신 사진으로 저희 가족이 지나온 힘든 세월을
-                  더욱 잘 이해할 수 있게 되었습니다. <br />
+                  더욱 잘 이해할 수 있게 되었습니다.&nbsp;
+                  <br />
                   <br />
                   정말 감사합니다,
                   <br />
-                  <br />
+                  <br className="hidden md:block" />
                   마리나
                 </p>
               </div>
