@@ -11,7 +11,7 @@ export default function Summary() {
     <>
       <div className="md:pt-[7.5rem] pt-[4rem] bg-black"></div>
       <div>
-        <div className="h-0 md:pb-[44%] pb-[100%] overflow-hidden relative z-0">
+        <div className="h-0 md:pb-[44%] pb-[56.25%] overflow-hidden relative z-0">
           <video
             className="absolute w-full h-full"
             src={`${process.env.PUBLIC_URL}/videos/Youtube(30s)_10yr photo exhibit_1.mp4`}
