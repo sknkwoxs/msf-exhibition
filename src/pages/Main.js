@@ -30,7 +30,7 @@ const Main = () => {
       content: {
         title: "국경없는의사회 사진전",
         description:
-          "More Than a Picture: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
+          "MORE THAN A PICTURE: 8인의 포토저널리스트가 담은 국경없는의사회 구호현장의 기록",
         imageUrl: "https://msf.or.kr/morethanapicture/images/OG.jpg",
         link: {
           mobileWebUrl: window.location.href,
