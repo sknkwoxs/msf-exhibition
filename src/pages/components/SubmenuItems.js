@@ -47,26 +47,26 @@ export const photographers = [
 export const participate = [
   {
     title: "사진전 관람",
-    url: "/Participate#Section1",
+    url: "/Participate#section1",
   },
   {
     title: "기부 옥션",
-    url: "/Participate/#Section2",
+    url: "/Participate#section2",
   },
   {
     title: "스페셜 토크",
-    url: "/Participate#Section3",
+    url: "/Participate#section3",
   },
   {
     title: "가이드 투어",
-    url: "/Participate#Section4",
+    url: "/Participate#section4",
   },
   {
     title: "오디오 가이드",
-    url: "/Participate#Section5",
+    url: "/Participate#section5",
   },
   {
     title: "다큐멘터리",
-    url: "/Participate#Section6",
+    url: "/Participate#section6",
   },
 ];

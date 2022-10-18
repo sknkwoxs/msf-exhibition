@@ -8,7 +8,7 @@ export default function Participate() {
       <div>
         <div className="md:mb-[6rem] mb-[4rem] px-4">
           <div
-            id="Section1"
+            id="section1"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[7rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -44,7 +44,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="Section2"
+            id="section2"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -88,7 +88,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="Section3"
+            id="section3"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -111,11 +111,6 @@ export default function Participate() {
                   일시: 11.05(토) 12:00-13:00
                   <br /> 게스트: 티에리 코펜스 국경없는의사회 한국 사무총장,
                   이효민 국경없는의사회 구호활동가(마취과 전문의)
-                  {/* TBC (
-                  <HashLink to="/photographers/DominicNahr#">
-                    <span className="underline">작가 페이지로 링크</span>
-                  </HashLink>
-                  ) */}
                 </span>
               </p>
             </div>
@@ -129,7 +124,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="Section4"
+            id="section4"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -164,7 +159,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="Section5"
+            id="section5"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -194,7 +189,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="Section6"
+            id="section6"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">

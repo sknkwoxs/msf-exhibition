@@ -148,6 +148,26 @@ const Header = () => {
                         </li>
                       );
                     })}
+                    {/* <li>
+                      <Link smooth to="/Participate/Section1">
+                        사진전 관람
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/">기부 옥션</Link>
+                    </li>
+                    <li>
+                      <Link to="/">스페셜 토크</Link>
+                    </li>
+                    <li>
+                      <Link to="/">가이드 투어</Link>
+                    </li>
+                    <li>
+                      <Link to="/">오디오 가이드</Link>
+                    </li>
+                    <li>
+                      <Link to="/">다큐멘터리</Link>
+                    </li> */}
                   </ul>
                 </li>
                 <li className="mx-[2.25rem] font-PTBold relative inline-block py-2">
