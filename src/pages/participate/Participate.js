@@ -8,7 +8,7 @@ export default function Participate() {
       <div>
         <div className="md:mb-[6rem] mb-[4rem] px-4">
           <div
-            id="section1"
+            id="Section1"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[7rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -44,7 +44,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="section2"
+            id="Section2"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -88,7 +88,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="section3"
+            id="Section3"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -124,7 +124,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="section4"
+            id="Section4"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -159,7 +159,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="section5"
+            id="Section5"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
@@ -189,7 +189,7 @@ export default function Participate() {
           </div>
           <div className="border-b border-Neutrals-Grey3" />
           <div
-            id="section6"
+            id="Section6"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:pt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
           >
             <div className="my-auto">
