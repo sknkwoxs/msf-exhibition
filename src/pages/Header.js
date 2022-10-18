@@ -61,6 +61,16 @@ const Header = () => {
     window.location.reload();
   };
 
+  useEffect(() => {
+    setOpenMenu(false);
+    // console.log("useEffect", window.location.hash);
+    if (window.location.hash) {
+      const id = window.location.hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView();
+    }
+  }, [pathname]);
+
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-10 shadow-md text-Neutrals-White bg-Neutrals-Grey9 md:bg-inherit">
