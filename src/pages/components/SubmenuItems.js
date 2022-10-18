@@ -47,7 +47,7 @@ export const photographers = [
 export const participate = [
   {
     title: "사진전 관람",
-    url: "/Participate#Section1",
+    url: "/Participate#",
   },
   {
     title: "기부 옥션",

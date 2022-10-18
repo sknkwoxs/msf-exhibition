@@ -149,7 +149,7 @@ const Header = () => {
                             scroll={(el) =>
                               el.scrollIntoView({
                                 behavior: "smooth",
-                                block: "center",
+                                // block: "center",
                               })
                             }
                           >
