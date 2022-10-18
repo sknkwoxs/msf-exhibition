@@ -126,7 +126,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li className="mx-[2.25rem] font-PTBold relative inline-block py-2 expanded">
-                  <NavHashLink to="/Participate#">참여 방법</NavHashLink>
+                  <NavHashLink to="/Participate#top">참여 방법</NavHashLink>
                   <ul
                     className="absolute top-[6rem] text-center MH5 font-normal  whitespace-nowrap flex flex-col gap-3 left-[50%] -translate-x-[50%] header_submenu font-PT"
                     style={hover ? subMenuFlex : null}

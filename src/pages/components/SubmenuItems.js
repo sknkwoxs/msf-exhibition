@@ -51,7 +51,7 @@ export const participate = [
   },
   {
     title: "기부 옥션",
-    url: "/Participate#Section2",
+    url: "/Participate/#Section2",
   },
   {
     title: "스페셜 토크",

@@ -1,23 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
-// import useScrollFadeIn from "../components/hooks/useScrollFadeIn";
 
 export default function Participate() {
-  // const animatedItem = {
-  //   0: useScrollFadeIn("right", 1, 0.4),
-  //   1: useScrollFadeIn("left", 1, 0.4),
-  //   2: useScrollFadeIn("right", 1, 0.4),
-  //   3: useScrollFadeIn("left", 1, 0.4),
-  //   4: useScrollFadeIn("right", 1, 0.4),
-  //   5: useScrollFadeIn("left", 1, 0.4),
-  //   6: useScrollFadeIn("right", 1, 0.4),
-  //   7: useScrollFadeIn("left", 1, 0.4),
-  //   8: useScrollFadeIn("right", 1, 0.4),
-  //   9: useScrollFadeIn("left", 1, 0.4),
-  //   10: useScrollFadeIn("left", 1, 0.4),
-  //   11: useScrollFadeIn("right", 1, 0.4),
-  // };
-
   return (
     <>
       <div className="h-[7.5rem] bg-black hidden md:flex" />
@@ -57,7 +41,7 @@ export default function Participate() {
               />
             </div>
           </div>
-          <div className="border-b border-Neutrals-Grey3 " />
+          <div className="border-b border-Neutrals-Grey3" />
           <div
             id="Section2"
             className="flex md:grid md:grid-cols-[1fr_max(488px)] flex-col-reverse md:max-w-[76rem] mx-auto md:gap-[6.5rem] gap-[1.625rem] md:mt-[6rem] pt-[3rem] md:mb-[6rem] mb-[3rem]"
@@ -115,16 +99,17 @@ export default function Participate() {
                 </span>
               </p>
               <p className="DB1 text-[#636B73]">
-                MAPS 에이전시 소속 보도사진작가와 국경없는의사회 한국 소속
-                구호활동가가 사진 너머의 생생한 인도적 위기 현장에 대해
-                이야기합니다. 스페셜 토크는 국경없는의사회 유튜브 채널을 통해
-                생중계되며, 실시간 질의응답 시간도 가질 예정입니다.
+                앙골라, 르완다, 레바논 등 전 세계 인도적 위기 현장에서 구호
+                활동을 진행해 온 티에리 코펜스 국경없는의사회 한국 사무총장과
+                남수단, 파키스탄, 필리핀 등지에서 최근까지 국경없는의사회 한국
+                소속으로 활동해 온 이효민 구호활동가가 사진 너머의 생생한 구호
+                현장 이야기를 증언합니다.
                 <br />
                 <br />
                 <span className="font-PTSemiBold text-Neutrals-Grey7">
                   일시: 11.05(토) 12:00-13:00
-                  <br /> 게스트:{" "}
-                  <span className="text-Brand-Primary">추후 안내 예정</span>
+                  <br /> 게스트: 티에리 코펜스 국경없는의사회 한국 사무총장,
+                  이효민 국경없는의사회 구호활동가(마취과 전문의)
                   {/* TBC (
                   <HashLink to="/photographers/DominicNahr#">
                     <span className="underline">작가 페이지로 링크</span>
