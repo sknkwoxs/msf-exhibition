@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
 
@@ -221,6 +222,12 @@ export default function Participate() {
           </div>
         </div>
       </div>
+      {/*  */}
+      {/* <div id="myModal">
+        <div className="modal-content">
+          <button className="close">Modal Close</button>
+        </div>
+      </div> */}
     </>
   );
 }
