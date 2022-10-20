@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import YouTube from "react-youtube";
+import Modal from "./Modal";
 
 export default function Participate() {
   return (
@@ -132,13 +133,10 @@ export default function Participate() {
                 도슨트가 되어 설명해 드립니다. 어린이의 눈높이에 맞춰 진행되는
                 어린이 도슨트 투어도 준비되어 있으니 많은 관심 부탁드립니다.
               </p>
-              <div>
-                <button
-                  id="Section5"
-                  className="px-8 py-2 mt-6 border rounded font-PTSemiBold text-[1rem] leading-6 border-Neutrals-Grey7 text-Neutrals-Grey8"
-                >
-                  세부 일정 보기
-                </button>
+              <div id="Section5">
+                <div className="">
+                  <Modal />
+                </div>
               </div>
             </div>
             <div className="h-0 pb-[100%] overflow-hidden relative z-0">
@@ -222,12 +220,6 @@ export default function Participate() {
           </div>
         </div>
       </div>
-      {/*  */}
-      {/* <div id="myModal">
-        <div className="modal-content">
-          <button className="close">Modal Close</button>
-        </div>
-      </div> */}
     </>
   );
 }
