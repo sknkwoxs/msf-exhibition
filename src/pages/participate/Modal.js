@@ -51,16 +51,10 @@ const Modal = () => {
                   어린이 눈높이 전시 해설
                 </p>
                 <div className="max-w-[560px] mb-2 hidden md:flex">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/images/pc_table.jpg`}
-                    alt="pc_table"
-                  />
+                  <img src="./images/pc_table.svg" alt="pc_table" />
                 </div>
                 <div className="mb-2 md:hidden">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/images/m_table.jpg`}
-                    alt="m_table"
-                  />
+                  <img src="./images/m_table.svg" alt="m_table" />
                 </div>
               </div>
             </div>
