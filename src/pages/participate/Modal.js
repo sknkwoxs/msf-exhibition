@@ -20,7 +20,7 @@ const Modal = () => {
                 <div className="flex items-center justify-between md:mb-2">
                   <div className="flex flex-col items-center gap-2 md:flex-row">
                     <p className="DB1 font-PTSemiBold">도슨트 세부 일정</p>
-                    <span className="hidden leading-6 MB3 text-Neutrals-Grey6">
+                    <span className="hidden leading-6 md:flex MB3 text-Neutrals-Grey6">
                       *전시 기간 중에는 다음과 같이 매일 전시 해설이 진행됩니다.
                     </span>
                   </div>
@@ -28,7 +28,7 @@ const Modal = () => {
                     <img src="./images/svgIcons/close_x.svg" alt="close_x" />
                   </button>
                 </div>
-                <span className="leading-6 MB3 text-Neutrals-Grey6">
+                <span className="leading-6 MB3 text-Neutrals-Grey6 md:hidden">
                   *전시 기간 중에는 다음과 같이 매일 전시 해설이 진행됩니다.
                 </span>
                 <div className="flex gap-4 leading-6 md:mb-2 MB3 font-PTSemiBold">
@@ -41,7 +41,7 @@ const Modal = () => {
                     국경없는의사회 직원 해설
                   </p>
 
-                  <p className="items-center hidden gap-1">
+                  <p className="items-center hidden gap-1 md:flex">
                     <img src="./images/svgIcons/children.svg" alt="children" />
                     어린이 눈높이 전시 해설
                   </p>
