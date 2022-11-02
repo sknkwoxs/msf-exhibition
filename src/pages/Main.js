@@ -339,7 +339,7 @@ const Main = () => {
         />
       )} */}
       {/* <MainModal /> */}
-      <CookiesProvider>
+      {/* <CookiesProvider>
         <div className="App">
           {openModal && !hasCookie && (
             <MainModal
@@ -348,7 +348,7 @@ const Main = () => {
             />
           )}
         </div>
-      </CookiesProvider>
+      </CookiesProvider> */}
     </>
   );
 };
