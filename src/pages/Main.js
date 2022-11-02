@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+import { CookiesProvider, useCookies } from "react-cookie";
 import { Map, MapMarker } from "react-kakao-maps-sdk";
 import CopyToClipboard from "react-copy-to-clipboard";
 
@@ -9,6 +10,7 @@ import MobileSlidePhotographers from "./components/MobileSlidePhotographers";
 import MainSlideEvent from "./components/MainSlideEvent";
 import MobileSlideEvent from "./components/MobileSlideEvent";
 import StibeeSubscriptionForm from "./components/StibeeSubscriptionForm";
+import MainModal from "./MainModal";
 
 const Main = () => {
   const [expandButtons, setexpandButtons] = useState(false);
@@ -94,6 +96,31 @@ const Main = () => {
       "menubar=no, toolbar=no, resizable=yes, scrollbars=yes height=600, width=600"
     );
   };
+
+  const [openModal, setOpenModal] = useState(true);
+  const [hasCookie, setHasCookie] = useState(true);
+  const [appCookies, setAppCookies] = useCookies();
+
+  const getExpiredDate = (days) => {
+    const date = new Date();
+    date.setDate(date.getDate() + days);
+    return date;
+  };
+
+  const closeModalUntilExpires = () => {
+    if (!appCookies) return;
+
+    const expires = getExpiredDate(1);
+    setAppCookies("MODAL_EXPIRES", true, { path: "/", expires });
+
+    setOpenModal(false);
+  };
+
+  useEffect(() => {
+    if (appCookies["MODAL_EXPIRES"]) return;
+    console.log(appCookies["MODAL_EXPIRES"]);
+    setHasCookie(false);
+  }, []);
 
   return (
     <>
@@ -306,6 +333,22 @@ const Main = () => {
           )}
         </div>
       </div>
+      {/* {openDeleteModal && (
+        <MainModal
+          closeDeleteModal={() => setOpenDeleteModal(!openDeleteModal)}
+        />
+      )} */}
+      {/* <MainModal /> */}
+      <CookiesProvider>
+        <div className="App">
+          {openModal && !hasCookie && (
+            <MainModal
+              closeModal={() => setOpenModal(false)}
+              closeModalUntilExpires={closeModalUntilExpires}
+            />
+          )}
+        </div>
+      </CookiesProvider>
     </>
   );
 };
