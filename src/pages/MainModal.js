@@ -21,7 +21,7 @@ export default function MainModal({ closeModal, closeModalUntilExpires }) {
         className="fixed top-0 left-0 right-0 w-full h-full bg-[#000000bd] z-[999]"
         onClick={closeModal}
       ></div>
-      <section className="md:h-[216px] h-[324px] fixed top-[30%] bottom-0 left-0 right-0 p-4 bg-Neutrals-White z-[1000] drop-shadow font-PT md:mx-auto mx-10 max-w-[488px]">
+      <section className="md:h-[216px] h-[324px] fixed top-[30%] bottom-0 left-0 right-0 p-4 bg-Neutrals-White z-[1000] drop-shadow font-PTSemiBold md:mx-auto mx-10 max-w-[488px] break-all ">
         <div className="flex items-center justify-between mb-4 font-PTSemiBold H7 ">
           안내말씀 드립니다.
           <img
@@ -34,15 +34,13 @@ export default function MainModal({ closeModal, closeModalUntilExpires }) {
         <p className="mb-4 text-Neutrals-Grey6 text-[12px] leading-6 ">
           *11.05(토), 11.12(토) 오전 중에는 내부 이벤트가{" "}
           <br className="md:hidden" /> 있는 관계로 해당 일자에는
-          {/* <br className="hidden md:flex" />{" "} */}{" "}
+          <br className="hidden md:flex" />{" "}
           <span className="underline">오후 2시-6시 사이</span>에만
-          <br className="md:hidden" /> 전시현장 관람이 가능하신 점 참고
+          <br className="md:hidden" /> 전시현장 관람이 가능한 점 참고
           부탁드립니다.
         </p>
         <p className="mb-4 text-Neutrals-Grey6 text-[12px] leading-6 ">
-          <span className="font-PTBold">
-            *11.05(토) 스페셜토크 현장 참석 신청은 마감되었습니다.
-          </span>
+          <span>*11.05(토) 스페셜토크 현장 참석 신청은 마감되었습니다.</span>
           <br />
           스페셜토크는 당일 <span className="underline">오후 12시-1시</span>에
           국경없는의사회 한국 유튜브 채널을 통해 온라인 생중계되며
