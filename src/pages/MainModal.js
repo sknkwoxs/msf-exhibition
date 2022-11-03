@@ -32,12 +32,12 @@ export default function MainModal({ closeModal, closeModalUntilExpires }) {
           />
         </div>
         <p className="mb-4 text-Neutrals-Grey6 text-[12px] leading-6 ">
-          *11.05(토), 11.12(토) 오전 중에는 내부 이벤트가 있는 관계로 해당
-          일자에는
-          {/* <br className="hidden md:flex" />{" "} */}
-          <br />
-          <span className="underline">오후 2시-6시 사이</span> 에만 전시현장
-          관람이 가능하신 점 참고 부탁드립니다.
+          *11.05(토), 11.12(토) 오전 중에는 내부 이벤트가{" "}
+          <br className="md:hidden" /> 있는 관계로 해당 일자에는
+          {/* <br className="hidden md:flex" />{" "} */}{" "}
+          <span className="underline">오후 2시-6시 사이</span>에만
+          <br className="md:hidden" /> 전시현장 관람이 가능하신 점 참고
+          부탁드립니다.
         </p>
         <p className="mb-4 text-Neutrals-Grey6 text-[12px] leading-6 ">
           <span className="font-PTBold">
@@ -47,7 +47,8 @@ export default function MainModal({ closeModal, closeModalUntilExpires }) {
           스페셜토크는 당일 <span className="underline">오후 12시-1시</span>에
           국경없는의사회 한국 유튜브 채널을 통해 온라인 생중계되며
           <br className="md:hidden" /> 온라인 참여 인증 이벤트도 진행되므로 많은
-          참여 부탁드립니다!
+          참여
+          <br className="md:hidden" /> 부탁드립니다!
         </p>
         {/* <div className="absolute bottom-0 left-0 right-0 w-full border-t text-Neutrals-Grey5">
           <div className="flex w-full">
