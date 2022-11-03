@@ -333,13 +333,7 @@ const Main = () => {
           )}
         </div>
       </div>
-      {/* {openDeleteModal && (
-        <MainModal
-          closeDeleteModal={() => setOpenDeleteModal(!openDeleteModal)}
-        />
-      )} */}
-      {/* <MainModal /> */}
-      {/* <CookiesProvider>
+      <CookiesProvider>
         <div className="App">
           {openModal && !hasCookie && (
             <MainModal
@@ -348,7 +342,7 @@ const Main = () => {
             />
           )}
         </div>
-      </CookiesProvider> */}
+      </CookiesProvider>
     </>
   );
 };
