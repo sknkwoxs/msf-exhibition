@@ -194,7 +194,7 @@ export default function Participate() {
               </p>
               <a
                 className="inline-block px-8 py-2 mt-6 border rounded border-Neutrals-Grey7"
-                href="https://www.youtube.com/watch?v=R8FVJlPITN8"
+                href="https://www.youtube.com/watch?v=O6iFAaWLyX0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
